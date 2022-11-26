@@ -7,10 +7,12 @@ import HomePage from './pages/HomePage';
 import LikesPage from './pages/LikesPage';
 import ProfilePage from './pages/ProfilePage';
 import SearchPage from './pages/SearchPage';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <TopNavigation />
       <Routes>
             <Route path="/" element={<HomePage/>} />

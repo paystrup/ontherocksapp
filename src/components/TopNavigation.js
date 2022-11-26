@@ -25,7 +25,7 @@ export default function TopNavigation() {
     }
 
     return (
-        <nav className="h-16 flex items-center justify-between px-6 py-8 fixed bg-white w-full top-0 left-0">
+        <nav className="h-16 flex items-center justify-between px-6 py-8 fixed bg-white w-full top-0 left-0 z-50">
             
             {openLngSelect && 
                 <div className='languageSelector fixed top-0 left-0 bg-orange-600 z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16'>

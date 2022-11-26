@@ -11,6 +11,7 @@ module.exports = {
         regular: ["Neue Plak Extended Regular", "sans-serif"],
         bold: ["Neue Plak Extended Bold", "sans-serif"],
         semibold: ["Neue Plak Extended Semibold", "sans-serif"],
+        black: ["Neue Plak Extended Black", "sans-serif"],
       },
     },
   },

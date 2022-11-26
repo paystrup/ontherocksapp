@@ -4,5 +4,14 @@
     }, 
     "homepage": {
         "hello": "The language is set to English"
-    } 
+    },
+    "searchpage": {
+        "title": "Search for cocktails"
+    },
+    "likespage": {
+        "title": "Your liked recipes"
+    },
+    "profilepage": {
+        "title": "Your profile"
+    }
 }

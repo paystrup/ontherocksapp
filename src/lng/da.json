@@ -4,5 +4,14 @@
     }, 
     "homepage": {
         "hello": "Sproget er nu sat til dansk"
-    } 
+    },
+    "searchpage": {
+        "title": "Søg efter cocktails"
+    },
+    "likespage": {
+        "title": "Dine favorit opskrifter"
+    },
+    "profilepage": {
+        "title": "Din profil"
+    }
 }
