@@ -7,9 +7,37 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Neue Plak Extended Regular";
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ------------ FONT IMPORTS FOR TAILWIND - ADDED IN TAILWIND.CONFIG.JS */
+@font-face {
+  font-family: "Neue Plak Extended Regular";
+  src: url("../src/assets/fonts/NeuePlakExtendedRegular.ttf");
+}
+
+@font-face {
+  font-family: "Neue Plak Extended SemiBold";
+  src: url("../src/assets/fonts/NeuePlakExtendedSemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Neue Plak Extended Bold";
+  src: url("../src/assets/fonts/NeuePlakExtendedBold.ttf");
+}
+
+.active{
+  color: orangered;
+  
+}
+
+.active svg{
+  stroke-width: 1.8px;
+}
+
+

@@ -1,5 +1,8 @@
 {
+    "topnav": {
+        "selectlng": "Select your language"
+    }, 
     "homepage": {
-        "hello": "English"
+        "hello": "The language is set to English"
     } 
 }

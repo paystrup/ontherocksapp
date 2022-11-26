@@ -1,5 +1,8 @@
 {
+    "topnav": {
+        "selectlng": "Vælg dit sprog"
+    }, 
     "homepage": {
-        "hello": "Danish"
+        "hello": "Sproget er nu sat til dansk"
     } 
 }

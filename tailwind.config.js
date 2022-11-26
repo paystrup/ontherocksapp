@@ -6,7 +6,13 @@ module.exports = {
     "./pages/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        regular: ["Neue Plak Extended Regular", "sans-serif"],
+        bold: ["Neue Plak Extended Bold", "sans-serif"],
+        semibold: ["Neue Plak Extended Semibold", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
