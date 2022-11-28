@@ -67,9 +67,9 @@ export default function TopNavigation() {
                 </li>
             </ul>
  
-            <div id='mobileTopNav' className='flex gap-5 lg:hidden'>
+            <div id='mobileTopNav' className='flex gap-5'>
             
-                {localStorage.getItem("lng") === "en" &&
+                {i18n.language === "en" &&
                     (
                         <div>
                             <button
@@ -87,7 +87,7 @@ export default function TopNavigation() {
                     )
                 }
   
-                {localStorage.getItem("lng") === "da" &&    
+                {i18n.language === "da" &&    
                     <div>
                         <button
                             className='w-7 h-7 rounded-full'
