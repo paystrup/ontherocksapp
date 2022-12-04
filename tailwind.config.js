@@ -6,10 +6,22 @@ module.exports = {
     "./pages/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    colors:{
+      transparent: 'transparent',
+      current: 'currentColor',
+      'primaryWhite': '#F5F5F5',
+      'primaryBlack': '#121212',
+      'primaryYellow': '#FFE598',
+      'primaryGray': {
+        900: '#343434',
+        500: '#CACACA',
+      },      
+    },
     extend: {
       fontFamily: {
-        regular: ["Neue Plak Extended Regular", "sans-serif"],
-        bold: ["Neue Plak Extended Bold", "sans-serif"],
+        regular: ["GT America Extended Regular", "sans-serif"],
+        bold: ["GT America Extended Bold", "sans-serif"],
+        medium: ["GT America Extended Medium", "sans-serif"],
         semibold: ["Neue Plak Extended Semibold", "sans-serif"],
         black: ["Neue Plak Extended Black", "sans-serif"],
       },

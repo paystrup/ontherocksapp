@@ -25,16 +25,16 @@ export default function TopNavigation() {
     }
 
     return (
-        <nav className="h-16 flex items-center justify-between px-6 py-8 fixed bg-white w-full top-0 left-0 z-50">
+        <nav className="h-16 flex items-center justify-between px-6 py-8 fixed bg-primaryBlack w-full top-0 left-0 z-50 text-primaryWhite">
             
             {openLngSelect && 
-                <div className='languageSelector fixed top-0 left-0 bg-orange-600 z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16'>
+                <div className='languageSelector fixed top-0 left-0 bg-primaryBlack z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16'>
                     <XMarkIcon className='h-10 w-10 mb-36 cursor-pointer' onClick={handleLngSelect}/>
                     <div className='flex gap-10 flex-col'>
                         <h3>{t("topnav.selectlng")}</h3>
                         <div className='flex gap-10 items-center justify-center'>
                             <button
-                                    className='w-16 h-16 rounded-full'
+                                    className='w-16 h-16 rounded-full border-solid border-2 border-primaryWhite'
                                     style={{ 
                                         backgroundImage: `url(${enFlag})`,
                                         backgroundPosition: "top",
@@ -46,7 +46,7 @@ export default function TopNavigation() {
                             </button>
 
                             <button
-                                    className='w-16 h-16 rounded-full'
+                                    className='w-16 h-16 rounded-full border-solid border-2 border-primaryWhite'
                                     style={{ 
                                         backgroundImage: `url(${daFlag})`,
                                         backgroundPosition: "top",
@@ -73,7 +73,7 @@ export default function TopNavigation() {
                     (
                         <div>
                             <button
-                                className='w-7 h-7 rounded-full'
+                                className='w-7 h-7 rounded-full border-solid border-[1.5px] border-primaryWhite'
                                 style={{ 
                                     backgroundImage: `url(${enFlag})`,
                                     backgroundPosition: "top",
@@ -90,7 +90,7 @@ export default function TopNavigation() {
                 {i18n.language === "da" &&    
                     <div>
                         <button
-                            className='w-7 h-7 rounded-full'
+                            className='w-7 h-7 rounded-full border-solid border-[1.5px] border-primaryWhite'
                             style={{ 
                                 backgroundImage: `url(${daFlag})`,
                                 backgroundPosition: "top",
@@ -107,11 +107,19 @@ export default function TopNavigation() {
 
             <ul id='desktopTopNav' className='gap-5 hidden lg:flex'>
                 <li>
-                    <p>Desktop</p>
+                    <p>Hjem</p>
                 </li>
 
                 <li>
-                    <p>Desktop</p>
+                    <p>Cocktails</p>
+                </li>
+
+                <li>
+                    <p>Gemt</p>
+                </li>
+
+                <li>
+                    <p>Min profil</p>
                 </li>
             </ul>
         </nav>

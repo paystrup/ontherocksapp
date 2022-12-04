@@ -1,9 +1,16 @@
 {
     "topnav": {
         "selectlng": "Vælg dit sprog"
+    },
+    "bottomnav": {
+        "home": "Hjem",
+        "cocktails": "Cocktails",
+        "favourites": "Gemt",
+        "profile": "Profil"
     }, 
     "homepage": {
-        "hello": "Sproget er nu sat til dansk"
+        "hello": "Sproget er nu sat til dansk",
+        "title": "Vær din egen bartender"
     },
     "searchpage": {
         "title": "Søg efter cocktails"

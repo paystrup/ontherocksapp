@@ -7,7 +7,7 @@ export default function LikesPage() {
 
   return (
     <section className='mt-20 px-6'>
-      <h2 className='text-2xl font-bold'>
+      <h2 className='text-2xl font-medium'>
         {t("likespage.title")}
       </h2>
     </section>

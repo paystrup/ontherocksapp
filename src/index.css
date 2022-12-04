@@ -7,8 +7,10 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Neue Plak Extended Regular";
+  font-family: "GT America Extended Regular", sans-serif;
   text-rendering: optimizeLegibility; 
+  background-color: #121212;
+  color: #F5F5F5;
 }
 
 code {
@@ -17,6 +19,8 @@ code {
 }
 
 /* ------------ FONT IMPORTS FOR TAILWIND - ADDED IN TAILWIND.CONFIG.JS */
+@import url("https://use.typekit.net/qas8tlj.css");
+
 @font-face {
   font-family: "Neue Plak Extended Regular";
   src: url("../src/assets/fonts/NeuePlakExtendedRegular.ttf");
@@ -37,9 +41,41 @@ code {
   src: url("../src/assets/fonts/NeuePlakExtendedBlack.ttf");
 }
 
+@font-face {
+  font-family: "GT America Extended Regular";
+  src: url("../src/assets/fonts/GT-AMERICA-EXTENDED-REGULAR.OTF");
+}
+
+@font-face {
+  font-family: "GT America Extended Bold";
+  src: url("../src/assets/fonts/GT-AMERICA-EXTENDED-BOLD.OTF");
+}
+
+@font-face {
+  font-family: "GT America Expanded Bold";
+  src: url("../src/assets/fonts/GT-AMERICA-EXTENDED-BOLD.OTF");
+}
+
+@font-face {
+  font-family: "GT America Extended Medium";
+  src: url("../src/assets/fonts/GT-AMERICA-EXTENDED-MEDIUM.OTF");
+}
+
+@keyframes clickBounce {
+  from {scale: 1.05;}
+  to {scale: 1;}
+}
+
 .active{
-  color: orangered;
-  
+  color: #FFE598;
+  animation-name: clickBounce;
+  animation-duration: 0.3s;
+}
+
+
+
+.active p{
+  color:  #FFE598;
 }
 
 .active svg{

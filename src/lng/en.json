@@ -1,9 +1,16 @@
 {
     "topnav": {
         "selectlng": "Select your language"
+    },
+    "bottomnav": {
+        "home": "Home",
+        "cocktails": "Cocktails",
+        "favourites": "Saved",
+        "profile": "Profile"
     }, 
     "homepage": {
-        "hello": "The language is set to English"
+        "hello": "The language is set to English",
+        "title": "Be your own bartender"
     },
     "searchpage": {
         "title": "Search for cocktails"
