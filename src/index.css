@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "GT America Extended Regular", sans-serif;
   text-rendering: optimizeLegibility; 
-  background-color: #121212;
+  background-color: #0C0C0C;
   color: #F5F5F5;
 }
 
@@ -61,6 +61,33 @@ code {
   src: url("../src/assets/fonts/GT-AMERICA-EXTENDED-MEDIUM.OTF");
 }
 
+@font-face {
+  font-family: "GT America Extended Thin";
+  src: url("../src/assets/fonts/GT-AMERICA-EXTENDED-THIN.OTF");
+}
+
+@font-face {
+  font-family: "GT America Extended Light";
+  src: url("../src/assets/fonts/GT-AMERICA-EXTENDED-LIGHT.OTF");
+}
+
+@font-face {
+  font-family: "ITC Benguiat Medium";
+  src: url("../src/assets/fonts/ITCBenguiatMedium.ttf");
+}
+
+@font-face {
+  font-family: "ITC Benguiat Book";
+  src: url("../src/assets/fonts/ITCBenguiatBook.ttf");
+}
+
+@font-face {
+  font-family: "ITC Benguiat Bold";
+  src: url("../src/assets/fonts/ITCBenguiatBold.ttf");
+}
+
+
+
 @keyframes clickBounce {
   from {scale: 1.05;}
   to {scale: 1;}
@@ -72,14 +99,50 @@ code {
   animation-duration: 0.3s;
 }
 
-
-
 .active p{
   color:  #FFE598;
 }
 
 .active svg{
   stroke-width: 1.8px;
+}
+
+/* SWIPER */
+/* --------------- BIG CAROUSEL SWIPER.JS ----------------- */
+.carouselSection {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper-container p {
+  margin-bottom: 0px !important;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  min-height: 550px;
+  max-width: 80%;
+  color: white;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: white !important;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-slide:first-child {
+  margin-left: 1rem;
 }
 
 

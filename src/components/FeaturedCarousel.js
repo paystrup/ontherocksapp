@@ -1,27 +1,112 @@
-import React from 'react'
-import cardImg from "../assets/images/card.webp";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { BookmarkIcon, ClockIcon } from "@heroicons/react/24/outline";
+// firebase imports for fetching
+import { collection, onSnapshot, orderBy, query } from "firebase/firestore"
+import { db } from "../firebaseConfig";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles + modules
+import "swiper/css";
+import { Keyboard, Mousewheel, Pagination } from "swiper";
+// Import components
+import FeaturedCarouselHeader from './FeaturedCarouselHeader';
 
 export default function FeaturedCarousel() {
+    const navigate = useNavigate();
+    // state for setting our fetched articles/books 
+    const [cocktails, setCocktails] = useState([]);
+
+    // fetch starts here
+    useEffect(() => {
+    // collection from firebase
+    // db is our database, articles is the name of the collection
+    const articleRef = collection(db, 'recipes', 'da', 'cocktails')
+    // sort by createdAt, our timestamp added to every article, date, with FireStore Query
+    const q = query(articleRef, orderBy("createdAt", "desc"));
+
+    // get the data, on snapshot
+    onSnapshot(q, (snapshot) => {
+        const data = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+        }));
+
+        // store data (setState) change state -> importing the array of books from the db
+        setCocktails(data);
+        console.log(data);
+    });
+    }, []);
   return (
-    <section className='my-14 px-4'>
-        <div className='flex justify-between mb-7'>
-            <h3 className='text-xl font-medium'>Udvalgte cocktails</h3>
-            <button className='text-primaryYellow font-regular text-sm border-[1.4px] rounded-3xl px-3'>
-                Se alle
-            </button>
-        </div>
-        <div 
-            className="w-3/4 h-[450px] rounded-3xl" 
-            style={{
-                backgroundImage: `linear-gradient(360deg, rgba(0,0,0,0.3) 6%, rgba(0,0,0,0) 100%),url(${cardImg})`,
-                backgroundPosition: "top",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-            }}
-        >
+    <section className='my-14'>
+        <FeaturedCarouselHeader />
+        <div className='flex gap-3'>
+            <Swiper       
+                spaceBetween={20}
+                // centeredSlides={true}
+                grabCursor={true}
+                onSlideChange={() => console.log("slide change")}
+                keyboard={{
+                    enabled: true,
+                }}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[Keyboard, Mousewheel, Pagination]}
+                className="mySwiper w-full"
+                breakpoints={{
+                // when window width is >= 1px
+                1: {
+                    slidesPerView: "auto",
+                    initialSlide: 0,
+                }
+            }}>
+
+                    {cocktails.map(({id, title, time, taste, teaser, image, slug, liqour}) => (
+                        <SwiperSlide
+                            key={id}
+                            className="w-8/12 rounded-[30px]" 
+                            style={{
+                                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${image.srcMin})`,
+                                backgroundPosition: "top",
+                                backgroundSize: "cover",
+                                backgroundRepeat: "no-repeat"
+                            }}
+                            onClick={() => navigate("/recipe/" + id)}
+                        >
+                            <div className='pb-5 pt-2 flex w-full justify-between flex-col h-full'>
+                                <div className='flex justify-between font-thin pl-2'>
+                                    <div className='flex items-center gap-2'>
+                                        <ClockIcon className='h-5'/>
+                                        <p className='text-md'>
+                                            {time} min
+                                        </p>
+                                    </div>
+                                    <BookmarkIcon className='w-9'/> 
+                                </div>
+                                <div className='px-2'>
+                                    <div className='flex gap-2 mb-3 text-xs font-light'>
+                                        <p className='border-[2px] px-5 py-1 rounded-full uppercase'>{taste.title}</p>
+                                        <p className='border-[2px] px-5 py-1 rounded-full uppercase'>{liqour.type}</p>
+                                    </div>
+                                    <div className='flex flex-col gap-2'>
+                                        <h3 className='text-2xl font-medium'>{title}</h3>
+                                        <p className='text-md font-thin text-primaryGray-500 line-clamp-2'>
+                                            {teaser}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                    
+                
+
+            </Swiper>
 
 
         </div>
+
     </section>
   )
 }

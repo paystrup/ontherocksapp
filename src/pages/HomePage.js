@@ -8,8 +8,10 @@ export default function HomePage() {
 
   return (
     <section className='mt-20 font-medium'>
-      <h1 className='text-xl'>{t("homepage.hello")}</h1>
-      <h1 className='text-xl'>{t("homepage.title")}</h1>
+      <div className='px-5'>
+        {/* <h1 className='text-xl'>{t("homepage.hello")}</h1> */}
+        <h1 className='text-[3.5rem] font-displayBook leading-tight'>{t("homepage.title")}</h1>
+      </div>
       <FeaturedCarousel />
     </section>
   )

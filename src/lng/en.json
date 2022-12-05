@@ -10,7 +10,11 @@
     }, 
     "homepage": {
         "hello": "The language is set to English",
-        "title": "Be your own bartender"
+        "title": "Be your own bartender",
+        "featuredCarousel": {
+            "title": "Popular recipes",
+            "btnText": "See all"
+        }
     },
     "searchpage": {
         "title": "Search for cocktails"

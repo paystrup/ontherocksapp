@@ -10,7 +10,11 @@
     }, 
     "homepage": {
         "hello": "Sproget er nu sat til dansk",
-        "title": "Vær din egen bartender"
+        "title": "Vær din egen bartender",
+        "featuredCarousel": {
+            "title": "Populære opskrifter",
+            "btnText": "Se alle"
+        }
     },
     "searchpage": {
         "title": "Søg efter cocktails"
