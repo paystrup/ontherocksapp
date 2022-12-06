@@ -9,7 +9,7 @@ import ProfilePage from './pages/ProfilePage';
 import SearchPage from './pages/SearchPage';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import CocktailPage from './pages/CocktailPage';
-
+import SplashPage from './pages/SplashPage'
 function App() {
   return (
     <div className="App">
@@ -22,8 +22,10 @@ function App() {
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/recipe/:id" element={<CocktailPage />} exact={true} />
             <Route path="*" element={<Navigate to="/" />} />
+            <Route path="/splash" element={<SplashPage/>}/>
         </Routes>
       <BottomNavigation />
+
     </div>
   );
 }

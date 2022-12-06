@@ -1,6 +1,6 @@
 [
     {
-        "id": "EkOfTJ0XApd46yUhVAhz",
+        "itemID": "screw-driver",
         "teaser": "En sand appelsin-klassiker. Perfekt til din sommer. Nem og hurtig, frisk og frugtig.",
         "ocassion": {
             "id": "1",
@@ -29,15 +29,11 @@
         },
         "slug": "screw-driver",
         "recipe": {
-            "1": "Find et passende glas. Serveres typisk i et højt highballer glas.",
-            "2": "Press 2 appelsiner.",
-            "3": "Tilføj vodka i glas med isterninger.",
-            "4": "Pynt med appelsin.",
-            "5": "Færdig. Simple as that. Nyd den."
-        },
-        "createdAt": {
-            "seconds": 1669676400,
-            "nanoseconds": 56000000
+            "recipe1": "Find et passende glas. Serveres typisk i et højt highballer glas.",
+            "recipe2": "Press 2 appelsiner.",
+            "recipe3": "Tilføj vodka i glas med isterninger.",
+            "recipe4": "Pynt med appelsin.",
+            "recipe5": "Færdig. Simple as that. Nyd den."
         },
         "relatedProducts": {
             "1": "screw-driver"

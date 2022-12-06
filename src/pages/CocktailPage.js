@@ -85,10 +85,6 @@ export default function CocktailPage() {
               </div>
             </div>
           </div>
-  
-      
-          
-          
         </div>
     </div>
   )

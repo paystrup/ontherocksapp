@@ -1,0 +1,436 @@
+[
+    {
+        "itemID": "screw-driver",
+        "teaser": "En sand appelsin-klassiker. Perfekt til din sommer. Nem og hurtig, frisk og frugtig.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Screw Driver",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "screw-driver",
+        "recipe": {
+            "recipe1": "Find et passende glas. Serveres typisk i et coupe glas.",
+            "recipe2": "Press 2 appelsiner.",
+            "recipe3": "Tilføj vodka i glas med isterninger.",
+            "recipe4": "Pynt med appelsin.",
+            "recipe5": "Færdig. Simple as that. Nyd den."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En Screwdriver er den klassiske Vodka Juice som vi alle sammen kender og elsker. En Screwdriver er utrolig simpel at lave og kan sagtens nydes selvom man ikke er så meget for vodka, da juicen går hen og gemmer de stærke spor af alkohol i drinken. Drinken er også blevet udnævnt af The International Bartenders Association som en af deres officielle cocktails.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frugtig",
+            "id": "1",
+            "title": "frugtig"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Screw_Driver_1080x.webp?alt=media&token=0eb06251-d0d1-47b9-8b6a-8ecb4d964340",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Screw_Driver_540x.webp?alt=media&token=cc419e98-ccd8-4a7c-866e-16bdd2139cdc"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "Nok"
+            },
+            "third": {
+                "title": "skive appelsin",
+                "amount": "1"
+            },
+            "first": {
+                "title": "friskpresset appelsin juice",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "nordic-pamola",
+        "teaser": "Perfekt til en varm sommerdag. Grape, forfriskende og velsmagende.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Nordic Pamola",
+        "type": "recipe",
+        "liqour": {
+            "slug": "frostakvavit",
+            "link": "https://bornholmspirits.com/products/frost-klar-akvavit",
+            "type": "akvavit",
+            "title": "FROST Akvavit",
+            "id": "3"
+        },
+        "slug": "nordic-pamola",
+        "recipe": {
+            "recipe1": "Fyld Highball glasset med is.",
+            "recipe2": "Hæld din akvavit i.",
+            "recipe3": "Hæld din Pink Grape sodavand i.",
+            "recipe4": "Pynt med en skive grape."
+        },
+        "relatedProducts": {
+            "1": "nordic-mojito",
+            "2": "akva-sour",
+            "3": "nordic-negroni"
+        },
+        "featured": true,
+        "body": "Nordic Pamola er vores take på den klassiske grapedrink, nemlig med vores lækre FROST akvavit i stedet for tequila. Drinken byder både på søde og bitre smagsnoter blandt andet fra den pink grape sodavand. Nyd denne cocktail hele året rundt.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "bitter",
+            "id": "2",
+            "title": "bitter"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic-Pamola_1080x.webp?alt=media&token=fb80a767-e86e-4bc4-a7fa-f48a99382ea7",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic-Pamola_540x.webp?alt=media&token=3b376ae0-d087-4ccc-a47f-434e6b949357"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "Nok"
+            },
+            "third": {
+                "title": "skive grape", 
+                "amount": "1"
+            },
+            "first": {
+                "title": "pink grape sodavand",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "FROST Akvavit",
+                "slug": "frost-akvavit",
+                "link": "https://bornholmspirits.com/products/frost-klar-akvavit?_pos=1&_psq=frost-a&_ss=e&_v=1.0",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "vodka-martini",
+        "teaser": "James Bonds yndlingsdrink. Syrlig og forfriskende drink, der bør nydes helt kold. Shaken Not Stirred.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "nytår"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Vodka Martini",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "vodka-martini",
+        "recipe": {
+            "recipe1": "Find dit martiniglas frem.",
+            "recipe2": "Fyld glasset med isterninger.",
+            "recipe3": "Hæld alle dine ingredienser i en shaker med is og shake i 10 sek.",
+            "recipe4": "Hæld isen fra glassen og strain over det nedkølede glas.",
+            "recipe5": "Pynt med oliven eller citronskræl og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Ikonisk, klassisk og forfriskende - med vores eget twist. James Bond go-to. Shaken Not Stirred. En super simpel cocktail, der er elegant og har en knivskarp balance mellem indgredienserne, hvor vores kvalitetsvodka virkelig shiner.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Vodka_Martini_1080x.webp?alt=media&token=f4beb0c4-3bc7-40b0-815e-ac046a67bec6",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Vodka_Martini_540x.webp?alt=media&token=170da90f-c285-4b89-85b2-737ab4ac24c0"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "Nok"
+            },
+            "third": {
+                "title": "citronskræl eller oliven til pynt",
+                "amount": "2"
+            },
+            "first": {
+                "title": "tør vermouth",
+                "amount": "1 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "6 cl"
+            }
+        }
+    },
+    {
+        "itemID": "espresso-martini",
+        "teaser": "James Bonds yndlingsdrink. Syrlig og forfriskende drink, der bør nydes helt kold. Shaken Not Stirred.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "afslapning",
+            "title": "afslapning",
+            "id": "6"
+        },
+        "title": "Espresso Martini",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "vodka-martini",
+        "recipe": {
+            "recipe1": "Find dit martiniglas frem.",
+            "recipe2": "Fyld vodka og kaffelikør i en shaker. Tilsæt kold espresso.",
+            "recipe3": "Fyld isterninger i shakeren og shake grundigt.",
+            "recipe4": "Anret drinken i en afkølet glas.",
+            "recipe5": "Placer forsigtigt kaffebønnerne på skummet."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": " Til den kaffeelskende cocktailnyder. En fyldig drink, fuld af smag og med silkeblødt skum på toppen. Man går sjældent galt i byen når man servere espresso martini. ",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Espresso_Martini_1080x.webp?alt=media&token=dd9298d7-504a-47d3-b449-f49e9d5d43f1",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Espresso_Martini_540x.webp?alt=media&token=4f332581-a30e-48e9-9083-6e04618857f3"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "Nok"
+            },
+            "third": {
+                "title": "kold espresso",
+                "amount": "5 cl"
+            },
+            "fourth": {
+                "title": "kaffebønner til pynt",
+                "amount": "4"
+            },
+            "first": {
+                "title": "kaffelikør",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "kiev-mule",
+        "teaser": "En forfriskende ingefærdrik. Kombinere friskhed fra lime med de stærke noter fra ingefæren.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "nytår"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Kiev Mule",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "kiev-mule",
+        "recipe": {
+            "recipe1": "Find et passende glas. Serveres typisk i et kobberkrus, men et lowball duer også fint.",
+            "recipe2": "Fyld glasset med knust is.",
+            "recipe3": "Hæld limesaft og vodka over isen.",
+            "recipe4": "Top med ginger beer.",
+            "recipe5": "Pynt med lime og servér."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En efterhånden velkendt klassike men ikke desto mindre skide god. En cocktail der passer til de fleste lejligheder og som med sine forfriskende noter af lime er perfekt på en varm sommeraften.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Moscow_Mule_1080x.webp?alt=media&token=74b03ed4-554a-4f77-a9d7-70e161c20367",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Moscow_Mule_540x.webp?alt=media&token=7b5b0680-3a6f-4a3e-9014-34df27f9ea27"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "Nok"
+            },
+            "third": {
+                "title": "ginger beer",
+                "amount": "12 cl"
+            },
+            "fourth": {
+                "title": "skrive lime",
+                "amount": "1"
+            },
+            "first": {
+                "title": "friskpresset limesaft",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "white-russian",
+        "teaser": "Den cremede klassiker. Perfekt på en kold vinterdag.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "afslapning",
+            "title": "afslapning",
+            "id": "6"
+        },
+        "title": "White Russian",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "white-russian",
+        "recipe": {
+            "recipe1": "Find et lowball glas frem.",
+            "recipe2": "Hæld alle ingredienser i en shaker med is.",
+            "recipe3": "Shake i 10 sek.",
+            "recipe4": "Sig drinken over glasset.",
+            "recipe5": "Server. Drik. Nyd"
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En cremet fyldig drink. Et oplagt valg at servere i vintermånederne. Denne cocktail er den perfekte kombination af bitterhed fra kaffen og sødmen fra sødmælken eller fløden. ",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/White_Russian_1080x.webp?alt=media&token=2e120ec5-1a74-46df-80ee-472739a1709d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/White_Russian_540x.webp?alt=media&token=b793ce69-7e18-43ca-b821-79a548b6895e"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "Nok"
+            },
+            "third": {
+                "title": "sødmælk / fløde",
+                "amount": "6 cl"
+            },
+            "fourth": {
+                "title": "skrive lime",
+                "amount": "1"
+            },
+            "first": {
+                "title": "kaffelikør",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "3 cl"
+            }
+        }
+    },
+    
+]
