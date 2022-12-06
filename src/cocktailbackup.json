@@ -1,0 +1,81 @@
+[
+    {
+        "id": "EkOfTJ0XApd46yUhVAhz",
+        "teaser": "En sand appelsin-klassiker. Perfekt til din sommer. Nem og hurtig, frisk og frugtig.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Screw Driver",
+        "difficulty": {
+            "id": "1",
+            "slug": "letatlave",
+            "title": "Let at lave"
+        },
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "screw-driver",
+        "recipe": {
+            "1": "Find et passende glas. Serveres typisk i et højt highballer glas.",
+            "2": "Press 2 appelsiner.",
+            "3": "Tilføj vodka i glas med isterninger.",
+            "4": "Pynt med appelsin.",
+            "5": "Færdig. Simple as that. Nyd den."
+        },
+        "createdAt": {
+            "seconds": 1669676400,
+            "nanoseconds": 56000000
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En Screwdriver en den klassiske Vodka Juice som vi alle sammen kender og elsker. En Screwdriver er utrolig simpel at lave og kan sagtens nydes selvom man ikke er så meget for vodka, da juicen går hen og gemmer samtlige spor af alkohol i drinken. Drinken er også blevet udnævnt af The International Bartenders Association som en af deres officielle cocktails.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frugtig",
+            "id": "1",
+            "title": "frugtig"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Screw_Driver_1080x.webp?alt=media&token=0eb06251-d0d1-47b9-8b6a-8ecb4d964340",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Screw_Driver_540x.webp?alt=media&token=cc419e98-ccd8-4a7c-866e-16bdd2139cdc"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "Nok"
+            },
+            "third": {
+                "title": "skive appelsin",
+                "amount": "1"
+            },
+            "first": {
+                "title": "friskpresset appelsin juice",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    }
+]

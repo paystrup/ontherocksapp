@@ -27,7 +27,7 @@ export default function CocktailPage() {
 
   return (
     <div className='text-primaryWhite mt-16 mb-32'>
-        <div
+        <div 
           className='h-96 rounded-b-[30px] flex items-end'
           style={{
                   backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.image?.srcMin})`,
