@@ -19,7 +19,7 @@ export default function CocktailPage() {
 
     // articles = our fireStore collection, id = the query
     useEffect(() => {
-        const docRef = doc(db, 'recipes', 'da', 'cocktails', id);
+        const docRef = doc(db, 'da', id);
         onSnapshot(docRef, (snapshot) => {
             setArticle({ ...snapshot.data(), id: snapshot.id });
         });
@@ -71,10 +71,14 @@ export default function CocktailPage() {
                 <p>{article?.ingredients?.liqour?.amount}</p>
                 <a className='font-regular uppercase w-5/6 underline underline-offset-4 decoration-primaryYellow' href={article?.ingredients?.liqour?.link}>{article?.ingredients?.liqour?.title}</a>
               </div>
-              <div className='flex justify-between'>
-                <p>{article?.ingredients?.first?.amount}</p>
-                <p className='uppercase w-5/6'>{article?.ingredients?.first?.title}</p>
-              </div>
+
+              {article?.ingredients?.first &&
+                <div className='flex justify-between'>
+                  <p>{article?.ingredients?.first?.amount}</p>
+                  <p className='uppercase w-5/6'>{article?.ingredients?.first?.title}</p>
+                </div>
+              }
+
               <div className='flex justify-between'>
                 <p>{article?.ingredients?.second?.amount}</p>
                 <p className='uppercase w-5/6'>{article?.ingredients?.second?.title}</p>

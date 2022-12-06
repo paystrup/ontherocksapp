@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { BookmarkIcon, ClockIcon } from "@heroicons/react/24/outline";
 // firebase imports for fetching
-import { collection, onSnapshot, orderBy, query } from "firebase/firestore"
+import { collection, onSnapshot, orderBy, where, query } from "firebase/firestore"
 import { db } from "../firebaseConfig";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -21,9 +21,11 @@ export default function FeaturedCarousel() {
     useEffect(() => {
     // collection from firebase
     // db is our database, articles is the name of the collection
-    const articleRef = collection(db, 'recipes', 'da', 'cocktails')
-    // sort by createdAt, our timestamp added to every article, date, with FireStore Query
-    const q = query(articleRef, orderBy("createdAt", "desc"));
+    const articleRef = collection(db, 'da')
+
+    // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
+    // filtering for featured cocktails
+    const q = query(articleRef, where("featured", "==", true));
 
     // get the data, on snapshot
     onSnapshot(q, (snapshot) => {
@@ -67,7 +69,7 @@ export default function FeaturedCarousel() {
                             key={id}
                             className="w-8/12 rounded-[30px]" 
                             style={{
-                                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${image.srcMin})`,
+                                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
                                 backgroundPosition: "top",
                                 backgroundSize: "cover",
                                 backgroundRepeat: "no-repeat"
@@ -85,9 +87,9 @@ export default function FeaturedCarousel() {
                                     <BookmarkIcon className='w-9'/> 
                                 </div>
                                 <div className='px-2'>
-                                    <div className='flex gap-2 mb-3 text-xs font-light'>
-                                        <p className='border-[2px] px-5 py-1 rounded-full uppercase'>{taste.title}</p>
-                                        <p className='border-[2px] px-5 py-1 rounded-full uppercase'>{liqour.type}</p>
+                                    <div className='flex gap-2 mb-3 text-xs font-regular'>
+                                        <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{taste?.title}</p>
+                                        <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{liqour?.type}</p>
                                     </div>
                                     <div className='flex flex-col gap-2'>
                                         <h3 className='text-2xl font-medium'>{title}</h3>

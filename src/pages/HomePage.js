@@ -7,10 +7,12 @@ export default function HomePage() {
   const { t } = useTranslation();
 
   return (
-    <section className='mt-20 font-medium'>
+    <section className='mt-20 font-medium mb-32'>
       <div className='px-5'>
         {/* <h1 className='text-xl'>{t("homepage.hello")}</h1> */}
-        <h1 className='text-[3.5rem] font-displayBook leading-tight'>{t("homepage.title")}</h1>
+        <h1 className='text-[3.2rem] font-displayBook leading-tight'>
+          {t("homepage.title")}
+        </h1>
       </div>
       <FeaturedCarousel />
     </section>

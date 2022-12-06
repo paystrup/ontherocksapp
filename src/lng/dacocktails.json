@@ -286,7 +286,7 @@
     },
     {
         "itemID": "kiev-mule",
-        "teaser": "En forfriskende ingefærdrik. Kombinere friskhed fra lime med de stærke noter fra ingefæren.",
+        "teaser": "En forfriskende ingefærdrik. Kombinerer friskhed fra lime med de stærke noter fra ingefæren.",
         "ocassion": {
             "id": "3",
             "slug": "nytår",
@@ -319,7 +319,7 @@
             "1": "screw-driver"
         },
         "featured": true,
-        "body": "En efterhånden velkendt klassike men ikke desto mindre skide god. En cocktail der passer til de fleste lejligheder og som med sine forfriskende noter af lime er perfekt på en varm sommeraften.",
+        "body": "En efterhånden velkendt klassiker, men ikke desto mindre skide god. En cocktail der passer til de fleste lejligheder og som med sine forfriskende noter af lime er perfekt på en varm sommeraften.",
         "relatedArticles": {
             "1": "test"
         },
@@ -343,7 +343,7 @@
                 "amount": "12 cl"
             },
             "fourth": {
-                "title": "skrive lime",
+                "title": "skive lime",
                 "amount": "1"
             },
             "first": {
@@ -360,13 +360,13 @@
     },
     {
         "itemID": "white-russian",
-        "teaser": "Den cremede klassiker. Perfekt på en kold vinterdag.",
+        "teaser": "Den cremede klassiker. Rund i smagen og perfekt på en kold vinterdag.",
         "ocassion": {
             "id": "9",
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "3",
+        "time": "2",
         "theme": {
             "slug": "afslapning",
             "title": "afslapning",
@@ -393,7 +393,7 @@
             "1": "screw-driver"
         },
         "featured": true,
-        "body": "En cremet fyldig drink. Et oplagt valg at servere i vintermånederne. Denne cocktail er den perfekte kombination af bitterhed fra kaffen og sødmen fra sødmælken eller fløden. ",
+        "body": "En cremet fyldig drink. Et oplagt valg at servere i vintermånederne. Denne cocktail er den perfekte kombination af bitterhed fra kaffen og sødmen fra sødmælken eller fløden, hvilket giver en rund behagelig smag.",
         "relatedArticles": {
             "1": "test"
         },
@@ -413,11 +413,11 @@
                 "amount": "Nok"
             },
             "third": {
-                "title": "sødmælk / fløde",
+                "title": "sødmælk eller fløde",
                 "amount": "6 cl"
             },
             "fourth": {
-                "title": "skrive lime",
+                "title": "skive lime",
                 "amount": "1"
             },
             "first": {
@@ -432,5 +432,144 @@
             }
         }
     },
-    
+    {
+        "itemID": "stormy-bornholmer",
+        "teaser": "En forfriskende klassiker varm ingefær-klassiker med et twist. Perfekt til lune aftener og sommerdage i haven.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Stormy Bornholmer",
+        "type": "recipe",
+        "liqour": {
+            "slug": "sevablødda",
+            "link": "https://bornholmspirits.com/products/bornholmer-dram-sevablodda",
+            "type": "sevablødda",
+            "title": "sevablødda",
+            "id": "5"
+        },
+        "slug": "stormy-bornholmer",
+        "recipe": {
+            "recipe1": "Fyld dit glas med isterninger.",
+            "recipe2": "Hæld Sevabløddaen i et glas.",
+            "recipe3": "Fyld op med en lækker Ginger Beer.",
+            "recipe4": "Pres en smule lime ned i glasset.",
+            "recipe5": "Pynt med lime."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Som navnet antyder, perfekt til de sene sommeraftenener eller mørke sene nætter. En hyggelig og afslappende cocktail, der giver et varmt touch fra ingefæren. En sand klassiker, med et lille traditionelt Bornholmsk twist - der absolut gør den bedre. Den er frisk, krydret og kan nydes både i regnvejr og solskin.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "krydret",
+            "id": "8",
+            "title": "krydret"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Stormy_Bornholmer_e3847e61-ee97-4008-8143-4b51c8fa55f1_1080x.webp?alt=media&token=a11d9971-0454-4783-8ec5-87ceb70941ec",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Stormy_Bornholmer_e3847e61-ee97-4008-8143-4b51c8fa55f1_540x.webp?alt=media&token=df0b5ab7-f87a-4055-9083-e467cdf97ffe"
+        },
+        "ingredients": {
+            "second": {
+                "title": "skiver lime",
+                "amount": "Et par"
+            },
+            "third": {
+                "title": "isterninger",
+                "amount": "Nok"
+            },
+            "first": {
+                "title": "ginger beer",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "Sevablødda",
+                "slug": "sevablødda",
+                "link": "https://bornholmspirits.com/products/bornholmer-dram-sevablodda",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "akva-sour",
+        "teaser": "Skummende, cremet og sur klassiker med et traditionelt dansk twist.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "1",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "2"
+        },
+        "title": "Akva Sour",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmerklarakvavit",
+            "link": "https://bornholmspirits.com/products/bornholmer-dram-sevablodda",
+            "type": "akvavit",
+            "title": "bornholmer klar akvavit",
+            "id": "6"
+        },
+        "slug": "akva-sour",
+        "recipe": {
+            "recipe1": "Dry shake alle ingredienserne.",
+            "recipe2": "Shake grundigt og fyld glas med is.",
+            "recipe3": "Strain over i glasset.",
+            "recipe4": "Pynt med dehydreret citron"
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Skummende, cremet og sur klassiker med et traditionelt dansk twist i form af vores traditionelle Bornholmer Klar Akvavit. Kan nydes hele året rundt, og er perfekt til stortset alle anledninger. Simpel komfort, der rammer rigtig godt efter aftensmaden eller til desserten, på grund af dens søde smag.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "syrlig",
+            "id": "3",
+            "title": "syrlig"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Akva_Sour_1080x.webp?alt=media&token=072666f2-a2dd-4b2e-b57b-4305dc1668d4",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Akva_Sour_540x.webp?alt=media&token=26255a69-53db-4a70-b617-fa4e71cd66c8"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sukkersirup",
+                "amount": "4 cl"
+            },
+            "third": {
+                "title": "æggehvide",
+                "amount": "1"
+            },
+            "first": {
+                "title": "friskpresset citron saft",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "Bornholmer Klar Akvavit",
+                "slug": "bornholmerklarakvavit",
+                "link": "https://bornholmspirits.com/products/bornholmer-dram-sevablodda",
+                "amount": "4 cl"
+            }
+        }
+    }
+
 ]

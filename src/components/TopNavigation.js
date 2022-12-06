@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 
 // import flags for lng change
 import daFlag from '../assets/svg/flags/dk.svg'
@@ -61,9 +62,9 @@ export default function TopNavigation() {
                 </div>
             }
             
-            <ul className='list-none text-black font-bold text-2xl'>
+            <ul className='list-none font-displayBook text-lg'>
                 <li>
-                    <h1>On The Rocks</h1>
+                    <Link to="/">On The Rocks</Link>
                 </li>
             </ul>
  
