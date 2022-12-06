@@ -245,7 +245,7 @@
             "1": "screw-driver"
         },
         "featured": true,
-        "body": " Til den kaffeelskende cocktailnyder. En fyldig drink, fuld af smag og med silkeblødt skum på toppen. Man går sjældent galt i byen når man servere espresso martini. ",
+        "body": "Til den kaffeelskende cocktailnyder. En fyldig drink, fuld af smag og med silkeblødt skum på toppen. Man går sjældent galt i byen når man servere espresso martini. ",
         "relatedArticles": {
             "1": "test"
         },
@@ -510,17 +510,17 @@
             "slug": "sommer",
             "title": "sommer"
         },
-        "time": "1",
+        "time": "3",
         "theme": {
             "slug": "fest",
             "title": "fest",
-            "id": "2"
+            "id": "1"
         },
         "title": "Akva Sour",
         "type": "recipe",
         "liqour": {
             "slug": "bornholmerklarakvavit",
-            "link": "https://bornholmspirits.com/products/bornholmer-dram-sevablodda",
+            "link": "https://bornholmspirits.com/collections/akvavit/products/bornholmer-akvavit-40",
             "type": "akvavit",
             "title": "bornholmer klar akvavit",
             "id": "6"
@@ -566,10 +566,143 @@
             "liqour": {
                 "title": "Bornholmer Klar Akvavit",
                 "slug": "bornholmerklarakvavit",
-                "link": "https://bornholmspirits.com/products/bornholmer-dram-sevablodda",
+                "link": "https://bornholmspirits.com/collections/akvavit/products/bornholmer-akvavit-40",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "frost-akva-sour",
+        "teaser": "Skummende, cremet og sur klassiker med et traditionelt dansk twist.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "FROST Akva Sour",
+        "type": "recipe",
+        "liqour": {
+            "slug": "frostakvavit",
+            "link": "https://bornholmspirits.com/products/frost-klar-akvavit",
+            "type": "akvavit",
+            "title": "frost akvavit",
+            "id": "7"
+        },
+        "slug": "frost-akva-sour",
+        "recipe": {
+            "recipe1": "Dry shake ingredienserne i 30 sek.",
+            "recipe2": "Shake grundigt og fyld glas med is.",
+            "recipe3": "Strain over i glasset.",
+            "recipe4": "Pynt med dehydreret citron"
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Skummende, cremet og sur klassiker med et traditionelt dansk twist i form af vores FROST Akvavit. Kan nydes hele året rundt, og er perfekt til stortset alle anledninger. Simpel komfort, der rammer rigtig godt efter aftensmaden eller til desserten, på grund af dens søde smag.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "syrlig",
+            "id": "3",
+            "title": "syrlig"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FROSTAkva-Sour_1080x.webp?alt=media&token=5da54ae9-e0fa-401a-9204-cbec269b8aef",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FROSTAkva-Sour_720x.webp?alt=media&token=858df15d-19a8-4bca-ac91-d5a7077745cd"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sukkersirup",
+                "amount": "4 cl"
+            },
+            "third": {
+                "title": "æggehvide",
+                "amount": "1"
+            },
+            "first": {
+                "title": "friskpresset citron saft",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "FROST Akvavit",
+                "slug": "frostakvavit",
+                "link": "https://bornholmspirits.com/products/frost-klar-akvavit",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "nordic-negroni",
+        "teaser": "En klassiker med et dansk twist. Krydret, bitter, sød og forfriskende.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Nordic Negroni",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmertraditionsakvavit",
+            "link": "https://bornholmspirits.com/products/bornholmer",
+            "type": "akvavit",
+            "title": "bornholmer traditions akvavit",
+            "id": "4"
+        },
+        "slug": "nordic-negroni",
+        "recipe": {
+            "recipe1": "Fyld dit glas med is.",
+            "recipe2": "Hæld ingredienserne i.",
+            "recipe3": "Rør et par gange med en ske.",
+            "recipe4": "Pynt med appelsinskræl."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Blandingen af vores traditionelle Bornholmer Akvavit, sød vermouth og Campari Appelsin giver cocktailen en sød, bitter og forfriskende smag, der passer perfekt til en hyggelig aften - eller blot en aften hvor hofterne sidder lidt løst. Populær klassiker med et lokalt Bornholmsk twist, der tager den til nye højder.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic_Negroni_1080x.webp?alt=media&token=0ad50b82-657d-4455-99cb-772ad943c72a",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic_Negroni_540x.webp?alt=media&token=c596cc93-68a6-4d18-90f8-769020f68e7e"
+        },
+        "ingredients": {
+            "second": {
+                "title": "campari appelsin",
+                "amount": "4 cl"
+            },
+            "first": {
+                "title": "sød vermouth",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "bornholmer traditions akvavit",
+                "slug": "bornholmertraditionsakvavit",
+                "link": "https://bornholmspirits.com/products/bornholmer",
                 "amount": "4 cl"
             }
         }
     }
-
 ]
