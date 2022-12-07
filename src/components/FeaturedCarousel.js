@@ -46,7 +46,7 @@ export default function FeaturedCarousel() {
     });
     }, [fetchLng, t]);
   return (
-    <section className='my-14'>
+    <section className='my-14 px-5'>
         <FeaturedCarouselHeader />
         <div className='flex gap-3'>
             <Swiper       
@@ -61,7 +61,7 @@ export default function FeaturedCarousel() {
                     clickable: true,
                 }}
                 modules={[Keyboard, Mousewheel, Pagination]}
-                className="mySwiper w-full"
+                className="mySwiper featuredCards w-full"
                 breakpoints={{
                 // when window width is >= 1px
                 1: {
@@ -82,9 +82,9 @@ export default function FeaturedCarousel() {
                             }}
                             onClick={() => navigate("/recipe/" + id)}
                         >
-                            <div className='pb-5 pt-2 flex w-full justify-between flex-col h-full'>
+                            <div className='pb-3 flex w-full justify-between flex-col h-full'>
                                 <div className='flex justify-between font-thin pl-2'>
-                                    <div className='flex items-center gap-2'>
+                                    <div className='flex items-center gap-1'>
                                         <ClockIcon className='h-5'/>
                                         <p className='text-md'>
                                             {time} min
@@ -92,7 +92,7 @@ export default function FeaturedCarousel() {
                                     </div>
                                     <BookmarkIcon className='w-9'/> 
                                 </div>
-                                <div className='px-2'>
+                                <div className='px-1'>
                                     <div className='flex gap-2 mb-3 text-xs font-regular'>
                                         <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{taste?.title}</p>
                                         <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{liqour?.type}</p>

@@ -1,12 +1,12 @@
 [
     {
         "id": "nytårsaften",
-        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/image%2079%20(1).png?alt=media&token=a9f958f4-3743-4d35-b987-3913913972aa",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-cottonbro-studio-3171770.jpg?alt=media&token=29ac2cff-1011-44dc-9b73-68b222e56488",
         "slug": "nytårsaften",
         "category": "events",
         "title": "Nytårsaften",
         "subcategory": "guides",
-        "subcategory-title": "Tips og guides",
+        "subcategoryTitle": "Tips og guides",
         "body": "Nytårsaften er årets fest. og derfor har vi selvfølgelig fundet de helt perfekte drinks til jeres aften.",
         "slider1": {
             "title": "Til velkomsten",
@@ -47,7 +47,7 @@
         "category": "events",
         "title": "Juleaften",
         "subcategory": "guides",
-        "subcategory-title": "Tips og guides",
+        "subcategoryTitle": "Tips og guides",
         "body": "En aften, der for alvor handler om hyggen, familien og sammenhold - hvorfor ikke nyde det med en lækker cocktail? Om du sidder i sofaen og venter på fællessangen er ovre eller tager en svingom omkring træet, så har vi nedenfor samlet de bedste drinks til din aften.",
         "slider1": {
             "title": "Til hyggen",
@@ -88,7 +88,7 @@
         "category": "events",
         "title": "Julefrokost",
         "subcategory": "guides",
-        "subcategory-title": "Tips og guides",
+        "subcategoryTitle": "Tips og guides",
         "body": "Julefrokoster er den tid på året, hvor venner og familie samles. Vi har derfor samlet de bedste drinks til din julefrokost",
         "slider1": {
             "title": "Til silden",

@@ -1,12 +1,12 @@
 [
     {
         "id": "nytårsaften",
-        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/image%2079%20(1).png?alt=media&token=a9f958f4-3743-4d35-b987-3913913972aa",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-cottonbro-studio-3171770.jpg?alt=media&token=29ac2cff-1011-44dc-9b73-68b222e56488",
         "slug": "nytårsaften",
         "category": "events",
         "title": "New Year's Eve",
         "subcategory": "guides",
-        "subcategory-title": "Tips & guides",
+        "subcategoryTitle": "Tips & guides",
         "body": "New Year's Eve is the party of the year. And of course we have found the perfect drinks for your evening.",
         "slider1": {
             "title": "Best for predinner",
@@ -47,7 +47,7 @@
         "category": "events",
         "title": "Christmas Eve",
         "subcategory": "guides",
-        "subcategory-title": "Tips & guides",
+        "subcategoryTitle": "Tips & guides",
         "body": "An evening that is truly about hygge, family and togetherness - why not enjoy it with a delicious cocktail? Whether you are sitting on the couch waiting for the group singing to be over or taking a spin around the tree, below we have collected the best drinks for your evening",
         "slider1": {
             "title": "For the hygge",
@@ -59,8 +59,8 @@
             }
         },
         "slider2": {
-            "title": "Til julemiddagen",
-            "body": "Masser af sovs og kærlighed - eller hvad end du er til. Her passer kraftige, krydrede cocktails med snaps perfekt til de mange smagsindtryk.",
+            "title": "For your dinner",
+            "body": "Plenty of gravy and love - or whatever you are into. Here, robust, spicy cocktails with snaps are perfect for the many flavors.",
             "slidedata": {
                 "slug1": "frost-akva-sour",
                 "slug2": "nordic-negroni",
@@ -68,8 +68,8 @@
             }
         },
         "slider3": {
-            "title": "Til risalamanden",
-            "body": "Fællessangen er ovre, pakkerne er åbnet og nu skal du for alvor hygge. Her er et par søde bud, der komplementerer risalamanden fantastisk godt.",
+            "title": "For the risalamande",
+            "body": "You are stuffed, all the packages are opened and now the cozyness starts. A couple of sweet suggestions that complement sweet notes of the rice pudding fantasticly well.",
             "slidedata": {
                 "slug1": "blooming-fig",
                 "slug2": "white-russian",
@@ -88,11 +88,11 @@
         "category": "events",
         "title": "Julefrokost",
         "subcategory": "guides",
-        "subcategory-title": "Tips & guides",
-        "body": "Christmas paraties is the time of year when friends and family come together. We have therefore collected the best drinks for your julefrokost.",
+        "subcategoryTitle": "Tips & guides",
+        "body": "Christmas parties is the time of year when friends and family come together. We have therefore collected the best drinks for your christmas party.",
         "slider1": {
-            "title": "Til silden",
-            "body": "Dine gæster er ankommet med det gode humør, silden er sat på bordet og lige netop de her drinks er perfekte til det.",
+            "title": "For the herring",
+            "body": "Your guests have arrived in good spirits, the herring has been placed on the table and these drinks are perfect for it.",
             "slidedata": {
                 "slug1": "the-golden-age",
                 "slug2": "red-pearl",
@@ -100,8 +100,8 @@
             }
         },
         "slider2": {
-            "title": "Til pakkelegen",
-            "body": "Nu skal der stjæles pakker, og til det skal der selvfølgelig bruges nogle drinks til at holde tempoet oppe.",
+            "title": "For the pakkeleg",
+            "body": "Now it's time to steal some packages, and of course drinks are needed to keep the pace up.",
             "slidedata": {
                 "slug1": "spicy-magarita",
                 "slug2": "kiev-mule",
@@ -109,8 +109,8 @@
             }
         },
         "slider3": {
-            "title": "Når du har fået lidt for meget",
-            "body": "Festen er i fuld sving, og du har brug for en opkvikkende drink, så her har vi samlet de perfekte drinks",
+            "title": "When you have had a little too much",
+            "body": "The party is in full swing, and you need a pick-me-up drink, so here we have collected the perfect drinks.",
             "slidedata": {
                 "slug1": "white-russian",
                 "slug2": "stormy-bornholmer",

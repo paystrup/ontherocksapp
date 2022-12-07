@@ -148,7 +148,7 @@
             "slug": "nytår",
             "title": "nytår"
         },
-        "time": "3",
+        "time": "5",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -218,7 +218,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "3",
+        "time": "7",
         "theme": {
             "slug": "afslapning",
             "title": "afslapning",
@@ -366,7 +366,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "2",
+        "time": "5",
         "theme": {
             "slug": "afslapning",
             "title": "afslapning",
@@ -440,7 +440,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "4",
+        "time": "3",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -510,7 +510,7 @@
             "slug": "sommer",
             "title": "sommer"
         },
-        "time": "3",
+        "time": "6",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -579,7 +579,7 @@
             "slug": "sommer",
             "title": "sommer"
         },
-        "time": "3",
+        "time": "6",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -648,7 +648,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "4",
+        "time": "3",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -1278,13 +1278,13 @@
             "recipe1": "Fyld et glas med is. ",
             "recipe2": "Hæld gin over isen.",
             "recipe3": "Top med tonic",
-            "recipe4": "Pynt med citronskive."
+            "recipe4": "Pynt med en håndfuld frosne havtornbær og et mynteblad."
         },
         "relatedProducts": {
             "1": "screw-driver"
         },
         "featured": true,
-        "body": "Når du skal helt op og flyve, er det her din go-to cocktail. Den er nem at lave og mindst ligeså nem at drikke. Passer perfekt til mange gæster, så du ikke skal bruge hele din aften i køkkenet.",
+        "body": "En forfriskende cocktail. En tvist på den klassiske G&T, hvor du her ender med et resultat der er bedst at nyde på en sensommerdag i godt selskab.",
         "relatedArticles": {
             "1": "test"
         },
@@ -1295,8 +1295,8 @@
         },
         "image": {
             "alt": "test",
-            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FlyversjusAviator.jpeg?alt=media&token=13f09fd2-a1e5-430d-8b09-3f66938d7dda",
-            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FlyversjusAviator.jpeg?alt=media&token=13f09fd2-a1e5-430d-8b09-3f66938d7dda"
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/oestersoens-braenderi-043.jpeg?alt=media&token=0940f60f-518d-4010-9d22-b4def2045f1d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/oestersoens-braenderi-043.jpeg?alt=media&token=0940f60f-518d-4010-9d22-b4def2045f1d"
         },
         "ingredients": {
             "second": {
@@ -1305,20 +1305,1607 @@
             },
 
             "third": {
-                "title":"skrive lime",
+                "title":"frosne havtornbær",
+                "amount":"nok"
+            },
+            "fourth": {
+                "title":"mynte",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "tonic",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "yellow-heaven",
+        "teaser": "Herlighed forklædt i cocktail.",
+        "ocassion": {
+            "id": "6",
+            "slug": "påske",
+            "title": "påske"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Yellow Heaven",
+        "type": "recipe",
+        "liqour": {
+            "slug": "havtorndildogagurksnaps",
+            "link": "https://bornholmspirits.com/collections/snaps/products/2-havtorn-dild-agurk-snaps",
+            "type": "snaps",
+            "title": "havtorn dild og agurk snaps",
+            "id": "6"
+        },
+        "slug": "yellow-heaven",
+        "recipe": {
+            "recipe1": "Fyld et tall glas med is. ",
+            "recipe2": "Hæld snapsen over isen.",
+            "recipe3": "Top med kvædejuice",
+            "recipe4": "Pynt med en skiveskåret agurk."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Ja, snaps kan faktisk godt bruges i cocktails. Og det smager hammer godt. Denne friske cocktail med noter af havtorn, dild og agurk er det perfekte supplement til enhver fest.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/yellow-heaven-720px.webp?alt=media&token=ce272fe7-56fa-4dcc-bad6-84d49cb43b8d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/yellow-heaven-720px.webp?alt=media&token=ce272fe7-56fa-4dcc-bad6-84d49cb43b8d"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"skive agurk",
                 "amount":"1"
             },
             "first": {
-                "title": "lemon sodavand",
+                "title": "kvædejuice",
                 "amount": "12 cl"
             },
             "liqour": {
-                "title": "bornholmer klar akvavit",
-                "slug": "bornholmerklarakvavit",
-                "link": "https://bornholmspirits.com/products/bornholmer-akvavit-40",
+                "title": "havtorn dild og agurk snaps",
+                "slug": "havtorndildogagurksnaps",
+                "link": "https://bornholmspirits.com/collections/snaps/products/2-havtorn-dild-agurk-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "lakrids-espresso-martini",
+        "teaser": "Den fantastiske kraftfulde drink med noter af lakrids, for at gøre den endnu bedre.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "jul"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Lakrids Espresso Martini",
+        "type": "recipe",
+        "liqour": {
+            "slug": "lakridssnaps",
+            "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+            "type": "snaps",
+            "title": "lakrids snaps",
+            "id": "7"
+        },
+        "slug": "lakrids-espresso-martini",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj snaps, varm espresso og kaffelikør.",
+            "recipe3": "Shake grundigt",
+            "recipe4": "Strain i et coupeglas.",
+            "recipe5": "Pynt med kaffebønner og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En cremet sag med noter af lakrids. Cocktailen passer perfekt på en kølig vinterdag eller som after-dinner cocktail juleaften.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Lakrids_Espresso_Martini_1080x.webp?alt=media&token=2adb4c5c-a029-452b-9ec7-0882bf89d80a",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Lakrids_Espresso_Martini_540x.webp?alt=media&token=0a596fb8-67be-42bb-b342-d9a1a77bdf81"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"espresso",
+                "amount":"4 cl"
+            },
+            "fourth": {
+                "title":"kaffebønner",
+                "amount":"4"
+            },
+            "first": {
+                "title": "kaffelikør",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "lakrids snaps",
+                "slug": "lakridssnaps",
+                "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "kongen-af-danmark",
+        "teaser": "Du kender bolcherne. Nu kan du nyde dem som cocktail.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "jul"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Kongen Af Danmark",
+        "type": "recipe",
+        "liqour": {
+            "slug": "rabarberogstjerneanissnaps",
+            "link": "https://bornholmspirits.com/products/special-edition-rabarber-stjerneanis",
+            "type": "snaps",
+            "title": "rabarber og stjerneanis snaps",
+            "id": "11"
+        },
+        "slug": "kongen-af-danmark",
+        "recipe": {
+            "recipe1": "Nedkøl et martiniglas med is. ",
+            "recipe2": "Fyld en shaker med is og tilføj alle ingredienserne.",
+            "recipe3": "Shake grundigt",
+            "recipe4": "Strain over det kølige glas.",
+            "recipe5": "Pynt med stjerneanis og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Måske denne cocktail skulle være Danmarks nationaldrink. Den røde farve fra snapsen, kombineret med det hvide skum er jo lige til at få tårer i øjnene af og det samme er smagen. Sødmen fra rabarberen og lakridsnoterne fra stjerneanis er en stjernekombination hvis vi selv skal sige det.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/kongen_af_danmark_1080x.webp?alt=media&token=904f9394-6638-48d7-baf7-86a585e29253",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/kongen_af_danmark_540x.webp?alt=media&token=1c7e9a01-b480-4fd0-92a8-bc9ed6cfc8a1"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"frisk limesaft",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"vaniljesirup",
+                "amount":"1 cl"
+            },
+            "fifth": {
+                "title":"æggehvide",
+                "amount":"3 cl"
+            },
+            "sixth": {
+                "title":"stjerneanis",
+                "amount":"1"
+            },
+            "first": {
+                "title": "mørk rom",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "rabarber og stjerneanis snaps",
+                "slug": "rabarberogstjerneanissnaps",
+                "link": "https://bornholmspirits.com/products/special-edition-rabarber-stjerneanis",
+                "amount": "6 cl"
+            }
+        }
+    },
+    {
+        "itemID": "nordic-passion",
+        "teaser": "Passion = sommer. Nu kan du nyde sommeren i en drink.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Nordic Passion",
+        "type": "recipe",
+        "liqour": {
+            "slug": "figensnaps",
+            "link": "https://bornholmspirits.com/products/3-figen-snaps",
+            "type": "snaps",
+            "title": "figen snaps",
+            "id": "12"
+        },
+        "slug": "nordic-passion",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj snaps, passionsirup og limesaft.",
+            "recipe3": "Shake grundigt",
+            "recipe4": "Top med danskvand.",
+            "recipe5": "Pynt med passionsfrugt og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Smager of sommer, bør nydes om sommeren. Denne cocktail blander sødmen fra figen med den syrlige passionsfrugt og resultatet er fantastisk.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "syrlig",
+            "id": "3",
+            "title": "syrlig"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic_Passion_1080x.webp?alt=media&token=ad4488eb-aa66-4e45-b2df-4de9711154bb",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic_Passion_540x.webp?alt=media&token=df4380cc-9a0d-4778-b87f-4a7b8ba6bf07"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"frisk limesaft",
+                "amount":"4 cl"
+            },
+            "fourth": {
+                "title":"danskvand",
+                "amount":"4 cl"
+            },
+            "fifth": {
+                "title":"passionsfrugt",
+                "amount":"1"
+            },
+            "sixth": {
+                "title":"stjerneanis",
+                "amount":"1"
+            },
+            "first": {
+                "title": "passion sirup",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "figen snaps",
+                "slug": "figensnaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "no3-tonic",
+        "teaser": "En klassiker. En favorit. En vinder.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "No3 & Tonic",
+        "type": "recipe",
+        "liqour": {
+            "slug": "figensnaps",
+            "link": "https://bornholmspirits.com/products/3-figen-snaps",
+            "type": "snaps",
+            "title": "figen snaps",
+            "id": "12"
+        },
+        "slug": "no3-tonic",
+        "recipe": {
+            "recipe1": "Fyld et glas med isterninger. ",
+            "recipe2": "Tilføj snaps.",
+            "recipe3": "Top med tonic",
+            "recipe4": "Pynt med dehydreret lime og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Endnu en klassiker. Den er bitter og den er god. Vi har tilføjet svage noter af figen for at komplimentere den bitre tonic og vi synes selv det er lidt af et hit. Bedøm for dig selv.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "bitter",
+            "id": "6",
+            "title": "bitter"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/N03_og_Tonic_1080x.webp?alt=media&token=d9a71882-d9c8-42c7-84bd-761b9eabd8b1",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/N03_og_Tonic_540x.webp?alt=media&token=5f786e74-b07a-47d7-bd56-f555d5238495"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"dehydreret lime",
+                "amount":"1"
+            },
+            "first": {
+                "title": "tonic",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "figen snaps",
+                "slug": "figensnaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "spicy-magarita",
+        "teaser": "Få slået benene væk under dig med denne stærke, men stadig friske Spicy Magarita.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "nytår"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Spicy Magarita",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilisnaps",
+            "link": "https://bornholmspirits.com/products/1-chili-snaps",
+            "type": "snaps",
+            "title": "chili snaps",
+            "id": "13"
+        },
+        "slug": "spice-magarita",
+        "recipe": {
+            "recipe1": "Fyld en shaker med isterninger. ",
+            "recipe2": "Tilføj alle ingredienser.",
+            "recipe3": "Strain over et coupeglas",
+            "recipe4": "Pynt med en limebåd og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Til alle chilielskerne er der nu kommet cocktail. Værsgo. Spicy Magarite er lavet på vores forrygende chilisnaps, og er et hit til alle fester. Overrask og forkæl dine gæster med denne lækre cocktail.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "stærk",
+            "id": "5",
+            "title": "stærk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Spicy_Magarita_1080x.webp?alt=media&token=77aa5463-532b-4e40-8082-e986d671b815",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Spicy_Magarita_540x.webp?alt=media&token=9d669690-44be-4281-b8ae-d68a6fc155bb"
+        },
+        "ingredients": {
+            "second": {
+                "title": "triple sec",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"frisk limesaft",
+                "amount":"1.5 cl"
+            },
+            "fourth": {
+                "title":"chile ancho lime",
+                "amount":"1 cl"
+            },
+            "fifth": {
+                "title":"lime",
+                "amount":"1"
+            },
+            "sixth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "tequila",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "chili snaps",
+                "slug": "chilisnaps",
+                "link": "https://bornholmspirits.com/products/1-chili-snaps",
+                "amount": "2 cl"
+            }
+        }
+    },
+    {
+        "itemID": "dannebrog",
+        "teaser": "Fejr nationalfølelsen med en Dannebrog, du bliver ikke skuffet.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "jul"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Dannebrog",
+        "type": "recipe",
+        "liqour": {
+            "slug": "blåbærcitronsnaps",
+            "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+            "type": "snaps",
+            "title": "blåbær citron snaps",
+            "id": "14"
+        },
+        "slug": "dannebrog",
+        "recipe": {
+            "recipe1": "Fyld et glas med isterninger. ",
+            "recipe2": "Hæld snapsen over isen.",
+            "recipe3": "Top med gingerbeer.",
+            "recipe4": "Pynt med en skive citron og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Der er et yndigt land. Og en yndig cocktail. Den bedste cocktail når du skal fejre Danmark, om det er til jul, nytår eller når landsholdet spiller. Cocktailen kan du aldrig gå galt i byen med.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Dannebrog-Small_1080x.webp?alt=media&token=170e5801-c548-42c9-80ad-ee00624f79fe",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Dannebrog-Small_540x.webp?alt=media&token=e92c7529-9327-4a8d-b5c9-56b11b1ce891"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"citron",
+                "amount":"1"
+            },
+            "first": {
+                "title": "ginger beer",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "blåbær citron snaps",
+                "slug": "blåbærcitronsnaps",
+                "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "beet-special",
+        "teaser": "Rødbeder, chili, vanilje og skyr?!. Det lyder som en vild kombination, men det smager helt fantastisk",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "jul"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Beet Special",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilisnaps",
+            "link": "https://bornholmspirits.com/products/1-chili-snaps",
+            "type": "snaps",
+            "title": "chili snaps",
+            "id": "13"
+        },
+        "slug": "beet-special",
+        "recipe": {
+            "recipe1": "Fyld en shaker med isterninger. ",
+            "recipe2": "Hæld alle ingredienserne i shakeren.",
+            "recipe3": "Shake grundigt",
+            "recipe4": "Hæld i et martiniglas.",
+            "recipe5": "Pynt med stedmoderblomster og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En rødbedeherlighed. En cremet og kraftig drink, hvor sødmen for rødbederne matches af vores udsøgte chilisnaps. Den lyder skør, men den smager skønt.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/beet-special-720px.webp?alt=media&token=c7e4b946-645b-4f2e-9b18-f4d6d06dd728",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/beet-special-720px.webp?alt=media&token=c7e4b946-645b-4f2e-9b18-f4d6d06dd728"
+        },
+        "ingredients": {
+            "second": {
+                "title": "vaniljesirup",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"skyr 0.2%",
+                "amount":"5 cl"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"stedmoderblomster",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "rødbedejuice",
+                "amount": "5 cl"
+            },
+            "liqour": {
+                "title": "chili snaps",
+                "slug": "chilisnaps",
+                "link": "https://bornholmspirits.com/products/1-chili-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "spiced-tonic",
+        "teaser": "En spicy tonic. En lækker cocktail.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "jul"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Spiced Tonic",
+        "type": "recipe",
+        "liqour": {
+            "slug": "figensnaps",
+            "link": "https://bornholmspirits.com/products/3-figen-snaps",
+            "type": "snaps",
+            "title": "figen snaps",
+            "id": "12"
+        },
+        "slug": "spiced-tonic",
+        "recipe": {
+            "recipe1": "Fyld et glas med isterninger. ",
+            "recipe2": "Hæld snapsen over isen.",
+            "recipe3": "Top med spicy tonic",
+            "recipe4": "Squeeze en grapebåd over cocktailen og nyd."
+
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Snaps og spicy tonic. Cocktailen burde være på alle bucketlist. Den perfekte kombination og bitterhed og spicyness.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "stærk",
+            "id": "5",
+            "title": "stærk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/spiced-tonic-720px.webp?alt=media&token=1b1dde5d-54e7-4dca-9935-6309f66dfd9d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/spiced-tonic-720px.webp?alt=media&token=1b1dde5d-54e7-4dca-9935-6309f66dfd9d"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"grape",
+                "amount":"1"
+            },
+            "first": {
+                "title": "spicy tonic",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "figen snaps",
+                "slug": "figensnaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "stgermain-foam",
+        "teaser": "Frisk cocktail, med silkeblødt skum. Whats not to like.",
+        "ocassion": {
+            "id": "6",
+            "slug": "påske",
+            "title": "påske"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "St. Germain Foam",
+        "type": "recipe",
+        "liqour": {
+            "slug": "havtorndildogagurksnaps",
+            "link": "https://bornholmspirits.com/products/2-havtorn-dild-agurk-snaps",
+            "type": "snaps",
+            "title": "havtorn dild og agurk snaps",
+            "id": "6"
+        },
+        "slug": "stgermain-foam",
+        "recipe": {
+            "recipe1": "Fyld alle ingredienserne i en shaker.",
+            "recipe2": "Shake grundigt i min. 10 sek.",
+            "recipe3": "Fyld et glas med is og strain over isen",
+            "recipe4": "Pynt med en kvast dild og nyd."
+
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En cremet fyldig drink. Et oplagt valg i påsken, hvor dild og havtorn er et godt match til fiskebordet. Agurken sørger for friskhed og resultatet er en forfriskende, cremet cocktail .",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/st-germain-foam.webp?alt=media&token=93a38d27-d9cf-4031-8f76-58f851656eeb",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/st-germain-foam.webp?alt=media&token=93a38d27-d9cf-4031-8f76-58f851656eeb"
+        },
+        "ingredients": {
+            "second": {
+                "title": "limejuice",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"sukkerlage",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"æggehvide",
+                "amount":"1"
+            },
+            "fifth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "sixth": {
+                "title":"dild",
+                "amount":"1 kvast"
+            },
+            "first": {
+                "title": "st. germain hyldeblomstlikør",
+                "amount": "2.5 cl"
+            },
+            "liqour": {
+                "title": "havtorn dild og agurk snaps",
+                "slug": "havtorndildogagurksnaps",
+                "link": "https://bornholmspirits.com/products/2-havtorn-dild-agurk-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "sweet-child",
+        "teaser": "Den er sød, både at se på og i smagen. ",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Sweet Child",
+        "type": "recipe",
+        "liqour": {
+            "slug": "hindbæringefærgranatæblesnaps",
+            "link": "https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps",
+            "type": "snaps",
+            "title": "hindbær ingefær granatæble snaps",
+            "id": "6"
+        },
+        "slug": "sweet-child",
+        "recipe": {
+            "recipe1": "Fyld et glas med isterninger. ",
+            "recipe2": "Hæld alle ingredienserne over isen.",
+            "recipe3": "Pynt med par granatæblekerner og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Den sødeste cocktail i klassen. Hindbær og granatæble komplimenteres perfekt af ingefæren og skaber sammen med den røde sodavand en skønhed af en drink.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/sweet-child.webp?alt=media&token=699433c0-6b9d-4e97-98ed-276b749dce13",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/sweet-child.webp?alt=media&token=699433c0-6b9d-4e97-98ed-276b749dce13"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"granatæble",
+                "amount":"1"
+            },
+            "first": {
+                "title": "rød sodavand",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "hindbær ingefær granatæble snaps",
+                "slug": "hindbæringefærgranatæblesnaps",
+                "link": "https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "blooming-fig",
+        "teaser": "sød og salt og alt godt fra kloden.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Blooming Fig",
+        "type": "recipe",
+        "liqour": {
+            "slug": "figensnaps",
+            "link": "https://bornholmspirits.com/products/3-figen-snaps",
+            "type": "snaps",
+            "title": "figen snaps",
+            "id": "12"
+        },
+        "slug": "blooming-fig",
+        "recipe": {
+            "recipe1": "Fyld et glas med isterninger. ",
+            "recipe2": "Hæld alle ingredienserne over isen.",
+            "recipe3": "rør godt rundt så fløden og karamellen blandes med de øvrige ingredienser.",
+            "recipe4": "Pynt med myntekvaste og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En drøm i et glas. Saltkaramel og figen er en kombi du ikke bør snyde dig selv for. Fløden sørger for cremetheden og gør at denne cocktail er perfekt at nyde i de mørke vintermåneder.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/blooming-fig-720px.webp?alt=media&token=9b40ea3a-a335-4dc1-b0c9-48a98b1ca74a",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/blooming-fig-720px.webp?alt=media&token=9b40ea3a-a335-4dc1-b0c9-48a98b1ca74a"
+        },
+        "ingredients": {
+            "second": {
+                "title": "tia maria",
+                "amount": "1 cl"
+            },
+
+            "third": {
+                "title":"saltkaramel",
+                "amount":"1 cl"
+            },
+            "fourth": {
+                "title":"fløde",
+                "amount":"4 cl"
+            },
+            "fifth": {
+                "title":"fernet branca",
+                "amount":"0.5 cl"
+            },
+            "sixth": {
+                "title":"insterninger",
+                "amount":"nok"
+            },
+            "seventh": {
+                "title":"mynte",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "hvid mozart likør",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "figen snaps",
+                "slug": "figensnaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "hot-summer",
+        "teaser": "Som navnet antyder. Bør nydes på en hot sommerdag.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Hot Summer",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vaniljesnaps",
+            "link": "https://bornholmspirits.com/products/5-vanilje-snaps",
+            "type": "snaps",
+            "title": "vanilje snaps",
+            "id": "16"
+        },
+        "slug": "hot-summer",
+        "recipe": {
+            "recipe1": "Fyld et glas med isterninger. ",
+            "recipe2": "Hæld snaps og sodavand over isen.",
+            "recipe3": "Pynt med en dehydreret blodappelsin."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Køl ned på en varm dag eller sæt gang i festen ved at servere denne læskende, betagende cocktail. Den smager lige så godt som den ser ud. Og det er rimelig fucking godt.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/hot-summer-720px.webp?alt=media&token=045d09c9-f72e-41ae-94f6-9687d72f9a84",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/hot-summer-720px.webp?alt=media&token=045d09c9-f72e-41ae-94f6-9687d72f9a84"
+        },
+        "ingredients": {
+            "second": {
+                "title": "isterninger",
+                "amount": "nok"
+            },
+
+            "third": {
+                "title":"dehydreret blodappelsen",
+                "amount":"1 cl"
+            },
+            "first": {
+                "title": "blodappelsinsodavand",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "vanilje snaps",
+                "slug": "vaniljesnaps",
+                "link": "https://bornholmspirits.com/products/5-vanilje-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+        {
+        "itemID": "diamond-snaps",
+        "teaser": "En elegant og mindst ligeså smagfuld cocktail.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "bryllup"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Diamond Snaps",
+        "type": "recipe",
+        "liqour": {
+            "slug": "hindbæringefærgranatæblesnaps",
+            "link": "https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps",
+            "type": "snaps",
+            "title": "hindbær ingefær granatæble snaps",
+            "id": "15"
+        },
+        "slug": "diamond-snaps",
+        "recipe": {
+            "recipe1": "Hæld snaps og sukkerknald i et højt champagneglas.",
+            "recipe2": "Mas sukkerknalden og sørg for den er opløst i snapsen.",
+            "recipe3": "Top med Brut Champagne.",
+            "recipe4": "Drys fire dråber Angustora over cocktailen og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Betag dine gæster med denne smukke og smagfulde champagne cocktail. Perfekt til når det skal være lidt finere og smager himmelsk. Du er sikker på, at dine gæster går tilfredse fra festen efter de har smagt Diamond Snapsen.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/diamond-snaps-720px.webp?alt=media&token=a4aa65df-2237-4b89-a57d-30eee23e70d6",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/diamond-snaps-720px.webp?alt=media&token=a4aa65df-2237-4b89-a57d-30eee23e70d6"
+        },
+        "ingredients": {
+            "second": {
+                "title": "dråber angustora",
+                "amount": "4"
+            },
+
+            "third": {
+                "title":"sukkerknald",
+                "amount":"1"
+            },
+            "first": {
+                "title": "brut champagne",
+                "amount": "120 cl"
+            },
+            "liqour": {
+                "title": "hindbær ingefær granatæble snaps",
+                "slug": "hindbæringefærgranatæblesnaps",
+                "link": "https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "vanilla-love",
+        "teaser": "Sød og cremet. Lige som vi kan lide det.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Vanilla Love",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vaniljesnaps",
+            "link": "https://bornholmspirits.com/products/5-vanilje-snaps",
+            "type": "snaps",
+            "title": "vanilje snaps",
+            "id": "16"
+        },
+        "slug": "vanilla-love",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj alle ingredienser til shakeren.",
+            "recipe3": "Shake grundigt.",
+            "recipe4": "Strain over et køligt coupeglas og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Kom helt tilbage til dine urgamle rødder og skål med dine forfædre i vikingens foretrukne drik - mjød. Denne cremede herlighed er perfekt efter en travl arbejdsuge. Slå benene op og nyd en Vanilla Love.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vanilla-love-720px.webp?alt=media&token=0fc65dc0-14d8-4b62-92b7-9957ab9399e2",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vanilla-love-720px.webp?alt=media&token=0fc65dc0-14d8-4b62-92b7-9957ab9399e2"
+        },
+        "ingredients": {
+            "second": {
+                "title": "rabarbersirup",
+                "amount": "3 cl"
+            },
+
+            "third": {
+                "title":"bergamottepure",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "mjød",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "vanilje snaps",
+                "slug": "vaniljesnaps",
+                "link": "https://bornholmspirits.com/products/5-vanilje-snaps",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "licorice-fire",
+        "teaser": "Lakridsdrink med ild i.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Licorice Fire",
+        "type": "recipe",
+        "liqour": {
+            "slug": "lakridssnaps",
+            "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+            "type": "snaps",
+            "title": "lakrids snaps",
+            "id": "16"
+        },
+        "slug": "licorice-fire",
+        "recipe": {
+            "recipe1": "Fyld et tall glas med is. ",
+            "recipe2": "Tilføj alle ingredienser.",
+            "recipe3": "Pynt med lakridsrod og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Hvem elsker ikke lakrids? Måske amerikanerne, men det går nok. Denne cocktail er alt hvad du behøver når du skal have en hyggelig aften. Om det er med din bedre halvdel, din svigermor eller et par af dine venner, er denne cocktail en sikker vinder.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/licorice-fire-720px.webp?alt=media&token=cc997d3b-598d-4fff-ac6a-75341c9e5671",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/licorice-fire-720px.webp?alt=media&token=cc997d3b-598d-4fff-ac6a-75341c9e5671"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ginger beer",
+                "amount": "10 cl"
+            },
+
+            "third": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fourth": {
+                "title":"lakridsrod",
+                "amount":"1"
+            },
+            "first": {
+                "title": "cherry heering likør",
+                "amount": "1.5 cl"
+            },
+            "liqour": {
+                "title": "lakrids snaps",
+                "slug": "lakridssnaps",
+                "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "red-copenhagen",
+        "teaser": "Copenhagen, I've never seen you look this bright.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Red Copenhagen",
+        "type": "recipe",
+        "liqour": {
+            "slug": "blåbærcitronsnaps",
+            "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+            "type": "snaps",
+            "title": "blåbær citron snaps",
+            "id": "14"
+        },
+        "slug": "licorice-fire",
+        "recipe": {
+            "recipe1": "Fyld et lowball glas med is. ",
+            "recipe2": "Tilføj snaps og Vermouth.",
+            "recipe3": "Drys to dråber Angustora Bitters over drinken.",
+            "recipe4": "Pynt med citronskræl og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Fejr vores fantastiske hovedstad med denne fantastiske drink. Du kan evt. sætte København af Ulige Numre på imens du drikker den, for at skrue helt op stemningen.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "krydret",
+            "id": "8",
+            "title": "krydret"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/red-copenhagen-720px.webp?alt=media&token=41b98b01-fd45-4a48-87b3-3223551b9a10",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/red-copenhagen-720px.webp?alt=media&token=41b98b01-fd45-4a48-87b3-3223551b9a10"
+        },
+        "ingredients": {
+            "second": {
+                "title": "dråber angustora bitter",
+                "amount": "2 "
+            },
+
+            "third": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fourth": {
+                "title":"citron",
+                "amount":"1"
+            },
+            "first": {
+                "title": "sød vermouth",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "blåbær citron snaps",
+                "slug": "blåbærcitronsnaps",
+                "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "summer-in-the-sun",
+        "teaser": "Summer in a glass.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Summer In The Sun",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilihonningsnaps",
+            "link": "https://bornholmspirits.com/products/8-chili-honning-snaps",
+            "type": "snaps",
+            "title": "chili honning snaps",
+            "id": "17"
+        },
+        "slug": "summer-in-the-sun",
+        "recipe": {
+            "recipe1": "Fyld et lowball glas med is. ",
+            "recipe2": "Tilføj alle ingredienser.",
+            "recipe3": "Pynt med en skive dehydreret lime."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Chili + honning = velsmag. Denne cocktail kombinerer stærk chili med sød honning og resultatet er denne smukke velsmagende drink. Den går man alrdig galt i byen med.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "stærk",
+            "id": "5",
+            "title": "stærk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/summer-in-the-sun-720px.webp?alt=media&token=255ee7a5-4aba-43bd-ab3d-45b7f5d0daa9",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/summer-in-the-sun-720px.webp?alt=media&token=255ee7a5-4aba-43bd-ab3d-45b7f5d0daa9"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime cordial",
+                "amount": "1 cl"
+            },
+
+            "third": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fourth": {
+                "title":"dehydreret lime",
+                "amount":"1"
+            },
+            "first": {
+                "title": "abrikossodavand",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "chili honning snaps",
+                "slug": "chilihonningsnaps",
+                "link": "https://bornholmspirits.com/products/8-chili-honning-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "golden-licorice",
+        "teaser": "Som en solnedgang på en solskinsø.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Golden Licorice",
+        "type": "recipe",
+        "liqour": {
+            "slug": "lakridssnaps",
+            "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+            "type": "snaps",
+            "title": "lakrids snaps",
+            "id": "7"
+        },
+        "slug": "golden-licorice",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj alle ingredienser.",
+            "recipe3": "Shake grundigt og strain over et glas.",
+            "recipe4": "Pynt med en lakridsrod og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Forestil dig du sidder på en strand på en varm dag. Du ser solnedgangen og snakker om gode minder med den du holder allermest af. Sådan vil vi mene at vores Golden Licorice smager. Og ja, vi ved godt det er lidt prætentiøst, men den er god nok.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/golden-licorice-720px.webp?alt=media&token=4923013e-a6c5-4952-8353-6d6375289b56",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/golden-licorice-720px.webp?alt=media&token=4923013e-a6c5-4952-8353-6d6375289b56"
+        },
+        "ingredients": {
+            "second": {
+                "title": "gulerodsjuice",
+                "amount": "4 cl"
+            },
+            "third": {
+                "title":"dråber gulerodsolie",
+                "amount":"7"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+
+            "first": {
+                "title": "saltkaramel",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "lakrids snaps",
+                "slug": "lakridssnaps",
+                "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "red-pearl",
+        "teaser": "Kamæleonen af drinks. Går til alt.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "jul"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Red Pearl",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilisnaps",
+            "link": "https://bornholmspirits.com/products/1-chili-snaps",
+            "type": "snaps",
+            "title": "chili snaps",
+            "id": "13"
+        },
+        "slug": "red-pearl",
+        "recipe": {
+            "recipe1": "Fyld et glas med is. ",
+            "recipe2": "Tilføj alle ingredienser.",
+            "recipe3": "Pynt med en klase ribs og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Chili, Kombucha og lime, se det er en stjernekombinaiton. Der findes simpelthen ikke en stund, hvor denne cocktail ikke passer ind. Om det er til hygge på sofaen, gymnasiereunion eller den helt store gallafest, så er denne cocktail din ven.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/red-pearl.webp?alt=media&token=d84038a7-3fdc-4308-80be-dbfbcdab29b9",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/red-pearl.webp?alt=media&token=d84038a7-3fdc-4308-80be-dbfbcdab29b9"
+        },
+        "ingredients": {
+            "second": {
+                "title": "limejuice",
+                "amount": "1.5 cl"
+            },
+
+            "third": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fourth": {
+                "title":"klase ribs",
+                "amount":"1"
+            },
+
+            "first": {
+                "title": "kombucha u. smag",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "chili snaps",
+                "slug": "chilisnaps",
+                "link": "https://bornholmspirits.com/products/1-chili-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "the-golden-age",
+        "teaser": "Forfriskende og ligetil. Her kan alle være med",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weeknd"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "The Golden Age",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilihonningsnaps",
+            "link": "https://bornholmspirits.com/products/8-chili-honning-snaps",
+            "type": "snaps",
+            "title": "chili honning snaps",
+            "id": "17"
+        },
+        "slug": "the-golden-age",
+        "recipe": {
+            "recipe1": "Fyld et glas med is. ",
+            "recipe2": "Tilføj limejuice og honningsirup.",
+            "recipe3": "Slå mynten mellem hænderne og tilføj til cocktailen.",
+            "recipe4": "Pynt med appelsinskræl og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En forfriskende helårscocktail. Den forfriskende lime, den stærke chili og den søde honning gør, at denne cocktail passer til alt. Om det er sommer, vinter, forår eller efterår, er denne cocktail det rigtige valg.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/golden-licorice-720px.webp?alt=media&token=4923013e-a6c5-4952-8353-6d6375289b56",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/golden-licorice-720px.webp?alt=media&token=4923013e-a6c5-4952-8353-6d6375289b56"
+        },
+        "ingredients": {
+            "second": {
+                "title": "honningsirup",
+                "amount": "3 cl"
+            },
+
+            "third": {
+                "title":"mynte",
+                "amount":"nok"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"appensin",
+                "amount":"1"
+            },
+
+            "first": {
+                "title": "limejuice",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "chili honning snaps",
+                "slug": "chilihonningsnaps",
+                "link": "https://bornholmspirits.com/products/8-chili-honning-snaps",
                 "amount": "5 cl"
             }
         }
     }
-    
+
+
+
 ]

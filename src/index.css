@@ -123,7 +123,7 @@ code {
   margin-bottom: 0px !important;
 }
 
-.swiper-slide {
+.featuredCards .swiper-slide {
   /* Center slide text vertically */
   display: flex;
   min-height: 480px;
@@ -140,8 +140,42 @@ code {
   width: 100%;
 }
 
-.swiper-slide:first-child {
-  margin-left: 1rem;
+.smallCards .swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  min-height: 225px;
+  max-width: 70%;
+  color: white;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: white !important;
 }
+
+.eventCards .swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  min-height: 225px;
+  max-width: 70%;
+  color: white;
+  background-color: white !important;
+}
+
+.typewriter-text {
+  /* hide the text by default */
+  overflow: hidden;
+  white-space: nowrap;
+  /* animate the appearance of the text */
+  animation: typing 3s steps(30, end);
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
+
 
 
