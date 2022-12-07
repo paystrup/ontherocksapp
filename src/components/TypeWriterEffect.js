@@ -22,9 +22,10 @@ export default function TypeWriterEffect({ words }) {
 
   return (
     <div> 
-        <h4 className="text-2xl" >Imponér <span className="text-primaryYellow underline">{currentWord} {currentWord.length === words[wordIndex].length}</span> <br />
-            med økologiske, nemme og lækre cocktails. </h4>
-
+        <h4 className="text-2xl font-light">
+            Imponér <span className="text-primaryYellow underline">{currentWord} {currentWord.length === words[wordIndex].length}</span> <br />
+            med økologiske, nemme og lækre cocktails. 
+        </h4>
     </div>
   );
 }
