@@ -1,0 +1,72 @@
+[
+    {
+        "itemID": "screw-driver",
+        "teaser": "A true orange classic. Perfect for your summer. Easy and quick, fresh and fruity.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Screw Driver",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "screw-driver",
+        "recipe": {
+            "recipe1": "Find a suitable glass. Typically served in a coupe glass.",
+            "recipe2": "Squeeze 2 oranges.",
+            "recipe3": "Add vodka to glass with ice cubes.",
+            "recipe4": "Garnish with orange.",
+            "recipe5": "Done. Simple as that. Enjoy it."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "A Screwdriver is the classic Vodka Juice that we all know and love. A Screwdriver is incredibly simple to make and can easily be enjoyed even if you are not too fond of vodka, as the juice goes away and hides the strong traces of alcohol in the drink. The drink has also been named by The International Bartenders Association as one of their official cocktails.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frugtig",
+            "id": "1",
+            "title": "fruity"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Screw_Driver_1080x.webp?alt=media&token=0eb06251-d0d1-47b9-8b6a-8ecb4d964340",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Screw_Driver_540x.webp?alt=media&token=cc419e98-ccd8-4a7c-866e-16bdd2139cdc"
+        },
+        "ingredients": {
+            "second": {
+                "title": "Icecubes",
+                "amount": "Many"
+            },
+            "third": {
+                "title": "Slice orange",
+                "amount": "1"
+            },
+            "first": {
+                "title": "Freshly pressed orangejuice",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    }
+]

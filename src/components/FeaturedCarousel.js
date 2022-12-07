@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { BookmarkIcon, ClockIcon } from "@heroicons/react/24/outline";
 // firebase imports for fetching
-import { collection, onSnapshot, orderBy, where, query } from "firebase/firestore"
+import { collection, onSnapshot, where, query } from "firebase/firestore"
 import { db } from "../firebaseConfig";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,17 +11,23 @@ import "swiper/css";
 import { Keyboard, Mousewheel, Pagination } from "swiper";
 // Import components
 import FeaturedCarouselHeader from './FeaturedCarouselHeader';
+import { useTranslation } from 'react-i18next'
 
 export default function FeaturedCarousel() {
+    const { t, i18n } = useTranslation();
+
     const navigate = useNavigate();
     // state for setting our fetched articles/books 
     const [cocktails, setCocktails] = useState([]);
 
+    // fetch depending on i18n language chosen
+    const fetchLng = i18n.language;
+    
     // fetch starts here
     useEffect(() => {
     // collection from firebase
     // db is our database, articles is the name of the collection
-    const articleRef = collection(db, 'da')
+    const articleRef = collection(db, fetchLng)
 
     // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
     // filtering for featured cocktails
@@ -38,7 +44,7 @@ export default function FeaturedCarousel() {
         setCocktails(data);
         console.log(data);
     });
-    }, []);
+    }, [fetchLng, t]);
   return (
     <section className='my-14'>
         <FeaturedCarouselHeader />
@@ -101,9 +107,6 @@ export default function FeaturedCarousel() {
                             </div>
                         </SwiperSlide>
                     ))}
-                    
-                
-
             </Swiper>
 
 

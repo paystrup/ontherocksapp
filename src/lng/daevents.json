@@ -1,0 +1,125 @@
+[
+    {
+        "id": "nytårsaften",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/image%2079%20(1).png?alt=media&token=a9f958f4-3743-4d35-b987-3913913972aa",
+        "slug": "nytårsaften",
+        "category": "events",
+        "title": "Nytårsaften",
+        "subcategory": "guides",
+        "subcategory-title": "Tips og guides",
+        "body": "Nytårsaften er årets fest. og derfor har vi selvfølgelig fundet de helt perfekte drinks til jeres aften.",
+        "slider1": {
+            "title": "Til velkomsten",
+            "body": "Dine gæster kommer som regel på tom mave. Vælg en lættere drink, så i ikke bliver for fulde før i sætter jer til bords.",
+            "slidedata": {
+                "slug1": "vodka-martini",
+                "slug2": "nordic-pamola",
+                "slug3": "no3-tonic"
+            }
+        },
+        "slider2": {
+            "title": "Til maden",
+            "body": "Det her er til dem som ikke drikker vin, eller som blot vil have en god sidevogn til maden.",
+            "slidedata": {
+                "slug1": "spicy-magarita",
+                "slug2": "dannebrog",
+                "slug3": "no3-tonic"
+            }
+        },
+        "slider3": {
+            "title": "Til festen",
+            "body": "Nu er festen for alvor skudt i gang, og her er den perfekte liste over drinks som alle kan lide. ",
+            "slidedata": {
+                "slug1": "nordic-passion",
+                "slug2": "nordic-pamola",
+                "slug3": "no3-tonic"
+            }
+        },
+        "relatedEvents": {
+            "slug1": "juleaften",
+            "slug2": "julefrokost"
+        }
+    },
+    {
+        "id": "juleaften",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-hert-niks-3388335-_1_.webp?alt=media&token=91562e34-fef1-4320-8219-c9f894ad5ec9",
+        "slug": "juleaften",
+        "category": "events",
+        "title": "Juleaften",
+        "subcategory": "guides",
+        "subcategory-title": "Tips og guides",
+        "body": "En aften, der for alvor handler om hyggen, familien og sammenhold - hvorfor ikke nyde det med en lækker cocktail? Om du sidder i sofaen og venter på fællessangen er ovre eller tager en svingom omkring træet, så har vi nedenfor samlet de bedste drinks til din aften.",
+        "slider1": {
+            "title": "Til hyggen",
+            "body": "I er spændte, gaver og masser af mad venter forude. Der skal hygges om det, og disse cocktails er lige hvad du har brug for.",
+            "slidedata": {
+                "slug1": "stormy-bornholmer",
+                "slug2": "kiev-mule",
+                "slug3": "havtorn-gogt"
+            }
+        },
+        "slider2": {
+            "title": "Til julemiddagen",
+            "body": "Masser af sovs og kærlighed - eller hvad end du er til. Her passer kraftige, krydrede cocktails med snaps perfekt til de mange smagsindtryk.",
+            "slidedata": {
+                "slug1": "frost-akva-sour",
+                "slug2": "nordic-negroni",
+                "slug3": "dannebrog"
+            }
+        },
+        "slider3": {
+            "title": "Til risalamanden",
+            "body": "Fællessangen er ovre, pakkerne er åbnet og nu skal du for alvor hygge. Her er et par søde bud, der komplementerer risalamanden fantastisk godt.",
+            "slidedata": {
+                "slug1": "blooming-fig",
+                "slug2": "white-russian",
+                "slug3": "kongen-af-danmark"
+            }
+        },
+        "relatedEvents": {
+            "slug1": "nytårsaften",
+            "slug2": "julefrokost"
+        }
+    },
+    {
+        "id": "julefrokost",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-nicole-michalou-6062038-_1_.webp?alt=media&token=e8a53f67-4338-42bd-acd6-9529c389da94",
+        "slug": "julefrokost",
+        "category": "events",
+        "title": "Julefrokost",
+        "subcategory": "guides",
+        "subcategory-title": "Tips og guides",
+        "body": "Julefrokoster er den tid på året, hvor venner og familie samles. Vi har derfor samlet de bedste drinks til din julefrokost",
+        "slider1": {
+            "title": "Til silden",
+            "body": "Dine gæster er ankommet med det gode humør, silden er sat på bordet og lige netop de her drinks er perfekte til det.",
+            "slidedata": {
+                "slug1": "the-golden-age",
+                "slug2": "red-pearl",
+                "slug3": "st-germain-foam"
+            }
+        },
+        "slider2": {
+            "title": "Til pakkelegen",
+            "body": "Nu skal der stjæles pakker, og til det skal der selvfølgelig bruges nogle drinks til at holde tempoet oppe.",
+            "slidedata": {
+                "slug1": "spicy-magarita",
+                "slug2": "kiev-mule",
+                "slug3": "no3-tonic"
+            }
+        },
+        "slider3": {
+            "title": "Når du har fået lidt for meget",
+            "body": "Festen er i fuld sving, og du har brug for en opkvikkende drink, så her har vi samlet de perfekte drinks",
+            "slidedata": {
+                "slug1": "white-russian",
+                "slug2": "stormy-bornholmer",
+                "slug3": "espresso-martini"
+            }
+        },
+        "relatedEvents": {
+            "slug1": "juleaften",
+            "slug2": "nytår"
+        }
+    } 
+]

@@ -5,8 +5,13 @@ import { useParams } from "react-router-dom";
 import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 import { BookmarkIcon, ClockIcon, PaperAirplaneIcon } from "@heroicons/react/24/outline";
+import { useTranslation } from 'react-i18next'
 
 export default function CocktailPage() {
+    const { t, i18n } = useTranslation();
+    // fetch depending on i18n language chosen
+    const fetchLng = i18n.language;
+    
     const [article, setArticle] = useState([]);
     const params = useParams();
     console.log(params); //Returns the slug-name of the url you're navigated to
@@ -19,11 +24,11 @@ export default function CocktailPage() {
 
     // articles = our fireStore collection, id = the query
     useEffect(() => {
-        const docRef = doc(db, 'da', id);
+        const docRef = doc(db, fetchLng, id);
         onSnapshot(docRef, (snapshot) => {
             setArticle({ ...snapshot.data(), id: snapshot.id });
         });
-    }, [id]);
+    }, [id, fetchLng, t]);
 
   return (
     <div className='text-primaryWhite mt-16 mb-32'>
