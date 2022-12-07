@@ -870,7 +870,7 @@
             "slug": "bryllup",
             "title": "bryllup"
         },
-        "time": "4",
+        "time": "5",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -1032,7 +1032,7 @@
             "slug": "sommer",
             "title": "sommer"
         },
-        "time": "4",
+        "time": "10",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -1112,7 +1112,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "4",
+        "time": "3",
         "theme": {
             "slug": "afslapning",
             "title": "afslapning",
@@ -1189,7 +1189,7 @@
             "slug": "nytår",
             "title": "nytår"
         },
-        "time": "4",
+        "time": "2",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -1402,7 +1402,7 @@
             "slug": "jul",
             "title": "jul"
         },
-        "time": "4",
+        "time": "10",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -1477,7 +1477,7 @@
             "slug": "jul",
             "title": "jul"
         },
-        "time": "4",
+        "time": "6",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -1560,7 +1560,7 @@
             "slug": "sommer",
             "title": "sommer"
         },
-        "time": "4",
+        "time": "5",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -1643,7 +1643,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "4",
+        "time": "2",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -1713,7 +1713,7 @@
             "slug": "nytår",
             "title": "nytår"
         },
-        "time": "4",
+        "time": "6",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -1795,7 +1795,7 @@
             "slug": "jul",
             "title": "jul"
         },
-        "time": "4",
+        "time": "3",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -1865,7 +1865,7 @@
             "slug": "jul",
             "title": "jul"
         },
-        "time": "4",
+        "time": "8",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -1944,7 +1944,7 @@
             "slug": "jul",
             "title": "jul"
         },
-        "time": "4",
+        "time": "3",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -2015,7 +2015,7 @@
             "slug": "påske",
             "title": "påske"
         },
-        "time": "4",
+        "time": "8",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -2322,7 +2322,7 @@
             "slug": "bryllup",
             "title": "bryllup"
         },
-        "time": "4",
+        "time": "5",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -2392,7 +2392,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "4",
+        "time": "6",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -2539,7 +2539,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "4",
+        "time": "5",
         "theme": {
             "slug": "fest",
             "title": "fest",
@@ -2613,7 +2613,7 @@
             "slug": "sommer",
             "title": "sommer"
         },
-        "time": "4",
+        "time": "3",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -2686,7 +2686,7 @@
             "slug": "weekend",
             "title": "weekend"
         },
-        "time": "4",
+        "time": "6",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -2760,7 +2760,7 @@
             "slug": "jul",
             "title": "jul"
         },
-        "time": "4",
+        "time": "3",
         "theme": {
             "slug": "hygge",
             "title": "hygge",
@@ -2834,7 +2834,7 @@
             "slug": "weekend",
             "title": "weeknd"
         },
-        "time": "4",
+        "time": "6",
         "theme": {
             "slug": "hygge",
             "title": "hygge",

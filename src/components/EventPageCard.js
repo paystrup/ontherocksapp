@@ -16,7 +16,7 @@ export default function EventPageCard({ slug }) {
 
     // fetch depending on i18n language chosen
     const fetchLng = i18n.language;
-    const fetchSlug = slug;
+
     // fetch starts here
     useEffect(() => {
     // collection from firebase
@@ -38,16 +38,23 @@ export default function EventPageCard({ slug }) {
         setCardData(data);
         console.log(data);
     });
-    }, [slug, fetchLng]);
+    }, []);
     
   return (
-    <section className='text-primaryBlack' style={{
-                  backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${cardData[0]?.image?.srcMin})`,
-                  backgroundPosition: "top",
-                  backgroundSize: "cover",
-                  backgroundRepeat: "no-repeat"
-              }}>
-        <h3 className='text-xl font-regular  '>{cardData[0]?.title}</h3>
-    </section>
+    <>
+
+        {cardData.map(({title }) =>
+            <section className='text-primaryBlack w-full' 
+                        style={{
+                            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${cardData?.image?.srcMin})`,
+                            backgroundPosition: "top",
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat"
+                        }}>
+                <h3 className='text-xl font-regular '>{title}</h3>
+            </section>
+        )}
+
+    </>
   )
 }
