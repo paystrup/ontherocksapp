@@ -18,7 +18,7 @@ export default function ProfilePage() {
   if (user)
   return (
     <section className='mt-20 px-6'>
-      <div className='flex flex-col items-center justify-center mb-4 gap-2'>
+      <div className='flex flex-col items-center justify-center mb-7 gap-2'>
         <img
             className="imageProfile rounded-full"
             src={auth.currentUser.photoURL}
@@ -35,7 +35,7 @@ export default function ProfilePage() {
 
       <div className='flex justify-between text-sm uppercase'>
         <div className='flex flex-col justify-center items-center gap-2'>
-          <p className='font-medium'>{t("profilepage.saved")}</p>
+          <p className='font-medium text-primaryGray-500'>{t("profilepage.saved")}</p>
 
           <div className='text-center'>
             <p className='text-4xl'>0</p>
@@ -44,7 +44,7 @@ export default function ProfilePage() {
         </div>
 
         <div className='flex flex-col justify-center items-center gap-2'>
-          <p className='font-medium'>{t("profilepage.tasteprofile")}</p>
+          <p className='font-medium text-primaryGray-500'>{t("profilepage.tasteprofile")}</p>
 
           <div className='text-center'>
             <p className='text-4xl'>0</p>
@@ -53,7 +53,7 @@ export default function ProfilePage() {
         </div>
 
         <div className='flex flex-col justify-center items-center gap-2'>
-          <p className='font-medium'>{t("profilepage.createdAt")}</p>
+          <p className='font-medium text-xs text-primaryGray-500'>{t("profilepage.createdAt")}</p>
 
           <div className='text-center'>
             <p className='text-4xl'>0</p>

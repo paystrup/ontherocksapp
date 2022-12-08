@@ -67,7 +67,7 @@ export default function LikeCocktail({ id, likes }) {
   return (
     <div className="bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
       <BookmarkIcon
-        className="h-8 w-8 text-primaryYellow shadow-2xl"
+        className="h-7 w-7 text-primaryYellow shadow-2xl"
         style={{
           cursor: "pointer",
           fill: likes?.includes(user.uid) ? "#FFE598" : null,

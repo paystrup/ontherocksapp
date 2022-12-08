@@ -22,7 +22,9 @@
     "searchpage": {
         "title": "Find the right cocktail",
         "body": "Search or filter to find the perfect recipe for the perfect moment. See below.",
-        "searchPlaceholder": "Find recipes"
+        "searchPlaceholder": "Find recipes",
+        "list": "List",
+        "filter": "Filter"
     },
     "likespage": {
         "title": "Your liked recipes"

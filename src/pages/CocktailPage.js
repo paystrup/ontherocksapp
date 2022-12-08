@@ -7,6 +7,7 @@ import { db } from "../firebaseConfig";
 import { BookmarkIcon, ClockIcon, PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { useTranslation } from 'react-i18next';
 import TypeWriterEffect from '../components/TypeWriterEffect';
+import ArticlesFeatured from '../components/ArticlesFeatured'
 
 export default function CocktailPage() {
     const { t, i18n } = useTranslation();
@@ -191,7 +192,7 @@ export default function CocktailPage() {
           </div>
 
           <div className='mt-10'>
-            <button className="text-primaryYellow border-[1px] w-full py-2 rounded-xl">
+            <button className="text-primaryYellow border-[1px] w-full py-3 rounded-xl">
             {t("cocktailPage.addflavorBtn")}
             </button>
           </div>
@@ -209,8 +210,8 @@ export default function CocktailPage() {
           <div className='mt-14'>
             <TypeWriterEffect words={['din kæreste', 'din hund', 'din håndværker', 'dit postbud', 'din ven', 'din morfar','din kollega']} />
           </div>
-
         </div>
+        <ArticlesFeatured />
     </div>
   )
 }

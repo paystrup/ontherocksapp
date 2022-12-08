@@ -1,13 +1,44 @@
+// Inspiration from https://youtu.be/_7gdsAfFV9o 
 import React from 'react'
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { doc, onSnapshot } from "firebase/firestore";
+import { db } from "../firebaseConfig";
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
-
+import { useTranslation } from 'react-i18next'
+import EventPageCard from '../components/EventPageCard';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Keyboard, Mousewheel, Pagination } from "swiper";
+import { useNavigate } from "react-router-dom";
+// Import Swiper styles + modules
+import "swiper/css";
 
 export default function ArticlesPage() {
+    const navigate = useNavigate();
+    const { t, i18n } = useTranslation();
+    // fetch depending on i18n language chosen
+    const fetchLng = i18n.language;
+    
     const [article, setArticle] = useState([]);
+    const params = useParams();
+    console.log(params); //Returns the slug-name of the url you're navigated to
+    const id = params.id; // and the ID
+
+    // Fetch book data based on the id from the slug
+    // This way we don't have to loop through the array
+    // We can fetch directly from the ID in fireStore with queries
+    // Dependency array listens for a new ID and rerenders
+
+    // articles = our fireStore collection, id = the query
+    useEffect(() => {
+        const docRef = doc(db, "articles", "featured", fetchLng, id);
+        onSnapshot(docRef, (snapshot) => {
+            setArticle({ ...snapshot.data(), id: snapshot.id });
+        });
+    }, [id, fetchLng, t]);
 
   return (
-    <div  className='text-primaryWhite mt-16 mb-32'>
+    <div className='text-primaryWhite mt-16 mb-32'>
         <div 
           className='h-96 rounded-b-[30px] flex items-end'
           style={{
@@ -17,6 +48,7 @@ export default function ArticlesPage() {
                   backgroundRepeat: "no-repeat"
               }}
         >
+
         </div>
         <div className='mt-14 px-5'>
           <div className='flex justify-between'>
@@ -30,7 +62,42 @@ export default function ArticlesPage() {
               </div>
             </div>
           </div>
+
+          <div className='mt-4'>
+            <h2 className='text-3xl font-displayBook'>{article?.section1?.title}</h2>
+            <p className='text-md mt-4 font-thin text-primaryGray-500'>{article?.section1?.body}</p>
           </div>
-    </div>
+
+
+          <div className='section2 my-7'>
+            <h3 className='text-xl font-medium mb-2'>{article?.section2?.title}</h3>
+            <p className='text-md font-thin text-primaryGray-500'>{article?.section2?.body}</p>
+            <h1>Billeder fra slugs</h1>
+          </div>
+
+          <div className='section3 my-7'>
+            <h3 className='text-xl font-medium mb-2'>{article?.section3?.title}</h3>
+            <p className='text-md font-thin text-primaryGray-500'>{article?.section3?.body}</p>
+            <h1>Billeder fra slugs</h1>
+          </div>
+
+          <div className='section4 my-7'>
+            <h3 className='text-xl font-medium mb-2'>{article?.section4?.title}</h3>
+            <p className='text-md font-thin text-primaryGray-500'>{article?.section4?.body}</p>
+            <h1>Billeder fra slugs</h1>
+          </div>
+
+          <div className='section4 my-7'>
+            <h3 className='text-xl font-medium mb-2'>{article?.section5?.title}</h3>
+            <p className='text-md font-thin text-primaryGray-500'>{article?.section5?.body}</p>
+            <h1>Billeder fra slugs</h1>
+          </div>
+              
+
+            </div>
+          </div>
+
+
+
   )
 }

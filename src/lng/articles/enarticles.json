@@ -10,7 +10,7 @@
         "section1": {
             "title": "Products of Bornholm",
             "body": "Bornholm Spirits produces unique and tasty products such as snaps, vodka, and other spirits with love, curiosity, and dedication. We take pride in the positive and love to stimulate and inspire others."
-            },
+        },
         "section2": {
             "title": "Kærlighed og Dedikation",
             "body": "Snaps and other spirits are produced with love, curiosity, and dedication using good ingredients and super-soft, crystal-clear Bornholm water that has been stored in mineral-rich cliff ground for billions of years, giving the spirits an even more balanced taste.",
@@ -18,7 +18,7 @@
                 "alt": "test",
                 "src":"https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Snaps_1_1080x.webp?alt=media&token=365fa09d-019d-48ea-90cd-e619f1498d49"
             } 
-                },
+        },
         "section3": {
             "body": "We strive to rethink the concept of snaps while maintaining proud traditions. We celebrate the diversity of the beautiful Nordic ingredients through quality spirits that are a delight for the eyes and the palate.",
             "image": {
@@ -35,19 +35,19 @@
         "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/sobczyk.webp?alt=media&token=adb925d1-ee54-4a3d-babe-70c1aee615ad",
         "slug": "sobczyk",
         "category": "artikler",
-        "title": "Casper Sobczyk's top 10 cocktails for your New Year's Eve:",
+        "title": "Casper Sobczyk's top 10 cocktails for your New Year's Eve",
         "subcategory": "guides",
         "subcategoryTitle": "inspiration",
         "section1": {
             "title": "Caspers chosen favourites for your New Year's Eve",
-            "body": "Are you at a loss for what to serve your guests on New Year's Eve? Fear not! We have sent out the sobczyk signal and received help from the talented chef Casper Sobczyk. Casper has gathered his 10 favorite cocktails when it's time to party.",
+            "body": "Are you at a loss for what to serve your guests on New Year's Eve? Fear not! We have sent out the sobczyk signal and received help from the talented chef Casper Sobczyk. Casper has gathered his 10 favorite cocktails when it's time to party."
         },
         "section2": {
             "title": "When the guests arrive...",
             "body": "When guests arrive, it is usually on an empty stomach. If you want your guests to stay awake until midnight, it is a good idea not to serve overly heavy and alcohol-heavy drinks. I have selected 2 cocktails that I think are brilliant as a welcome drink/Queen's New Year's Eve speech drink.",
             "data": {
                 "slug1": "french-75",
-                "slug2": "gin-fizz",
+                "slug2": "gin-fizz"
             }
         },
         "section3": {

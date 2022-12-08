@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import EventCarousel from '../components/EventCarousel';
 import FeaturedCarousel from '../components/FeaturedCarousel';
 import TypeWriterEffect from '../components/TypeWriterEffect'
-import ArticlesPageCard from '../components/ArticlesPageCard';
+import ArticlesFeatured from '../components/ArticlesFeatured'
 
 export default function HomePage() {
   // import copy translations from i18n
@@ -22,8 +22,7 @@ export default function HomePage() {
       <div className='px-5'>
         <TypeWriterEffect words={['din kæreste', 'din hund', 'din håndværker', 'dit postbud', 'din ven', 'din morfar','din kollega']} />
       </div>
-      <ArticlesPageCard />
-      
+      <ArticlesFeatured slug="sobczyk"/>      
       
   
     </section>

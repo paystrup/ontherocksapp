@@ -10,15 +10,15 @@
         "section1": {
             "title": "Bornholmske produkter",
             "body": "Hos Bornholm Spirits brænder vi for at skabe unikke og velsmagende produkter såsom snaps, vodka og andre former for spiritus. Vi tager udgangspunkt i det positive og elsker at stimulere og inspirere andre mennesker."
-            },
+        },
         "section2": {
             "title": "Kærlighed og Dedikation",
-            "body": "Snaps og andre spirituosa produceres med kærlighed, nysgerrighed og dedikation på baggrund af gode råvarer og superblødt,krystalklart bornholmsk vand, som har lagret på mineralholdig klippegrund i milliarder af år, hvilket er med til at give spiritussen en endnu mere afbalanceret smag.",
+            "body": "Snaps og andre spirituosa produceres med kærlighed, nysgerrighed og dedikation på baggrund af gode råvarer og superblødt, krystalklart bornholmsk vand, som har lagret på mineralholdig klippegrund i milliarder af år, hvilket er med til at give spiritussen en endnu mere afbalanceret smag.",
             "image": {
                 "alt": "test",
                 "src":"https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Snaps_1_1080x.webp?alt=media&token=365fa09d-019d-48ea-90cd-e619f1498d49"
             } 
-                },
+        },
         "section3": {
             "body": "Vi stræber efter at gentænke begrebet snaps, samtidig med at de stolte traditioner holdes i hævd. Vi hylder mangfoldigheden i de skønne nordiske ingredienser gennem kvalitetsspiritus, som er en fryd for øjet såvel som for ganen.",
             "image": {
@@ -27,7 +27,7 @@
             }
         },
         "section4": {
-            "body": "Bornholm Spirits præsenterer en perlerække af økologiske og premiumprodukter – med ønsket om at udbrede kendskabet til den fineste bornholmske spiritus af bedste kvalitet. #celebratinglife Vi har en stor passion for cocktails og snapse og akvavitcocktails. Du finder en masse inspiration i vores app."
+            "body": "Bornholm Spirits præsenterer en perlerække af økologiske og premiumprodukter, med ønsket om at udbrede kendskabet til den fineste bornholmske spiritus af bedste kvalitet. #celebratinglife Vi har en stor passion for cocktails og snapse og akvavitcocktails. Du finder en masse inspiration i vores app."
         }
     },
     {
@@ -40,14 +40,14 @@
         "subcategoryTitle": "inspiration",
         "section1": {
             "title": "Caspers udvalgte favoritter til din nytårsaften",
-            "body": "Er du på bar bund i forhold til hvad du skal servere for dine gæster nytårsaften? Frygt ej! Vi har sendt sobczyk-signalet ud og fået hjælp af den dygtige kok Casper Sobczyk. Casper har nemlig samlet hans 10 cocktail-favoritter når der skal knald på. ",
+            "body": "Er du på bar bund i forhold til hvad du skal servere for dine gæster nytårsaften? Frygt ej! Vi har sendt sobczyk-signalet ud og fået hjælp af den dygtige kok Casper Sobczyk. Casper har nemlig samlet hans 10 cocktail-favoritter når der skal knald på."
         },
         "section2": {
             "title": "Når gæsterne kommer...",
             "body": "Når gæsterne kommer er det som regel på tom mave. Hvis du gerne vil have at gæsterne skal holde sig vågne til kl 12.00 er det en god ide ikke at servere alt for tunge og alkoholfyldte drinks. Jeg har udvalgt 2 cocktails, jeg selv synes er geniale som velkomstdrink/dronningens nytårstale-drink.",
             "data": {
                 "slug1": "french-75",
-                "slug2": "gin-fizz",
+                "slug2": "gin-fizz"
             }
         },
         "section3": {
