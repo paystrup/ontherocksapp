@@ -20,12 +20,35 @@
         }
     },
     "searchpage": {
-        "title": "Søg efter cocktails"
+        "title": "Find den rigtige cocktail",
+        "body": "Søg eller filtrér efter og find den helt rigtige opskrift til det helt rigtige tidspunkt. Se nedenfor.",
+        "searchPlaceholder": "Find opskrifter"
     },
     "likespage": {
         "title": "Dine favorit opskrifter"
     },
     "profilepage": {
-        "title": "Din profil"
+        "title": "Din profil",
+        "saved": "Gemt",
+        "savedBottom": "Opskrifter",
+        "tasteprofile": "Smagsprofil",
+        "tasteprofileBottom": "Cocktails",
+        "createdAt": "Oprettet",
+        "createdAtBottom": "Signup dato",
+        "tasteProfileTitle": "Din smagsprofil",
+        "latestAdded": "Seneste tilføjelser",
+        "latestAddedBtn": "Se alle",
+        "yourCollections": "Dine kollektioner",
+        "yourCollectionsBtn": "Se alle"
+    },
+    "signin": {
+        "signInButtonGoogle": "Fortsæt med Google",
+        "signInButtonFacebook": "Fortsæt med Facebook"
+    },
+    "cocktailPage": {
+        "recipeTitle": "Fremgangsmåde",
+        "carouselTitle": "Du vil sikkert kunne lide",
+        "carouselTitle2": "Flere med",
+        "addflavorBtn": "Føj til smagsprofil"
     }
 }

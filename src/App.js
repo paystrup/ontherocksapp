@@ -11,6 +11,9 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import CocktailPage from './pages/CocktailPage';
 import EventPage from './pages/EventPage';
 import SplashPage from './pages/SplashPage'
+import LoginPage from './pages/LoginPage';
+import ArticlesPage from './pages/ArticlesPage';
+
 function App() {
   return (
     <div className="App">
@@ -21,8 +24,10 @@ function App() {
             <Route path="/search" element={<SearchPage />} />
             <Route path="/likes" element={<LikesPage />} />
             <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/login" element={<LoginPage />} />
             <Route path="/recipe/:id" element={<CocktailPage />} exact={true} />
             <Route path="/events/:id" element={<EventPage />} exact={true} />
+            <Route path="/articles/:id" element={<ArticlesPage />} exact={true}/>            
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/splash" element={<SplashPage/>}/>
         </Routes>

@@ -5,7 +5,8 @@ import { useParams } from "react-router-dom";
 import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 import { BookmarkIcon, ClockIcon, PaperAirplaneIcon } from "@heroicons/react/24/outline";
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next';
+import TypeWriterEffect from '../components/TypeWriterEffect';
 
 export default function CocktailPage() {
     const { t, i18n } = useTranslation();
@@ -84,16 +85,131 @@ export default function CocktailPage() {
                 </div>
               }
 
+              {article?.ingredients?.second &&
+                <div className='flex justify-between'>
+                  <p>{article?.ingredients?.second?.amount}</p>
+                  <p className='uppercase w-5/6'>{article?.ingredients?.second?.title}</p>
+                </div>
+              }
+
+              {article?.ingredients?.third &&
+                <div className='flex justify-between'>
+                  <p>{article?.ingredients?.third?.amount}</p>
+                  <p className='uppercase w-5/6'>{article?.ingredients?.third?.title}</p>
+                </div>
+              }
+
+              {article?.ingredients?.fourth &&
+                <div className='flex justify-between'>
+                  <p>{article?.ingredients?.fourth?.amount}</p>
+                  <p className='uppercase w-5/6'>{article?.ingredients?.fourth?.title}</p>
+                </div>
+              }
+
+              {article?.ingredients?.fifth &&
+                <div className='flex justify-between'>
+                  <p>{article?.ingredients?.fifth?.amount}</p>
+                  <p className='uppercase w-5/6'>{article?.ingredients?.fifth?.title}</p>
+                </div>
+              }
+
+              {article?.ingredients?.sixth &&
+                <div className='flex justify-between'>
+                  <p>{article?.ingredients?.sixth?.amount}</p>
+                  <p className='uppercase w-5/6'>{article?.ingredients?.sixth?.title}</p>
+                </div>
+              }
+
+              {article?.ingredients?.seventh &&
+                <div className='flex justify-between'>
+                  <p>{article?.ingredients?.seventh?.amount}</p>
+                  <p className='uppercase w-5/6'>{article?.ingredients?.seventh?.title}</p>
+                </div>
+              }
+              
+            </div>
+       
+            <h2 className='mt-10 text-3xl font-displayBook'>
+              {t("cocktailPage.recipeTitle")}
+            </h2>
+
+            <div className='mt-6 text-md flex flex-col gap-3'>
+              {article?.recipe?.recipe1 &&
+                <div className='flex justify-between'>
+                  <div className=' flex items-center justify-center border-[1px] rounded-full p-1 h-7 w-7'>
+                    <p>1</p>
+                  </div>
+                  <p className='w-5/6'>{article?.recipe?.recipe1}</p>
+                </div>
+              }
+
+              {article?.recipe?.recipe2 &&
               <div className='flex justify-between'>
-                <p>{article?.ingredients?.second?.amount}</p>
-                <p className='uppercase w-5/6'>{article?.ingredients?.second?.title}</p>
+                <div className=' flex items-center justify-center border-[1px] rounded-full p-1 h-7 w-7'>
+                  <p>2</p>
+                </div>
+                <p className='w-5/6'>{article?.recipe?.recipe2}</p>
               </div>
+              }
+              
+              {article?.recipe?.recipe3 &&
               <div className='flex justify-between'>
-                <p>{article?.ingredients?.third?.amount}</p>
-                <p className='uppercase w-5/6'>{article?.ingredients?.third?.title}</p>
+                <div className=' flex items-center justify-center border-[1px] rounded-full p-1 h-7 w-7'>
+                  <p>3</p>
+                </div>
+                <p className='w-5/6'>{article?.recipe?.recipe3}</p>
               </div>
+              }
+
+              {article?.recipe?.recipe4 &&
+              <div className='flex justify-between'>
+                <div className=' flex items-center justify-center border-[1px] rounded-full p-1 h-7 w-7'>
+                  <p>4</p>
+                </div>
+                <p className='w-5/6'>{article?.recipe?.recipe4}</p>
+              </div>
+              }
+
+              {article?.recipe?.recipe5 &&
+              <div className='flex justify-between'>
+                <div className=' flex items-center justify-center border-[1px] rounded-full p-1 h-7 w-7'>
+                  <p>5</p>
+                </div>
+                <p className='w-5/6'>{article?.recipe?.recipe5}</p>
+              </div>
+              }
+
+              {article?.recipe?.recipe6 &&
+              <div className='flex justify-between'>
+                <div className=' flex items-center justify-center border-[1px] rounded-full p-1 h-7 w-7'>
+                  <p>6</p>
+                </div>
+                <p className='w-5/6'>{article?.recipe?.recipe6}</p>
+              </div>
+              }
             </div>
           </div>
+
+          <div className='mt-10'>
+            <button className="text-primaryYellow border-[1px] w-full py-2 rounded-xl">
+            {t("cocktailPage.addflavorBtn")}
+            </button>
+          </div>
+
+          <div className='mt-10'>
+            <h3 className="text-xl font-medium">{t("cocktailPage.carouselTitle")}</h3>
+            <p>Carousel her</p>
+          </div>
+
+          <div className='mt-10'>
+            <h3 className="text-xl font-medium">{t("cocktailPage.carouselTitle2")} {article?.liqour?.type}</h3>
+            <p>Carousel her</p>
+          </div>
+
+          <div className='mt-14'>
+            <TypeWriterEffect words={['din kæreste', 'din hund', 'din håndværker', 'dit postbud', 'din ven', 'din morfar','din kollega']} />
+          </div>
+
         </div>
     </div>
   )

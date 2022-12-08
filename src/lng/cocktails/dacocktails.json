@@ -885,7 +885,7 @@
             "title": "cask gin",
             "id": "9"
         },
-        "slug": "havtorn-gogt",
+        "slug": "champagne-fizz",
         "recipe": {
             "recipe1": "Hæld sukker, citronsaft, gin og æggehvider i en shaker med masser af is. ",
             "recipe2": "Shake grundigt.",
@@ -968,7 +968,7 @@
             "title": "cask gin",
             "id": "9"
         },
-        "slug": "havtorn-gogt",
+        "slug": "gin-mojito",
         "recipe": {
             "recipe1": "Fyld et coupe glas med masser af is. ",
             "recipe2": "Slå myntebladene et par gange mellem hænderne.",
@@ -1728,7 +1728,7 @@
             "title": "chili snaps",
             "id": "13"
         },
-        "slug": "spice-magarita",
+        "slug": "spicy-magarita",
         "recipe": {
             "recipe1": "Fyld en shaker med isterninger. ",
             "recipe2": "Tilføj alle ingredienser.",
@@ -2554,7 +2554,7 @@
             "title": "blåbær citron snaps",
             "id": "14"
         },
-        "slug": "licorice-fire",
+        "slug": "red-copenhagen",
         "recipe": {
             "recipe1": "Fyld et lowball glas med is. ",
             "recipe2": "Tilføj snaps og Vermouth.",
@@ -2904,8 +2904,1120 @@
                 "amount": "5 cl"
             }
         }
+    },
+    {
+        "itemID": "the-ukrainian-dane",
+        "teaser": "En cremet sag. EN lækker sag.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weeknd"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "The Ukrainian Dane",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "the-ukrainian-dane",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj alle ingredienser til shakeren.",
+            "recipe3": "Shake grundigt i min. 10 sek.",
+            "recipe4": "Strain over et martiniglas.",
+            "recipe5": "Pynt med kaffechokolade og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Byt aftenkaffen ud med denne lækre, cremede kaffecocktail. Vi garantere at den vil holde dig ligeså varm. Nyd den i godt selskab eller når du skal forkæle dig selv lidt ekstra.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/therussiandane.webp?alt=media&token=81be4997-ec7b-498a-ac39-5009820fe827",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/therussiandane.webp?alt=media&token=81be4997-ec7b-498a-ac39-5009820fe827"
+        },
+        "ingredients": {
+            "second": {
+                "title": "drambuie likør",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"fløde",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"kaffechokolade",
+                "amount":"1"
+            },
+
+            "first": {
+                "title": "kaffesirup",
+                "amount": "1.5 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "vodka-spritz",
+        "teaser": "En forfriskende spritz, med lidt ekstra spark i.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weeknd"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Vodka Spritz",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "vodka-spritz",
+        "recipe": {
+            "recipe1": "Fyld et glas med is.",
+            "recipe2": "Tilføj Vodka, Aperol og limejuice.",
+            "recipe3": "Top op med Ginger Beer.",
+            "recipe4": "Pynt med en dehydreret appelsen og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Du kan altid være sikker på at sætte gang i festen når du servere denne cocktail. Vodka, Aperol og Gingerbeer udgør tilsammen en fænomenal kombintation, hvor hverken sødmen eller den stærke ingefær for lov at tage over, men spiller sammen i en skøn symfoni.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vodkaspritz.webp?alt=media&token=26dbe8fe-3f5f-436b-89b2-724dcfb244aa",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vodkaspritz.webp?alt=media&token=26dbe8fe-3f5f-436b-89b2-724dcfb244aa"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime juice",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"ginger beer",
+                "amount":"10 cl"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"appelsin",
+                "amount":"1"
+            },
+
+            "first": {
+                "title": "aperol",
+                "amount": "5 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "monte-carlo",
+        "teaser": "En skummende let cocktail.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "bryllup"
+        },
+        "time": "7",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Monte Carlo",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "monte-carlo",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj Vodka, agave, limejuice, æggehvide og bitters.",
+            "recipe3": "Shake grundigt i min. 10 sek.",
+            "recipe4": "Strain over et coupeglas.",
+            "recipe5": "Top med champagne.",
+            "recipe6": "Pynt med en timianstilk og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Denne elegante smagsfulde champagnecocktail er lige så smuk som den er smagsfuld. Cocktailen er perfekt at servere til fest såvel som afslapning. De shakede æggehvider giver cocktailen en cremet konsistens og blødt skum.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/montecarlo.webp?alt=media&token=4b154f97-1a9e-4a75-a95b-e7b7582634f5",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/montecarlo.webp?alt=media&token=4b154f97-1a9e-4a75-a95b-e7b7582634f5"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime juice",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"æggehvide",
+                "amount":"1"
+            },
+            "fourth": {
+                "title":"dråber bitters",
+                "amount":"2"
+            },
+            "fifth": {
+                "title":"brut champagne",
+                "amount":"7 cl"
+            },
+            "sixth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "seventh": {
+                "title":"stilk timian",
+                "amount":"1"
+            },
+            "first": {
+                "title": "agave",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "born-rebel",
+        "teaser": "Frugtig, frisk og sød, det er essensen af denne velsmagende cocktail.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Born Rebel",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "born-rebel",
+        "recipe": {
+            "recipe1": "Fyld glas med is. ",
+            "recipe2": "Hæld vodka, snaps og æblejuice i glasset.",
+            "recipe3": "Pres kiwien og tilsæt væsken.",
+            "recipe4": "Pynt med valnødder og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Frisk og frugtig. Denne cocktail indeholder, hvis vi selv skal sige det, en ret fantastisk kombination. Sødmen fra æblet, syren fra kiwien og den let bitre smag fra valnød = Perfektion.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bornrebel.webp?alt=media&token=6e5736a4-4ac6-4c61-a63b-6bb42d48cdf1",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bornrebel.webp?alt=media&token=6e5736a4-4ac6-4c61-a63b-6bb42d48cdf1"
+        },
+        "ingredients": {
+            "second": {
+                "title": "æblejuice",
+                "amount": "7 cl"
+            },
+
+            "third": {
+                "title":"kiwi",
+                "amount":"1/2"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"valnødder",
+                "amount":"4"
+            },
+            "first": {
+                "title": "snaps bornholm valnød",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "danish-wall",
+        "teaser": "Hvis friskhed var en cocktail, ville det være denne smagfulde Danish Wall.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Danish Wall",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "danish-wall",
+        "recipe": {
+            "recipe1": "Fyld glas med is. ",
+            "recipe2": "Tilføj vodka og snaps.",
+            "recipe3": "Top med friskpresset appelsinjuice.",
+            "recipe4": "Pynt med 1/2 appelsinskive og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Drinken der får din mund til at løbe i vand ved første øjekast. En kulmination af friskhed og sødme får du fra friskpressede appelsiner og vores legendariske Vanlijesnaps. En sommerdrink ud over det sædvanlige og et must-try for alle cocktail-elskere.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/danishwall.webp?alt=media&token=83a59a3b-db02-42fc-8880-62af35c9fbfc",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/danishwall.webp?alt=media&token=83a59a3b-db02-42fc-8880-62af35c9fbfc"
+        },
+        "ingredients": {
+            "second": {
+                "title": "friskpresset appelsin juice",
+                "amount": "12 cl"
+            },
+
+            "third": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fourth": {
+                "title":"appelsin",
+                "amount":"1"
+            },
+            "first": {
+                "title": "snaps bornholm vanilje",
+                "amount": "5 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "green-vodka",
+        "teaser": "Den er sød og den er lækker.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "10",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Green Vodka",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "green-vodka",
+        "recipe": {
+            "recipe1": "Fyld glas med is. ",
+            "recipe2": "Tilføj vodka, rørsukkerlage og lime.",
+            "recipe3": "Kværn en smule peber ud over cocktailen.",
+            "recipe4": "Pynt med basilikumblade og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Vores grønne skønhed. Nyd denne cocktail på varme sommerdage, til gode fester eller i familiens lag. Vi foreslår at du køber rigeligt ind, da vores erfaring fortæller os, at alle vil have mere end én.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/greenvodka.webp?alt=media&token=42700879-2dbb-4647-b49a-48a2a7503e80",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/greenvodka.webp?alt=media&token=42700879-2dbb-4647-b49a-48a2a7503e80"
+        },
+        "ingredients": {
+            "second": {
+                "title": "limesaft",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fourth": {
+                "title":"basilikumblade",
+                "amount":"10"
+            },
+            "fifth": {
+                "title":"sort peber",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "rørsukkerlage",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "orientail-v",
+        "teaser": "Sød og lækker. Cocktailen over alle cocktails.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "10",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Orientail V",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "orientail-v",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj vodka, chilisnaps, mango purée, sukkerlage, lime og salt.",
+            "recipe3": "Shake grundigt i min. 10 sek.",
+            "recipe4": "Strain over et glas med is.",
+            "recipe5": "Top op med Gingerbeer.",
+            "recipe6": "Pynt med koriander og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Cremet? Tjek. Stærk? Tjek. Lækker? Tjek. Denne cocktail er et hit for de fleste. Sødmen fra mangoen og det stærke fra vores fantastiske chilisnaps, udgør en ret så lækker cocktail. Nyd den til fest, til middagen eller til hyggen.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "stærk",
+            "id": "5",
+            "title": "stærk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/orientailv.webp?alt=media&token=747423ca-80b3-4b77-920b-22a7202ca522",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/orientailv.webp?alt=media&token=747423ca-80b3-4b77-920b-22a7202ca522"
+        },
+        "ingredients": {
+            "second": {
+                "title": "mangopurée",
+                "amount": "4.5 cl"
+            },
+            "third": {
+                "title":"ginger beer",
+                "amount":"5 cl"
+            },
+            "fourth": {
+                "title":"sukkerlage",
+                "amount":"2 cl"
+            },
+            "fifth": {
+                "title":"limesaft",
+                "amount":"3 cl"
+            },
+            "sixth": {
+                "title":"korianderblade",
+                "amount":"nok"
+            },
+            "seventh": {
+                "title":" kvivspids salt",
+                "amount":"1"
+            },
+            "first": {
+                "title": "snaps bornholm chili",
+                "amount": "1 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "flower-power",
+        "teaser": "Elegant, smuk og velsmagende.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "bryllup"
+        },
+        "time": "10",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Flower Power",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "flower-power",
+        "recipe": {
+            "recipe1": "Nedkøl et højt champagneglas. ",
+            "recipe2": "Tilføj vodka, St. Germain og Cucumber & Lime Tonic.",
+            "recipe3": "Pynt med hyldebær og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Smuk og elegant. Mindst lige så velsmagende. Denne cocktail er simpel, men ikke desto mindre fantastisk lækker. Fordelen er, at du ikke skal stå i baren hele aftenen og du har endnu mere tid til at mingle med dine gæster.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "bitter",
+            "id": "6",
+            "title": "bitter"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/flowerpower.webp?alt=media&token=9e0de955-4e1d-444e-8c0f-29f3503f23ce",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/flowerpower.webp?alt=media&token=9e0de955-4e1d-444e-8c0f-29f3503f23ce"
+        },
+        "ingredients": {
+            "second": {
+                "title": "cucumber & lime tonic",
+                "amount": "10 cl"
+            },
+            "third": {
+                "title":"hyldebær",
+                "amount":"5"
+            },
+            "first": {
+                "title": "st. germain",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "gin-hass",
+        "teaser": "En klassiker. En sød mangococktail er aldrig en dårlig idé.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Gin Hass",
+        "type": "recipe",
+        "liqour": {
+            "slug": "caskgin",
+            "link": "https://bornholmspirits.com/products/cask-gin",
+            "type": "gin",
+            "title": "cask gin",
+            "id": "9"
+        },
+        "slug": "gin-hass",
+        "recipe": {
+            "recipe1": "Fyld et lowball glas med is. ",
+            "recipe2": "Tilføj Gin, lemonsodavand og limesaft.",
+            "recipe3": "Top med mangosirup.",
+            "recipe4": "Pynt mynte og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Cocktailen der har taget hele Danmark med storm. Coctailen blev opfundet af den geniale bartender Kim Hass og kan pifte enhver fest op. Den er nem at lave og mindst lige så velsmagende. ",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ginhass.webp?alt=media&token=8b55e10c-a74b-4c1a-971d-8cb38aa6a290",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ginhass.webp?alt=media&token=8b55e10c-a74b-4c1a-971d-8cb38aa6a290"
+        },
+        "ingredients": {
+            "second": {
+                "title": "mangosirup",
+                "amount": "2 cl"
+            },
+            "third": {
+                "title":"frisk limesaft",
+                "amount":"1 cl"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"mynteblade",
+                "amount":"3"
+            },
+            "first": {
+                "title": "lemon sodavand",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "cask gin",
+                "slug": "caskgin",
+                "link": "https://bornholmspirits.com/products/cask-gin",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "bramble",
+        "teaser": "Brombær, gin og citron. Herlighed i et cocktailglas",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Bramble",
+        "type": "recipe",
+        "liqour": {
+            "slug": "caskgin",
+            "link": "https://bornholmspirits.com/products/cask-gin",
+            "type": "gin",
+            "title": "cask gin",
+            "id": "9"
+        },
+        "slug": "bramble",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj Gin, sukkersirup, og citronsaft.",
+            "recipe3": "Shake grundigt i min. 10 sek.",
+            "recipe4": "Strain over et glas med isterninger.",
+            "recipe5": "Hæld Crème de mûre over bagsiden af en ske, så de lægger sig som et lag i cocktailen.",
+            "recipe6": "Pynt brombær og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Den perfekte balance mellem det sure og det søde. Cocktailen er den ultimative sommerdrink og bør nydes i godt selskab.  ",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bramble.webp?alt=media&token=881ea813-8e18-4841-a791-fb2b790cc188",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bramble.webp?alt=media&token=881ea813-8e18-4841-a791-fb2b790cc188"
+        },
+        "ingredients": {
+            "second": {
+                "title": "friskpresset citronsaft",
+                "amount": "3 cl"
+            },
+            "third": {
+                "title":"crème de mûre",
+                "amount":"1 cl"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"brombær",
+                "amount":"3"
+            },
+            "first": {
+                "title": "sukkersirup",
+                "amount": "1 cl"
+            },
+            "liqour": {
+                "title": "cask gin",
+                "slug": "caskgin",
+                "link": "https://bornholmspirits.com/products/cask-gin",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "clover-club",
+        "teaser": "Den lyserøde skønhed sørger altid for god stemning.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "sommer"
+        },
+        "time": "7",
+        "theme": {
+            "slug": "fest",
+            "title": "fest",
+            "id": "1"
+        },
+        "title": "Clover Club",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "clover-club",
+        "recipe": {
+            "recipe1": "Hæld Cointreau, Gin, sirup, citronsaft, æggehvide og 5 hindbær i en shaker uden is. ",
+            "recipe2": "Shake grundigt i min. 10 sek.",
+            "recipe3": "Tilsæt is til shakeren og shake igen i 10 sek.",
+            "recipe4": "Strain over et afkølet glas.",
+            "recipe5": "Pynt forsigtigt med hindbær ovenpå skummet og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Den smukke cocktail med den smukke farve vil med sikkerhed falde i god jord hos de fleste. Ikke nok med at den er fantastisk at se på, den smager endnu bedre.  ",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/cloverclub.webp?alt=media&token=2c6fecab-e0cc-45e0-8a8f-03fda1309771",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/cloverclub.webp?alt=media&token=2c6fecab-e0cc-45e0-8a8f-03fda1309771"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sukkersirup",
+                "amount": "1.5 cl"
+            },
+            "third": {
+                "title":"friskpresset citronsaft",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"æggehvide",
+                "amount":"1 cl"
+            },
+            "fifth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "sixth": {
+                "title":"hindbær",
+                "amount":"8"
+            },
+            "first": {
+                "title": "cointreau triple sec likør",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "french-75",
+        "teaser": "Elegant og boblende lækker.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "bryllup"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "velkomst",
+            "title": "velkomst",
+            "id": "5"
+        },
+        "title": "French 75",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "french-75",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj Gin, sirup og citronsaft.",
+            "recipe3": "Shake grundigt i min. 10 sek.",
+            "recipe4": "Strain over et højt champagneglas.",
+            "recipe5": "Top med BRUT Champagne",
+            "recipe6": "Pynt med en skive citron og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En elegant klassiker. Bobler, hint af citron og velvære. Denne cocktail høre hjemme ved alle lejligheder og du kan være sikre på at dine gæster vil nyde oplevelsen.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/french75.webp?alt=media&token=5e295863-c0ab-49ab-9838-ed809ef681a4",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/french75.webp?alt=media&token=5e295863-c0ab-49ab-9838-ed809ef681a4"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sukkersirup",
+                "amount": "0.5 cl"
+            },
+            "third": {
+                "title":"friskpresset citronsaft",
+                "amount":"1.5 cl"
+            },
+            "fourth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"citron",
+                "amount":"1"
+            },
+            "first": {
+                "title": "brut champagne",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "gin-fizz",
+        "teaser": "Sød, syrlig og lækker citrussmag.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Gin Fizz",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "gin-fizz",
+        "recipe": {
+            "recipe1": "Fyld en shaker med is. ",
+            "recipe2": "Tilføj Gin, sirup, citronsaft og æggehvide.",
+            "recipe3": "Shake grundigt i min. 10 sek.",
+            "recipe4": "Strain over et glas.",
+            "recipe5": "Top med danskvand",
+            "recipe6": "Pynt med en skive citron og nyd."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "En cocktail der kan nyde året rundt og på alle tider af døgnet. Den er sød og den er syrlig og er en favorit bland mange. Forkæl dig selv og dine nærmeste med en forfriskende Gin Fizz.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ginfizz.webp?alt=media&token=51370bfe-f662-4051-872b-e2f83ffc0722",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ginfizz.webp?alt=media&token=51370bfe-f662-4051-872b-e2f83ffc0722"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sukkersirup",
+                "amount": "1.5 cl"
+            },
+            "third": {
+                "title":"danskvand",
+                "amount":"4 cl"
+            },
+            "fourth": {
+                "title":"æggehvide",
+                "amount":"1"
+            },
+            "fifth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "sixth": {
+                "title":"citron",
+                "amount":"1"
+            },
+            "first": {
+                "title": "friskpresset citronsaft",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "white-lady",
+        "teaser": "En silkeblød cocktail med alle de dejlige noter af citrus.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "7",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "White Lady",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "white-lady",
+        "recipe": {
+            "recipe1": "Hæld Cointreau, Gin, sirup, citronsaft og æggehvide i en shaker uden is. ",
+            "recipe2": "Shake grundigt i min. 10 sek.",
+            "recipe3": "Fyld isterninger i shakeren og shake igen.",
+            "recipe4": "Strain over et coupeglas.",
+            "recipe5": "Pynt med citronskræl og nyd"
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Den er ikke alene god, den er også fantastisk at se på. Den er sofistekeret men ikke prætentiøs. Den er alt hvad man kan tænke sig i et cocktailglas. ",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "frisk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/whitelady.webp?alt=media&token=be980c54-ded5-4ced-ac6b-f6baa45276ec",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/whitelady.webp?alt=media&token=be980c54-ded5-4ced-ac6b-f6baa45276ec"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sukkersirup",
+                "amount": "1 cl"
+            },
+            "third": {
+                "title":"friskpresset citronsaft",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"æggehvide",
+                "amount":"1"
+            },
+            "fifth": {
+                "title":"isterninger",
+                "amount":"nok"
+            },
+            "sixth": {
+                "title":"citron",
+                "amount":"1"
+            },
+            "first": {
+                "title": "cointreau triple sec likør",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "4 cl"
+            }
+        }
     }
-
-
 
 ]

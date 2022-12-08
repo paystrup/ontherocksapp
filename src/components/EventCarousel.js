@@ -48,10 +48,12 @@ export default function EventCarousel() {
   return (
     <section className='my-14'>
         <EventCarouselHeader />
-        <div className='flex gap-3 px-5'>
+        <div className='flex gap-3'>
             <Swiper       
                 spaceBetween={20}
                 // centeredSlides={true}
+                slidesOffsetBefore={20}
+                slidesOffsetAfter={20}
                 grabCursor={true}
                 onSlideChange={() => console.log("slide change")}
                 keyboard={{

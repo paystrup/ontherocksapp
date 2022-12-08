@@ -43,10 +43,10 @@ export default function EventPageCard({ slug }) {
   return (
     <>
 
-        {cardData.map(({title }) =>
+        {cardData.map(({ title }) =>
             <section className='text-primaryBlack w-full' 
                         style={{
-                            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${cardData?.image?.srcMin})`,
+                            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${cardData?.image?.src})`,
                             backgroundPosition: "top",
                             backgroundSize: "cover",
                             backgroundRepeat: "no-repeat"

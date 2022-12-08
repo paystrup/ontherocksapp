@@ -20,12 +20,35 @@
         }
     },
     "searchpage": {
-        "title": "Search for cocktails"
+        "title": "Find the right cocktail",
+        "body": "Search or filter to find the perfect recipe for the perfect moment. See below.",
+        "searchPlaceholder": "Find recipes"
     },
     "likespage": {
         "title": "Your liked recipes"
     },
     "profilepage": {
-        "title": "Your profile"
+        "title": "Your profile",
+        "saved": "Saved",
+        "savedBottom": "Recipes",
+        "tasteprofile": "Taste profile",
+        "tasteprofileBottom": "Cocktails",
+        "createdAt": "Created",
+        "createdAtBottom": "Signup date",
+        "tasteProfileTitle": "Your tasteprofile",
+        "latestAdded": "Recently added",
+        "latestAddedBtn": "See all",
+        "yourCollections": "Your collections",
+        "yourCollectionsBtn": "See all"
+    },
+    "signin": {
+        "signInButtonGoogle": "Continue with Google",
+        "signInButtonFacebook": "Continue with Facebook"
+    },
+    "cocktailPage": {
+        "recipeTitle": "How to make",
+        "carouselTitle": "More like this cocktail",
+        "carouselTitle2": "Other recipes with",
+        "addflavorBtn": "Add to flavor profile"
     }
 }

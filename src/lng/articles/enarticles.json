@@ -1,0 +1,80 @@
+[
+    {
+        "id": "ombornholmspirits",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Bornholm_Rocks_1080x.webp?alt=media&token=e37caa04-f16d-47fb-a7b0-59b50e1c2bbb",
+        "slug": "om-bornholm-spirits",
+        "category": "artikler",
+        "title": "Snaps and other spirituosa are produced with love, curiosity and dedication.",
+        "subcategory": "information",
+        "subcategoryTitle": "bornholm spirits",
+        "section1": {
+            "title": "Products of Bornholm",
+            "body": "Bornholm Spirits produces unique and tasty products such as snaps, vodka, and other spirits with love, curiosity, and dedication. We take pride in the positive and love to stimulate and inspire others."
+            },
+        "section2": {
+            "title": "Kærlighed og Dedikation",
+            "body": "Snaps and other spirits are produced with love, curiosity, and dedication using good ingredients and super-soft, crystal-clear Bornholm water that has been stored in mineral-rich cliff ground for billions of years, giving the spirits an even more balanced taste.",
+            "image": {
+                "alt": "test",
+                "src":"https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Snaps_1_1080x.webp?alt=media&token=365fa09d-019d-48ea-90cd-e619f1498d49"
+            } 
+                },
+        "section3": {
+            "body": "We strive to rethink the concept of snaps while maintaining proud traditions. We celebrate the diversity of the beautiful Nordic ingredients through quality spirits that are a delight for the eyes and the palate.",
+            "image": {
+                "alt": "test",
+                "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ombornholmspirits_1080x.webp?alt=media&token=eb20dff8-5869-48f7-a8bd-7211a0aa93fe"
+            }
+        },
+        "section4": {
+            "body": "Bornholm Spirits presents a range of organic and premium products - with the aim of spreading awareness of the finest Bornholm spirits of the best quality. We have a great passion for cocktails and snaps and aquavit cocktails. You will find a lot of inspiration in our app."
+        }
+    },
+    {
+        "id": "sobczyk",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/sobczyk.webp?alt=media&token=adb925d1-ee54-4a3d-babe-70c1aee615ad",
+        "slug": "sobczyk",
+        "category": "artikler",
+        "title": "Casper Sobczyk's top 10 cocktails for your New Year's Eve:",
+        "subcategory": "guides",
+        "subcategoryTitle": "inspiration",
+        "section1": {
+            "title": "Caspers chosen favourites for your New Year's Eve",
+            "body": "Are you at a loss for what to serve your guests on New Year's Eve? Fear not! We have sent out the sobczyk signal and received help from the talented chef Casper Sobczyk. Casper has gathered his 10 favorite cocktails when it's time to party.",
+        },
+        "section2": {
+            "title": "When the guests arrive...",
+            "body": "When guests arrive, it is usually on an empty stomach. If you want your guests to stay awake until midnight, it is a good idea not to serve overly heavy and alcohol-heavy drinks. I have selected 2 cocktails that I think are brilliant as a welcome drink/Queen's New Year's Eve speech drink.",
+            "data": {
+                "slug1": "french-75",
+                "slug2": "gin-fizz",
+            }
+        },
+        "section3": {
+            "title": "For dinner...",
+            "body": "Not everyone is a fan of wine and sometimes a good cocktail is actually the right choice. The cocktail depends, of course, on what dishes you will serve, but here are my best bets. Take it or leave it.",
+            "data": {
+                "slug1": "diamond-snaps",
+                "slug2": "red-copenhagen",
+                "slug3": "no3-tonic"
+            }
+        },
+        "section4": {
+            "title": "At 12 o'clock...",
+            "body": "12 o'clock is sacred to many for champagne. I am also a big champagne lover, but it's always good to try something new once in a while. Here I have found a couple of cocktails that contain champagne, try them if you are tempted.",
+            "data": {
+                "slug1": "champagne-fizz",
+                "slug2": "monte-carlo",
+                "slug3": "flower-power"
+            }
+        },
+        "section5": {
+            "title": "For the rest of the evening...",
+            "body": "Now is the time to let go! Line up the ingredients, print a drink menu, and let your guests be their own bartenders! Here are my suggestions for the most festive cocktails that are almost must-haves for New Year's.",
+            "data": {
+                "slug1": "screw-driver",
+                "slug2": "kiev-mule"
+            }
+        }
+    }
+]
