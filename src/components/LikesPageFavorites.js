@@ -2,6 +2,7 @@
 // add grid layout changability
 // fix the 0 added at line 88
 // add collections + animations
+// fix redirection on no userlogin
 
 
 import { collection, onSnapshot, query } from "firebase/firestore";
