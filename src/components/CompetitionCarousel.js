@@ -30,6 +30,7 @@ export default function FeaturedCarousel() {
     // get current language selected for fetching the right collection in firestore
     const fetchLng = i18n.language;
     
+    
     // fetch starts here
     useEffect(() => {
         // collection from firebase
@@ -86,7 +87,7 @@ export default function FeaturedCarousel() {
                     initialSlide: 0,
                 }
             }}>
-                {competition.map(({id, title, sliderImages, headerImages, section4, time, taste, teaser, image, slug, liqour, likes}) => (
+                {competition.map(({id, title, sliderImages, headerImages, section4}) => (
                     <SwiperSlide
                         key={id}
                         className="bigCard w-8/12 rounded-[30px] bg-primaryBlack"
@@ -94,14 +95,14 @@ export default function FeaturedCarousel() {
 
                     <div className='flex w-full justify-end flex-col h-full rounded-[30px] px-3 pb-5'
                             style={{
-                                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${headerImages})`,
+                                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${section4?.sliderImages.src})`,
                                 backgroundPosition: "top",
                                 backgroundSize: "cover",
                                 backgroundRepeat: "no-repeat"
                             }}
-                            onClick={() => navigate("/" + id)}
-                        >                
-        
+                            onClick={() => navigate("/" )}
+                        >
+
                             <div className='px-1'>
                                 <div className='flex gap-2 mb-3 text-xs font-regular'>
                                     <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{section4?.title}</p>

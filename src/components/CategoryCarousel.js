@@ -113,7 +113,7 @@ export default function CategoryCarousel({ layout }) {
             }}>
                     <SwiperSlide className="py-1" onClick={() => {handleCategory(true); handleQuery("featured")}}>
                         <div>
-                            <h3 className='text-base text-primaryGray-700 font-thin'>Populære</h3>
+                            <h3 className='text-base text-primaryGray-700 font-thin focus:bg-primaryYellow'>Populære</h3>
                         </div> 
                     </SwiperSlide>
 
@@ -154,11 +154,21 @@ export default function CategoryCarousel({ layout }) {
                     </SwiperSlide>
             </Swiper>
         </div>
-
+        
+        {/* EMPTY STATE IF DATA IS EMPTY */}
         {events.length === 0 && (
             <div className="fadeInAnimation px-5 mt-16 font-thin text-primaryGray-500 text-center">
                 <h2 className="text-xl">Der blev ikke fundet nogle cocktails 😥</h2>
                 <p className="mt-2 text-base ">Prøv at bruge et andet filter</p>
+            </div>
+        )}
+
+        {/* IF RESULTS ARE SHOW, SHOW LENGTH 
+            🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 TODO FIX POPULAR CATEGORY
+        */}
+        {events.length > 0 && (
+            <div className="fadeInAnimation px-5 mt-7 font-thin text-primaryGray-500">
+                <h2 className="text-xl">{events.length} resultater for "{fetchCategory}"</h2>
             </div>
         )}
 

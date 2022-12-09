@@ -1,11 +1,11 @@
 import React from 'react'
 import LikesPageFavorites from '../components/LikesPageFavorites';
-import Login from '../components/Login';
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebaseConfig.js";
 import video from "../assets/video/video1.webm"
 import { useTranslation } from 'react-i18next'
 import Spinanimation from "../components/Spinanimation";
+import Login from '../components/Login';
 
 export default function LikesPage() {
     // import copy translations from i18n
