@@ -10,7 +10,7 @@ import { auth, db } from "../firebaseConfig";
 // Import Swiper React components + styles
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Keyboard, Mousewheel, Pagination } from "swiper";
+import { Keyboard, Mousewheel } from "swiper";
 
 // Import components
 import FeaturedCarouselHeader from './FeaturedCarouselHeader';
@@ -19,11 +19,13 @@ import LikeCocktail from "./LikeCocktail";
 // i18n language support
 import { useTranslation } from 'react-i18next'
 
-
 export default function FeaturedCarousel() {
     // authentication auth and db are found in the firestore config, ref to our projekt in firebase
     const [user] = useAuthState(auth);
     const { t, i18n } = useTranslation();
+
+    // Define state for the loading indicator
+    const [isLoading, setIsLoading] = useState(true);
 
     const navigate = useNavigate();
     // state for setting our fetched articles/books 
@@ -49,14 +51,34 @@ export default function FeaturedCarousel() {
             ...doc.data(),
             }));
 
-            // store data (setState) change state -> importing the array of books from the db
+            // store data (setState) change state to contain cocktail dataset
             setCocktails(data);
             console.log(data);
+            // Set isLoading to false -> hide loader anim
+            setIsLoading(false);
         });
+        
+  
     }, [fetchLng, t]);
+
+    // Show loading indicator while data is being fetched
+
   return (
     <section className='my-14'>
         <FeaturedCarouselHeader/>
+        
+        {isLoading && (
+            <div className="">
+                <div className="flex flex-col justify-center items-center h-[480px]">
+                        <svg className="animate-spin mb-8 h-10 w-10 text-primaryYellow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle className="opacity-10" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                            <path className="opacity-100" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        <h2 className="text-lg text-center text-primaryGray-900">Loading cocktails ...</h2>
+                </div>
+            </div>
+        )}
+
         <div className='flex'>
             <Swiper       
                 spaceBetween={20}
@@ -68,10 +90,7 @@ export default function FeaturedCarousel() {
                 keyboard={{
                     enabled: true,
                 }}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Keyboard, Mousewheel, Pagination]}
+                modules={[Keyboard, Mousewheel]}
                 className="mySwiper featuredCards w-full"
                 breakpoints={{
                 // when window width is >= 1px
@@ -80,50 +99,47 @@ export default function FeaturedCarousel() {
                     initialSlide: 0,
                 }
             }}>
-
-                    {cocktails.map(({id, title, time, taste, teaser, image, slug, liqour, likes}) => (
-                        <SwiperSlide
-                            key={id}
-                            className="w-8/12 rounded-[30px] bg-primaryBlack"
+                {cocktails.map(({id, title, time, taste, teaser, image, slug, liqour, likes}) => (
+                    <SwiperSlide
+                        key={id}
+                        className="bigCard w-8/12 rounded-[30px] bg-primaryBlack"
+                    >
+                        <div className='flex justify-between font-thin absolute items-start w-full px-5 py-4'>
+                            <div className='flex items-center gap-1'>
+                                <ClockIcon className='h-5'/>
+                                <p className='text-md shadow-primaryBlack'>
+                                    {time} min
+                                </p>
+                            </div>
+                            {user && <LikeCocktail id={id} likes={likes} />}
+                        </div>
+                        <div className='flex w-full justify-end flex-col h-full rounded-[30px] px-3 pb-5'
+                            style={{
+                                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
+                                backgroundPosition: "top",
+                                backgroundSize: "cover",
+                                backgroundRepeat: "no-repeat"
+                            }}
+                            onClick={() => navigate("/recipe/" + id)}
                         >
-                            <div className='flex justify-between font-thin absolute items-start w-full px-5 py-4'>
-                                <div className='flex items-center gap-1'>
-                                    <ClockIcon className='h-5'/>
-                                    <p className='text-md shadow-primaryBlack'>
-                                        {time} min
+                
+        
+                            <div className='px-1'>
+                                <div className='flex gap-2 mb-3 text-xs font-regular'>
+                                    <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{taste?.title}</p>
+                                    <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{liqour?.type}</p>
+                                </div>
+                                <div className='flex flex-col gap-2'>
+                                    <h3 className='text-2xl font-medium'>{title}</h3>
+                                    <p className='text-md font-thin text-primaryGray-500 line-clamp-2'>
+                                        {teaser}
                                     </p>
                                 </div>
-                                {user && <LikeCocktail id={id} likes={likes} />}
                             </div>
-                            <div className='flex w-full justify-end flex-col h-full rounded-[30px] px-3 pb-5'
-                                style={{
-                                    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
-                                    backgroundPosition: "top",
-                                    backgroundSize: "cover",
-                                    backgroundRepeat: "no-repeat"
-                                }}
-                                onClick={() => navigate("/recipe/" + id)}
-                            >
-                   
-           
-                                <div className='px-1'>
-                                    <div className='flex gap-2 mb-3 text-xs font-regular'>
-                                        <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{taste?.title}</p>
-                                        <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{liqour?.type}</p>
-                                    </div>
-                                    <div className='flex flex-col gap-2'>
-                                        <h3 className='text-2xl font-medium'>{title}</h3>
-                                        <p className='text-md font-thin text-primaryGray-500 line-clamp-2'>
-                                            {teaser}
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    ))}
+                        </div>
+                    </SwiperSlide>
+                ))}
             </Swiper>
-
-
         </div>
 
     </section>

@@ -27,7 +27,9 @@
         "filter": "Filter"
     },
     "likespage": {
-        "title": "Dine favorit opskrifter"
+        "title": "Dine gemte opskrifter",
+        "emptyStateTxt": "Du har ingen gemte cocktails 😥",
+        "emptyStateTxtBottom": "Udforsk appen og find den perfekte cocktail til det perfekte tidspunkt."
     },
     "profilepage": {
         "title": "Din profil",
@@ -41,11 +43,13 @@
         "latestAdded": "Seneste tilføjelser",
         "latestAddedBtn": "Se alle",
         "yourCollections": "Dine kollektioner",
-        "yourCollectionsBtn": "Se alle"
+        "yourCollectionsBtn": "Se alle",
+        "signOutBtn": "Log ud"
     },
     "signin": {
         "signInButtonGoogle": "Fortsæt med Google",
-        "signInButtonFacebook": "Fortsæt med Facebook"
+        "signInButtonFacebook": "Fortsæt med Facebook",
+        "successToastMsg": "Du er nu logget ind! 🍹"
     },
     "cocktailPage": {
         "recipeTitle": "Fremgangsmåde",

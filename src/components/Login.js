@@ -39,7 +39,7 @@ export default function Login() {
     useEffect(() => {
       if (user) {
         navigate("/profile");
-        toast("Du er nu logget ind", { type: "success" });
+        toast(t("signin.successToastMsg"), { type: "success" });
       } else {
         console.log("login");
       }

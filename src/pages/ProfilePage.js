@@ -98,7 +98,7 @@ export default function ProfilePage() {
             className="border-[1px] w-full py-2 rounded-xl"
             onClick={() => auth.signOut()}
           >
-            Log ud {user.displayName}
+            {t("profilepage.signOutBtn")} {user.displayName}
           </button>
         </div>
     </section>

@@ -5,12 +5,12 @@
         "ocassion": {
             "id": "1",
             "slug": "sommer",
-            "title": "sommer"
+            "title": "summer"
         },
         "time": "3",
         "theme": {
             "slug": "fest",
-            "title": "fest",
+            "title": "party",
             "id": "1"
         },
         "title": "Screw Driver",
@@ -60,6 +60,221 @@
             "first": {
                 "title": "Freshly pressed orangejuice",
                 "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "nordic-pamola",
+        "teaser": "Perfect for a warm summer day. Grape, refreshing and well-tasting.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Nordic Pamola",
+        "type": "recipe",
+        "liqour": {
+            "slug": "frostakvavit",
+            "link": "https://bornholmspirits.com/products/frost-klar-akvavit",
+            "type": "akvavit",
+            "title": "FROST Akvavit",
+            "id": "3"
+        },
+        "slug": "nordic-pamola",
+        "recipe": {
+            "recipe1": "Fill a highball glass with ice.",
+            "recipe2": "Pour in your Akvavit",
+            "recipe3": "Now fill it with the delicius grape soda.",
+            "recipe4": "Decorate with a sliced grape. Enjoy."
+        },
+        "relatedProducts": {
+            "1": "nordic-mojito",
+            "2": "akva-sour",
+            "3": "nordic-negroni"
+        },
+        "featured": true,
+        "body": "Nordic Pamola is our take on the classic grape drink, but with our delicious FROST aquavit instead of tequila. The drink offers both sweet and bitter flavors, including from the pink grape soda. Enjoy this cocktail all year round.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "bitter",
+            "id": "2",
+            "title": "bitter"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic-Pamola_1080x.webp?alt=media&token=fb80a767-e86e-4bc4-a7fa-f48a99382ea7",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic-Pamola_540x.webp?alt=media&token=3b376ae0-d087-4ccc-a47f-434e6b949357"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+            "third": {
+                "title": "slice of grape", 
+                "amount": "1"
+            },
+            "first": {
+                "title": "pink grape soda",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "FROST Akvavit",
+                "slug": "frost-akvavit",
+                "link": "https://bornholmspirits.com/products/frost-klar-akvavit?_pos=1&_psq=frost-a&_ss=e&_v=1.0",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "vodka-martini",
+        "teaser": "James Bond's favorite drink. A tart and refreshing drink that should be enjoyed ice cold. Shaken, not stirred.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "new years"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Vodka Martini",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "vodka-martini",
+        "recipe": {
+            "recipe1": "Find your best Martini glass, cool it in the freezer for a better experience.",
+            "recipe2": "Fill it with plenty of ice.",
+            "recipe3": "Pour the ingredients in a shaker with ice and shake it for around 10 sec.",
+            "recipe4": "Pour out the ice from the glass and strain it over the cooled glass.",
+            "recipe5": "Decorate with olives or lemon zest and enjoy."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Iconic, classic, and refreshing - with our own twist. James Bond's go-to. Shaken, not stirred. A super simple cocktail that is elegant and has a razor-sharp balance between the ingredients, where our quality vodka really shines.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Vodka_Martini_1080x.webp?alt=media&token=f4beb0c4-3bc7-40b0-815e-ac046a67bec6",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Vodka_Martini_540x.webp?alt=media&token=170da90f-c285-4b89-85b2-737ab4ac24c0"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+            "third": {
+                "title": "lemon zest or olives for decorations",
+                "amount": "2"
+            },
+            "first": {
+                "title": "dry vermouth",
+                "amount": "1 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "6 cl"
+            }
+        }
+    },
+    {
+        "itemID": "espresso-martini",
+        "teaser": "An invigorating, tart, and refreshing drink that should be enjoyed ice cold. Perfect for the coffee lover.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "7",
+        "theme": {
+            "slug": "afslapning",
+            "title": "relaxing",
+            "id": "6"
+        },
+        "title": "Espresso Martini",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "espresso-martini",
+        "recipe": {
+            "recipe1": "Find your martini glass.",
+            "recipe2": "Fill the shaker with vodka and coffee liqueur. Add cold espresso.",
+            "recipe3": "Fill the shaker with ice and shake well",
+            "recipe4": "Serve the drink in a chilled glass.",
+            "recipe5": "Gently place the coffee beans on the foam."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "For the coffee-loving cocktail enthusiast. A full-bodied drink, full of flavor and with silky foam on top. You rarely go wrong when serving espresso martini.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Espresso_Martini_1080x.webp?alt=media&token=dd9298d7-504a-47d3-b449-f49e9d5d43f1",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Espresso_Martini_540x.webp?alt=media&token=4f332581-a30e-48e9-9083-6e04618857f3"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+            "third": {
+                "title": "cold espresso",
+                "amount": "5 cl"
+            },
+            "fourth": {
+                "title": "coffee beans for garnish",
+                "amount": "4"
+            },
+            "first": {
+                "title": "coffee liqueur",
+                "amount": "4 cl"
             },
             "liqour": {
                 "title": "Vodka Bornholm",

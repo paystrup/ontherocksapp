@@ -158,6 +158,22 @@ code {
   background-color: white !important;
 }
 
+.bigCard{
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* TYPEWRITER */
 .typewriter-text {
   /* hide the text by default */
   overflow: hidden;
@@ -170,6 +186,29 @@ code {
   from { width: 0; }
   to { width: 100%; }
 }
+
+/* BOOKMARK ANIMATION */
+.bookmarkIcon:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.bookmarkIcon{
+  transform: scale(1);
+  transition: 0.2s ease;
+}
+
+.bookmarkIcon:after{
+  transform: scale(1);
+  transition: 0.5s ease;
+}
+
+@keyframes bookMarkHover {
+  0% { transform: scale(1); }
+  100% {  }
+}
+
+
 
 
 

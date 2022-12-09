@@ -65,7 +65,7 @@ export default function LikeCocktail({ id, likes }) {
   // if likes includes id = true, turn the heart/like button to green, if not keep original styling
   // onclick uses the function above
   return (
-    <div className="bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
+    <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
       <BookmarkIcon
         className="h-7 w-7 text-primaryYellow shadow-2xl"
         style={{

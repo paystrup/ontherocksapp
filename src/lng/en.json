@@ -27,7 +27,9 @@
         "filter": "Filter"
     },
     "likespage": {
-        "title": "Your liked recipes"
+        "title": "Your saved recipes",
+        "emptyStateTxt": "You haven't saved any cocktails yet 😥",
+        "emptyStateTxtBottom": "Explore the app and find the perfect cocktail for the perfect moment."
     },
     "profilepage": {
         "title": "Your profile",
@@ -41,14 +43,16 @@
         "latestAdded": "Recently added",
         "latestAddedBtn": "See all",
         "yourCollections": "Your collections",
-        "yourCollectionsBtn": "See all"
+        "yourCollectionsBtn": "See all",
+        "signOutBtn": "Sign out"
     },
     "signin": {
         "signInButtonGoogle": "Continue with Google",
-        "signInButtonFacebook": "Continue with Facebook"
+        "signInButtonFacebook": "Continue with Facebook",
+        "successToastMsg": "You have logged in! 🍹"
     },
     "cocktailPage": {
-        "recipeTitle": "How to make",
+        "recipeTitle": "Step by step guide",
         "carouselTitle": "More like this cocktail",
         "carouselTitle2": "Other recipes with",
         "addflavorBtn": "Add to flavor profile"
