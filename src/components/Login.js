@@ -46,11 +46,10 @@ export default function Login() {
     }, [user, navigate]);
 
     return (
-        <div className="px-5">
-            <button className="flex items-center justify-center gap-3 w-full border-2 rounded-xl py-2"
+        <div>
+            <button className="bg-primaryYellow text-primaryBlack font-medium w-full py-3 rounded-2xl"
                 onClick={GoogleLogin}
             >
-                <FcGoogle className="" />
                 {t("signin.signInButtonGoogle")}
 
             </button>

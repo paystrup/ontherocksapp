@@ -1,6 +1,9 @@
 {
     "topnav": {
-        "selectlng": "Select your language"
+        "selectlng": "Select your language",
+        "searchTitle": "Search",
+        "likesTitle": "Your saved recipes",
+        "profileTitle": "Profile"
     },
     "bottomnav": {
         "home": "Home",
@@ -24,12 +27,18 @@
         "body": "Search or filter to find the perfect recipe for the perfect moment. See below.",
         "searchPlaceholder": "Find recipes",
         "list": "List",
+        "grid": "Grid",
         "filter": "Filter"
     },
     "likespage": {
         "title": "Your saved recipes",
         "emptyStateTxt": "You haven't saved any cocktails yet 😥",
-        "emptyStateTxtBottom": "Explore the app and find the perfect cocktail for the perfect moment."
+        "emptyStateTxtBottom": "Explore the app and find the perfect cocktail for the perfect moment.",
+        "login": {
+            "title": "Login to save <span>your</span> cocktails",
+             "body":"Create a user to save cocktails. It is free and takes 1 minute. Create a taste profile, get exclusive offers, save cocktails and much more",
+            "mainbtn":"Login"
+        }
     },
     "profilepage": {
         "title": "Your profile",
@@ -44,10 +53,15 @@
         "latestAddedBtn": "See all",
         "yourCollections": "Your collections",
         "yourCollectionsBtn": "See all",
-        "signOutBtn": "Sign out"
+        "signOutBtn": "Sign out",
+        "login": {
+            "title": "Unlock for more <span>free</span> benefits of the app",
+            "body": "Create a user to get a profile. It is free and takes 1 minute. Create a taste profile, get exclusive offers, save cocktails and much more.",
+            "mainbtn":"Login"
+        }
     },
     "signin": {
-        "signInButtonGoogle": "Continue with Google",
+        "signInButtonGoogle": "Login",
         "signInButtonFacebook": "Continue with Facebook",
         "successToastMsg": "You have logged in! 🍹"
     },
@@ -56,5 +70,8 @@
         "carouselTitle": "More like this cocktail",
         "carouselTitle2": "Other recipes with",
         "addflavorBtn": "Add to flavor profile"
+    },
+    "spinAnimation": {
+        "title": "Loading"
     }
 }

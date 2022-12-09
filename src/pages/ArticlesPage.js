@@ -72,25 +72,44 @@ export default function ArticlesPage() {
           <div className='section2 my-7'>
             <h3 className='text-xl font-medium mb-2'>{article?.section2?.title}</h3>
             <p className='text-md font-thin text-primaryGray-500'>{article?.section2?.body}</p>
+            {article?.section2?.image && (
+              <img className='mt-14' src={article?.section2?.image?.src} alt={article?.section2?.image?.alt} />
+            )}
+            {article?.section2?.data && (
             <h1>Billeder fra slugs</h1>
+            )}
           </div>
 
           <div className='section3 my-7'>
             <h3 className='text-xl font-medium mb-2'>{article?.section3?.title}</h3>
             <p className='text-md font-thin text-primaryGray-500'>{article?.section3?.body}</p>
+            {article?.section3?.image && (
+              <img className='mt-14' src={article?.section3?.image?.src} alt={article?.section2?.image?.alt} />
+            )}
+            {article?.section3?.data && (
             <h1>Billeder fra slugs</h1>
+            )}
           </div>
 
           <div className='section4 my-7'>
             <h3 className='text-xl font-medium mb-2'>{article?.section4?.title}</h3>
             <p className='text-md font-thin text-primaryGray-500'>{article?.section4?.body}</p>
+            {article?.section4?.data && (
             <h1>Billeder fra slugs</h1>
+            )}
           </div>
 
+          
           <div className='section4 my-7'>
             <h3 className='text-xl font-medium mb-2'>{article?.section5?.title}</h3>
             <p className='text-md font-thin text-primaryGray-500'>{article?.section5?.body}</p>
-            <h1>Billeder fra slugs</h1>
+            
+            {article?.section5?.data && (
+              <h1>Billeder fra slugs</h1>
+            )}
+
+
+            
           </div>
               
 

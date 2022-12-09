@@ -1,0 +1,45 @@
+[
+    {
+        "id": "competition",
+        "headerImages": {
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konkurrence.webp?alt=media&token=812dd459-db1b-48a8-964b-0bda2fd21905",
+            "src1": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vinder.webp?alt=media&token=c58b7954-6bb2-4850-9da9-e23346310195",
+            "src2": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konkurrence2.webp?alt=media&token=38d7647a-2e01-4374-9bc5-4e2260f1fd5a"
+        },
+        "slug": "competition",
+        "category": "competitions",
+        "title": "Win the kit and make your next party a hit!",
+        "subtitle": "The Christmas cocktail has arrived. Make your own cocktail and compete for cool prizes.",
+        "button": "Participate",
+        "section1": {
+            "title": "The cocktail of the season",
+            "body": "Do you love drinks and are you creative? Then this competition is just for you. Upload your drink recipe and you will automatically be entered into the competition to win cool prizes."
+        },
+        "section2": {
+            "title": "Participate in the competition",
+            "steps": {
+                "step1": "Upload a picture of your drink on Instagram.",
+                "step2": "Think of a name for your drink and write it in the description.",
+                "step3": "Write the recipe in the description.",
+                "step4": "Tag @OnTheRocks and @BornholmSpirits"
+            },
+            "body": "Now you are automatically entered into the competition to win cool prizes and have your drink included in our recipe catalog so others can enjoy your bartender skills."
+        },
+        "section3": {
+            "title": "Find the recipe here",
+            "image": {
+                "alt": "test",
+                "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vinder.webp?alt=media&token=c58b7954-6bb2-4850-9da9-e23346310195"
+            }
+        },
+        "section4": {
+            "title": "The best participants of the season",
+            "sliderImages": {
+                "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud.webp?alt=media&token=f15dea8e-8e65-4c14-8cef-ea809e5c8d24",
+                "src1": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud1.webp?alt=media&token=9ac5da2d-e234-4243-b0bd-aab9f0d7e9ef",
+                "src2": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud2.webp?alt=media&token=794a831f-fd00-428e-9a34-5db83ffb4143",
+                "src3": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud3.webp?alt=media&token=97c3e30e-6bbc-4142-8e8c-4b1a9b0e59f2"
+            }
+        }
+    }
+]

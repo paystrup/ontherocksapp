@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import snaps from "../assets/images/cocktails/17_720x.webp"
+import snaps1 from "../assets/images/cocktails/20_720x.webp"
+
 
 // firebase imports for fetching
 import { collection, onSnapshot, where, query } from "firebase/firestore"
@@ -47,7 +50,7 @@ export default function ArticlesFeatured( slug ) {
         <div >
 
             {article.map(({headerImage, title, subcategoryTitle, id}) => (
-                <div className="w-full flex flex-col gap-4" key={id}>
+                <div className="w-full flex flex-col gap-4 mb-4" key={id}>
                     <div
                         className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5"
                         
@@ -67,10 +70,29 @@ export default function ArticlesFeatured( slug ) {
                 </div>
             ))}
 
-
-
-
         </div>
+        
+        <div className="flex justify-center gap-4">
+            <div className="w-1/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5"
+                    style={{
+                        backgroundImage: `url(${snaps})`,
+                        backgroundPosition: "top",
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }}
+                    onClick={() => navigate("")}>
+            </div>
+            <div className="w-1/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5"
+                    style={{
+                        backgroundImage: `url(${snaps1})`,
+                        backgroundPosition: "top",
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "cover"
+                    }}
+                    onClick={() => navigate("")}>
+            </div>
+        </div>
+
 
     </section>
   )

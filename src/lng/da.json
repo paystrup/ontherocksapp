@@ -1,6 +1,9 @@
 {
     "topnav": {
-        "selectlng": "Vælg dit sprog"
+        "selectlng": "Vælg dit sprog",
+        "searchTitle": "Søg",
+        "likesTitle": "Mine gemte",
+        "profileTitle": "Profil"
     },
     "bottomnav": {
         "home": "Hjem",
@@ -24,12 +27,19 @@
         "body": "Søg eller filtrér efter og find den helt rigtige opskrift til det helt rigtige tidspunkt. Se nedenfor.",
         "searchPlaceholder": "Find opskrifter",
         "list": "Liste",
+        "grid": "Gitter",
         "filter": "Filter"
     },
     "likespage": {
         "title": "Dine gemte opskrifter",
         "emptyStateTxt": "Du har ingen gemte cocktails 😥",
-        "emptyStateTxtBottom": "Udforsk appen og find den perfekte cocktail til det perfekte tidspunkt."
+        "emptyStateTxtBottom": "Udforsk appen og find den perfekte cocktail til det perfekte tidspunkt.",
+        "login": {
+            "title": "Log ind for at <span>gemme</span> dine cocktails",
+            "body": "Opret en bruger for at gemme cocktails. Det er gratis og tager 1 minut. Opret smagsprofil, få ekslusive tilbud, gem cocktails og meget mere.",
+            "mainbtn":"Log ind"
+        }
+
     },
     "profilepage": {
         "title": "Din profil",
@@ -44,10 +54,15 @@
         "latestAddedBtn": "Se alle",
         "yourCollections": "Dine kollektioner",
         "yourCollectionsBtn": "Se alle",
-        "signOutBtn": "Log ud"
+        "signOutBtn": "Log ud",
+        "login": {
+            "title": "Lås op for flere <span>gratis</span> fordele ved appen",
+            "body": "Opret en bruger for at få en profil. Det er gratis og tager 1 minut. Opret smagsprofil, få ekslusive tilbud, gem cocktails og meget mere.",
+            "mainbtn":"Log ind"
+        }
     },
     "signin": {
-        "signInButtonGoogle": "Fortsæt med Google",
+        "signInButtonGoogle": "Log ind",
         "signInButtonFacebook": "Fortsæt med Facebook",
         "successToastMsg": "Du er nu logget ind! 🍹"
     },
@@ -56,5 +71,8 @@
         "carouselTitle": "Du vil sikkert kunne lide",
         "carouselTitle2": "Flere med",
         "addflavorBtn": "Føj til smagsprofil"
+    },
+    "spinAnimation": {
+        "title": "Indlæser"
     }
 }

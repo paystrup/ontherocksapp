@@ -2,19 +2,45 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebaseConfig.js";
-import { useNavigate } from "react-router-dom";
 import ppFallback from "../assets/images/profilePicFallback.png";
 import SeeMoreBtn from '../components/SeeMoreBtn.js';
+import video from "../assets/video/video2.webm";
+import Login from '../components/Login';
+import Spinanimation from "../components/Spinanimation";
 
 export default function ProfilePage() {
   // import copy translations from i18n
   const { t } = useTranslation();
   const [user, loading] = useAuthState(auth);
   // user.metadata.creationTime
+  if (loading) return <Spinanimation/>;
+  if (!user)
+  return(
+    <section>
+      <div className="video bg-primaryBlack">  
+            <video 
+                src={video} 
+                autoPlay 
+                loop 
+                muted
+                playsinline 
+                type="video/mp4"
+                className='videovideo'
+            >
+            </video>
+          </div>
+        <div className="mt-10 mb-32 px-6 relative">
+        <h1 className='text-3xl font-displayBook leading-tight text-center'>
+          <div className='textspan' dangerouslySetInnerHTML={{ __html: t('profilepage.login.title') }}></div>
+        </h1>
+        <p className="text-base text-primaryGray-500 font-thin leading-relaxed mt-4 line-clamp-4 text-center mb-20">
+          {t("profilepage.login.body")}
+        </p>
 
-  const navigate = useNavigate();
-  if (loading) return <h1>Indlæser ...</h1>;
-  if (!user) navigate("/login");
+      <Login />
+      </div>
+    </section>
+    )
   if (user)
   return (
     <section className='mt-20 px-6'>

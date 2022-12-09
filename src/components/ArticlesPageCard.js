@@ -50,8 +50,7 @@ export default function EventPageCard({ slug }) {
                             backgroundPosition: "top",
                             backgroundSize: "cover",
                             backgroundRepeat: "no-repeat"
-                        }}>
-                <h3 className='text-xl font-regular'>{title}</h3>
+                        }}> 
             </section>
         )}
 

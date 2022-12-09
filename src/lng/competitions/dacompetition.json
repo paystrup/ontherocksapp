@@ -1,0 +1,47 @@
+[
+    {
+        "id": "competition",
+        "headerImages": {
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konkurrence.webp?alt=media&token=812dd459-db1b-48a8-964b-0bda2fd21905",
+            "src1": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vinder.webp?alt=media&token=c58b7954-6bb2-4850-9da9-e23346310195",
+            "src2": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konkurrence2.webp?alt=media&token=38d7647a-2e01-4374-9bc5-4e2260f1fd5a"
+        },
+        "slug": "competition",
+        "category": "competitions",
+        "title": "Vind et kit der gør din næste fest til et hit!",
+        "subtitle": "Julens cocktail er landet. Lav din egen cocktail og konkurrér om fede præmier.",
+        "button": "Deltag nu",
+        "section1": {
+            "title": "Sæsonens Cocktail",
+            "body": "Elsker du drinks, og er du kreativ? så er denne konkurrence lige noget for dig. Upload din drinkopskrift og du er automatisk med i konkurrencen om at vinde fede præmier."
+        },
+        "section2": {
+            "title": "Deltag i konkurrencen",
+            "steps": {
+                "step1": "Uplaod et billede af din drink på Instagram.",
+                "step2": "Find på et navn til din drink og skriv det i beskrivelsen.",
+                "step3": "Skriv opskriften i beskrivelsn.",
+                "step4": "Tag @OnTheRocks og @BornholmSpirits"
+            },
+            "body": "Nu er du automatisk med i konkurrencen om at vinde fede præmier samt at få din drink med i vores opskrift katalog, så andre kan få glæde af dine bartender skills."
+        },
+        "section3": {
+            "title": "Find opskriften her",
+            "image": {
+                "alt": "test",
+                "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vinder.webp?alt=media&token=c58b7954-6bb2-4850-9da9-e23346310195"
+            },
+            "category": "opskrift",
+            "subtitle": "Find opskriften på denne sæsons vinder-cocktail"
+        },
+        "section4": {
+            "title": "Sæsonens bedste bud",
+            "sliderImages": {
+                "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud.webp?alt=media&token=f15dea8e-8e65-4c14-8cef-ea809e5c8d24",
+                "src1": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud1.webp?alt=media&token=9ac5da2d-e234-4243-b0bd-aab9f0d7e9ef",
+                "src2": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud2.webp?alt=media&token=794a831f-fd00-428e-9a34-5db83ffb4143",
+                "src3": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud3.webp?alt=media&token=97c3e30e-6bbc-4142-8e8c-4b1a9b0e59f2"
+            }
+        }
+    }
+]

@@ -13,6 +13,7 @@ import EventPage from './pages/EventPage';
 import SplashPage from './pages/SplashPage'
 import LoginPage from './pages/LoginPage';
 import ArticlesPage from './pages/ArticlesPage';
+import CompetitionPage from './pages/CompetitionPage';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/recipe/:id" element={<CocktailPage />} exact={true} />
             <Route path="/events/:id" element={<EventPage />} exact={true} />
-            <Route path="/articles/:id" element={<ArticlesPage />} exact={true}/>            
+            <Route path="/articles/:id" element={<ArticlesPage />} exact={true}/>    
+            <Route path="/competition/:id" element={<CompetitionPage/>} exact={true}/>        
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/splash" element={<SplashPage/>}/>
         </Routes>

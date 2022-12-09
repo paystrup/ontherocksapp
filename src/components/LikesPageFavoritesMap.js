@@ -23,7 +23,7 @@ export default function LikesPageFavoritesMap({ articles }) {
                 <div className='flex w-full justify-end flex-col h-full rounded-2xl px-3 pb-5'
                     style={{
                         backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
-                        backgroundPosition: "top",
+                        backgroundPosition: "center",
                         backgroundSize: "cover",
                         backgroundRepeat: "no-repeat"
                     }}
