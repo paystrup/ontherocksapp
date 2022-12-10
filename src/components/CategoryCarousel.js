@@ -13,9 +13,10 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { ClockIcon, BookmarkIcon } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
 import LikeCocktail from "./LikeCocktail";
+import Spinanimation from "./Spinanimation";
 
 export default function CategoryCarousel({ layout }) {
-  // props imported from FavouritePost.js
+  // -> PROPS from layout selection imported, to show grid or list layout onclick
   const navigate = useNavigate();
 
   // authentication
@@ -44,13 +45,13 @@ export default function CategoryCarousel({ layout }) {
     console.log(fetchQuery);
   };
 
-  // state for setting our fetched articles/books
+  // State with empty array for setting our fetched cocktail data
   const [events, setEvents] = useState([]);
 
-  // fetch depending on i18n language chosen
+  // fetch depending on i18n language chosen, choose db collection in firestore
   const fetchLng = i18n.language;
 
-  // fetch starts here
+  // -----------------------------> fetch starts here <---------------------------------
   useEffect(() => {
     // collection from firebase
     // db is our database, articles is the name of the collection
@@ -70,6 +71,7 @@ export default function CategoryCarousel({ layout }) {
       // store data (setState) change state -> importing the array of books from the db
       setEvents(data);
       console.log(data);
+
       // Set isLoading to false -> hide loader anim
       setIsLoading(false);
     });
@@ -78,35 +80,12 @@ export default function CategoryCarousel({ layout }) {
   return (
     <section className="my-6">
       <div>
+        {/* RUN LOADING ANIM WHILE FETCHING */}
         {isLoading && (
-          <div className="">
-            <div className="flex flex-col justify-center items-center h-[480px]">
-              <svg
-                className="animate-spin mb-8 h-10 w-10 text-primaryYellow"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <circle
-                  className="opacity-10"
-                  cx="12"
-                  cy="12"
-                  r="10"
-                  stroke="currentColor"
-                  strokeWidth="4"
-                ></circle>
-                <path
-                  className="opacity-100"
-                  fill="currentColor"
-                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                ></path>
-              </svg>
-              <h2 className="text-lg text-center text-primaryGray-900">
-                Loading cocktails ...
-              </h2>
-            </div>
-          </div>
+          <Spinanimation />
         )}
+
+        {/* CATEGORY CAROUSEL FOR FILTERING  */}
         <Swiper
           spaceBetween={0}
           // centeredSlides={true}
@@ -181,7 +160,7 @@ export default function CategoryCarousel({ layout }) {
           >
             <div>
               <h3 className="text-base text-primaryGray-700 font-thin">
-                Hygge
+                Til hyggen
               </h3>
             </div>
           </SwiperSlide>
@@ -194,7 +173,9 @@ export default function CategoryCarousel({ layout }) {
             }}
           >
             <div>
-              <h3 className="text-base text-primaryGray-700 font-thin">Fest</h3>
+              <h3 className="text-base text-primaryGray-700 font-thin">
+                Til festen
+              </h3>
             </div>
           </SwiperSlide>
 

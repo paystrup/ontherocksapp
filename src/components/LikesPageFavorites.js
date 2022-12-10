@@ -74,7 +74,6 @@ export default function LikesPageFavorites() {
             {/* IF DATA IS RETURNED STATE IS TRUE = SHOW DATA */}
             {isFound && (
                 <div>
-                    <h3 className="text-2xl font-medium mb-7">{t("likespage.title")}</h3>
                     <LikesPageFavoritesMap articles={articles} />
                 </div>
             )}
