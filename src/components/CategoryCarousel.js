@@ -77,6 +77,13 @@ export default function CategoryCarousel({ layout }) {
     });
   }, [fetchLng, t, fetchCategory, fetchQuery]);
 
+  const categories = [
+    {
+      "id": "1",
+      "title": "populære"
+    }
+  ]
+
   return (
     <section className="my-6">
       <div>

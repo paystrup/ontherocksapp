@@ -2,8 +2,16 @@
     "topnav": {
         "selectlng": "Vælg dit sprog",
         "searchTitle": "Søg",
-        "likesTitle": "Mine gemte",
-        "profileTitle": "Profil"
+        "likesTitle": "Dine gemte opskrifter",
+        "profileTitle": "Profil",
+        "recipeTitle": "Opskrift",
+        "eventsTitle": "Begivenheder",
+        "articleTitle": "Artikel",
+        "homeTitle": "Hjem",
+        "cocktailTitle": "Cocktails",
+        "likesNavTitle": "Gemte opskrifter",
+        "profileNavTitle": "Profil"
+        
     },
     "bottomnav": {
         "home": "Hjem",

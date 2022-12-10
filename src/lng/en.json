@@ -3,7 +3,14 @@
         "selectlng": "Select your language",
         "searchTitle": "Search",
         "likesTitle": "Your saved recipes",
-        "profileTitle": "Profile"
+        "profileTitle": "Profile",
+        "recipeTitle": "Recipe",
+        "eventsTitle": "Events",
+        "articleTitle": "Article",
+        "homeTitle": "Home",
+        "cocktailTitle": "Cocktails",
+        "likesNavTitle": "Saved Recipes",
+        "profileNavTitle": "Profile"
     },
     "bottomnav": {
         "home": "Home",

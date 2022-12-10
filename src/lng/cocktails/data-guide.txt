@@ -1,0 +1,102 @@
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⣠⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⡉⠉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⡉⠁⣀⣉⣉⠉⢉⣿⣿⣿⣿
+⣿⣿⣿⣿⣷⣄⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⠛⠁⣼⣿⠟⢁⣴⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣷⣄⠉⠉⠉⠉⠉⠉⠉⠁⠀⢘⣿⡆⠈⠁⣠⣾⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠘⠿⠿⠃⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠟⠛⠉⠉⠀⠈⠉⠙⠛⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣧⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣼⣿⣿⣿⣿⣿⣿⣿
+
+
+🍹 ON THE ROCKS DATASET GUIDE 🍹
+
+-----------> IMPORTANT <------------
+Categories, id's, and other key value pairs used for fetching must remain the same throughout the different languages
+
+✨ ID's FOR COCKTAILS ✨
+
+
+✨ ID's FOR TASTE ✨
+1.  frugtig
+2.  sød
+3.  syrlig
+4.  frisk
+5.  stærk 
+6.  bitter
+7.  tropisk
+8.  krydret
+9.  salt
+10. tør
+
+✨ ID's FOR OCASSION ✨
+1.  sommer
+2.  bryllup
+3.  nytår
+4.  fødselsdag
+5.  studentergilde
+6.  påske
+7.  jul
+8.  reception 
+9.  weekend
+
+✨ ID's FOR THEME ✨
+1.  fest
+2.  hygge
+3.  middag
+4.  romantik
+5.  velkomst
+6.  afslapning
+
+✨ ID's FOR LIQOUR ✨
+1. vodkabornholm 
+
+2. bornholmerklarakvavit ([Bornholmer Klar Akvavit](https://bornholmspirits.com/products/bornholmer-akvavit-40))
+
+3. frostakvavit ([FROST Akvavit](https://bornholmspirits.com/products/frost-klar-akvavit))
+
+4. bornholmertraditionsakvavit ([Bornholmer Traditions Akvavit](https://bornholmspirits.com/products/bornholmer))
+
+5. sevablødda ([https://bornholmspirits.com/products/bornholmer-dram-sevablodda](https://bornholmspirits.com/products/bornholmer-dram-sevablodda))
+
+6. havtorndildogagurksnaps
+[https://bornholmspirits.com/collections/snaps/products/2-havtorn-dild-agurk-snaps](https://bornholmspirits.com/collections/snaps/products/2-havtorn-dild-agurk-snaps)
+
+7. lakridssnaps
+[https://bornholmspirits.com/products/7-lakrids-snaps](https://bornholmspirits.com/products/7-lakrids-snaps)
+
+8. bornholmgin
+[https://bornholmspirits.com/products/bornholm-gin](https://bornholmspirits.com/products/bornholm-gin)
+
+9. caskgin
+[https://bornholmspirits.com/products/cask-gin](https://bornholmspirits.com/products/cask-gin)
+
+10. slotslyngelgin
+[https://bornholmspirits.com/products/slotslyngel-gin](https://bornholmspirits.com/products/slotslyngel-gin)
+
+11. rabarberogstjerneanissnaps
+[https://bornholmspirits.com/products/special-edition-rabarber-stjerneanis](https://bornholmspirits.com/products/special-edition-rabarber-stjerneanis)
+
+12. figensnaps
+[https://bornholmspirits.com/products/3-figen-snaps](https://bornholmspirits.com/products/3-figen-snaps)
+
+13. chilisnaps
+[https://bornholmspirits.com/products/1-chili-snaps](https://bornholmspirits.com/products/1-chili-snaps)
+
+14. blåbærcitronsnaps
+[https://bornholmspirits.com/products/6-blabaer-citron-snaps](https://bornholmspirits.com/products/6-blabaer-citron-snaps)
+
+15. hindbæringefærgranatæblesnaps
+[https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps](https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps)
+
+16. vaniljesnaps
+[https://bornholmspirits.com/products/5-vanilje-snaps](https://bornholmspirits.com/products/5-vanilje-snaps)
+
+17. chilihonningsnaps
+[https://bornholmspirits.com/products/8-chili-honning-snaps](https://bornholmspirits.com/products/8-chili-honning-snaps)

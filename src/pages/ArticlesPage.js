@@ -64,7 +64,7 @@ export default function ArticlesPage() {
           </div>
 
           <div className='mt-4'>
-            <h2 className='text-3xl font-displayBook'>{article?.section1?.title}</h2>
+            <h2 className='text-4xl font-displayBook'>{article?.section1?.title}</h2>
             <p className='text-md mt-4 font-thin text-primaryGray-500'>{article?.section1?.body}</p>
           </div>
 
