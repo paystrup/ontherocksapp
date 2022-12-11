@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "date-fns": "^2.29.3",
     "firebase": "^9.14.0",
+    "framer-motion": "^7.6.19",
     "heroicons": "^2.0.13",
     "i18n": "^0.15.1",
     "i18next": "^22.0.6",
