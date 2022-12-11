@@ -146,7 +146,7 @@
         "ocassion": {
             "id": "3",
             "slug": "nytår",
-            "title": "new years"
+            "title": "new year's"
         },
         "time": "5",
         "theme": {
@@ -280,6 +280,1116 @@
                 "title": "Vodka Bornholm",
                 "slug": "vodka-bornholm",
                 "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "kiev-mule",
+        "teaser": "A refreshing ginger drink. Combines the freshness of lime with the strong notes of ginger.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "new year's"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Kiev Mule",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "kiev-mule",
+        "recipe": {
+            "recipe1": "Find a suitable glass. Typically served in a copper mug, but a lowball will also do just fine.",
+            "recipe2": "Fill the glass with crushed ice.",
+            "recipe3": "Pour lime juice and vodka over the ice.",
+            "recipe4": "Top with ginger beer.",
+            "recipe5": "Garnish with lime and serve."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "A well-known classic, but damn good nonetheless. A cocktail that suits most occasions and which, with its refreshing notes of lime, is perfect on a warm summer evening.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Moscow_Mule_1080x.webp?alt=media&token=74b03ed4-554a-4f77-a9d7-70e161c20367",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Moscow_Mule_540x.webp?alt=media&token=7b5b0680-3a6f-4a3e-9014-34df27f9ea27"
+        },
+        "ingredients": {
+            "second": {
+                "title": "crushed ice",
+                "amount": "plenty"
+            },
+            "third": {
+                "title": "ginger beer",
+                "amount": "12 cl"
+            },
+            "fourth": {
+                "title": "slice of lime",
+                "amount": "1"
+            },
+            "first": {
+                "title": "freshly pressed lemonjuice",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "white-russian",
+        "teaser": "The creamy classic. A well-rounded taste and perfect for a cold winter's day.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "afslapning",
+            "title": "relaxing",
+            "id": "6"
+        },
+        "title": "White Russian",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/collections/vodka/products/copy-of-vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "white-russian",
+        "recipe": {
+            "recipe1": "Find a lowball glass.",
+            "recipe2": "Pour all ingredients in a shaker and fill it with ice.",
+            "recipe3": "Shake it for 10 sec.",
+            "recipe4": "Strain the drink over the glass.",
+            "recipe5": "Serve. Drink. Enjoy."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "A creamy and rich drink. An obvious choice to serve in the winter months. This cocktail is the perfect combination of bitterness from the coffee and sweetness from the whole milk or cream, giving a round pleasant taste.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "White Russian Drink",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/White_Russian_1080x.webp?alt=media&token=2e120ec5-1a74-46df-80ee-472739a1709d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/White_Russian_540x.webp?alt=media&token=b793ce69-7e18-43ca-b821-79a548b6895e"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+            "third": {
+                "title": "wholemilk or cream",
+                "amount": "6 cl"
+            },
+            "fourth": {
+                "title": "slice of lime",
+                "amount": "1"
+            },
+            "first": {
+                "title": "coffee liqueur",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "Vodka Bornholm",
+                "slug": "vodka-bornholm",
+                "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "stormy-bornholmer",
+        "teaser": "A refreshing hot ginger classic with a twist. Perfect for warm evenings and summer days in the garden.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Stormy Bornholmer",
+        "type": "recipe",
+        "liqour": {
+            "slug": "sevablødda",
+            "link": "https://bornholmspirits.com/products/bornholmer-dram-sevablodda",
+            "type": "sevablødda",
+            "title": "sevablødda",
+            "id": "5"
+        },
+        "slug": "stormy-bornholmer",
+        "recipe": {
+            "recipe1": "Fill your glass with icecubes.",
+            "recipe2": "Pour the Sevablødda in the glass.",
+            "recipe3": "Fill it with delicious Ginger Beer",
+            "recipe4": "Press some lime juice in the glass.",
+            "recipe5": "Decorate with a slice of lime."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "As the name suggests, perfect for those late summer evenings or dark late nights. A cozy and relaxing cocktail that gives a warm touch from the ginger. A true classic, with a little traditional Bornholm twist - that definitely makes it better. It is fresh, spicy and can be enjoyed on both rainy or sunny days",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "krydret",
+            "id": "8",
+            "title": "spicy"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Stormy_Bornholmer_e3847e61-ee97-4008-8143-4b51c8fa55f1_1080x.webp?alt=media&token=a11d9971-0454-4783-8ec5-87ceb70941ec",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Stormy_Bornholmer_e3847e61-ee97-4008-8143-4b51c8fa55f1_540x.webp?alt=media&token=df0b5ab7-f87a-4055-9083-e467cdf97ffe"
+        },
+        "ingredients": {
+            "second": {
+                "title": "slices of lime",
+                "amount": "A couple"
+            },
+            "third": {
+                "title": "icecubes",
+                "amount": "plenty"
+            },
+            "first": {
+                "title": "ginger beer",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "Sevablødda",
+                "slug": "sevablødda",
+                "link": "https://bornholmspirits.com/products/bornholmer-dram-sevablodda",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "akva-sour",
+        "teaser": "Foamy, creamy and sour classic with a traditional Danish twist.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Akva Sour",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmerklarakvavit",
+            "link": "https://bornholmspirits.com/collections/akvavit/products/bornholmer-akvavit-40",
+            "type": "akvavit",
+            "title": "bornholmer klar akvavit",
+            "id": "2"
+        },
+        "slug": "akva-sour",
+        "recipe": {
+            "recipe1": "Dry shake all the ingredients.",
+            "recipe2": "Shake well and fill the glass with ice.",
+            "recipe3": "Strain it over the glass.",
+            "recipe4": "Decorate the cocktail with a slice of dehydrated lemon"
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Foamy, creamy and sour classic with a traditional Danish twist in the form of our traditional Bornholm Clear Akvavit. Can be enjoyed all year round, and is perfect for almost any occasion. Simple comfort that hits really well after dinner or for dessert, because of its sweet taste.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "syrlig",
+            "id": "3",
+            "title": "sour"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Akva_Sour_1080x.webp?alt=media&token=072666f2-a2dd-4b2e-b57b-4305dc1668d4",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Akva_Sour_540x.webp?alt=media&token=26255a69-53db-4a70-b617-fa4e71cd66c8"
+        },
+        "ingredients": {
+            "second": {
+                "title": "Sugarsyrup",
+                "amount": "4 cl"
+            },
+            "third": {
+                "title": "foamed eggwhite",
+                "amount": "1"
+            },
+            "first": {
+                "title": "freshly pressed lemonjuice",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "Bornholmer Klar Akvavit",
+                "slug": "bornholmerklarakvavit",
+                "link": "https://bornholmspirits.com/collections/akvavit/products/bornholmer-akvavit-40",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "frost-akva-sour",
+        "teaser": "Foamy, creamy and sour classic with a traditional Danish twist.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "FROST Akva Sour",
+        "type": "recipe",
+        "liqour": {
+            "slug": "frostakvavit",
+            "link": "https://bornholmspirits.com/products/frost-klar-akvavit",
+            "type": "akvavit",
+            "title": "frost akvavit",
+            "id": "3"
+        },
+        "slug": "frost-akva-sour",
+        "recipe": {
+            "recipe1": "Dry shake all the ingredients.",
+            "recipe2": "Shake well and fill the glass with ice.",
+            "recipe3": "Strain it over the glass.",
+            "recipe4": "Decorate the cocktail with a slice of dehydrated lemon"
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Foamy, creamy and sour classic with a traditional Danish twist in the form of our traditional FROST Akvavit. Can be enjoyed all year round, and is perfect for almost any occasion. Simple comfort that hits really well after dinner or for dessert, because of its sweet taste.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "syrlig",
+            "id": "3",
+            "title": "sour"
+        },
+        "image": {
+            "alt": "FROST Akva Sour",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FROSTAkva-Sour_1080x.webp?alt=media&token=5da54ae9-e0fa-401a-9204-cbec269b8aef",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FROSTAkva-Sour_720x.webp?alt=media&token=858df15d-19a8-4bca-ac91-d5a7077745cd"
+        },
+        "ingredients": {
+            "second": {
+                "title": "Sugarsyrup",
+                "amount": "4 cl"
+            },
+            "third": {
+                "title": "foamed eggwhite",
+                "amount": "1"
+            },
+            "first": {
+                "title": "freshly pressed lemonjuice",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "FROST Akvavit",
+                "slug": "frostakvavit",
+                "link": "https://bornholmspirits.com/products/frost-klar-akvavit",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "nordic-negroni",
+        "teaser": "A classic with a Danish twist. Spicy, bitter, sweet and refreshing.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Nordic Negroni",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmertraditionsakvavit",
+            "link": "https://bornholmspirits.com/products/bornholmer",
+            "type": "akvavit",
+            "title": "bornholmer traditions akvavit",
+            "id": "4"
+        },
+        "slug": "nordic-negroni",
+        "recipe": {
+            "recipe1": "Fill your glass with ice.",
+            "recipe2": "Pour in all the ingredients.",
+            "recipe3": "Stir a few times with a spoon..",
+            "recipe4": "Garnish with orange peel."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "The mixture of our traditional Bornholmer Akvavit, sweet vermouth and Campari orange gives the cocktail a sweet, bitter and refreshing taste that is perfect for a cozy evening - or simply an evening where the hips are a little loose. Popular classic with a local Bornholm twist that takes it to new heights.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "bitter",
+            "id": "6",
+            "title": "bitter"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic_Negroni_1080x.webp?alt=media&token=0ad50b82-657d-4455-99cb-772ad943c72a",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic_Negroni_540x.webp?alt=media&token=c596cc93-68a6-4d18-90f8-769020f68e7e"
+        },
+        "ingredients": {
+            "second": {
+                "title": "campari appelsin",
+                "amount": "4 cl"
+            },
+            "first": {
+                "title": "sweet vermouth",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "bornholmer traditions akvavit",
+                "slug": "bornholmertraditionsakvavit",
+                "link": "https://bornholmspirits.com/products/bornholmer",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "nordic-mojito",
+        "teaser": "Everyone knows it. Everyone likes it. With a Nordic twist.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Nordic Mojito",
+        "type": "recipe",
+        "liqour": {
+            "slug": "frostakvavit",
+            "link": "https://bornholmspirits.com/products/frost-klar-akvavit",
+            "type": "akvavit",
+            "title": "frost 3 akvavit",
+            "id": "3"
+        },
+        "slug": "nordic-mojito",
+        "recipe": {
+            "recipe1": "Divide the lime into wedges.",
+            "recipe2": "Put the limewedges and sugarsyrup in the glass and mash them with a muddler.",
+            "recipe3": "Smash the mint leaves between your hands, put them in the glass and mash a little more.",
+            "recipe4": "Add Akvavit and crushed ice in the glass.",
+            "recipe5": "Top it with sparkling water and garnish with mint leaves."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "The mouth-watering, fresh and sweet cocktail. We've spiced it up a bit and replaced the pale rum with our refreshing FROST Akvavit. Try it before your neighbor..",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic-Mojito_1080x%20(1).webp?alt=media&token=56a591f7-9c99-404b-9451-b523aba8d205",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic-Mojito_540x.webp?alt=media&token=52dd5d64-c9d5-43f7-bce8-4d71bd68863c"
+        },
+        "ingredients": {
+            "second": {
+                "title": "crushed ice",
+                "amount": "Plenty"
+            },
+
+            "third": {
+                "title":"Sugarsyrup",
+                "amount":"1.5 cl"
+            },
+            "fourth": {
+                "title":"Mint leaves",
+                "amount": "Plenty"
+            },
+            "fifth": {
+                "title": "Fresh slice of lime",
+                "amount": "1"
+            },
+            "first": {
+                "title": "Sparkling water",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "frost akvavit",
+                "slug": "frostakvavit",
+                "link": "https://bornholmspirits.com/products/frost-klar-akvavit",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "havtorn-gogt",
+        "teaser": "En favorit for mange, med vores take.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "new year's"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Sea Buckthorn G&T",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "4"
+        },
+        "slug": "havtorn-gogt",
+        "recipe": {
+            "recipe1": "Fill a coupe glass with plenty of ice.",
+            "recipe2": "Pour all the ingredients in the glass.",
+            "recipe3": "Garnish with frozen sea buckthorn berries.",
+            "recipe4": "Enjoy."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "The best of both worlds. The fresh cocktail is a result of sour flavors from the sea buckthorn combined with the bitter tonic and is a real winner. The cocktail gets its beautiful color from the orange-yellow berries and decorates any table.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Havtorn.jpeg?alt=media&token=d5d59a18-0ae2-4a8a-90f6-b934b8ae4622",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Havtorn.jpeg?alt=media&token=d5d59a18-0ae2-4a8a-90f6-b934b8ae4622"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"tonic",
+                "amount":"12 cl"
+            },
+            "fourth": {
+                "title":"Sweet sea ​​buckthorn juice",
+                "amount": "1.5 cl"
+            },
+            "fifth": {
+                "title": "Lime Juice",
+                "amount": "1 cl"
+            },
+            "first": {
+                "title": "Sparkling water",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "champagne-fizz",
+        "teaser": "An elegant and refreshing champagne cocktail to treat you and your guests.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "wedding"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Champagne Fizz",
+        "type": "recipe",
+        "liqour": {
+            "slug": "caskgin",
+            "link": "https://bornholmspirits.com/products/cask-gin",
+            "type": "gin",
+            "title": "cask gin",
+            "id": "9"
+        },
+        "slug": "champagne-fizz",
+        "recipe": {
+            "recipe1": "Pour sugar, lemon juice, gin and egg whites into a shaker with lots of ice.",
+            "recipe2": "Shake thoroughly.",
+            "recipe3": "Strain the cocktail over a tall champagne glass.",
+            "recipe4": "Top with champagne.",
+            "recipe5": "Serve. Drink. Enjoy."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "The elegant, flavorful cocktail is good for most occasions. The cocktail has the perfect combination of sweetness, freshness and a bit of bitterness, which makes it a true star cocktail.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Champagne%2Bfizz.jpeg?alt=media&token=bd40e41d-cd5d-49f3-9272-b8e2577088b6",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Champagne%2Bfizz.jpeg?alt=media&token=bd40e41d-cd5d-49f3-9272-b8e2577088b6"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+
+            "third": {
+                "title":"lemon",
+                "amount":"1/2"
+            },
+            "fourth": {
+                "title":"foamed eggwhite",
+                "amount": "1"
+            },
+            "fifth": {
+                "title": "champagne",
+                "amount": "Plenty"
+            },
+            "sixth": {
+                "title": "Fresh slice of lime",
+                "amount": "1"
+            },
+            "first": {
+                "title": "teaspoons of sugar",
+                "amount": "2 "
+            },
+            "liqour": {
+                "title": "cask gin",
+                "slug": "caskgin",
+                "link": "https://bornholmspirits.com/products/cask-gin",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "gin-mojito",
+        "teaser": "Refreshing lime-taste with a twist. The Mojito comes in many variations - here is ours.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "new year's"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Gin Mojito",
+        "type": "recipe",
+        "liqour": {
+            "slug": "caskgin",
+            "link": "https://bornholmspirits.com/products/cask-gin",
+            "type": "gin",
+            "title": "cask gin",
+            "id": "9"
+        },
+        "slug": "gin-mojito",
+        "recipe": {
+            "recipe1": "Fill a coupe glass with lots of ice. ",
+            "recipe2": "Strike the mint leaves between your hands a few times.",
+            "recipe3": "Pour syrup and gin into the glass.",
+            "recipe4": "Top up with sparkling water.",
+            "recipe5": "Serve. Drink. Enjoy."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "A classic in new clothes. A refreshing and (dangerously) mouthwatering cocktail that is always a hit. Replace the rum with our delicious gin with sweet notes and serve a sure winner for your guests.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Gin-Mojito%2B4.jpeg?alt=media&token=496d5dc8-dee0-4f6d-af8f-792b88b6560d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Gin-Mojito%2B4.jpeg?alt=media&token=496d5dc8-dee0-4f6d-af8f-792b88b6560d"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+
+            "third": {
+                "title":"Sparkling water",
+                "amount":"12 cl"
+            },
+            "fourth": {
+                "title":"Limesyrup",
+                "amount": "1 cl"
+            },
+            "fifth": {
+                "title": "Mint leaves",
+                "amount": "Plenty"
+            },
+            "first": {
+                "title": "teaspoons of sugar",
+                "amount": "2 "
+            },
+            "liqour": {
+                "title": "cask gin",
+                "slug": "caskgin",
+                "link": "https://bornholmspirits.com/products/cask-gin",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "frozen-havtorn-gogt",
+        "teaser": "Perfect for a hot summer day. Our beloved G&T in a frozen version.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "10",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Frozen Sea Buckthorn G&T",
+        "type": "recipe",
+        "liqour": {
+            "slug": "slotslyngelgin",
+            "link": "https://bornholmspirits.com/products/slotslyngel-gin",
+            "type": "gin",
+            "title": "slotslyngel gin",
+            "id": "10"
+        },
+        "slug": "frozen-havtorn-gogt",
+        "recipe": {
+            "recipe1": "Mix the gin, tonic and lime juice in a frost-proof container.",
+            "recipe2": "Freeze the liquid until it forms a solid mass.",
+            "recipe3": "Break the frozen G&T into smaller pieces.",
+            "recipe4": "Put them in a blender and blend until the frozen mass has turned into smaller crystals.",
+            "recipe5": "Pour your cocktail into a coupe glass and top with sea buckthorn juice.",
+            "recipe6": "Garnish with a sprig of burning rosemary and enjoy."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Our frozen G&T is always a hit on a hot summer day. When the heat wave is upon us, there's no better way to cool down than with this cocktail in hand and a few good friends.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Frozen%2BG%26T%2Bwith%2Bseabuckthorn_rosemary.jpeg?alt=media&token=4dfa0c89-e1a5-4d15-b18e-3fd55ea41ae2",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Frozen%2BG%26T%2Bwith%2Bseabuckthorn_rosemary.jpeg?alt=media&token=4dfa0c89-e1a5-4d15-b18e-3fd55ea41ae2"
+        },
+        "ingredients": {
+            "second": {
+                "title": "tonic",
+                "amount": "12 cl"
+            },
+
+            "third": {
+                "title":"Lime Juice",
+                "amount":"1 cl"
+            },
+            "fourth": {
+                "title":"Sweet sea buckthorn juice",
+                "amount": "2 cl"
+            },
+            "fifth": {
+                "title":"stalk rosemary",
+                "amount": "1"
+            },
+            "first": {
+                "title": "teaspoons of sugar",
+                "amount": "2 "
+            },
+            "liqour": {
+                "title": "slotslyngel gin",
+                "slug": "slotslyngelgin",
+                "link": "https://bornholmspirits.com/products/slotslyngel-gin",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "weekend-negroni",
+        "teaser": "Bittersweet, herbaceous flavor with a bold, refreshing taste. It is a sophisticated cocktail with a unique flavor profile",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "afslapning",
+            "title": "relaxing",
+            "id": "6"
+        },
+        "title": "Weekend Negroni",
+        "type": "recipe",
+        "liqour": {
+            "slug": "slotslyngelgin",
+            "link": "https://bornholmspirits.com/products/slotslyngel-gin",
+            "type": "gin",
+            "title": "slotslyngel gin",
+            "id": "10"
+        },
+        "slug": "weekend-negroni",
+        "recipe": {
+            "recipe1": "Fill a glass with ice",
+            "recipe2": "Pour all ingredients over the ice.",
+            "recipe3": "Garnish with an orange peel."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Hard work week? Enjoy the iconic Italian drink and relax, it's the weekend. The bitter notes from the Campari are combined with the sweetness of our fantastic gin. Try it!",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "bitter",
+            "id": "6",
+            "title": "bitter"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Negroni%2B2.jpeg?alt=media&token=b136b5fb-c9da-4b46-b148-707a70105d54",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Negroni%2B2.jpeg?alt=media&token=b136b5fb-c9da-4b46-b148-707a70105d54"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+
+            "third": {
+                "title":"campari",
+                "amount":"3 cl"
+            },
+            "fourth": {
+                "title":"vermouth rosso",
+                "amount": "3 cl"
+            },
+            "fifth": {
+                "title":"orange",
+                "amount":"1"
+            },
+            "first": {
+                "title": "teaspoons of sugar",
+                "amount": "2 "
+            },
+            "liqour": {
+                "title": "slotslyngel gin",
+                "slug": "slotslyngelgin",
+                "link": "https://bornholmspirits.com/products/slotslyngel-gin",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "flyver-sjus",
+        "teaser": "Fly in the seventh heaven with this brilliant flyver drink. A Danish classic.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "new year's"
+        },
+        "time": "2",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Flyver Sjus",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmerklarakvavit",
+            "link": "https://bornholmspirits.com/products/bornholmer-akvavit-40",
+            "type": "akvavit",
+            "title": "bornholmer klar akvavit",
+            "id": "2"
+        },
+        "slug": "flyver-sjus",
+        "recipe": {
+            "recipe1": "Fill a glass with ice.",
+            "recipe2": "Pour all ingredients over the ice.",
+            "recipe3": "Garnish with a lemon slice."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "When you need to fly high, this is your go-to cocktail. It's easy to make and just as easy to drink. Perfect for many guests, so you don't have to spend your entire evening in the kitchen.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FlyversjusAviator.jpeg?alt=media&token=13f09fd2-a1e5-430d-8b09-3f66938d7dda",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FlyversjusAviator.jpeg?alt=media&token=13f09fd2-a1e5-430d-8b09-3f66938d7dda"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+
+            "third": {
+                "title":"slice of lime",
+                "amount":"1"
+            },
+            "first": {
+                "title": "lemon soda",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "bornholmer klar akvavit",
+                "slug": "bornholmerklarakvavit",
+                "link": "https://bornholmspirits.com/products/bornholmer-akvavit-40",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "fruity-gogt",
+        "teaser": "A fruity and refreshing version of the classic G&T. We promise you won't be disappointed.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Fruity G&T",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "fruity-gogt",
+        "recipe": {
+            "recipe1": "Fill a glass with ice. ",
+            "recipe2": "Pour gin over the ice.",
+            "recipe3": "Top with tonic water.",
+            "recipe4": "Garnish with a handful of frozen sea buckthorn berries and a mint leaf."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "A fruity and refreshing cocktail. A twist on the classic G&T, where you end up with a result that is best enjoyed on a late summer day in good company.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frugtig",
+            "id": "1",
+            "title": "fruity"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/oestersoens-braenderi-043.jpeg?alt=media&token=0940f60f-518d-4010-9d22-b4def2045f1d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/oestersoens-braenderi-043.jpeg?alt=media&token=0940f60f-518d-4010-9d22-b4def2045f1d"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+
+            "third": {
+                "title":"Frozen Sea Buckthorn Berries",
+                "amount":"Plenty"
+            },
+            "fourth": {
+                "title":"Mint leaves",
+                "amount":"Plenty"
+            },
+            "first": {
+                "title": "tonic",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "yellow-heaven",
+        "teaser": "Notes of sea buckthorn, dill, and cucumber are the perfect addition to any party. Delight disguised in a cocktail.",
+        "ocassion": {
+            "id": "6",
+            "slug": "påske",
+            "title": "easter"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Yellow Heaven",
+        "type": "recipe",
+        "liqour": {
+            "slug": "havtorndildogagurksnaps",
+            "link": "https://bornholmspirits.com/collections/snaps/products/2-havtorn-dild-agurk-snaps",
+            "type": "snaps",
+            "title": "Sea Buckthorn, dill and cucumber snaps",
+            "id": "6"
+        },
+        "slug": "yellow-heaven",
+        "recipe": {
+            "recipe1": "Fill a tall glass with ice. ",
+            "recipe2": "Pour the shot over the ice.",
+            "recipe3": "Top with quince juice.",
+            "recipe4": "Garnish with a slice of cucumber."
+        },
+        "relatedProducts": {
+            "1": "screw-driver"
+        },
+        "featured": true,
+        "body": "Yes, snaps can actually be used in cocktails, and it tastes great. This fresh cocktail with notes of sea buckthorn, dill, and cucumber is the perfect addition to any party.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/yellow-heaven-720px.webp?alt=media&token=ce272fe7-56fa-4dcc-bad6-84d49cb43b8d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/yellow-heaven-720px.webp?alt=media&token=ce272fe7-56fa-4dcc-bad6-84d49cb43b8d"
+        },
+        "ingredients": {
+            "second": {
+                "title": "icecubes",
+                "amount": "Plenty"
+            },
+
+            "third": {
+                "title":"Slice of cucumber",
+                "amount":"1"
+            },
+            "first": {
+                "title": "Quince juice",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "Sea Buckthorn, dill and cucumber snaps",
+                "slug": "havtorndildogagurksnaps",
+                "link": "https://bornholmspirits.com/collections/snaps/products/2-havtorn-dild-agurk-snaps",
                 "amount": "4 cl"
             }
         }

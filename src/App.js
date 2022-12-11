@@ -20,8 +20,10 @@ function App() {
   const location = useLocation();
   return (
     <div className="App">
+      <ScrollToTop />
+
+      {/* 🚨 EXIT BEFORE ENTER CREATES A CONSOLE ERROR */}
       <AnimatePresence exitBeforeEnter>
-        <ScrollToTop />
         <TopNavigation />
         <Routes key={location.pathname} location={location}>
           <Route

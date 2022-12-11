@@ -730,7 +730,7 @@
         },
         "slug": "nordic-mojito",
         "recipe": {
-            "recipe1": "Del lime op i både. ",
+            "recipe1": "Del lime op i både.",
             "recipe2": "Kom limebåde sukkersirup i glasset og mas dem med en mudler.",
             "recipe3": "Dask myntebladene mellem hænderne, kom dem i glassset og mas en smule mere.",
             "recipe4": "Tilføj Akvavit og knust is i glasset.",
@@ -947,7 +947,7 @@
     },
     {
         "itemID": "gin-mojito",
-        "teaser": "Mojitoen kommer i mange variationer. Her er vores bud.",
+        "teaser": "Forfriskende lime-cocktail. Mojitoen kommer i mange variationer. Her er vores bud.",
         "ocassion": {
             "id": "3",
             "slug": "nytår",
@@ -972,7 +972,7 @@
         "recipe": {
             "recipe1": "Fyld et coupe glas med masser af is. ",
             "recipe2": "Slå myntebladene et par gange mellem hænderne.",
-            "recipe3": "Hæld sirup og gin i glasser.",
+            "recipe3": "Hæld sirup og gin i glasset.",
             "recipe4": "Top op med danskvand.",
             "recipe5": "Server. Drik. Nyd."
         },
@@ -1049,7 +1049,7 @@
         },
         "slug": "frozen-havtorn-gogt",
         "recipe": {
-            "recipe1": "Bland gin, tonic og limejuice i en frostsikker beholder. ",
+            "recipe1": "Bland gin, tonic og limejuice i en frostsikker beholder.",
             "recipe2": "Frys til væsken er en fast masse.",
             "recipe3": "Knæk din frosne G&T i mindre stykker.",
             "recipe4": "Kom dem i en blender og blend til isen er blevet til mindre krystaller.",
@@ -1106,7 +1106,7 @@
     },
     {
         "itemID": "weekend-negroni",
-        "teaser": "Slå benene op og nyd en bitter, lækker weekend negroni.",
+        "teaser": "Bittersød, krydret smag med en kraftig og forfriskende smag. Det er en sofistikeret cocktail med en unik smagsprofil.",
         "ocassion": {
             "id": "9",
             "slug": "weekend",
@@ -1129,7 +1129,7 @@
         },
         "slug": "weekend-negroni",
         "recipe": {
-            "recipe1": "Fyld et glas med is. ",
+            "recipe1": "Fyld et glas med is.",
             "recipe2": "Hæld alle ingredienserne over isen.",
             "recipe3": "Pynt med appelsinskræl."
         },
@@ -1206,7 +1206,7 @@
         },
         "slug": "flyver-sjus",
         "recipe": {
-            "recipe1": "Fyld et glas med is. ",
+            "recipe1": "Fyld et glas med is.",
             "recipe2": "Hæld alle ingredienserne over isen.",
             "recipe3": "Pynt med citronskive."
         },
@@ -1252,7 +1252,7 @@
     },
     {
         "itemID": "fruity-gogt",
-        "teaser": "En forfriskende udgave af den klassiske G&T. Vi lover du ikke bliver skuffet.",
+        "teaser": "En frugtig og forfriskende udgave af den klassiske G&T. Vi lover du ikke bliver skuffet.",
         "ocassion": {
             "id": "1",
             "slug": "sommer",
@@ -1289,9 +1289,9 @@
             "1": "test"
         },
         "taste": {
-            "slug": "frisk",
-            "id": "4",
-            "title": "frisk"
+            "slug": "frugtig",
+            "id": "1",
+            "title": "frugtig"
         },
         "image": {
             "alt": "test",
@@ -1326,7 +1326,7 @@
     },
     {
         "itemID": "yellow-heaven",
-        "teaser": "Herlighed forklædt i cocktail.",
+        "teaser": "Noter af havtorn, dild og agurk er det perfekte supplement til enhver fest. Herlighed forklædt i cocktail.",
         "ocassion": {
             "id": "6",
             "slug": "påske",
