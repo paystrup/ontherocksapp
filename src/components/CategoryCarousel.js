@@ -15,6 +15,8 @@ import { useTranslation } from "react-i18next";
 import LikeCocktail from "./LikeCocktail";
 import Spinanimation from "./Spinanimation";
 import filters from "../lng/filters.json"
+import HalfButtonOutline from "./HalfButtonOutline";
+import HalfButtonFilled from "./HalfButtonFilled";
 
 export default function CategoryCarousel() {
   // -> PROPS from layout selection imported, to show grid or list layout onclick
@@ -91,7 +93,7 @@ export default function CategoryCarousel() {
 
   // Values for the category slider, querydata for fetching from firebase on click
   // Dynamic translations with title -> refers to i18n json data
-  const categories = [
+  const featuredCategories = [
     {
       "id": "1",
       "title": "categories.popular",
@@ -160,9 +162,9 @@ export default function CategoryCarousel() {
 
         {/* FILTER MODAL OPENS BY SETTING OPENFILTER STATE ONCLICK FILTER BTN */}
         {openFilter && (
-          <div id='filterModal' className='fixed z-[9999] overflow-y-scroll overflow-x-hidden top-0 left-0 h-full w-full bg-primaryBlack px-6'>
+          <div id='filterModal' className='fixed z-[9999] overflow-y-scroll overflow-x-hidden top-0 left-0 h-full w-full bg-primaryBlack px-6 pb-32'>
             <div className='flex items-center justify-center mt-4'>
-              <XMarkIcon className='h-10 w-10' onClick={handleFilterOpen}/>
+              <XMarkIcon className='h-10 w-10 cursor-pointer hover:opacity-50 transition-all' onClick={handleFilterOpen}/>
             </div>
 
             {/* FILTERS FOR MODAL STARTS HERE -> imported from /lng/filters.json - HIGHLIGTING FOR THE CLICKED + FETCHED CATEGORY BY CHECKING IF THE SET STATE MATCHES THE CATEGORY*/}
@@ -173,7 +175,7 @@ export default function CategoryCarousel() {
                     <div className="flex flex-wrap mb-7">
                         {data.map(({ id, title, category, query }) =>
                           <div
-                            className="py-1 px-1 cursor-pointer"
+                            className="py-1 px-1 cursor-pointer hover:opacity-70 transition-all"
                             onClick={() => {
                               handleCategory(category);
                               handleQuery(query);
@@ -194,6 +196,21 @@ export default function CategoryCarousel() {
               )}               
 
               <h3 className='text-xl font-medium'>Tid</h3>
+              
+              <div className="px-6 pt-4 fixed bottom-0 left-0 w-full"
+              style={{
+                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,1) 84%)`
+              }}
+              >
+                <div className="flex gap-2 mb-7">
+                  <HalfButtonOutline 
+                  text={t("searchpage.filterModalResetBtn")}
+                  />
+
+                  <HalfButtonFilled text={t("searchpage.filterModalApplyBtn")}/>
+                </div>           
+              </div>
+              
             </div>
           </div>
         )}
@@ -260,7 +277,7 @@ export default function CategoryCarousel() {
             MAP THROUGH CATEGORIES AND CHANGE FETCH DEPENDING ON CATEGORY ONCLICK 
             IF CATEGORY IS IN STATE = IS FETCHED = IS CLICKED = SHOW UX STYLING
           */}
-          {categories.map(({ id, title, category, query}) =>
+          {featuredCategories.map(({ id, title, category, query}) =>
             <SwiperSlide
               className="py-1 cursor-pointer"
               onClick={() => {

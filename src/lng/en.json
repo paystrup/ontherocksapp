@@ -38,7 +38,9 @@
         "filter": "Filter",
         "resultsText": "results for",
         "resultsEmptyStateTop": "Sorry, we couldn't find any results in this category 😥",
-        "resultsEmptyStateBottom": "Try searching again"
+        "resultsEmptyStateBottom": "Try searching again",
+        "filterModalResetBtn": "Reset",
+        "filterModalApplyBtn": "Apply"
     },
     "likespage": {
         "title": "Your saved recipes",

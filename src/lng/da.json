@@ -40,7 +40,9 @@
         "filter": "Filter",
         "resultsText": "resultater for",
         "resultsEmptyStateTop": "Der blev ikke fundet nogle cocktails i denne kategori 😥",
-        "resultsEmptyStateBottom": "Prøv at lave en ny søgning"
+        "resultsEmptyStateBottom": "Prøv at lave en ny søgning",
+        "filterModalResetBtn": "Nulstil",
+        "filterModalApplyBtn": "Anvend"
     },
     "likespage": {
         "title": "Dine gemte opskrifter",
