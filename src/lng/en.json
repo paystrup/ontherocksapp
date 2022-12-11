@@ -93,7 +93,8 @@
         "hygge": "Hygge",
         "party": "Party",
         "romance": "Romance",
-        "relaxing": "Relaxing"
+        "relaxing": "Relaxing",
+        "all": "All"
     },
     "filters": {
         "titles": {

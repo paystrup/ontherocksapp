@@ -4,6 +4,12 @@
         "id": "1",
         "data": [
             {
+                "id": "99",
+                "title": "categories.all",
+                "category": true,
+                "query": "featured"
+            },
+            {
                 "id": "1",
                 "title": "filters.ocassion.summer",
                 "category": "sommer",
@@ -63,6 +69,12 @@
         "title": "filters.titles.taste",
         "id": "2",
         "data": [
+            {
+                "id": "99",
+                "title": "categories.all",
+                "category": true,
+                "query": "featured"
+            },
             {
                 "id": "1",
                 "title": "filters.taste.fruity",
@@ -130,6 +142,12 @@
         "id": "3",
         "data": [
             {
+                "id": "99",
+                "title": "categories.all",
+                "category": true,
+                "query": "featured"
+            },
+            {
                 "id": "1",
                 "title": "filters.theme.party",
                 "category": "fest",
@@ -171,6 +189,12 @@
         "title": "filters.titles.liqour",
         "id": "4",
         "data": [
+            {
+                "id": "99",
+                "title": "categories.all",
+                "category": true,
+                "query": "featured"
+            },
             {
                 "id": "1",
                 "title": "filters.liqourType.snaps",

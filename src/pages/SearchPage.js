@@ -14,7 +14,7 @@ export default function SearchPage() {
           <div className='flex items-center'>
             <MagnifyingGlassIcon className='h-6 w-6 absolute ml-3'/>
           </div>
-          <input className='placeholder-primaryGray-700 border-[1px] border-primaryGray-700 w-full py-3 rounded-xl bg-primaryGray-900 bg-opacity-20 pl-12 focus-within:text-primaryGray-900'
+          <input className='placeholder-primaryGray-700 border-[1px] border-primaryGray-700 focus:border-primaryYellow w-full py-3 rounded-xl bg-primaryGray-900 bg-opacity-20 pl-12 focus-within:text-primaryWhite'
           type="text" id="search" name="search" placeholder={t("searchpage.searchPlaceholder")}
           />
         </div>

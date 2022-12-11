@@ -96,7 +96,8 @@
         "hygge": "Til hyggen",
         "party": "Til festen",
         "romance": "Romantik",
-        "relaxing": "Afslapning"
+        "relaxing": "Afslapning",
+        "all": "Alle"
     },
     "filters": {
         "titles": {
