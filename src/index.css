@@ -209,6 +209,19 @@ code {
   }
 }
 
+.slideIn{
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 2.5rem;
+  }
+}
+
 /* TYPEWRITER */
 .typewriter-text {
   /* hide the text by default */

@@ -1,0 +1,212 @@
+[
+    {
+        "title": "filters.titles.events",
+        "id": "1",
+        "data": [
+            {
+                "id": "1",
+                "title": "filters.ocassion.summer",
+                "category": "sommer",
+                "query": "ocassion.slug"
+            },
+            {
+                "id": "2",
+                "title": "filters.ocassion.wedding",
+                "category": "bryllup",
+                "query": "ocassion.slug"
+            },
+            {
+                "id": "3",
+                "title": "filters.ocassion.newyears",
+                "category": "nytår",
+                "query": "ocassion.slug"
+            },
+            {
+                "id": "4",
+                "title": "filters.ocassion.birthday",
+                "category": "fødselsdag",
+                "query": "ocassion.slug"
+            },
+            {
+                "id": "5",
+                "title": "filters.ocassion.studentparty",
+                "category": "fødselsdag",
+                "query": "ocassion.slug"
+            },
+            {
+                "id": "6",
+                "title": "filters.ocassion.easter",
+                "category": "påske",
+                "query": "ocassion.slug"
+            },
+            {
+                "id": "7",
+                "title": "filters.ocassion.christmas",
+                "category": "jul",
+                "query": "ocassion.slug"
+            },
+            {
+                "id": "8",
+                "title": "filters.ocassion.reception",
+                "category": "reception",
+                "query": "ocassion.slug"
+            },
+            {
+                "id": "9",
+                "title": "filters.ocassion.weekend",
+                "category": "weekend",
+                "query": "ocassion.slug"
+            }
+        ]
+    },
+    {
+        "title": "filters.titles.taste",
+        "id": "2",
+        "data": [
+            {
+                "id": "1",
+                "title": "filters.taste.fruity",
+                "category": "frugtig",
+                "query": "taste.slug"
+            },
+            {
+                "id": "2",
+                "title": "filters.taste.sweet",
+                "category": "sød",
+                "query": "taste.slug"
+            },
+            {
+                "id": "3",
+                "title": "filters.taste.sour",
+                "category": "syrlig",
+                "query": "taste.slug"
+            },
+            {
+                "id": "4",
+                "title": "filters.taste.fresh",
+                "category": "frisk",
+                "query": "taste.slug"
+            },
+            {
+                "id": "5",
+                "title": "filters.taste.strong",
+                "category": "stærk",
+                "query": "taste.slug"
+            },
+            {
+                "id": "6",
+                "title": "filters.taste.bitter",
+                "category": "bitter",
+                "query": "taste.slug"
+            },
+            {
+                "id": "7",
+                "title": "filters.taste.tropic",
+                "category": "tropisk",
+                "query": "taste.slug"
+            },
+            {
+                "id": "8",
+                "title": "filters.taste.spicy",
+                "category": "krydret",
+                "query": "taste.slug"
+            },
+            {
+                "id": "9",
+                "title": "filters.taste.salty",
+                "category": "salt",
+                "query": "taste.slug"
+            },
+            {
+                "id": "10",
+                "title": "filters.taste.dry",
+                "category": "tør",
+                "query": "taste.slug"
+            }
+        ]
+    },
+    {
+        "title": "filters.titles.themes",
+        "id": "3",
+        "data": [
+            {
+                "id": "1",
+                "title": "filters.theme.party",
+                "category": "fest",
+                "query": "theme.slug"
+            },
+            {
+                "id": "2",
+                "title": "filters.theme.hygge",
+                "category": "hygge",
+                "query": "theme.slug"
+            },
+            {
+                "id": "3",
+                "title": "filters.theme.dinner",
+                "category": "middag",
+                "query": "theme.slug"
+            },
+            {
+                "id": "4",
+                "title": "filters.theme.romance",
+                "category": "romantik",
+                "query": "theme.slug"
+            },
+            {
+                "id": "5",
+                "title": "filters.theme.apeterif",
+                "category": "velkomst",
+                "query": "theme.slug"
+            },
+            {
+                "id": "6",
+                "title": "filters.theme.relaxing",
+                "category": "afslapning",
+                "query": "theme.slug"
+            }
+        ]
+    },
+    {
+        "title": "filters.titles.liqour",
+        "id": "4",
+        "data": [
+            {
+                "id": "1",
+                "title": "filters.liqourType.snaps",
+                "category": "snaps",
+                "query": "liqour.type"
+            },
+            {
+                "id": "2",
+                "title": "filters.liqourType.vodka",
+                "category": "vodka",
+                "query": "liqour.type"
+            },
+            {
+                "id": "3",
+                "title": "filters.liqourType.gin",
+                "category": "gin",
+                "query": "liqour.type"
+            },
+            {
+                "id": "4",
+                "title": "filters.liqourType.akvavit",
+                "category": "akvavit",
+                "query": "liqour.type"
+            },
+            {
+                "id": "5",
+                "title": "filters.liqourType.rum",
+                "category": "rom",
+                "query": "liqour.type"
+            },
+            {
+                "id": "6",
+                "title": "filters.liqourType.sevablødda",
+                "category": "sevablødda",
+                "query": "liqour.type"
+            }
+        ]
+    }
+]

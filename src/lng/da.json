@@ -10,7 +10,8 @@
         "homeTitle": "Hjem",
         "cocktailTitle": "Cocktails",
         "likesNavTitle": "Gemte opskrifter",
-        "profileNavTitle": "Profil"
+        "profileNavTitle": "Profil",
+        "populære": "Mest populære"
         
     },
     "bottomnav": {
@@ -36,7 +37,10 @@
         "searchPlaceholder": "Find opskrifter",
         "list": "Liste",
         "grid": "Gitter",
-        "filter": "Filter"
+        "filter": "Filter",
+        "resultsText": "resultater for",
+        "resultsEmptyStateTop": "Der blev ikke fundet nogle cocktails i denne kategori 😥",
+        "resultsEmptyStateBottom": "Prøv at lave en ny søgning"
     },
     "likespage": {
         "title": "Dine gemte opskrifter",
@@ -82,5 +86,62 @@
     },
     "spinAnimation": {
         "title": "Indlæser"
+    },
+    "categories": {
+        "popular": "Populære",
+        "welcome": "Velkomst",
+        "dinner": "Middag",
+        "hygge": "Til hyggen",
+        "party": "Til festen",
+        "romance": "Romantik",
+        "relaxing": "Afslapning"
+    },
+    "filters": {
+        "titles": {
+            "events": "Begivenheder",
+            "themes": "Tema",
+            "time": "Tid",
+            "taste": "Smagsnoter",
+            "liqour": "Spiritus"
+        },
+        "taste": {
+            "fruity": "Frugtig",
+            "sweet": "Sød",
+            "sour": "Syrlig",
+            "fresh": "Frisk",
+            "strong": "Stærk",
+            "bitter": "Bitter",
+            "tropic": "Tropisk",
+            "spicy": "Krydret",
+            "salty": "Salt",
+            "dry": "Tør"
+        },
+        "ocassion": {
+            "summer": "Sommer",
+            "wedding": "Bryllup",
+            "newyears": "Nytår",
+            "birthday": "Fødselsdag",
+            "studentparty": "Studentergilde",
+            "easter": "Påske",
+            "christmas": "Jul",
+            "reception": "Reception",
+            "weekend": "Weekend"
+        },
+        "theme": {
+            "party": "Fest",
+            "hygge": "Hygge",
+            "dinner": "Middag",
+            "romance": "Romantik",
+            "apeterif": "Velkomst",
+            "relaxing": "Afslapning"
+        },
+        "liqourType": {
+            "snaps": "Snaps",
+            "vodka": "Vodka",
+            "gin": "Gin",
+            "akvavit": "Akvavit",
+            "rum": "Rom",
+            "sevablødda": "Sevablødda"
+        }
     }
 }

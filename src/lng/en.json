@@ -35,7 +35,10 @@
         "searchPlaceholder": "Find recipes",
         "list": "List",
         "grid": "Grid",
-        "filter": "Filter"
+        "filter": "Filter",
+        "resultsText": "results for",
+        "resultsEmptyStateTop": "Sorry, we couldn't find any results in this category 😥",
+        "resultsEmptyStateBottom": "Try searching again"
     },
     "likespage": {
         "title": "Your saved recipes",
@@ -80,5 +83,62 @@
     },
     "spinAnimation": {
         "title": "Loading"
+    },
+    "categories": {
+        "popular": "Popular",
+        "welcome": "Apeterif",
+        "dinner": "Dinner",
+        "hygge": "Hygge",
+        "party": "Party",
+        "romance": "Romance",
+        "relaxing": "Relaxing"
+    },
+    "filters": {
+        "titles": {
+            "events": "Events",
+            "themes": "Themes",
+            "time": "Time",
+            "taste": "Taste",
+            "liqour": "Liqour"
+        },
+        "taste": {
+            "fruity": "Fruity",
+            "sweet": "Sweet",
+            "sour": "Sour",
+            "fresh": "Fresh",
+            "strong": "Strong",
+            "bitter": "Bitter",
+            "tropic": "Tropic",
+            "spicy": "Spicy",
+            "salty": "Salty",
+            "dry": "Dry"
+        },
+        "ocassion": {
+            "summer": "Summer",
+            "wedding": "Wedding",
+            "newyears": "New Year's",
+            "birthday": "Birthday",
+            "studentparty": "Studentparty",
+            "easter": "Easter",
+            "christmas": "Christmas",
+            "reception": "Reception",
+            "weekend": "Weekend"
+        },
+        "theme": {
+            "party": "Party",
+            "hygge": "Hygge",
+            "dinner": "Dinner",
+            "romance": "Romance",
+            "apeterif": "Apeterif",
+            "relaxing": "Relaxing"
+        },
+        "liqourType": {
+            "snaps": "Snaps",
+            "vodka": "Vodka",
+            "gin": "Gin",
+            "akvavit": "Akvavit",
+            "rum": "Rum",
+            "sevablødda": "Sevablødda"
+        }
     }
 }

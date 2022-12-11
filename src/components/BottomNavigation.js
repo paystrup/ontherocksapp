@@ -7,7 +7,7 @@ export default function BottomNavigation() {
     // import copy translations from i18n
     const { t } = useTranslation();
     return (
-        <section className='pt-4 pb-12 px-10 fixed bottom-0 left-0 z-10 bg-primaryBlack w-full lg:hidden'>
+        <section className='pt-4 pb-12 px-10 fixed bottom-0 left-0 z-10 bg-primaryBlack w-full lg:hidden shadow-[0px_-1px_15px_-5px_rgba(0,0,0,1)]'>
 
             <ul className='text-black list-none flex items-center justify-between gap-10 md:justify-center md:gap-32'>
                 <li className="h-7 w-7 cursor-pointer">

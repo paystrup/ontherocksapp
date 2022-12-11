@@ -3,8 +3,8 @@
 ⣿⣿⣿⣿⡉⠉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⡉⠁⣀⣉⣉⠉⢉⣿⣿⣿⣿
 ⣿⣿⣿⣿⣷⣄⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠛⠛⠁⣼⣿⠟⢁⣴⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣷⣄⠉⠉⠉⠉⠉⠉⠉⠁⠀⢘⣿⡆⠈⠁⣠⣾⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠘⠿⠿⠃⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠘⠿⠿⠃⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -54,7 +54,7 @@ Categories, id's, and other key value pairs used for fetching must remain the sa
 5.  velkomst
 6.  afslapning
 
-✨ ID's FOR LIQOUR ✨
+✨ ID's FOR LIQOURS ✨
 1. vodkabornholm 
 
 2. bornholmerklarakvavit ([Bornholmer Klar Akvavit](https://bornholmspirits.com/products/bornholmer-akvavit-40))
