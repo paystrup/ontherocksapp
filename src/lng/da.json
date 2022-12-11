@@ -34,7 +34,7 @@
     "searchpage": {
         "title": "Find den rigtige cocktail",
         "body": "Søg eller filtrér efter og find den helt rigtige opskrift til det helt rigtige tidspunkt. Se nedenfor.",
-        "searchPlaceholder": "Find opskrifter",
+        "searchPlaceholder": "Søg efter opskrifter",
         "list": "Liste",
         "grid": "Gitter",
         "filter": "Filter",
