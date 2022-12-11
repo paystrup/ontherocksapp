@@ -190,7 +190,6 @@ export default function CategoryCarousel() {
                           handleCategory(category);
                           handleQuery(query);
                           handleSearchDisplay(title);
-                          handleFilterOpen();
                         }}
                         key={id}
                       >
@@ -221,10 +220,12 @@ export default function CategoryCarousel() {
                   <HalfButtonOutline
                     text={t("searchpage.filterModalResetBtn")}
                   />
-
-                  <HalfButtonFilled
-                    text={t("searchpage.filterModalApplyBtn")}
-                  />
+                  <button
+                    onClick={handleFilterOpen}
+                    className="w-full py-3 rounded-2xl  text-primaryBlack font-regular bg-primaryYellow"
+                  >
+                    {t("searchpage.filterModalApplyBtn")}
+                  </button>
                 </div>
               </div>
             </div>
