@@ -30,7 +30,7 @@
             {
                 "id": "5",
                 "title": "filters.ocassion.studentparty",
-                "category": "fødselsdag",
+                "category": "studentergilde",
                 "query": "ocassion.slug"
             },
             {

@@ -165,7 +165,7 @@ export default function CategoryCarousel() {
               <XMarkIcon className='h-10 w-10' onClick={handleFilterOpen}/>
             </div>
 
-            {/* FILTERS FOR MODAL STARTS HERE -> imported from /lng/filters.json */}
+            {/* FILTERS FOR MODAL STARTS HERE -> imported from /lng/filters.json - HIGHLIGTING FOR THE CLICKED + FETCHED CATEGORY BY CHECKING IF THE SET STATE MATCHES THE CATEGORY*/}
             <div className='flex flex-col mt-14'>
               {filters.map(({ title, id, data }) => 
                   <div key={id}>
@@ -289,7 +289,7 @@ export default function CategoryCarousel() {
       {/* EMPTY STATE IF DATA IS EMPTY */}
       {events.length === 0 && (
         <div className="fadeInAnimation px-5 mt-16 font-thin text-primaryGray-500 text-center">
-          <h2 className="text-xl">{t("searchpage.resultsEmptyStateTop")}</h2>
+          <h2 className="text-xl">"{t(searchDisplay)}" {t("searchpage.resultsEmptyStateTop")}</h2>
           <p className="mt-2 text-base">{t("searchpage.resultsEmptyStateBottom")}</p>
         </div>
       )}
