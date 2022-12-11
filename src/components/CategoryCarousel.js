@@ -10,11 +10,18 @@ import { Keyboard, Mousewheel, Pagination } from "swiper";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebaseConfig.js";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { ClockIcon, BookmarkIcon, AdjustmentsVerticalIcon, Bars4Icon, Squares2X2Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  ClockIcon,
+  BookmarkIcon,
+  AdjustmentsVerticalIcon,
+  Bars4Icon,
+  Squares2X2Icon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
 import LikeCocktail from "./LikeCocktail";
 import Spinanimation from "./Spinanimation";
-import filters from "../lng/filters.json"
+import filters from "../lng/filters.json";
 import HalfButtonOutline from "./HalfButtonOutline";
 import HalfButtonFilled from "./HalfButtonFilled";
 
@@ -90,163 +97,179 @@ export default function CategoryCarousel() {
     });
   }, [fetchLng, t, fetchCategory, fetchQuery]);
 
-
   // Values for the category slider, querydata for fetching from firebase on click
   // Dynamic translations with title -> refers to i18n json data
   const featuredCategories = [
     {
-      "id": "1",
-      "title": "categories.popular",
-      "category": true,
-      "query": "featured"
+      id: "1",
+      title: "categories.popular",
+      category: true,
+      query: "featured",
     },
     {
-      "id": "2",
-      "title": "categories.welcome",
-      "category": "velkomst",
-      "query": "theme.slug"
+      id: "2",
+      title: "categories.welcome",
+      category: "velkomst",
+      query: "theme.slug",
     },
     {
-      "id": "3",
-      "title": "categories.dinner",
-      "category": "middag",
-      "query": "theme.slug"
+      id: "3",
+      title: "categories.dinner",
+      category: "middag",
+      query: "theme.slug",
     },
     {
-      "id": "4",
-      "title": "categories.hygge",
-      "category": "hygge",
-      "query": "theme.slug"
+      id: "4",
+      title: "categories.hygge",
+      category: "hygge",
+      query: "theme.slug",
     },
     {
-      "id": "5",
-      "title": "categories.party",
-      "category": "fest",
-      "query": "theme.slug"
+      id: "5",
+      title: "categories.party",
+      category: "fest",
+      query: "theme.slug",
     },
     {
-      "id": "6",
-      "title": "categories.romance",
-      "category": "romantik",
-      "query": "theme.slug"
+      id: "6",
+      title: "categories.romance",
+      category: "romantik",
+      query: "theme.slug",
     },
     {
-      "id": "7",
-      "title": "categories.relaxing",
-      "category": "afslapning",
-      "query": "theme.slug"
-    }
-  ]
+      id: "7",
+      title: "categories.relaxing",
+      category: "afslapning",
+      query: "theme.slug",
+    },
+  ];
 
   const [changeLayout, setChangeLayout] = useState(false);
 
   const handleLayoutChange = (event) => {
     setChangeLayout(!changeLayout);
     console.log(changeLayout);
-  }
+  };
 
   // state for opening filter modal
   const [openFilter, setOpenFilter] = useState(false);
 
   const handleFilterOpen = (event) => {
-    setOpenFilter(!openFilter)
-  }
+    setOpenFilter(!openFilter);
+  };
 
   return (
     <section className="my-6">
       <div>
         {/* RUN LOADING ANIM WHILE FETCHING */}
-        {isLoading && (
-          <Spinanimation />
-        )}
+        {isLoading && <Spinanimation />}
 
         {/* FILTER MODAL OPENS BY SETTING OPENFILTER STATE ONCLICK FILTER BTN */}
         {openFilter && (
-          <div id='filterModal' className='fixed z-[9999] overflow-y-scroll overflow-x-hidden top-0 left-0 h-full w-full bg-primaryBlack px-6 pb-32'>
-            <div className='flex items-center justify-center mt-4'>
-              <XMarkIcon className='h-10 w-10 cursor-pointer hover:opacity-50 transition-all' onClick={handleFilterOpen}/>
+          <div
+            id="filterModal"
+            className="fixed z-[9999] overflow-y-scroll overflow-x-hidden top-0 left-0 h-full w-full bg-primaryBlack px-6 pb-32"
+          >
+            <div className="flex items-center justify-center mt-4">
+              <XMarkIcon
+                className="h-10 w-10 cursor-pointer hover:opacity-50 transition-all"
+                onClick={handleFilterOpen}
+              />
             </div>
 
             {/* FILTERS FOR MODAL STARTS HERE -> imported from /lng/filters.json - HIGHLIGTING FOR THE CLICKED + FETCHED CATEGORY BY CHECKING IF THE SET STATE MATCHES THE CATEGORY*/}
-            <div className='flex flex-col mt-14'>
-              {filters.map(({ title, id, data }) => 
-                  <div key={id}>
-                    <h3 className='text-xl font-medium mb-4'>{t(title)}</h3>
-                    <div className="flex flex-wrap mb-7">
-                        {data.map(({ id, title, category, query }) =>
-                          <div
-                            className="py-1 px-1 cursor-pointer hover:opacity-70 transition-all"
-                            onClick={() => {
-                              handleCategory(category);
-                              handleQuery(query);
-                              handleSearchDisplay(title);
-                              handleFilterOpen();
-                            }}
-                            key={id}
-                          >
-                            <button className={fetchCategory === category ?"bg-primaryYellow px-3 py-1 rounded-lg text-primaryBlack" : "border-[1px] px-3 py-1 rounded-lg"}>
-                              <h3 className="text-base font-regular">
-                                {t(title)}
-                              </h3>
-                            </button>
-                          </div>       
-                        )}
-                    </div>
+            <div className="flex flex-col mt-14">
+              {filters.map(({ title, id, data }) => (
+                <div key={id}>
+                  <h3 className="text-xl font-medium mb-4">{t(title)}</h3>
+                  <div className="flex flex-wrap mb-7">
+                    {data.map(({ id, title, category, query }) => (
+                      <div
+                        className="py-1 px-1 cursor-pointer hover:opacity-70 transition-all"
+                        onClick={() => {
+                          handleCategory(category);
+                          handleQuery(query);
+                          handleSearchDisplay(title);
+                        }}
+                        key={id}
+                      >
+                        <button
+                          className={
+                            fetchCategory === category
+                              ? "bg-primaryYellow px-3 py-1 rounded-lg text-primaryBlack"
+                              : "border-[1px] px-3 py-1 rounded-lg"
+                          }
+                        >
+                          <h3 className="text-base font-regular">{t(title)}</h3>
+                        </button>
+                      </div>
+                    ))}
                   </div>
-              )}               
+                </div>
+              ))}
 
-              <h3 className='text-xl font-medium'>Tid</h3>
-              
-              <div className="px-6 pt-4 fixed bottom-0 left-0 w-full"
-              style={{
-                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,1) 84%)`
-              }}
+              <h3 className="text-xl font-medium">Tid</h3>
+
+              <div
+                className="px-6 pt-4 fixed bottom-0 left-0 w-full"
+                style={{
+                  backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,1) 84%)`,
+                }}
               >
                 <div className="flex gap-2 mb-7">
-                  <HalfButtonOutline 
-                  text={t("searchpage.filterModalResetBtn")}
+                  <HalfButtonOutline
+                    text={t("searchpage.filterModalResetBtn")}
                   />
-
-                  <HalfButtonFilled text={t("searchpage.filterModalApplyBtn")}/>
-                </div>           
+                  <button
+                    onClick={handleFilterOpen}
+                    className="w-full py-3 rounded-2xl  text-primaryBlack font-regular bg-primaryYellow"
+                  >
+                    {t("searchpage.filterModalApplyBtn")}
+                  </button>
+                </div>
               </div>
-              
             </div>
           </div>
         )}
-        
 
         {/* FILTER MODAL BTN AND CHANGE LAYOUT BTN */}
-        <div className='px-6 mb-4'>
-          <div className='flex justify-between items-center mt-14'>
-            <button className='text-primaryYellow uppercase border-[1.2px] rounded-xl px-5 py-[0.2rem]'>
-              <div className='flex gap-1 text-sm justify-center items-center' onClick={handleFilterOpen}>
-                <AdjustmentsVerticalIcon className='h-6 w-6' />
+        <div className="px-6 mb-4">
+          <div className="flex justify-between items-center mt-14">
+            <button className="text-primaryYellow uppercase border-[1.2px] rounded-xl px-5 py-[0.2rem]">
+              <div
+                className="flex gap-1 text-sm justify-center items-center"
+                onClick={handleFilterOpen}
+              >
+                <AdjustmentsVerticalIcon className="h-6 w-6" />
                 <p>{t("searchpage.filter")}</p>
               </div>
             </button>
 
-            {!changeLayout &&
-              <button 
-                className='items-center justify-center text-sm flex gap-1'
+            {!changeLayout && (
+              <button
+                className="items-center justify-center text-sm flex gap-1"
                 onClick={() => handleLayoutChange()}
               >
-                <Bars4Icon className='h-6 w-6'/>
-                <p className='uppercase text-primaryGray-500'>{t("searchpage.list")}</p>
+                <Bars4Icon className="h-6 w-6" />
+                <p className="uppercase text-primaryGray-500">
+                  {t("searchpage.list")}
+                </p>
               </button>
-            }
+            )}
 
-            {changeLayout &&
-              <button 
-                className='items-center justify-center text-sm flex gap-1'
+            {changeLayout && (
+              <button
+                className="items-center justify-center text-sm flex gap-1"
                 onClick={() => handleLayoutChange()}
               >
-                <Squares2X2Icon className='h-6 w-6'/>
-                <p className='uppercase text-primaryGray-500'>{t("searchpage.grid")}</p>
+                <Squares2X2Icon className="h-6 w-6" />
+                <p className="uppercase text-primaryGray-500">
+                  {t("searchpage.grid")}
+                </p>
               </button>
-            }
+            )}
           </div>
-        </div>        
+        </div>
 
         {/* CATEGORY CAROUSEL FOR FILTERING  */}
         <Swiper
@@ -272,12 +295,11 @@ export default function CategoryCarousel() {
             },
           }}
         >
-
           {/* 
             MAP THROUGH CATEGORIES AND CHANGE FETCH DEPENDING ON CATEGORY ONCLICK 
             IF CATEGORY IS IN STATE = IS FETCHED = IS CLICKED = SHOW UX STYLING
           */}
-          {featuredCategories.map(({ id, title, category, query}) =>
+          {featuredCategories.map(({ id, title, category, query }) => (
             <SwiperSlide
               className="py-1 cursor-pointer"
               onClick={() => {
@@ -288,26 +310,34 @@ export default function CategoryCarousel() {
               key={id}
             >
               <div>
-                <h3 className={fetchCategory === category ? "text-base font-regular text-primaryWhite": "text-base text-primaryGray-700 font-thin focus:bg-primaryYellow"}>
+                <h3
+                  className={
+                    fetchCategory === category
+                      ? "text-base font-regular text-primaryWhite"
+                      : "text-base text-primaryGray-700 font-thin focus:bg-primaryYellow"
+                  }
+                >
                   {t(title)}
                 </h3>
 
                 {fetchCategory === category && (
                   <div className="slideIn mt-2 w-10 h-0.5 bg-primaryYellow"></div>
                 )}
-                
               </div>
             </SwiperSlide>
-          )}
-
+          ))}
         </Swiper>
       </div>
 
       {/* EMPTY STATE IF DATA IS EMPTY */}
       {events.length === 0 && (
         <div className="fadeInAnimation px-5 mt-16 font-thin text-primaryGray-500 text-center">
-          <h2 className="text-xl">"{t(searchDisplay)}" {t("searchpage.resultsEmptyStateTop")}</h2>
-          <p className="mt-2 text-base">{t("searchpage.resultsEmptyStateBottom")}</p>
+          <h2 className="text-xl">
+            "{t(searchDisplay)}" {t("searchpage.resultsEmptyStateTop")}
+          </h2>
+          <p className="mt-2 text-base">
+            {t("searchpage.resultsEmptyStateBottom")}
+          </p>
         </div>
       )}
 
@@ -377,61 +407,56 @@ export default function CategoryCarousel() {
       {/* IF LAYOUT IS CHANGED OR DEFAULT - LAYOUT = FALSE  = GRID  */}
       {!changeLayout && (
         <div className="px-5 mt-7 flex flex-wrap gap-4 justify-between">
-          {events.map(
-            ({ title, id, likes, image, body, time, taste }) => (
-              <div
-                className="fadeInAnimation h-60 max-w-[46%] relative"
-                key={id}
-              >
-                <div className="flex justify-between font-thin absolute items-start w-full px-3 py-3">
-                  <div className="flex items-center gap-1">
-                    <ClockIcon className="h-3" />
-                    <p className="text-xs shadow-primaryBlack">{time} min</p>
-                  </div>
-                  {user && <LikeCocktail id={id} likes={likes} />}
-
-                  {/* IF NO USER SHOW BOOKMARK BUTTON WITH REDIRECT TO LIKES PAGE WITH ONBOARDING */}
-                  {!user && (
-                    <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
-                      <BookmarkIcon
-                        className="h-7 w-7 text-primaryYellow shadow-2xl"
-                        style={{
-                          cursor: "pointer",
-                        }}
-                        onClick={() => navigate("/likes")}
-                      />
-                    </div>
-                  )}
+          {events.map(({ title, id, likes, image, body, time, taste }) => (
+            <div className="fadeInAnimation h-60 max-w-[46%] relative" key={id}>
+              <div className="flex justify-between font-thin absolute items-start w-full px-3 py-3">
+                <div className="flex items-center gap-1">
+                  <ClockIcon className="h-3" />
+                  <p className="text-xs shadow-primaryBlack">{time} min</p>
                 </div>
+                {user && <LikeCocktail id={id} likes={likes} />}
 
-                <div
-                  className="flex w-full justify-end flex-col h-full rounded-2xl px-3 pb-5"
-                  style={{
-                    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "cover",
-                    backgroundRepeat: "no-repeat",
-                  }}
-                  onClick={() => navigate("/recipe/" + id)}
-                >
-                  <div>
-                    <div className="flex flex-col gap-1">
-                      <div className="flex gap-2 text-xs font-regular">
-                        <p className="border-[1px] px-4 py-1 rounded-xl uppercase">
-                          {taste?.title}
-                        </p>
-                      </div>
+                {/* IF NO USER SHOW BOOKMARK BUTTON WITH REDIRECT TO LIKES PAGE WITH ONBOARDING */}
+                {!user && (
+                  <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
+                    <BookmarkIcon
+                      className="h-7 w-7 text-primaryYellow shadow-2xl"
+                      style={{
+                        cursor: "pointer",
+                      }}
+                      onClick={() => navigate("/likes")}
+                    />
+                  </div>
+                )}
+              </div>
 
-                      <h3 className="text-base font-medium">{title}</h3>
-                      <p className="line-clamp-1 text-xs font-regular text-primaryGray-500">
-                        {body}
+              <div
+                className="flex w-full justify-end flex-col h-full rounded-2xl px-3 pb-5"
+                style={{
+                  backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                }}
+                onClick={() => navigate("/recipe/" + id)}
+              >
+                <div>
+                  <div className="flex flex-col gap-1">
+                    <div className="flex gap-2 text-xs font-regular">
+                      <p className="border-[1px] px-4 py-1 rounded-xl uppercase">
+                        {taste?.title}
                       </p>
                     </div>
+
+                    <h3 className="text-base font-medium">{title}</h3>
+                    <p className="line-clamp-1 text-xs font-regular text-primaryGray-500">
+                      {body}
+                    </p>
                   </div>
                 </div>
               </div>
-            )
-          )}
+            </div>
+          ))}
         </div>
       )}
     </section>
