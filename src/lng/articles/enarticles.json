@@ -38,6 +38,18 @@
         "title": "Casper Sobczyk's top 10 cocktails for your New Year's Eve",
         "subcategory": "guides",
         "subcategoryTitle": "inspiration",
+        "relatedProducts": {
+            "first": {
+                "title": "Snaps",
+                "link": "https://bornholmspirits.com/collections/snaps",
+                "image": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/snapseflasker.webp?alt=media&token=5cfb6d5c-c11e-43ee-a5f7-4e3e56995a68"
+            },
+            "second": {
+                "title": "Figen snaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "image": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Limited_Edition_figen.webp?alt=media&token=b80ea210-71dd-41ba-b909-321923ae4c86"
+            }
+        },
         "section1": {
             "title": "Caspers chosen favourites for your New Year's Eve",
             "body": "Are you at a loss for what to serve your guests on New Year's Eve? Fear not! We have sent out the sobczyk signal and received help from the talented chef Casper Sobczyk. Casper has gathered his 10 favorite cocktails when it's time to party."

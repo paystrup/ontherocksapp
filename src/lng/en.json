@@ -63,25 +63,31 @@
         "tasteProfileTitle": "Your tasteprofile",
         "latestAdded": "Recently added",
         "latestAddedBtn": "See all",
-        "yourCollections": "Your collections",
+        "yourCollections": "Recently saved",
         "yourCollectionsBtn": "See all",
         "signOutBtn": "Sign out",
         "login": {
             "title": "Unlock for more <span>free</span> benefits of the app",
             "body": "Create a user to get a profile. It is free and takes 1 minute. Create a taste profile, get exclusive offers, save cocktails and much more.",
             "mainbtn":"Login"
-        }
+        },
+        "likesEmptyState": "You have no saved cocktails yet 😥"
     },
     "signin": {
         "signInButtonGoogle": "Login",
         "signInButtonFacebook": "Continue with Facebook",
-        "successToastMsg": "You have logged in! 🍹"
+        "successToastMsg": "You have logged in! 🍹",
+        "logoutToastMsg": "You have logged out. We will miss you 😥"
     },
     "cocktailPage": {
         "recipeTitle": "Step by step guide",
         "carouselTitle": "More like this cocktail",
         "carouselTitle2": "Other recipes with",
-        "addflavorBtn": "Add to flavor profile"
+        "addflavorBtn": "Add to flavor profile",
+        "copyBtnToolTip": "Click here to copy link to your clipboard 🍸",
+        "copyBtnText": "Copy link",
+        "copyModalTitle": "Share recipe with friends and family",
+        "alert": "Link is now copied ✨"
     },
     "spinAnimation": {
         "title": "Loading"

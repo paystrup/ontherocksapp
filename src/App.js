@@ -14,6 +14,8 @@ import SplashPage from "./pages/SplashPage";
 import LoginPage from "./pages/LoginPage";
 import ArticlesPage from "./pages/ArticlesPage";
 import CompetitionPage from "./pages/CompetitionPage";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from 'react-toastify';
 // import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
     <div className="App">
       <ScrollToTop />
       <TopNavigation />
+      <ToastContainer theme="dark" autoClose={3000}/>
       <Routes key={location.pathname} location={location}>
         <Route path="/" element={<HomePage />}/>
         <Route path="/search" element={<SearchPage />} />

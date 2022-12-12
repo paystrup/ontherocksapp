@@ -43,29 +43,48 @@ export default function ArticlesFeatured( slug ) {
     }, [fetchLng, t]);
 
   return (
-    <section className='my-14 px-5'>
+    <section className='my-14'>
 
-        <div >
+        <div className="h-full">
 
             {article.map(({headerImages, title, subtitle, id, button}) => (
-                <div className="w-full flex flex-col gap-4 mb-4" key={id}>
-                    <div
-                        className="w-full rounded-3xl h-64 flex flex-col justify-end px-5 py-5"
-                        
-                        style={{
-                            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${headerImages?.src})`,
-                            backgroundPosition: "top",
-                            backgroundSize: "cover",
-                            backgroundRepeat: "no-repeat"
-                        }}
-                        
-                    >
-                        <div className="text-center">
-                            <h2 className="text-2xl">{title}</h2>
-                            <h3 className="text-sm font-thin py-5">{subtitle}</h3>
-                            <button className="bg-primaryYellow text-primaryBlack w-1/2 py-3 rounded-2xl" onClick={() => navigate("/competition/" + id)}>{button}</button>
+                <div className="overflow-hidden relative h-80 flex items-center flex-col justify-center">
+                    <div className="text-center z-10 absolute px-6">
+                        <h2 className="text-2xl">Vind <span className="underline underline-offset-4 text-primaryYellow">kittet</span> der gør din næste fest til et hit!</h2>
+                        <p className="text-sm font-thin pt-2 text-primaryGray-500 pb-7">{subtitle}</p>
+                        <button className="bg-primaryYellow drop-shadow-xl text-primaryBlack w-1/2 py-3 rounded-2xl" onClick={() => navigate("/competition/" + id)}>{button}</button>
+                    </div>
+                    <div className="absolute z-0">
+                        <div className="flex justify-center items-center gap-6 h-full py-10 w-[120%] -translate-x-12">
+                            <div className="compAnim flex flex-col w-40 h-72 rounded-3xl blur-[2px] opacity-50"
+                                style={{
+                                backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 100%, rgba(0,0,0,0) 10%), url(${headerImages?.src})`,
+                                backgroundPosition: "center",
+                                backgroundSize: "cover",
+                                backgroundRepeat: "no-repeat",
+                            }}>
+                            </div>
+
+                            <div className="compAnim2 flex flex-col w-40 h-72 rounded-3xl pb-5 py-3 px-5 opacity-20 blur-[1px]"
+                                style={{
+                                backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 100%, rgba(0,0,0,0) 10%), url(${headerImages?.src2})`,
+                                backgroundPosition: "center",
+                                backgroundSize: "cover",
+                                backgroundRepeat: "no-repeat",
+                            }}>
+                            </div>
+
+                            <div className="compAnim3 flex flex-col w-40 h-72 rounded-xl pb-5 py-3 blur-[2px] opacity-70"
+                                style={{
+                                backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 100%, rgba(0,0,0,0) 10%), url(${headerImages?.src1})`,
+                                backgroundPosition: "center",
+                                backgroundSize: "cover",
+                                backgroundRepeat: "no-repeat",
+                            }}>
+                            </div>
                         </div>
                     </div>
+  
                 </div>
             ))}
 

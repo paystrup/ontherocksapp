@@ -41,14 +41,14 @@
         "subcategoryTitle": "inspiration",
         "relatedProducts": {
             "first": {
-                "title": "Blåbær Citron snaps",
-                "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
-                "image": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/blaabaercitronsnaps.webp?alt=media&token=648a6a59-1cb0-458b-8045-5a6fae0f939d"
+                "title": "Snaps",
+                "link": "https://bornholmspirits.com/collections/snaps",
+                "image": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/snapseflasker.webp?alt=media&token=5cfb6d5c-c11e-43ee-a5f7-4e3e56995a68"
             },
             "second": {
                 "title": "Figen snaps",
                 "link": "https://bornholmspirits.com/products/3-figen-snaps",
-                "image": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/figensnaps.webp?alt=media&token=669fcd3f-6d10-4375-9100-b5524a29e76d"
+                "image": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Limited_Edition_figen.webp?alt=media&token=b80ea210-71dd-41ba-b909-321923ae4c86"
             }
         },
         "section1": {

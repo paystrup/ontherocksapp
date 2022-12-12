@@ -1,10 +1,3 @@
-// 🚨✨ TODO
-// add grid layout changability
-// fix the 0 added at line 88
-// add collections + animations
-// fix redirection on no userlogin
-
-
 import { collection, onSnapshot, query } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { db } from "../firebaseConfig";
@@ -79,7 +72,7 @@ export default function LikesPageFavorites() {
             )}
    
             {/* EMPTY STATE IF USER HAS NO FAVOURITES and loading is done*/}
-            {!isFound & !isLoading && (
+            {!isFound & !isLoading ? (
                 <div>
                     <h3 className="font-medium leading-relaxed text-2xl mt-7 mb-4 text-center">
                         {t("likespage.emptyStateTxt")}
@@ -88,7 +81,7 @@ export default function LikesPageFavorites() {
                         {t("likespage.emptyStateTxtBottom")}
                     </p>
                 </div>
-            )}
+            ) : null }
         </section>
     );
 }

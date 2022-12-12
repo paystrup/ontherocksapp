@@ -2,18 +2,30 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebaseConfig.js";
+import { useNavigate } from 'react-router';
 import ppFallback from "../assets/images/profilePicFallback.png";
 import SeeMoreBtn from '../components/SeeMoreBtn.js';
 import video from "../assets/video/video2.webm";
 import Login from '../components/Login';
 import Spinanimation from "../components/Spinanimation";
+import ProfilePageFavourites from '../components/ProfilePageFavourites.js';
+import { toast } from "react-toastify";
 
 export default function ProfilePage() {
   // import copy translations from i18n
   const { t } = useTranslation();
   const [user, loading] = useAuthState(auth);
-  // user.metadata.creationTime
+  const navigate = useNavigate();
+
+  const userDate = user?.metadata?.creationTime;
   if (loading) return <Spinanimation/>;
+
+  const handleSignOut = (event) => {
+    auth.signOut();
+    toast(t("signin.logoutToastMsg"), { backgroundColor: "#FFE598", toastId: "succesToast", });
+  }
+
+  // If there's no user logged in -> show onboarding
   if (!user)
   return(
     <section>
@@ -41,12 +53,14 @@ export default function ProfilePage() {
       </div>
     </section>
     )
+
+  // If user is authenticated -> show profilepage
   if (user)
   return (
-    <section className='mt-20 px-6'>
+    <section className='mt-20 px-6 mb-32'>
       <div className='flex flex-col items-center justify-center mb-7 gap-2'>
         <img
-            className="imageProfile rounded-full"
+            className="grayscale imageProfile rounded-full"
             src={auth.currentUser.photoURL}
             alt={user.displayName}
             onError={(e) => {
@@ -78,11 +92,11 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className='flex flex-col justify-center items-center gap-2'>
+        <div className='flex flex-col justify-center items-center gap-2 w-1/3'>
           <p className='font-medium text-xs text-primaryGray-500'>{t("profilepage.createdAt")}</p>
 
           <div className='text-center'>
-            <p className='text-4xl'>0</p>
+            <p className='text-sm line-clamp-2'>{user?.metadata?.creationTime}</p>
             <p className='text-[10px] text-primaryGray-700'>{t("profilepage.createdAtBottom")}</p>
           </div>
         </div>
@@ -114,15 +128,21 @@ export default function ProfilePage() {
         <SeeMoreBtn text={t("profilepage.latestAddedBtn")}/>
       </div>
 
+
       <div className='mt-14 flex justify-between'>
         <h3 className='font-medium text-xl'>{t("profilepage.yourCollections")}</h3>
+        <div onClick={() => navigate("/likes")}>
         <SeeMoreBtn text={t("profilepage.yourCollectionsBtn")}/>
+        </div>
+      </div>
+      <div className='mt-7'>
+        <ProfilePageFavourites/>
       </div>
 
       <div className="signOut mt-8">
           <button
             className="border-[1px] w-full py-2 rounded-xl"
-            onClick={() => auth.signOut()}
+            onClick={handleSignOut}
           >
             {t("profilepage.signOutBtn")} {user.displayName}
           </button>

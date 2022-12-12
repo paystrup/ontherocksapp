@@ -1,7 +1,7 @@
 [
     {
         "id": "nytårsaften",
-        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-cottonbro-studio-3171770.jpg?alt=media&token=29ac2cff-1011-44dc-9b73-68b222e56488",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/newyears.webp?alt=media&token=19d3f2c4-e3ea-47de-b5da-d2ac899bad80",
         "slug": "nytårsaften",
         "category": "events",
         "title": "Nytårsaften",
@@ -42,7 +42,7 @@
     },
     {
         "id": "juleaften",
-        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-hert-niks-3388335-_1_.webp?alt=media&token=91562e34-fef1-4320-8219-c9f894ad5ec9",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/jul.webp?alt=media&token=ac5f1561-0f7f-4fe3-a64c-6b3ec51ac6fa",
         "slug": "juleaften",
         "category": "events",
         "title": "Juleaften",
@@ -83,7 +83,7 @@
     },
     {
         "id": "julefrokost",
-        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-nicole-michalou-6062038-_1_.webp?alt=media&token=e8a53f67-4338-42bd-acd6-9529c389da94",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/julefrokost1.webp?alt=media&token=4ff6cfc5-44d4-4e9a-a3d6-89bdebc08121",        
         "slug": "julefrokost",
         "category": "events",
         "title": "Julefrokost",
@@ -121,5 +121,40 @@
             "slug1": "juleaften",
             "slug2": "nytår"
         }
-    } 
+    },
+    {
+        "id": "dagenderpaa",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/confetti.webp?alt=media&token=d144f336-4b52-40b8-bab3-798ad2e303ce",        
+        "slug": "dagenderpaa",
+        "category": "events",
+        "title": "Dagen Derpå",
+        "subcategory": "guides",
+        "subcategoryTitle": "Tips og guides",
+        "body": "De fleste har hørt om reperationsbajeren, vi tager den lige et nøk op og præsenterer reperations-cocktaile!",
+        "slider1": {
+            "title": "Når du vågner",
+            "body": "Lige når du vågner skriger din krop helt sikker efter væske. Giv din krop det friske pust den har brug for med en læskende Screw Driver.",
+            "slidedata": {
+                "slug": "screw-driver"
+            }
+        },
+        "slider2": {
+            "title": "Til oprydningen",
+            "body": "Nu starter alt det hårde og du har brug for alt tænkelig energi for at finde overskuddet til at støvsuge alle de mange konfetti-stykker op fra hele lejligheden (fordi i går var det verdens bedste idé at fyre tre konfetti-kanoner af).",
+            "slidedata": {
+                "slug": "espresso-martini"
+            }
+        },
+        "slider3": {
+            "title": "Til pizzaen",
+            "body": "Nu kan du endelig slappe af og med god samvittighed. Bestil den mest snaskede pizza du kan finde på Wolt, slå benene op og nyd en Stormy Bornholmer til maden.",
+            "slidedata": {
+                "slug": "stormy-bornholmer"
+            }
+        },
+        "relatedEvents": {
+            "slug1": "juleaften",
+            "slug2": "nytår"
+        }
+    }
 ]

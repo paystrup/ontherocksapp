@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import snaps from "../assets/images/cocktails/17_720x.webp";
-import snaps1 from "../assets/images/cocktails/20_720x.webp";
+import { LinkIcon } from "@heroicons/react/24/outline";
 
 // firebase imports for fetching
 import { collection, onSnapshot, where, query } from "firebase/firestore";
@@ -46,12 +45,12 @@ export default function ArticlesFeatured(slug) {
   return (
     <section className="my-14 px-5">
       <div>
-        {article.map(({ headerImage, title, subcategoryTitle, id, relatedProducts, first }) => (
+        {article.map(({ headerImage, title, subcategoryTitle, id, relatedProducts, first, link }) => (
           <div className="w-full flex flex-col gap-4 mb-4" key={id}>
             <div
-              className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5 border"
+              className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5"
               style={{
-                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${headerImage})`,
+                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 100%), url(${headerImage})`,
                 backgroundPosition: "center top",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
@@ -66,38 +65,40 @@ export default function ArticlesFeatured(slug) {
               </div>
 
             </div>
-              <div className="flex justify-center gap-4 ">
-              <img className='border w-2/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5' src={relatedProducts?.first?.image} alt={article?.section2?.image?.alt} />
-              <img className='border w-1/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5' src={relatedProducts?.second?.image} alt={article?.section2?.image?.alt} />
-              </div>
+              
+      <div className="flex justify-center gap-4 w-full">
+          <a className="w-1/2 h-24" href={relatedProducts?.first?.link} target="_blank" rel="noreferrer">
+            <div 
+              className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5"
+              style={{
+                backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 0%, rgba(0,0,0,0) 60%), url(${relatedProducts?.first?.image})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+            <LinkIcon className="h-7 w-7 drop-shadow-lg shadow-primaryBlack text-primaryYellow"/>
+            </div>
+          </a>
+
+
+        <a className="w-1/2 h-24" href={relatedProducts?.second?.link} target="_blank" rel="noreferrer">
+          <div className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5"
+            style={{
+              backgroundImage:`linear-gradient(180deg, rgba(12,12,12,0.4) 0%, rgba(0,0,0,0) 60%), url(${relatedProducts?.second?.image})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <LinkIcon className="h-7 w-7 drop-shadow-lg shadow-primaryBlack text-primaryYellow"/>
           </div>
-        ))}
-      </div>
+        </a>
+        </div>
 
-      <div className="flex justify-center gap-4">
-        <div
-          className="w-1/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5"
-          style={{
-            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${snaps1})`,
-            backgroundPosition: "top",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}
-          onClick={() => navigate("")}
-        ></div>
-        <div
-          className="w-1/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5"
-          style={{
-            backgroundImage: `url(${snaps1})`,
-            backgroundPosition: "top",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}
-          onClick={() => navigate("")}
-        ></div>
-
-      </div>
-      
+  </div>
+))}
+    </div>
     </section>
   );
 }

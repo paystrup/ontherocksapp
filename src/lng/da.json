@@ -66,25 +66,31 @@
         "tasteProfileTitle": "Din smagsprofil",
         "latestAdded": "Seneste tilføjelser",
         "latestAddedBtn": "Se alle",
-        "yourCollections": "Dine kollektioner",
+        "yourCollections": "Sidst gemte",
         "yourCollectionsBtn": "Se alle",
         "signOutBtn": "Log ud",
         "login": {
             "title": "Lås op for flere <span>gratis</span> fordele ved appen",
             "body": "Opret en bruger for at få en profil. Det er gratis og tager 1 minut. Opret smagsprofil, få ekslusive tilbud, gem cocktails og meget mere.",
             "mainbtn":"Log ind"
-        }
+        },
+        "likesEmptyState": "Du har ingen gemte cocktails endnu 😥"
     },
     "signin": {
         "signInButtonGoogle": "Log ind",
         "signInButtonFacebook": "Fortsæt med Facebook",
-        "successToastMsg": "Du er nu logget ind! 🍹"
+        "successToastMsg": "Du er nu logget ind! 🍹",
+        "logoutToastMsg": "Du er logget ud. Vi vil savne dig 😥"
     },
     "cocktailPage": {
         "recipeTitle": "Fremgangsmåde",
         "carouselTitle": "Du vil sikkert kunne lide",
         "carouselTitle2": "Flere med",
-        "addflavorBtn": "Føj til smagsprofil"
+        "addflavorBtn": "Føj til smagsprofil",
+        "copyBtnToolTip": "Tryk her for at kopiere linket til din udklipsholder 🍸",
+        "copyBtnText": "Kopier link",
+        "copyModalTitle": "Del opskrift med dine nærmeste",
+        "alert": "Linket er nu kopieret! ✨"
     },
     "spinAnimation": {
         "title": "Indlæser"

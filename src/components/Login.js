@@ -1,4 +1,3 @@
-import { FcGoogle } from "react-icons/fc";
 import {
   signInWithPopup,
   GoogleAuthProvider
@@ -39,11 +38,11 @@ export default function Login() {
     useEffect(() => {
       if (user) {
         navigate("/profile");
-        toast(t("signin.successToastMsg"), { type: "success" });
+        toast(t("signin.successToastMsg"), { type: "success", toastId: "succesToast", });
       } else {
         console.log("login");
       }
-    }, [user, navigate]);
+    }, [user, navigate, t]);
 
     return (
         <div>

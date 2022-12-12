@@ -1,7 +1,7 @@
 [
     {
         "id": "nytårsaften",
-        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-cottonbro-studio-3171770.jpg?alt=media&token=29ac2cff-1011-44dc-9b73-68b222e56488",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/newyears.webp?alt=media&token=19d3f2c4-e3ea-47de-b5da-d2ac899bad80",
         "slug": "nytårsaften",
         "category": "events",
         "title": "New Year's Eve",
@@ -42,7 +42,7 @@
     },
     {
         "id": "juleaften",
-        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-hert-niks-3388335-_1_.webp?alt=media&token=91562e34-fef1-4320-8219-c9f894ad5ec9",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/jul.webp?alt=media&token=ac5f1561-0f7f-4fe3-a64c-6b3ec51ac6fa",
         "slug": "juleaften",
         "category": "events",
         "title": "Christmas Eve",
@@ -83,7 +83,7 @@
     },
     {
         "id": "julefrokost",
-        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-nicole-michalou-6062038-_1_.webp?alt=media&token=e8a53f67-4338-42bd-acd6-9529c389da94",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/julefrokost1.webp?alt=media&token=4ff6cfc5-44d4-4e9a-a3d6-89bdebc08121",
         "slug": "julefrokost",
         "category": "events",
         "title": "Julefrokost",
@@ -115,6 +115,41 @@
                 "slug1": "white-russian",
                 "slug2": "stormy-bornholmer",
                 "slug3": "espresso-martini"
+            }
+        },
+        "relatedEvents": {
+            "slug1": "juleaften",
+            "slug2": "nytår"
+        }
+    },
+    {
+        "id": "dagenderpaa",
+        "headerImage": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/confetti.webp?alt=media&token=d144f336-4b52-40b8-bab3-798ad2e303ce",        
+        "slug": "dagenderpaa",
+        "category": "events",
+        "title": "The morning after",
+        "subcategory": "guides",
+        "subcategoryTitle": "Tips og guides",
+        "body": "Most have heard about the reperation beer, we have taken it to the next level and present to you the reperation cocktail.",
+        "slider1": {
+            "title": "When you wake up",
+            "body": "Right when ypu wake up your body is propably screaming for fluids. Give it what it wants with a mouth-watering Screw Driver.",
+            "slidedata": {
+                "slug": "screw-driver"
+            }
+        },
+        "slider2": {
+            "title": "For the clean-up",
+            "body": "Now the hard work begins and you will need all the energi you can get to be able to find the energy to vacuum all the confetti off of the floor (Because last night you thought it was a great idea to fire up three confetti-canons).",
+            "slidedata": {
+                "slug": "espresso-martini"
+            }
+        },
+        "slider3": {
+            "title": "For the Pizza",
+            "body": "And then you can finally rest og with good conscience. Order the most greasy pizza you can find on wolt, unwind and enjoy a Stormy Bornholmer.",
+            "slidedata": {
+                "slug": "stormy-bornholmer"
             }
         },
         "relatedEvents": {

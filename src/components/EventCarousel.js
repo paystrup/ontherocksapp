@@ -76,7 +76,7 @@ export default function EventCarousel() {
                         key={id}
                         className="w-2/3 rounded-[24px]" 
                         style={{
-                            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${headerImage})`,
+                            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 100%), url(${headerImage})`,
                             backgroundPosition: "top",
                             backgroundSize: "cover",
                             backgroundRepeat: "no-repeat"
@@ -85,7 +85,7 @@ export default function EventCarousel() {
                     >
                         <div className='pb-2 pt-2 flex w-full justify-between flex-col h-full'>
                             <div></div>
-                            <div className='px-2'>
+                            <div>
                                 <div className='flex flex-col gap-1'>
                                     <h3 className='text-xl font-regular'>{title}</h3>
                                     <p className='text-sm font-thin text-primaryGray-500 line-clamp-2'>

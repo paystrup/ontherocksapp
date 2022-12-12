@@ -48,7 +48,7 @@ export default function TopNavigation() {
             <h3>{t("topnav.selectlng")}</h3>
             <div className="flex gap-10 items-center justify-center">
               <button
-                className="w-16 h-16 rounded-full border-solid border-2 border-primaryWhite"
+                className={localStorage.getItem("lng") === "da" ? "w-16 h-16 rounded-full border-solid border-2 border-primaryWhite opacity-50" : "w-16 h-16 rounded-full border-solid border-2 border-primaryWhite"}
                 style={{
                   backgroundImage: `url(${enFlag})`,
                   backgroundPosition: "top",
@@ -59,7 +59,7 @@ export default function TopNavigation() {
               ></button>
 
               <button
-                className="w-16 h-16 rounded-full border-solid border-2 border-primaryWhite"
+                className={localStorage.getItem("lng") === "en" ? "w-16 h-16 rounded-full border-solid border-2 border-primaryWhite opacity-50" : "w-16 h-16 rounded-full border-solid border-2 border-primaryWhite"}
                 style={{
                   backgroundImage: `url(${daFlag})`,
                   backgroundPosition: "top",
