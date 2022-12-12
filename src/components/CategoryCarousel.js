@@ -18,12 +18,18 @@ import {
   Squares2X2Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+
+// Translations
 import { useTranslation } from "react-i18next";
+
+// Like function
 import LikeCocktail from "./LikeCocktail";
+
+// Loading Animation for the loading state while fetching
 import Spinanimation from "./Spinanimation";
+
+// Importing filters + titles + lng support for the filters
 import filters from "../lng/filters.json";
-import HalfButtonOutline from "./HalfButtonOutline";
-import HalfButtonFilled from "./HalfButtonFilled";
 
 export default function CategoryCarousel() {
   // -> PROPS from layout selection imported, to show grid or list layout onclick
@@ -185,7 +191,7 @@ export default function CategoryCarousel() {
                   <div className="flex flex-wrap mb-7">
                     {data.map(({ id, title, category, query }) => (
                       <div
-                        className="py-1 px-1 cursor-pointer hover:opacity-70 transition-all"
+                        className="py-1 px-1 cursor-pointer"
                         onClick={() => {
                           handleCategory(category);
                           handleQuery(query);
@@ -217,9 +223,15 @@ export default function CategoryCarousel() {
                 }}
               >
                 <div className="flex gap-2 mb-7">
-                  <HalfButtonOutline
-                    text={t("searchpage.filterModalResetBtn")}
-                  />
+                  <button
+                    onClick={() => {
+                      handleCategory(true);
+                      handleQuery("featured");
+                      handleSearchDisplay(t("categories.popular"));
+                    }} 
+                  className='w-full border-2 py-3 rounded-2xl border-primaryYellow text-primaryYellow font-regular bg-primaryBlack'>
+                    {t("searchpage.filterModalResetBtn")}
+                  </button>
                   <button
                     onClick={handleFilterOpen}
                     className="w-full py-3 rounded-2xl  text-primaryBlack font-regular bg-primaryYellow"
