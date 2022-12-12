@@ -9,12 +9,15 @@ const ScrollToTop = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
+  // const ScrollToTop = (props) => {
+  // const location = useLocation();
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     window.scrollTo(0, 0);
+  //   }, 400);
+  // }, [location]);
 
-  return (
-    <>
-        {props.children}
-    </>
-  );
+  return <>{props.children}</>;
 };
 
 export default ScrollToTop;
