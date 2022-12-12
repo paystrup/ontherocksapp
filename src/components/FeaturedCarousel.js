@@ -28,7 +28,9 @@ export default function FeaturedCarousel() {
     // Define state for the loading indicator
     const [isLoading, setIsLoading] = useState(true);
 
+    // Navigation
     const navigate = useNavigate();
+
     // state for setting our fetched articles/books 
     const [cocktails, setCocktails] = useState([]);
 

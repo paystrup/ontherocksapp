@@ -1,22 +1,72 @@
 // Inspiration from https://youtu.be/_7gdsAfFV9o
 import React from "react";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { doc, onSnapshot } from "firebase/firestore";
-import { db } from "../firebaseConfig";
+import { auth, db } from "../firebaseConfig";
 import {
   BookmarkIcon,
   ClockIcon,
   PaperAirplaneIcon,
+  ClipboardDocumentIcon
 } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
 import TypeWriterEffect from "../components/TypeWriterEffect";
 import ArticlesFeatured from "../components/ArticlesFeatured";
+import { useAuthState } from "react-firebase-hooks/auth";
+import LikeCocktailRound from "../components/LikeCocktailRound";
+
+// react social media share npm
+// source: https://github.com/nygardk/react-share
+import {
+  EmailIcon,
+  FacebookIcon,
+  FacebookMessengerIcon,
+  HatenaIcon,
+  InstapaperIcon,
+  LineIcon,
+  LinkedinIcon,
+  LivejournalIcon,
+  MailruIcon,
+  OKIcon,
+  PinterestIcon,
+  PocketIcon,
+  RedditIcon,
+  TelegramIcon,
+  TumblrIcon,
+  TwitterIcon,
+  ViberIcon,
+  VKIcon,
+  WeiboIcon,
+  WhatsappIcon,
+  WorkplaceIcon,
+  FacebookShareButton
+} from "react-share";
 
 export default function CocktailPage() {
+  // authentication auth and db are found in the firestore config, ref to our projekt in firebase
+  const [user] = useAuthState(auth);
+
+  // For the social media share btn -> get current URL to share -> dynamic
+  const shareURL = window.location.href;
+
+  // import translations
   const { t, i18n } = useTranslation();
+
+  // navigation
+  const navigate = useNavigate();
+
   // fetch depending on i18n language chosen
   const fetchLng = i18n.language;
+
+  // Read more btn - onclick changes state to show more lines
+  // If open -> change state back
+  const [readMore, setReadMore] = useState(false);
+
+  const handleReadMoreClick = (event) => {
+    setReadMore(!readMore);
+    console.log(readMore);
+  }
 
   const [article, setArticle] = useState([]);
   const params = useParams();
@@ -38,6 +88,27 @@ export default function CocktailPage() {
 
   return (
     <div className="text-primaryWhite mt-16 mb-32">
+      <div className="flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-5">
+        <div className="bg-lightBlack py-8 w-full rounded-2xl flex justify-center items-center flex-col gap-5">
+          <h3 className="font-medium text-xl text-center">Del opskrift med dine nærmeste</h3>
+          <FacebookShareButton
+            url={shareURL}
+            quote={article.title}
+          >
+            <FacebookIcon size={32} round />
+          </FacebookShareButton>
+          <div className="bg-primaryBlack mx-10 py-5 px-5 flex flex-wrap rounded-xl">
+            <p>{shareURL}</p>
+          </div>
+          <button 
+            onClick={() => {navigator.clipboard.writeText(shareURL)}}
+            className="border-[1px] text-primaryYellow px-4 py-2 rounded-xl flex gap-1"
+          >
+              <ClipboardDocumentIcon className="h-6 w-6"/>
+              Kopier link
+          </button>
+        </div>
+      </div>
       <div
         className="h-96 rounded-b-[30px] flex items-end"
         style={{
@@ -57,35 +128,45 @@ export default function CocktailPage() {
         </div>
       </div>
       <div className="mt-14 px-5">
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <div className="flex gap-1 items-center font-thin text-primaryYellow">
             <ClockIcon className="h-5 w-5" />
             <p>{article?.time} min</p>
           </div>
 
           <div className="flex gap-3">
-            <div className="border-[1px] rounded-full p-1">
+            <div className="border-[1px] rounded-full p-1 h-9 w-9 flex items-center justify-center">
               <PaperAirplaneIcon className="h-6 w-6 -rotate-45" />
             </div>
 
-            <div className="border-[1px] rounded-full p-1">
-              <BookmarkIcon className="h-6 w-6" />
-            </div>
+            {user && <LikeCocktailRound id={id} likes={article.likes} />}
+            {!user && (
+              <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
+                  <BookmarkIcon
+                      className="h-7 w-7 text-primaryYellow shadow-2xl cursor-pointer"
+                      onClick={() => navigate("/likes")}
+                  />
+              </div>
+            )}
           </div>
         </div>
 
         <div className="mt-7">
           <h2 className="text-5xl font-displayBook">{article?.title}</h2>
-          <p className="text-base text-primaryGray-500 font-thin leading-relaxed mt-4 line-clamp-4">
+          <p className={readMore ? "line-clamp-none text-base text-primaryGray-500 font-thin leading-7 mt-4" : "text-base text-primaryGray-500 font-thin leading-7 mt-4 line-clamp-4"}>
             {article?.body}
           </p>
-          <p>... Læs mere</p>
+          <p
+            className={readMore ? "mt-3 text-primaryGray-700" : "mt-3"}
+            onClick={handleReadMoreClick}
+          >{readMore ? "Se mindre" : "... Læs mere"}</p>
           <div className="mt-6 font-thin text-md flex flex-col gap-2">
             <div className="flex justify-between">
               <p>{article?.ingredients?.liqour?.amount}</p>
               <a
                 className="font-regular uppercase w-5/6 underline underline-offset-4 decoration-primaryYellow"
                 href={article?.ingredients?.liqour?.link}
+                target="_blank" rel="noreferrer"
               >
                 {article?.ingredients?.liqour?.title}
               </a>

@@ -107,11 +107,17 @@ export default function ArticlesPage() {
             {article?.section5?.data && (
               <h1>Billeder fra slugs</h1>
             )}
-
-
-            
           </div>
-              
+
+          <div>
+            {article?.section4?.button && (
+              <a href="https://bornholmspirits.com/pages/vores-historie" target="blanc">
+                <button className="text-primaryYellow font-medium w-full py-3 rounded-2xl border-[1.2px] readMoreBtn">
+                  {article?.section4?.button}
+                </button>
+              </a>
+              )}
+            </div>
 
             </div>
           </div>

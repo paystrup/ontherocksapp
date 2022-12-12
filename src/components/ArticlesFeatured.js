@@ -46,10 +46,10 @@ export default function ArticlesFeatured(slug) {
   return (
     <section className="my-14 px-5">
       <div>
-        {article.map(({ headerImage, title, subcategoryTitle, id }) => (
+        {article.map(({ headerImage, title, subcategoryTitle, id, relatedProducts, first }) => (
           <div className="w-full flex flex-col gap-4 mb-4" key={id}>
             <div
-              className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5"
+              className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5 border"
               style={{
                 backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${headerImage})`,
                 backgroundPosition: "center top",
@@ -64,7 +64,12 @@ export default function ArticlesFeatured(slug) {
                 </h3>
                 <h2 className="text-base">{title}</h2>
               </div>
+
             </div>
+              <div className="flex justify-center gap-4 ">
+              <img className='border w-2/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5' src={relatedProducts?.first?.image} alt={article?.section2?.image?.alt} />
+              <img className='border w-1/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5' src={relatedProducts?.second?.image} alt={article?.section2?.image?.alt} />
+              </div>
           </div>
         ))}
       </div>
@@ -73,7 +78,7 @@ export default function ArticlesFeatured(slug) {
         <div
           className="w-1/2 rounded-2xl h-28 flex flex-col justify-end px-5 py-5"
           style={{
-            backgroundImage: `url(${snaps})`,
+            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${snaps1})`,
             backgroundPosition: "top",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
@@ -90,7 +95,9 @@ export default function ArticlesFeatured(slug) {
           }}
           onClick={() => navigate("")}
         ></div>
+
       </div>
+      
     </section>
   );
 }

@@ -27,7 +27,8 @@
             }
         },
         "section4": {
-            "body": "Bornholm Spirits præsenterer en perlerække af økologiske og premiumprodukter, med ønsket om at udbrede kendskabet til den fineste bornholmske spiritus af bedste kvalitet. #celebratinglife Vi har en stor passion for cocktails og snapse og akvavitcocktails. Du finder en masse inspiration i vores app."
+            "body": "Bornholm Spirits præsenterer en perlerække af økologiske og premiumprodukter, med ønsket om at udbrede kendskabet til den fineste bornholmske spiritus af bedste kvalitet. #celebratinglife Vi har en stor passion for cocktails og snapse og akvavitcocktails. Du finder en masse inspiration i vores app.",
+            "button": "Læs mere her"
         }
     },
     {
@@ -38,6 +39,18 @@
         "title": "Casper Sobczyks top 10 cocktails til din nytårsaften",
         "subcategory": "guides",
         "subcategoryTitle": "inspiration",
+        "relatedProducts": {
+            "first": {
+                "title": "Blåbær Citron snaps",
+                "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+                "image": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/blaabaercitronsnaps.webp?alt=media&token=648a6a59-1cb0-458b-8045-5a6fae0f939d"
+            },
+            "second": {
+                "title": "Figen snaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "image": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/figensnaps.webp?alt=media&token=669fcd3f-6d10-4375-9100-b5524a29e76d"
+            }
+        },
         "section1": {
             "title": "Caspers udvalgte favoritter til din nytårsaften",
             "body": "Er du på bar bund i forhold til hvad du skal servere for dine gæster nytårsaften? Frygt ej! Vi har sendt sobczyk-signalet ud og fået hjælp af den dygtige kok Casper Sobczyk. Casper har nemlig samlet hans 10 cocktail-favoritter når der skal knald på."
