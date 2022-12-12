@@ -4,6 +4,9 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../firebaseConfig";
 import { arrayRemove, arrayUnion, doc, updateDoc } from "firebase/firestore";
 import { BookmarkIcon } from "@heroicons/react/24/outline";
+import Lottie from "lottie-react";
+import animation from "../assets/97064-bookmark-icon.json";
+import { useState } from "react";
 
 export default function LikeCocktail({ id, likes }) {
   // authentication auth and db are found in the firestore config, ref to our projekt in firebase
@@ -21,6 +24,8 @@ export default function LikeCocktail({ id, likes }) {
   const handleLike = () => {
     // if user already has liked the book, remove the uid from the likes array
     // with updateDoc so we don't override other data
+    setShowAnimation(true);
+
     if (likes?.includes(user.uid)) {
       updateDoc(likesRefDa, {
         likes: arrayRemove(user.uid),
@@ -62,18 +67,36 @@ export default function LikeCocktail({ id, likes }) {
     }
   };
 
+  // For lottie animations
+  const [showAnimation, setShowAnimation] = useState(false);
+
+  const handleAnimationComplete = () => {
+    setShowAnimation(false);
+  };
+
   // if likes includes id = true, turn the heart/like button to green, if not keep original styling
   // onclick uses the function above
   return (
-    <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
-      <BookmarkIcon
-        className="h-7 w-7 text-primaryYellow shadow-2xl"
-        style={{
-          cursor: "pointer",
-          fill: likes?.includes(user.uid) ? "#FFE598" : null,
-        }}
-        onClick={handleLike}
-      />
+    <div className="relative">
+      <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
+        <BookmarkIcon
+          className="h-7 w-7 text-primaryYellow shadow-2xl"
+          style={{
+            cursor: "pointer",
+            fill: likes?.includes(user.uid) ? "#FFE598" : null,
+          }}
+          onClick={handleLike}
+        />
+      </div>
+      {likes?.includes(user.uid) & showAnimation ? (
+        <div className="absolute top-0">
+          <Lottie
+            animationData={animation}
+            onComplete={handleAnimationComplete}
+            loop={false}
+          />
+        </div>
+      ) : null }
     </div>
   );
 }

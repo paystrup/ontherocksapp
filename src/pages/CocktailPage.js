@@ -64,6 +64,7 @@ export default function CocktailPage() {
   // If open -> change state back
   const [readMore, setReadMore] = useState(false);
 
+  // Read more, adjust line-clamp on click to fold out cocktail desc.
   const handleReadMoreClick = (event) => {
     setReadMore(!readMore);
     console.log(readMore);
@@ -74,12 +75,14 @@ export default function CocktailPage() {
   console.log(params); //Returns the slug-name of the url you're navigated to
   const id = params.id; // and the ID
 
-  // Fetch book data based on the id from the slug
+  // Fetch cocktail data based on the id from the slug
   // This way we don't have to loop through the array
   // We can fetch directly from the ID in fireStore with queries
   // Dependency array listens for a new ID and rerenders
 
+  // fetches from dynamic lng db based on chosen lng
   // articles = our fireStore collection, id = the query
+  // dependency array -> listens for id and changed lng to rerender whenever the value is changed
   useEffect(() => {
     const docRef = doc(db, fetchLng, id);
     onSnapshot(docRef, (snapshot) => {
@@ -189,13 +192,15 @@ export default function CocktailPage() {
               <PaperAirplaneIcon className="h-6 w-6 -rotate-45" />
             </div>
 
+            {/* SHOW UNIQUE ICON BASED ON IF USER IS AUTHENTICATED */}
+            {/* NO USER + CLICK NAVIGATE TO LOGIN AT LIKESPAGE */}
             {user && <LikeCocktailRound id={id} likes={article.likes} />}
             {!user && (
-              <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
-                  <BookmarkIcon
-                      className="h-7 w-7 text-primaryYellow shadow-2xl cursor-pointer"
-                      onClick={() => navigate("/likes")}
-                  />
+              <div className="bookmarkIcon border-[1px] border-primaryYellow rounded-full p-1 h-9 w-9 flex items-center justify-center">
+                <BookmarkIcon
+                  className="h-7 w-7 text-primaryYellow shadow-2xl cursor-pointer"
+                  onClick={() => navigate("/likes")}
+                />
               </div>
             )}
           </div>

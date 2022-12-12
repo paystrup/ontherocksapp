@@ -66,38 +66,36 @@ export default function ArticlesFeatured(slug) {
 
             </div>
               
-      <div className="flex justify-center gap-4 w-full">
-          <a className="w-1/2 h-24" href={relatedProducts?.first?.link} target="_blank" rel="noreferrer">
-            <div 
-              className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5"
-              style={{
-                backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 0%, rgba(0,0,0,0) 60%), url(${relatedProducts?.first?.image})`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-              }}
-            >
-            <LinkIcon className="h-7 w-7 drop-shadow-lg shadow-primaryBlack text-primaryYellow"/>
+            <div className="flex justify-center gap-4 w-full">
+              <a className="w-1/2 h-24" href={relatedProducts?.first?.link} target="_blank" rel="noreferrer">
+                <div 
+                  className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5"
+                  style={{
+                    backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 0%, rgba(0,0,0,0) 60%), url(${relatedProducts?.first?.image})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <LinkIcon className="h-7 w-7 drop-shadow-lg shadow-primaryBlack text-primaryYellow"/>
+                </div>
+              </a>
+
+              <a className="w-1/2 h-24" href={relatedProducts?.second?.link} target="_blank" rel="noreferrer">
+                <div className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5"
+                  style={{
+                    backgroundImage:`linear-gradient(180deg, rgba(12,12,12,0.4) 0%, rgba(0,0,0,0) 60%), url(${relatedProducts?.second?.image})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <LinkIcon className="h-7 w-7 drop-shadow-lg shadow-primaryBlack text-primaryYellow"/>
+                </div>
+              </a>
             </div>
-          </a>
-
-
-        <a className="w-1/2 h-24" href={relatedProducts?.second?.link} target="_blank" rel="noreferrer">
-          <div className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5"
-            style={{
-              backgroundImage:`linear-gradient(180deg, rgba(12,12,12,0.4) 0%, rgba(0,0,0,0) 60%), url(${relatedProducts?.second?.image})`,
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <LinkIcon className="h-7 w-7 drop-shadow-lg shadow-primaryBlack text-primaryYellow"/>
           </div>
-        </a>
-        </div>
-
-  </div>
-))}
+        ))}
     </div>
     </section>
   );
