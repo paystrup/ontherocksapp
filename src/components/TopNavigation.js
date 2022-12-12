@@ -157,6 +157,28 @@ export default function TopNavigation() {
           </ul>
         )}
 
+        {/* FOR THE EVENTS PAGE - LEFT ARROW  */}
+        {location.pathname.includes("/competition") && (
+          <ul className="list-none text-lg">
+            <li className="text-primaryWhite fill-primaryWhite flex justify-between">
+              <div onClick={() => navigate(-1)} className="flex cursor-pointer">
+                <ArrowLeftIcon className="h-7 w-7" />
+              </div>
+            </li>
+          </ul>
+        )}
+
+        {/* FOR THE EVENTS PAGE - TEXT */}
+        {location.pathname.includes("/competition") && (
+          <ul className="list-none text-lg">
+            <li className="text-primaryWhite fill-primaryWhite flex justify-between">
+              <h2 className="">{t("topnav.eventsTitle")}</h2>
+            </li>
+          </ul>
+        )}
+
+  
+
         {/* FOR THE ARTICLE PAGE - LEFT ARROW  */}
         {location.pathname.includes("/articles") && (
           <ul className="list-none text-lg">
