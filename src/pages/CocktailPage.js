@@ -166,7 +166,7 @@ export default function CocktailPage() {
       <div className="mt-14">
         <div className="flex flex-col lg:flex-row lg:px-14 lg:mt-32 lg:gap-[4rem]">
           <div
-            className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:rounded-t-[30px]"
+            className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:self-center lg:rounded-t-[30px]"
             style={{
               backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.image?.srcMin})`,
               backgroundPosition: "top",
@@ -377,8 +377,8 @@ export default function CocktailPage() {
             </div>
           </div>
         </div>
-        <section className="mt-10">
-          <h3 className="text-xl font-medium px-5">
+        <section className="mt-10 lg:mt-32">
+          <h3 className="text-xl font-medium px-5 lg:px-14 lg:text-2xl">
             {t("cocktailPage.carouselTitle")}
           </h3>
           <FeaturedProductsCarousel
@@ -393,8 +393,8 @@ export default function CocktailPage() {
           />
         </section>
 
-        <section className="mt-14">
-          <h3 className="text-xl font-medium px-5 mb-7">
+        <section className="mt-14 lg:mt-32">
+          <h3 className="text-xl font-medium px-5 mb-7 lg:px-14 lg:text-2xl">
             {t("cocktailPage.carouselTitle2")} {article?.liqour?.type}
           </h3>
           <FeaturedCarousel
@@ -404,7 +404,7 @@ export default function CocktailPage() {
           />
         </section>
 
-        <section className="mt-14 px-5"></section>
+        <section className="mt-14 px-5 lg:px-14"></section>
       </div>
       <ArticlesFeatured />
     </div>
