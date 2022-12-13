@@ -38,9 +38,8 @@ export default function ArticlesPage() {
   }, [id, fetchLng, t]);
 
   return (
-    <div className="text-primaryWhite mt-16 mb-32 lg:flex lg:justify-between lg:px-14 lg:mt-48">
-      {/* 🚨🚨🚨🚨🚨🚨 CHANGE 2OOvh WHEN IMAGES IS FETCH */}
-      <div className="lg:w-[45vw] lg:h-[150vh] lg:relative">
+    <div className="text-primaryWhite mt-16 mb-32 lg:flex lg:justify-between lg:px-14 lg:mt-32">
+      <div className="lg:w-[45vw] lg:relative">
         <div
           className="h-96 rounded-b-[30px] flex items-end lg:w-[45vw] lg:rounded-t-[30px] lg:h-[90vh] sticky top-20"
           style={{
@@ -88,7 +87,7 @@ export default function ArticlesPage() {
                 alt={article?.section2?.image?.alt}
               />
             )}
-            {article?.section2?.data && <h1>Billeder fra slugs</h1>}
+            {article?.section2?.data && <h1>Billeder fra slug</h1>}
           </div>
 
           <div className="section3 my-7">
