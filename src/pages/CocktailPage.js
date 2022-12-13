@@ -164,9 +164,9 @@ export default function CocktailPage() {
       {/* RECIPE STARTS HERE */}
       {/* WRAPPER */}
       <div className="mt-14">
-        <div className="flex flex-col lg:flex-row lg:px-14 lg:mt-32 lg:gap-[4rem]">
+        <div className="flex flex-col lg:flex-row lg:px-14 lg:mt-32 lg:gap-[4rem] lg:relative">
           <div
-            className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:self-center lg:rounded-t-[30px]"
+            className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:rounded-t-[30px] lg:sticky lg:top-20"
             style={{
               backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.image?.srcMin})`,
               backgroundPosition: "top",

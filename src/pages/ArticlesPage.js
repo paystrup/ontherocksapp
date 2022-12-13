@@ -41,7 +41,7 @@ export default function ArticlesPage() {
     <div className="text-primaryWhite mt-16 mb-32 lg:flex lg:justify-between lg:px-14 lg:mt-32">
       <div className="lg:w-[45vw] lg:relative">
         <div
-          className="h-96 rounded-b-[30px] flex items-end lg:w-[45vw] lg:rounded-t-[30px] lg:h-[90vh] sticky top-20"
+          className="h-96 rounded-b-[30px] flex items-end lg:w-[45vw] lg:rounded-t-[30px] lg:h-[90vh] lg:sticky lg:top-20"
           style={{
             backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.headerImage})`,
             backgroundPosition: "top",
