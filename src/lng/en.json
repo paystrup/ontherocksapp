@@ -12,6 +12,17 @@
         "likesNavTitle": "Saved Recipes",
         "profileNavTitle": "Profile"
     },
+    "typewriter":{
+        "girlfriend": "your girlfriend",
+        "dog": "your dog",
+        "carpenter": "you carpenter",
+        "postman": "the mailman",
+        "friend": "your friend",
+        "grandpa": "your grandpa",
+        "college": "your college",
+        "impress": "Impress",
+        "bottomText": "with organic, easy and delicious cocktails."
+    },
     "bottomnav": {
         "home": "Home",
         "cocktails": "Cocktails",
@@ -26,7 +37,16 @@
             "btnText": "See all"
         },
         "EventCarousel": {
-            "title": "Upcoming events"
+            "title": "Drinks for events"
+        },
+        "newyearsCarousel": {
+            "title": "For your New Year's"
+        },
+        "christmasCarousel": {
+            "title": "Christmas Wonders"
+        },
+        "partyCarousel": {
+            "title": "Start the party"
         }
     },
     "searchpage": {
@@ -50,6 +70,10 @@
             "title": "Login to save <span>your</span> cocktails",
              "body":"Create a user to save cocktails. It is free and takes 1 minute. Create a taste profile, get exclusive offers, save cocktails and much more",
             "mainbtn":"Login"
+        },
+        "categories": {
+            "all": "All",
+            "new": "Add category"
         }
     },
     "profilepage": {
@@ -149,5 +173,11 @@
             "rum": "Rum",
             "sevablødda": "Sevablødda"
         }
+    },
+    "drinkCard": {
+        "btnText": "Save cocktailcard",
+        "pdfName": "OnTheRocks-CocktailCard.pdf",
+        "title": "On The Rocks Cocktails",
+        "subtitle": "By Bornholm Spirits"
     }
 }

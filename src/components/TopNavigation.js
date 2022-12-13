@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import logo from "../assets/svg/logo.svg";
 
 // import flags for lng change
@@ -11,12 +11,10 @@ import {
   ArrowLeftIcon,
   EllipsisVerticalIcon,
 } from "@heroicons/react/24/outline";
-import { AnimatePresence, motion } from "framer-motion";
 
 export default function TopNavigation() {
   // import translations from i18n
   const { t, i18n } = useTranslation();
-
   const navigate = useNavigate();
   const location = useLocation();
   console.log(location);
@@ -37,7 +35,7 @@ export default function TopNavigation() {
   };
 
   return (
-    <nav className="h-16 flex items-center justify-between px-6 py-8 fixed bg-primaryBlack w-full top-0 left-0 z-50 text-primaryWhite">
+    <nav className="h-16 flex items-center justify-between px-6 py-8 bg-primaryBlack w-full fixed top-0 left-0 z-50 text-primaryWhite lg:h-20">
       {/* CHANGE LANGUAGE MODAL - IF CLICKED and openLngSelect is true, show */}
       {openLngSelect && (
         <div className="languageSelector fixed top-0 left-0 bg-primaryBlack z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16">
@@ -82,7 +80,7 @@ export default function TopNavigation() {
         </div>
       )}
 
-      <div id="mobileTopNav" className="flex justify-between w-full">
+      <div id="mobileTopNav" className="flex justify-between w-full lg:hidden">
         {/* DYNAMIC NAVBAR WITH LANGUAGE SUPPORT  */}
         {/* FOR THE HOME PAGE */}
         {location.pathname === "/" && (
@@ -101,7 +99,7 @@ export default function TopNavigation() {
 
         {/* FOR THE SEARCH PAGE */}
         {location.pathname === "/search" && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite">
               <h2>{t("topnav.searchTitle")}</h2>
             </li>
@@ -110,7 +108,7 @@ export default function TopNavigation() {
 
         {/* FOR THE LIKES PAGE */}
         {location.pathname === "/likes" && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite">
               <h2>{t("topnav.likesTitle")}</h2>
             </li>
@@ -119,7 +117,7 @@ export default function TopNavigation() {
 
         {/* FOR THE PROFILE PAGE */}
         {location.pathname === "/profile" && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite">
               <h2>{t("topnav.profileTitle")}</h2>
             </li>
@@ -128,7 +126,7 @@ export default function TopNavigation() {
 
         {/* FOR THE RECIPE PAGE - LEFT ARROW  */}
         {location.pathname.includes("/recipe") && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite flex justify-between">
               <div onClick={() => navigate(-1)} className="flex cursor-pointer">
                 <ArrowLeftIcon className="h-7 w-7" />
@@ -139,7 +137,7 @@ export default function TopNavigation() {
 
         {/* FOR THE RECIPE PAGE - TEXT */}
         {location.pathname.includes("/recipe") && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite flex justify-between">
               <h2 className="">{t("topnav.recipeTitle")}</h2>
             </li>
@@ -148,7 +146,7 @@ export default function TopNavigation() {
 
         {/* FOR THE EVENTS PAGE - LEFT ARROW  */}
         {location.pathname.includes("/events") && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite flex justify-between">
               <div onClick={() => navigate(-1)} className="flex cursor-pointer">
                 <ArrowLeftIcon className="h-7 w-7" />
@@ -159,7 +157,7 @@ export default function TopNavigation() {
 
         {/* FOR THE EVENTS PAGE - TEXT */}
         {location.pathname.includes("/events") && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite flex justify-between">
               <h2 className="">{t("topnav.eventsTitle")}</h2>
             </li>
@@ -168,7 +166,7 @@ export default function TopNavigation() {
 
         {/* FOR THE EVENTS PAGE - LEFT ARROW  */}
         {location.pathname.includes("/competition") && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite flex justify-between">
               <div onClick={() => navigate(-1)} className="flex cursor-pointer">
                 <ArrowLeftIcon className="h-7 w-7" />
@@ -179,7 +177,7 @@ export default function TopNavigation() {
 
         {/* FOR THE EVENTS PAGE - TEXT */}
         {location.pathname.includes("/competition") && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite flex justify-between">
               <h2 className="">{t("topnav.eventsTitle")}</h2>
             </li>
@@ -190,7 +188,7 @@ export default function TopNavigation() {
 
         {/* FOR THE ARTICLE PAGE - LEFT ARROW  */}
         {location.pathname.includes("/articles") && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite flex justify-between">
               <div onClick={() => navigate(-1)} className="flex cursor-pointer">
                 <ArrowLeftIcon className="h-7 w-7" />
@@ -201,7 +199,7 @@ export default function TopNavigation() {
 
         {/* FOR THE ARTICLE PAGE - TEXT */}
         {location.pathname.includes("/articles") && (
-          <ul className="list-none text-lg">
+          <ul className="list-none text-lg lg:hidden">
             <li className="text-primaryWhite fill-primaryWhite flex justify-between">
               <h2 className="">{t("topnav.articleTitle")}</h2>
             </li>
@@ -210,6 +208,7 @@ export default function TopNavigation() {
 
         {/* RIGHT SIDE - LNG BTN OR SETTINGS BTN */}
         <div className="flex items-center justify-end">
+
           {/* SHOW LANGUAGE BTN DEPENDING ON LANG CHOSEN FOR i18N */}
           {i18n.language === "en" && (
             <div>
@@ -254,23 +253,66 @@ export default function TopNavigation() {
         </div>
       </div>
 
-      <ul id="desktopTopNav" className="gap-5 hidden lg:flex">
+    {/* NAVIGATION BAR FOR DESKTOP  */}
+     <div id="desktopTopNav" className="hidden lg:flex justify-between items-center  w-full lg:px-14">
+
+        <Link to="/">
+          <img
+            src={logo}
+            className="w-20"
+            alt="On The Rocks Logo Small"
+        />
+        </Link>
+      
+      <ul className="gap-10 hidden lg:flex">
         <li>
-          <Link to="/">{t("topnav.homeTitle")}</Link>
+          <NavLink to="/">{t("topnav.homeTitle")}</NavLink>
         </li>
 
         <li>
-          <Link to="/search">{t("topnav.cocktailTitle")}</Link>
+          <NavLink to="/search">{t("topnav.cocktailTitle")}</NavLink>
         </li>
 
         <li>
-          <Link to="/likes">{t("topnav.likesNavTitle")}</Link>
+          <NavLink to="/likes">{t("topnav.likesNavTitle")}</NavLink>
         </li>
 
         <li>
-          <Link to="/profile">{t("topnav.profileNavTitle")}</Link>
+          <NavLink to="/profile">{t("topnav.profileNavTitle")}</NavLink>
         </li>
+
+               {/* SHOW LANGUAGE BTN DEPENDING ON LANG CHOSEN FOR i18N */}
+          {i18n.language === "en" && (
+            <div>
+              <button
+                className="w-7 h-7 rounded-full border-solid border-[1.5px] border-primaryWhite"
+                style={{
+                  backgroundImage: `url(${enFlag})`,
+                  backgroundPosition: "top",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                }}
+                onClick={handleLngSelect}
+              ></button>
+            </div>
+          )}
+
+          {i18n.language === "da" && (
+            <div>
+              <button
+                className="w-7 h-7 rounded-full border-solid border-[1.5px] border-primaryWhite"
+                style={{
+                  backgroundImage: `url(${daFlag})`,
+                  backgroundPosition: "top",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                }}
+                onClick={handleLngSelect}
+              ></button>
+            </div>
+          )}
       </ul>
+      </div>
     </nav>
   );
 }

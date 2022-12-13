@@ -8,7 +8,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../firebaseConfig";
 
 // Import Swiper React components + styles
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import { Keyboard, Mousewheel } from "swiper";
 
@@ -20,7 +20,7 @@ import Spinanimation from "./Spinanimation";
 // i18n language support
 import { useTranslation } from 'react-i18next'
 
-export default function FeaturedCarousel() {
+export default function FeaturedCarousel({ category, parameter, value }) {
     // authentication auth and db are found in the firestore config, ref to our projekt in firebase
     const [user] = useAuthState(auth);
     const { t, i18n } = useTranslation();
@@ -45,7 +45,7 @@ export default function FeaturedCarousel() {
 
         // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
         // filtering for featured cocktails
-        const q = query(articleRef, where("featured", "==", true));
+        const q = query(articleRef, where(category, parameter, value));
 
         // get the data, on snapshot
         onSnapshot(q, (snapshot) => {
@@ -67,9 +67,7 @@ export default function FeaturedCarousel() {
     // Show loading indicator while data is being fetched
 
   return (
-    <section className='my-14'>
-        <FeaturedCarouselHeader/>
-        
+    <section className='mb-14'>
         {isLoading && (
             <Spinanimation/>
         )}
@@ -92,7 +90,14 @@ export default function FeaturedCarousel() {
                 1: {
                     slidesPerView: "auto",
                     initialSlide: 0,
-                }
+                },
+                1500: {
+                    slidesPerView: 5,
+                    initialSlide: 0,
+                    slidesOffsetBefore: "56",
+                    spaceBetween: 25,
+                },
+
             }}>
                 {cocktails.map(({id, title, time, taste, teaser, image, slug, liqour, likes}) => (
                     <SwiperSlide
@@ -110,10 +115,7 @@ export default function FeaturedCarousel() {
                             {!user && (
                                 <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
                                     <BookmarkIcon
-                                        className="h-7 w-7 text-primaryYellow shadow-2xl"
-                                        style={{
-                                        cursor: "pointer"
-                                        }}
+                                        className="h-7 w-7 cursor-pointer text-primaryYellow shadow-2xl"
                                         onClick={() => navigate("/likes")}
                                     />
                                 </div>

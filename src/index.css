@@ -154,7 +154,16 @@ code {
   padding-right: 1.2rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  background-color: white !important;
+  background-color: none !important;
+}
+
+.featuredProducts .swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  min-height: 171px;
+  max-width: 70%;
+  color: white;
+  background-color: none !important;
 }
 
 .eventCards .swiper-slide {
@@ -163,7 +172,7 @@ code {
   min-height: 225px;
   max-width: 70%;
   color: white;
-  background-color: white !important;
+  background-color: none !important;
 }
 
 .bigCard{
@@ -306,21 +315,106 @@ code {
   100% { transform: translateY(-15px); }
 }
 
+
+#logoutToast .Toastify__progress-bar-theme--dark{
+  background-color: #FFE598 !important;
+}
+
 /* SEARCH INPUT FOR SEARCHPAGE ICON */
 
 
 /* 'sm': '640px' */
-@media (min-width: 640px) {
+@media (max-width: 640px) {
+  .videoHomepage{
+display: none;
+}
+.videovideoHomepage{
+display: none;
+}
 
 }
 
 /* 'md': '768px', */
-@media (min-width: 768px) {
-
+@media (min-width: 641px) {
+  .videoHomepage{
+display: none;
+}
+.videovideoHomepage{
+display: none;
+}
 }
 
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
+  .swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper-container p {
+  margin-bottom: 0px !important;
+}
+
+.featuredCards .swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  min-height: 350px;
+  max-width: 30%;
+  color: white;
+  background-color: none !important;
+}
+
+.categorySlider .swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  max-width: 30%;
+  min-width: 20%;
+  background-color: none !important;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.smallCards .swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  min-height: 180px;
+  max-width: 25%;
+  color: white;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: white !important;
+}
+
+.eventCards .swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  min-height: 225px;
+  max-width: 70%;
+  color: white;
+  background-color: white !important;
+}
+.videoHomepage{
+    display: block;
+    position: relative;
+    min-height: 50vh;
+    border-radius: 15px 50px 30px 5px;
+    z-index: -1000;
+}
+
+.videovideoHomepage{
+  display: block;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 0px 0px 40px 40px;
+}
 
 }
 
@@ -331,7 +425,9 @@ code {
 
 /* '2xl': '1536px', */
 @media (min-width: 1536px) {
-
+  .featuredCards .swiper-slide {
+    min-height: 600px;
+  }
 }
 
 

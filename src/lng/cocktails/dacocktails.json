@@ -31,7 +31,11 @@
             "recipe5": "Færdig. Simple as that. Nyd den."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En Screwdriver er den klassiske Vodka Juice som vi alle sammen kender og elsker. En Screwdriver er utrolig simpel at lave og kan sagtens nydes selvom man ikke er så meget for vodka, da juicen går hen og gemmer de stærke spor af alkohol i drinken. Drinken er også blevet udnævnt af The International Bartenders Association som en af deres officielle cocktails.",
@@ -100,9 +104,11 @@
             "recipe4": "Pynt med en skive grape."
         },
         "relatedProducts": {
-            "1": "nordic-mojito",
-            "2": "akva-sour",
-            "3": "nordic-negroni"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Nordic Pamola er vores take på den klassiske grapedrink, nemlig med vores lækre FROST akvavit i stedet for tequila. Drinken byder både på søde og bitre smagsnoter blandt andet fra den pink grape sodavand. Nyd denne cocktail hele året rundt.",
@@ -172,7 +178,11 @@
             "recipe5": "Pynt med oliven eller citronskræl og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Ikonisk, klassisk og forfriskende - med vores eget twist. James Bond go-to. Shaken Not Stirred. En super simpel cocktail, der er elegant og har en knivskarp balance mellem indgredienserne, hvor vores kvalitetsvodka virkelig shiner.",
@@ -242,7 +252,11 @@
             "recipe5": "Placer forsigtigt kaffebønnerne på skummet."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Til den kaffeelskende cocktailnyder. En fyldig drink, fuld af smag og med silkeblødt skum på toppen. Man går sjældent galt i byen når man servere espresso martini. ",
@@ -316,7 +330,11 @@
             "recipe5": "Pynt med lime og servér."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En efterhånden velkendt klassiker, men ikke desto mindre skide god. En cocktail der passer til de fleste lejligheder og som med sine forfriskende noter af lime er perfekt på en varm sommeraften.",
@@ -390,7 +408,11 @@
             "recipe5": "Server. Drik. Nyd"
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En cremet fyldig drink. Et oplagt valg at servere i vintermånederne. Denne cocktail er den perfekte kombination af bitterhed fra kaffen og sødmen fra sødmælken eller fløden, hvilket giver en rund behagelig smag.",
@@ -464,7 +486,11 @@
             "recipe5": "Pynt med lime."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Som navnet antyder, perfekt til de sene sommeraftenener eller mørke sene nætter. En hyggelig og afslappende cocktail, der giver et varmt touch fra ingefæren. En sand klassiker, med et lille traditionelt Bornholmsk twist - der absolut gør den bedre. Den er frisk, krydret og kan nydes både i regnvejr og solskin.",
@@ -533,7 +559,11 @@
             "recipe4": "Pynt med dehydreret citron"
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Skummende, cremet og sur klassiker med et traditionelt dansk twist i form af vores traditionelle Bornholmer Klar Akvavit. Kan nydes hele året rundt, og er perfekt til stortset alle anledninger. Simpel komfort, der rammer rigtig godt efter aftensmaden eller til desserten, på grund af dens søde smag.",
@@ -602,7 +632,11 @@
             "recipe4": "Pynt med dehydreret citron"
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Skummende, cremet og sur klassiker med et traditionelt dansk twist i form af vores FROST Akvavit. Kan nydes hele året rundt, og er perfekt til stortset alle anledninger. Simpel komfort, der rammer rigtig godt efter aftensmaden eller til desserten, på grund af dens søde smag.",
@@ -671,7 +705,11 @@
             "recipe4": "Pynt med appelsinskræl."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Blandingen af vores traditionelle Bornholmer Akvavit, sød vermouth og Campari Appelsin giver cocktailen en sød, bitter og forfriskende smag, der passer perfekt til en hyggelig aften - eller blot en aften hvor hofterne sidder lidt løst. Populær klassiker med et lokalt Bornholmsk twist, der tager den til nye højder.",
@@ -737,7 +775,11 @@
             "recipe5": "Top med Danskvand og pynt med mynteblade"
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Den læskende, frisk og sød cocktail, du aldrig går galt i byen med. Vi har piftet den lidt op og erstattet den lyse rom med vores fofriskende FROST akvavit. Prøv den før din nabo.",
@@ -815,7 +857,11 @@
             "recipe4": "Nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Det bedste fra to verdener. Den friske cocktail er et resultat syrlige smag fra havtornen kombineret med den bitre tonic og er en sand vinder. Cocktailen får sin smukke farve fra de orangegule bær og pynter på ethvert bord.",
@@ -894,7 +940,11 @@
             "recipe5": "Server. Drik. Nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Den elegante smagsfulde cocktail er god ved de fleste lejligheder. Cocktailen har den perfekte kombination af sødme, friskhed og en smule bitterhed, som gør den til en sand stjernecocktail.",
@@ -977,7 +1027,11 @@
             "recipe5": "Server. Drik. Nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En klassiker i nye klæder. En forfriskende og (farligt) læskende cocktail, der altid er et hit. Erstat rommen med vores lækre gin med søde noter og server en sikker vinder for dine gæster.",
@@ -1057,7 +1111,11 @@
             "recipe6": "Pynt med en brændende rosmarinstilk og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Vores frozen G&T er altid et hit på en varm sommerdag. Når hedebølgen er over os, er der ingen bedre måde at køle ned på, end med denne cocktail i hånden og et par gode venner.",
@@ -1134,7 +1192,11 @@
             "recipe3": "Pynt med appelsinskræl."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Hård arbejdsuge? Nyd den ikoniske italienske drink og slap af, det er weekend. De bitre noter fra camparien er kombineret med sødmen fra vores fantastiske slotslyngel gin. Prøv den!",
@@ -1211,7 +1273,11 @@
             "recipe3": "Pynt med citronskive."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Når du skal helt op og flyve, er det her din go-to cocktail. Den er nem at lave og mindst ligeså nem at drikke. Passer perfekt til mange gæster, så du ikke skal bruge hele din aften i køkkenet.",
@@ -1281,7 +1347,11 @@
             "recipe4": "Pynt med en håndfuld frosne havtornbær og et mynteblad."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En forfriskende cocktail. En tvist på den klassiske G&T, hvor du her ender med et resultat der er bedst at nyde på en sensommerdag i godt selskab.",
@@ -1355,7 +1425,11 @@
             "recipe4": "Pynt med en skiveskåret agurk."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Ja, snaps kan faktisk godt bruges i cocktails. Og det smager hammer godt. Denne friske cocktail med noter af havtorn, dild og agurk er det perfekte supplement til enhver fest.",
@@ -1426,7 +1500,11 @@
             "recipe5": "Pynt med kaffebønner og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En cremet sag med noter af lakrids. Cocktailen passer perfekt på en kølig vinterdag eller som after-dinner cocktail juleaften.",
@@ -1501,7 +1579,11 @@
             "recipe5": "Pynt med stjerneanis og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Måske denne cocktail skulle være Danmarks nationaldrink. Den røde farve fra snapsen, kombineret med det hvide skum er jo lige til at få tårer i øjnene af og det samme er smagen. Sødmen fra rabarberen og lakridsnoterne fra stjerneanis er en stjernekombination hvis vi selv skal sige det.",
@@ -1584,7 +1666,11 @@
             "recipe5": "Pynt med passionsfrugt og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Smager of sommer, bør nydes om sommeren. Denne cocktail blander sødmen fra figen med den syrlige passionsfrugt og resultatet er fantastisk.",
@@ -1666,7 +1752,11 @@
             "recipe4": "Pynt med dehydreret lime og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Endnu en klassiker. Den er bitter og den er god. Vi har tilføjet svage noter af figen for at komplimentere den bitre tonic og vi synes selv det er lidt af et hit. Bedøm for dig selv.",
@@ -1736,7 +1826,11 @@
             "recipe4": "Pynt med en limebåd og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Til alle chilielskerne er der nu kommet cocktail. Værsgo. Spicy Magarite er lavet på vores forrygende chilisnaps, og er et hit til alle fester. Overrask og forkæl dine gæster med denne lækre cocktail.",
@@ -1818,7 +1912,11 @@
             "recipe4": "Pynt med en skive citron og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Der er et yndigt land. Og en yndig cocktail. Den bedste cocktail når du skal fejre Danmark, om det er til jul, nytår eller når landsholdet spiller. Cocktailen kan du aldrig gå galt i byen med.",
@@ -1889,7 +1987,11 @@
             "recipe5": "Pynt med stedmoderblomster og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En rødbedeherlighed. En cremet og kraftig drink, hvor sødmen for rødbederne matches af vores udsøgte chilisnaps. Den lyder skør, men den smager skønt.",
@@ -1968,7 +2070,11 @@
 
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Snaps og spicy tonic. Cocktailen burde være på alle bucketlist. Den perfekte kombination og bitterhed og spicyness.",
@@ -2039,7 +2145,11 @@
 
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En cremet fyldig drink. Et oplagt valg i påsken, hvor dild og havtorn er et godt match til fiskebordet. Agurken sørger for friskhed og resultatet er en forfriskende, cremet cocktail .",
@@ -2120,7 +2230,11 @@
             "recipe3": "Pynt med par granatæblekerner og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Den sødeste cocktail i klassen. Hindbær og granatæble komplimenteres perfekt af ingefæren og skaber sammen med den røde sodavand en skønhed af en drink.",
@@ -2190,7 +2304,11 @@
             "recipe4": "Pynt med myntekvaste og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En drøm i et glas. Saltkaramel og figen er en kombi du ikke bør snyde dig selv for. Fløden sørger for cremetheden og gør at denne cocktail er perfekt at nyde i de mørke vintermåneder.",
@@ -2275,7 +2393,11 @@
             "recipe3": "Pynt med en dehydreret blodappelsin."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Køl ned på en varm dag eller sæt gang i festen ved at servere denne læskende, betagende cocktail. Den smager lige så godt som den ser ud. Og det er rimelig fucking godt.",
@@ -2345,7 +2467,11 @@
             "recipe4": "Drys fire dråber Angustora over cocktailen og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Betag dine gæster med denne smukke og smagfulde champagne cocktail. Perfekt til når det skal være lidt finere og smager himmelsk. Du er sikker på, at dine gæster går tilfredse fra festen efter de har smagt Diamond Snapsen.",
@@ -2415,7 +2541,11 @@
             "recipe4": "Strain over et køligt coupeglas og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Kom helt tilbage til dine urgamle rødder og skål med dine forfædre i vikingens foretrukne drik - mjød. Denne cremede herlighed er perfekt efter en travl arbejdsuge. Slå benene op og nyd en Vanilla Love.",
@@ -2488,7 +2618,11 @@
             "recipe3": "Pynt med lakridsrod og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Hvem elsker ikke lakrids? Måske amerikanerne, men det går nok. Denne cocktail er alt hvad du behøver når du skal have en hyggelig aften. Om det er med din bedre halvdel, din svigermor eller et par af dine venner, er denne cocktail en sikker vinder.",
@@ -2562,7 +2696,11 @@
             "recipe4": "Pynt med citronskræl og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Fejr vores fantastiske hovedstad med denne fantastiske drink. Du kan evt. sætte København af Ulige Numre på imens du drikker den, for at skrue helt op stemningen.",
@@ -2635,7 +2773,11 @@
             "recipe3": "Pynt med en skive dehydreret lime."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Chili + honning = velsmag. Denne cocktail kombinerer stærk chili med sød honning og resultatet er denne smukke velsmagende drink. Den går man alrdig galt i byen med.",
@@ -2709,7 +2851,11 @@
             "recipe4": "Pynt med en lakridsrod og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Forestil dig du sidder på en strand på en varm dag. Du ser solnedgangen og snakker om gode minder med den du holder allermest af. Sådan vil vi mene at vores Golden Licorice smager. Og ja, vi ved godt det er lidt prætentiøst, men den er god nok.",
@@ -2782,7 +2928,11 @@
             "recipe3": "Pynt med en klase ribs og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Chili, Kombucha og lime, se det er en stjernekombinaiton. Der findes simpelthen ikke en stund, hvor denne cocktail ikke passer ind. Om det er til hygge på sofaen, gymnasiereunion eller den helt store gallafest, så er denne cocktail din ven.",
@@ -2857,7 +3007,11 @@
             "recipe4": "Pynt med appelsinskræl og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En forfriskende helårscocktail. Den forfriskende lime, den stærke chili og den søde honning gør, at denne cocktail passer til alt. Om det er sommer, vinter, forår eller efterår, er denne cocktail det rigtige valg.",
@@ -2937,7 +3091,11 @@
             "recipe5": "Pynt med kaffechokolade og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Byt aftenkaffen ud med denne lækre, cremede kaffecocktail. Vi garantere at den vil holde dig ligeså varm. Nyd den i godt selskab eller når du skal forkæle dig selv lidt ekstra.",
@@ -3016,7 +3174,11 @@
             "recipe4": "Pynt med en dehydreret appelsen og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Du kan altid være sikker på at sætte gang i festen når du servere denne cocktail. Vodka, Aperol og Gingerbeer udgør tilsammen en fænomenal kombintation, hvor hverken sødmen eller den stærke ingefær for lov at tage over, men spiller sammen i en skøn symfoni.",
@@ -3097,7 +3259,11 @@
             "recipe6": "Pynt med en timianstilk og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Denne elegante smagsfulde champagnecocktail er lige så smuk som den er smagsfuld. Cocktailen er perfekt at servere til fest såvel som afslapning. De shakede æggehvider giver cocktailen en cremet konsistens og blødt skum.",
@@ -3183,7 +3349,11 @@
             "recipe4": "Pynt med valnødder og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Frisk og frugtig. Denne cocktail indeholder, hvis vi selv skal sige det, en ret fantastisk kombination. Sødmen fra æblet, syren fra kiwien og den let bitre smag fra valnød = Perfektion.",
@@ -3261,7 +3431,11 @@
             "recipe4": "Pynt med 1/2 appelsinskive og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Drinken der får din mund til at løbe i vand ved første øjekast. En kulmination af friskhed og sødme får du fra friskpressede appelsiner og vores legendariske Vanlijesnaps. En sommerdrink ud over det sædvanlige og et must-try for alle cocktail-elskere.",
@@ -3335,7 +3509,11 @@
             "recipe4": "Pynt med basilikumblade og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Vores grønne skønhed. Nyd denne cocktail på varme sommerdage, til gode fester eller i familiens lag. Vi foreslår at du køber rigeligt ind, da vores erfaring fortæller os, at alle vil have mere end én.",
@@ -3415,7 +3593,11 @@
             "recipe6": "Pynt med koriander og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Cremet? Tjek. Stærk? Tjek. Lækker? Tjek. Denne cocktail er et hit for de fleste. Sødmen fra mangoen og det stærke fra vores fantastiske chilisnaps, udgør en ret så lækker cocktail. Nyd den til fest, til middagen eller til hyggen.",
@@ -3499,7 +3681,11 @@
             "recipe3": "Pynt med hyldebær og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Smuk og elegant. Mindst lige så velsmagende. Denne cocktail er simpel, men ikke desto mindre fantastisk lækker. Fordelen er, at du ikke skal stå i baren hele aftenen og du har endnu mere tid til at mingle med dine gæster.",
@@ -3568,7 +3754,11 @@
             "recipe4": "Pynt mynte og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Cocktailen der har taget hele Danmark med storm. Coctailen blev opfundet af den geniale bartender Kim Hass og kan pifte enhver fest op. Den er nem at lave og mindst lige så velsmagende. ",
@@ -3647,7 +3837,11 @@
             "recipe6": "Pynt brombær og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Den perfekte balance mellem det sure og det søde. Cocktailen er den ultimative sommerdrink og bør nydes i godt selskab.  ",
@@ -3725,7 +3919,11 @@
             "recipe5": "Pynt forsigtigt med hindbær ovenpå skummet og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Den smukke cocktail med den smukke farve vil med sikkerhed falde i god jord hos de fleste. Ikke nok med at den er fantastisk at se på, den smager endnu bedre.  ",
@@ -3808,7 +4006,11 @@
             "recipe6": "Pynt med en skive citron og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En elegant klassiker. Bobler, hint af citron og velvære. Denne cocktail høre hjemme ved alle lejligheder og du kan være sikre på at dine gæster vil nyde oplevelsen.",
@@ -3887,7 +4089,11 @@
             "recipe6": "Pynt med en skive citron og nyd."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "En cocktail der kan nyde året rundt og på alle tider af døgnet. Den er sød og den er syrlig og er en favorit bland mange. Forkæl dig selv og dine nærmeste med en forfriskende Gin Fizz.",
@@ -3969,7 +4175,11 @@
             "recipe5": "Pynt med citronskræl og nyd"
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Den er ikke alene god, den er også fantastisk at se på. Den er sofistekeret men ikke prætentiøs. Den er alt hvad man kan tænke sig i et cocktailglas. ",

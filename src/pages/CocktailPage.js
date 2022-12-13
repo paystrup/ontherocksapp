@@ -12,7 +12,6 @@ import {
   XMarkIcon
 } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
-import TypeWriterEffect from "../components/TypeWriterEffect";
 import ArticlesFeatured from "../components/ArticlesFeatured";
 import { useAuthState } from "react-firebase-hooks/auth";
 import LikeCocktailRound from "../components/LikeCocktailRound";
@@ -33,6 +32,8 @@ import {
   EmailShareButton,
   WhatsappShareButton
 } from "react-share";
+import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
+import FeaturedCarousel from "../components/FeaturedCarousel";
 
 export default function CocktailPage() {
   // authentication auth and db are found in the firestore config, ref to our projekt in firebase
@@ -90,11 +91,15 @@ export default function CocktailPage() {
     });
   }, [id, fetchLng, t]);
 
+  const productRef = article?.relatedProducts?.first
+  console.log(article?.relatedProducts?.first)
+
   return (
     <div className="text-primaryWhite mt-16 mb-32">
 
       {/* SHARE MODAL STARTS HERE - IF CLICKED -> STATE TRUE -> SHOW MODAL */}
       {showShareModal && (
+        // "flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-2"
         <div className="flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-2">
           <div className="bg-lightBlack border-2 border-primaryGray-900 py-8 px-5 w-full rounded-2xl flex justify-center items-center flex-col gap-8">
             <XMarkIcon className="h-10 w-10 cursor-pointer hover:opacity-50" onClick={handleShareModal}/>
@@ -180,8 +185,10 @@ export default function CocktailPage() {
           </p>
         </div>
       </div>
-      <div className="mt-14 px-5">
-        <div className="flex justify-between items-center">
+
+      {/* WRAPPER */}
+      <div className="mt-14">
+        <section className="flex justify-between items-center px-5">
           <div className="flex gap-1 items-center font-thin text-primaryYellow">
             <ClockIcon className="h-5 w-5" />
             <p>{article?.time} min</p>
@@ -204,9 +211,10 @@ export default function CocktailPage() {
               </div>
             )}
           </div>
-        </div>
-
-        <div className="mt-7">
+        </section>
+        
+        {/* TITLE + INGREDIENTS + HOW TO */}
+        <div className="mt-7 px-5">
           <h2 className="text-5xl font-displayBook">{article?.title}</h2>
           <p className={readMore ? "line-clamp-none text-base text-primaryGray-500 font-thin leading-7 mt-4" : "text-base text-primaryGray-500 font-thin leading-7 mt-4 line-clamp-4"}>
             {article?.body}
@@ -351,40 +359,39 @@ export default function CocktailPage() {
             )}
           </div>
         </div>
-
-        <div className="mt-10">
+        
+        {/* ADD TO TASTE PROFILE */}
+        <div className="mt-10 px-5">
           <button className="text-primaryYellow border-[1px] w-full py-3 rounded-xl">
             {t("cocktailPage.addflavorBtn")}
           </button>
         </div>
 
-        <div className="mt-10">
-          <h3 className="text-xl font-medium">
+        <section className="mt-10">
+          <h3 className="text-xl font-medium px-5">
             {t("cocktailPage.carouselTitle")}
           </h3>
-          <p>Carousel her</p>
-        </div>
+          <FeaturedProductsCarousel 
+            product={article?.relatedProducts?.first}
+            product2={article?.relatedProducts?.second}
+            product3={article?.relatedProducts?.third}
+            product4={article?.relatedProducts?.fourth}
+            product5={article?.relatedProducts?.fifth}
+            category={"featured"}
+            parameter={"=="}
+            value={true}
+          />
+        </section>
 
-        <div className="mt-10">
-          <h3 className="text-xl font-medium">
+        <section className="mt-14">
+          <h3 className="text-xl font-medium px-5 mb-7">
             {t("cocktailPage.carouselTitle2")} {article?.liqour?.type}
           </h3>
-          <p>Carousel her</p>
-        </div>
+          <FeaturedCarousel category={"liqour.type"} parameter={"=="} value={article?.liqour?.type ? article?.liqour?.type : "akvavit"}/>
+        </section>
 
-        <div className="mt-14">
-          <TypeWriterEffect
-            words={[
-              "din kæreste",
-              "din hund",
-              "din håndværker",
-              "dit postbud",
-              "din ven",
-              "din morfar",
-              "din kollega",
-            ]}
-          />
-        </div>
+        <section className="mt-14 px-5">
+        </section>
       </div>
       <ArticlesFeatured />
     </div>

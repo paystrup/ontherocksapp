@@ -8,6 +8,7 @@
         },
         "slug": "competition",
         "category": "competitions",
+        "subcategorytitle": "Competitions",
         "title": "Win the kit and make your next party a hit!",
         "subtitle": "The Christmas cocktail has arrived. Make your own cocktail and compete for cool prizes.",
         "button": "Participate",
@@ -30,7 +31,9 @@
             "image": {
                 "alt": "test",
                 "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vinder.webp?alt=media&token=c58b7954-6bb2-4850-9da9-e23346310195"
-            }
+            },
+            "category": "opskrift",
+            "subtitle": "Rosemary Jungle"
         },
         "section4": {
             "title": "The best participants of the season",

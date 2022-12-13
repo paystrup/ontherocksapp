@@ -14,6 +14,17 @@
         "populære": "Mest populære"
         
     },
+    "typewriter":{
+        "girlfriend": "din kæreste",
+        "dog": "din hund",
+        "carpenter": "din håndværker",
+        "postman": "dit postbud",
+        "friend": "din ven",
+        "grandpa": "din morfar",
+        "college": "din kollega",
+        "impress": "Imponer",
+        "bottomText": "med økologiske, nemme og lækre cocktails."
+    },
     "bottomnav": {
         "home": "Hjem",
         "cocktails": "Cocktails",
@@ -27,8 +38,17 @@
             "title": "Mest populære",
             "btnText": "Se alle"
         },
-         "EventCarousel": {
-            "title": "Begivenheder"
+        "EventCarousel": {
+            "title": "Drinks til begivenheder"
+        },
+        "newyearsCarousel": {
+            "title": "Til din nytårsaften"
+        },
+        "christmasCarousel": {
+            "title": "Til din juletid"
+        },
+        "partyCarousel": {
+            "title": "Når festen kører"
         }
     },
     "searchpage": {
@@ -52,6 +72,10 @@
             "title": "Log ind for at <span>gemme</span> dine cocktails",
             "body": "Opret en bruger for at gemme cocktails. Det er gratis og tager 1 minut. Opret smagsprofil, få ekslusive tilbud, gem cocktails og meget mere.",
             "mainbtn":"Log ind"
+        },
+        "categories": {
+            "all": "Alle",
+            "new": "Ny kategori"
         }
 
     },
@@ -152,5 +176,11 @@
             "rum": "Rom",
             "sevablødda": "Sevablødda"
         }
+    },
+    "drinkCard": {
+        "btnText": "Gem cocktailkort",
+        "pdfName": "OnTheRocks-CocktailKort.pdf",
+        "title": "On The Rocks Cocktails",
+        "subtitle": "Af Bornholm Spirits"
     }
 }

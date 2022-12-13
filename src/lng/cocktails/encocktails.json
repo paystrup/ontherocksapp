@@ -31,7 +31,11 @@
             "recipe5": "Done. Simple as that. Enjoy it."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "A Screwdriver is the classic Vodka Juice that we all know and love. A Screwdriver is incredibly simple to make and can easily be enjoyed even if you are not too fond of vodka, as the juice goes away and hides the strong traces of alcohol in the drink. The drink has also been named by The International Bartenders Association as one of their official cocktails.",
@@ -172,7 +176,11 @@
             "recipe5": "Decorate with olives or lemon zest and enjoy."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Iconic, classic, and refreshing - with our own twist. James Bond's go-to. Shaken, not stirred. A super simple cocktail that is elegant and has a razor-sharp balance between the ingredients, where our quality vodka really shines.",
@@ -242,7 +250,11 @@
             "recipe5": "Gently place the coffee beans on the foam."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "For the coffee-loving cocktail enthusiast. A full-bodied drink, full of flavor and with silky foam on top. You rarely go wrong when serving espresso martini.",
@@ -316,7 +328,11 @@
             "recipe5": "Garnish with lime and serve."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "A well-known classic, but damn good nonetheless. A cocktail that suits most occasions and which, with its refreshing notes of lime, is perfect on a warm summer evening.",
@@ -390,7 +406,11 @@
             "recipe5": "Serve. Drink. Enjoy."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "A creamy and rich drink. An obvious choice to serve in the winter months. This cocktail is the perfect combination of bitterness from the coffee and sweetness from the whole milk or cream, giving a round pleasant taste.",
@@ -464,7 +484,11 @@
             "recipe5": "Decorate with a slice of lime."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "As the name suggests, perfect for those late summer evenings or dark late nights. A cozy and relaxing cocktail that gives a warm touch from the ginger. A true classic, with a little traditional Bornholm twist - that definitely makes it better. It is fresh, spicy and can be enjoyed on both rainy or sunny days",
@@ -533,7 +557,11 @@
             "recipe4": "Decorate the cocktail with a slice of dehydrated lemon"
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Foamy, creamy and sour classic with a traditional Danish twist in the form of our traditional Bornholm Clear Akvavit. Can be enjoyed all year round, and is perfect for almost any occasion. Simple comfort that hits really well after dinner or for dessert, because of its sweet taste.",
@@ -602,7 +630,11 @@
             "recipe4": "Decorate the cocktail with a slice of dehydrated lemon"
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Foamy, creamy and sour classic with a traditional Danish twist in the form of our traditional FROST Akvavit. Can be enjoyed all year round, and is perfect for almost any occasion. Simple comfort that hits really well after dinner or for dessert, because of its sweet taste.",
@@ -671,7 +703,11 @@
             "recipe4": "Garnish with orange peel."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "The mixture of our traditional Bornholmer Akvavit, sweet vermouth and Campari orange gives the cocktail a sweet, bitter and refreshing taste that is perfect for a cozy evening - or simply an evening where the hips are a little loose. Popular classic with a local Bornholm twist that takes it to new heights.",
@@ -737,7 +773,11 @@
             "recipe5": "Top it with sparkling water and garnish with mint leaves."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "The mouth-watering, fresh and sweet cocktail. We've spiced it up a bit and replaced the pale rum with our refreshing FROST Akvavit. Try it before your neighbor..",
@@ -815,7 +855,11 @@
             "recipe4": "Enjoy."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "The best of both worlds. The fresh cocktail is a result of sour flavors from the sea buckthorn combined with the bitter tonic and is a real winner. The cocktail gets its beautiful color from the orange-yellow berries and decorates any table.",
@@ -894,7 +938,11 @@
             "recipe5": "Serve. Drink. Enjoy."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "The elegant, flavorful cocktail is good for most occasions. The cocktail has the perfect combination of sweetness, freshness and a bit of bitterness, which makes it a true star cocktail.",
@@ -977,7 +1025,11 @@
             "recipe5": "Serve. Drink. Enjoy."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "A classic in new clothes. A refreshing and (dangerously) mouthwatering cocktail that is always a hit. Replace the rum with our delicious gin with sweet notes and serve a sure winner for your guests.",
@@ -1057,7 +1109,11 @@
             "recipe6": "Garnish with a sprig of burning rosemary and enjoy."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Our frozen G&T is always a hit on a hot summer day. When the heat wave is upon us, there's no better way to cool down than with this cocktail in hand and a few good friends.",
@@ -1134,7 +1190,11 @@
             "recipe3": "Garnish with an orange peel."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Hard work week? Enjoy the iconic Italian drink and relax, it's the weekend. The bitter notes from the Campari are combined with the sweetness of our fantastic gin. Try it!",
@@ -1211,7 +1271,11 @@
             "recipe3": "Garnish with a lemon slice."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "When you need to fly high, this is your go-to cocktail. It's easy to make and just as easy to drink. Perfect for many guests, so you don't have to spend your entire evening in the kitchen.",
@@ -1281,7 +1345,11 @@
             "recipe4": "Garnish with a handful of frozen sea buckthorn berries and a mint leaf."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "A fruity and refreshing cocktail. A twist on the classic G&T, where you end up with a result that is best enjoyed on a late summer day in good company.",
@@ -1355,7 +1423,11 @@
             "recipe4": "Garnish with a slice of cucumber."
         },
         "relatedProducts": {
-            "1": "screw-driver"
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
         },
         "featured": true,
         "body": "Yes, snaps can actually be used in cocktails, and it tastes great. This fresh cocktail with notes of sea buckthorn, dill, and cucumber is the perfect addition to any party.",
@@ -1393,5 +1465,2767 @@
                 "amount": "4 cl"
             }
         }
+    },
+    {
+        "itemID": "lakrids-espresso-martini",
+        "teaser": "The fantastic powerful drink with notes of licorice, to make it even better.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "Christmas"
+        },
+        "time": "10",
+        "theme": {
+            "slug": "hygge",
+            "title": "Hygge",
+            "id": "2"
+        },
+        "title": "Licorice Espresso Martini",
+        "type": "recipe",
+        "liqour": {
+            "slug": "lakridssnaps",
+            "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+            "type": "snaps",
+            "title": "Licorice snaps",
+            "id": "7"
+        },
+        "slug": "lakrids-espresso-martini",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add snaps, hot espresso, and coffee liqueur.",
+            "recipe3": "Shake thoroughly",
+            "recipe4": "Strain into a coupe glass.",
+            "recipe5": "Garnish with coffee beans and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "A creamy affair with notes of licorice. This cocktail is perfect for a cool winter day or as an after-dinner cocktail on Christmas Eve.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Lakrids_Espresso_Martini_1080x.webp?alt=media&token=2adb4c5c-a029-452b-9ec7-0882bf89d80a",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Lakrids_Espresso_Martini_540x.webp?alt=media&token=0a596fb8-67be-42bb-b342-d9a1a77bdf81"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ice",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"espresso",
+                "amount":"4 cl"
+            },
+            "fourth": {
+                "title":"coffee beans",
+                "amount":"4"
+            },
+            "first": {
+                "title": "coffee liqueur",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "Licorice snaps",
+                "slug": "lakridssnaps",
+                "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "kongen-af-danmark",
+        "teaser": "You know the lollipops. Now you can enjoy them as a cocktail.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "Christmas"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Kongen Af Danmark",
+        "type": "recipe",
+        "liqour": {
+            "slug": "rabarberogstjerneanissnaps",
+            "link": "https://bornholmspirits.com/products/special-edition-rabarber-stjerneanis",
+            "type": "snaps",
+            "title": "Rhubarb and star anise snaps",
+            "id": "11"
+        },
+        "slug": "kongen-af-danmark",
+        "recipe": {
+            "recipe1": "Chill a martini glass with ice.",
+            "recipe2": "Fill a shaker with ice and add all ingredients.",
+            "recipe3": "Shake well.",
+            "recipe4": "Strain over the chilled glass.",
+            "recipe5": "Garnish with star anise and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Perhaps this cocktail should be Denmark's national drink. The red color from the snaps, combined with the white foam, is enough to bring tears to your eyes, and the taste is just as good. The sweetness of the rhubarb and the licorice notes of the star anise are a star combination.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/kongen_af_danmark_1080x.webp?alt=media&token=904f9394-6638-48d7-baf7-86a585e29253",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/kongen_af_danmark_540x.webp?alt=media&token=1c7e9a01-b480-4fd0-92a8-bc9ed6cfc8a1"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ice",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"fresh limejuice",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"vanilla syrup",
+                "amount":"1 cl"
+            },
+            "fifth": {
+                "title":"eggwhites",
+                "amount":"3 cl"
+            },
+            "sixth": {
+                "title":"star anise",
+                "amount":"1"
+            },
+            "first": {
+                "title": "dark rum",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "Rhubarb and star anise snaps",
+                "slug": "rabarberogstjerneanissnaps",
+                "link": "https://bornholmspirits.com/products/special-edition-rabarber-stjerneanis",
+                "amount": "6 cl"
+            }
+        }
+    },
+    {
+        "itemID": "nordic-passion",
+        "teaser": "Passion = summer. Now you can enjoy summer in a drink.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "fest",
+            "title": "Party",
+            "id": "1"
+        },
+        "title": "Nordic Passion",
+        "type": "recipe",
+        "liqour": {
+            "slug": "figensnaps",
+            "link": "https://bornholmspirits.com/products/3-figen-snaps",
+            "type": "snaps",
+            "title": "fig snaps",
+            "id": "12"
+        },
+        "slug": "nordic-passion",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add snaps, passion fruit syrup, and lime juice.",
+            "recipe3": "Shake thoroughly",
+            "recipe4": "Top with sparkling water.",
+            "recipe5": "Garnish with passion fruit and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "This cocktail tastes like summer and should be enjoyed in the summer. It blends the sweetness of figs with the tartness of passion fruit, resulting in a fantastic flavor.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "syrlig",
+            "id": "3",
+            "title": "sour"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic_Passion_1080x.webp?alt=media&token=ad4488eb-aa66-4e45-b2df-4de9711154bb",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Nordic_Passion_540x.webp?alt=media&token=df4380cc-9a0d-4778-b87f-4a7b8ba6bf07"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ice",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"fresh limejuice",
+                "amount":"4 cl"
+            },
+            "fourth": {
+                "title":"Sparkling water",
+                "amount":"4 cl"
+            },
+            "fifth": {
+                "title":"passion fruit",
+                "amount":"1"
+            },
+            "sixth": {
+                "title":"star anise",
+                "amount":"1"
+            },
+            "first": {
+                "title": "passion syrup",
+                "amount": "4 cl"
+            },
+            "liqour": {
+                "title": "fig snaps",
+                "slug": "figensnaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "no3-tonic",
+        "teaser": "A classic. A favorite. A winner",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "2",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "No3 & Tonic",
+        "type": "recipe",
+        "liqour": {
+            "slug": "figensnaps",
+            "link": "https://bornholmspirits.com/products/3-figen-snaps",
+            "type": "snaps",
+            "title": "fig snaps",
+            "id": "12"
+        },
+        "slug": "no3-tonic",
+        "recipe": {
+            "recipe1": "Fill a glass with ice cubes. ",
+            "recipe2": "Add snaps.",
+            "recipe3": "Top with tonic water.",
+            "recipe4": "Garnish with dehydrated lime and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "This is another classic cocktail. It is bitter and it is good. We have added faint notes of figs to compliment the bitter tonic and we think it's a bit of a hit. Judge for yourself.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "bitter",
+            "id": "6",
+            "title": "bitter"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/N03_og_Tonic_1080x.webp?alt=media&token=d9a71882-d9c8-42c7-84bd-761b9eabd8b1",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/N03_og_Tonic_540x.webp?alt=media&token=5f786e74-b07a-47d7-bd56-f555d5238495"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ice",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"dehydrated lime",
+                "amount":"1"
+            },
+            "first": {
+                "title": "tonic water",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "fig snaps",
+                "slug": "figensnaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "spicy-magarita",
+        "teaser": "FGet your legs knocked out from under you with this strong but still fresh Spicy Margarita.",
+        "ocassion": {
+            "id": "3",
+            "slug": "nytår",
+            "title": "New Year's"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Spicy Magarita",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilisnaps",
+            "link": "https://bornholmspirits.com/products/1-chili-snaps",
+            "type": "snaps",
+            "title": "chili snaps",
+            "id": "13"
+        },
+        "slug": "spicy-magarita",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add all the ingrdients.",
+            "recipe3": "Strain over a coupe glas",
+            "recipe4": "Garnish with a lime wheel and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "For all the chili lovers out there, now there is a cocktail. Here you go. The Spicy Margarita is made with our fantastic chili snaps and is a hit at any party. Surprise and indulge your guests with this delicious cocktail. ",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "stærk",
+            "id": "5",
+            "title": "stærk"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Spicy_Magarita_1080x.webp?alt=media&token=77aa5463-532b-4e40-8082-e986d671b815",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Spicy_Magarita_540x.webp?alt=media&token=9d669690-44be-4281-b8ae-d68a6fc155bb"
+        },
+        "ingredients": {
+            "second": {
+                "title": "triple sec",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"fresh limejuice",
+                "amount":"1.5 cl"
+            },
+            "fourth": {
+                "title":"chile ancho lime",
+                "amount":"1 cl"
+            },
+            "fifth": {
+                "title":"lime",
+                "amount":"1"
+            },
+            "sixth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "first": {
+                "title": "tequila",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "chili snaps",
+                "slug": "chilisnaps",
+                "link": "https://bornholmspirits.com/products/1-chili-snaps",
+                "amount": "2 cl"
+            }
+        }
+    },
+    {
+        "itemID": "dannebrog",
+        "teaser": "Celebrate national pride with a Dannebrog, you won't be disappointed.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "Christmas"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Dannebrog",
+        "type": "recipe",
+        "liqour": {
+            "slug": "blåbærcitronsnaps",
+            "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+            "type": "snaps",
+            "title": "blueberry lemon snaps",
+            "id": "14"
+        },
+        "slug": "dannebrog",
+        "recipe": {
+            "recipe1": "Fill a glass with ice",
+            "recipe2": "Pour the snaps over the ice.",
+            "recipe3": "Top with gingerbeer.",
+            "recipe4": "Garnish with a lemon wheel and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "There is a lovely country. And a lovely cocktail. The best cocktail when you want to celebrate Denmark, whether it's for Christmas, New Year's Eve, or when the national team is playing. You can never go wrong with this cocktail.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Dannebrog-Small_1080x.webp?alt=media&token=170e5801-c548-42c9-80ad-ee00624f79fe",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/Dannebrog-Small_540x.webp?alt=media&token=e92c7529-9327-4a8d-b5c9-56b11b1ce891"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ice",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"lemon",
+                "amount":"1"
+            },
+            "first": {
+                "title": "ginger beer",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "blueberry lemon snaps",
+                "slug": "blåbærcitronsnaps",
+                "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "beet-special",
+        "teaser": "Beets, chili, vanilla, and skyr?! This sounds like a wild combination, but it tastes absolutely fantastic.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "Christmas"
+        },
+        "time": "8",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Beet Special",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilisnaps",
+            "link": "https://bornholmspirits.com/products/1-chili-snaps",
+            "type": "snaps",
+            "title": "chili snaps",
+            "id": "13"
+        },
+        "slug": "beet-special",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Pour in all the ingredients.",
+            "recipe3": "Shake thoroughly",
+            "recipe4": "Pour into a martini glass.",
+            "recipe5": "Garnish with bellflowers and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "A beet delight. A creamy and powerful drink where the sweetness of the beets is matched by our exquisite chili snaps. It sounds crazy, but it tastes great and it has a well-rounded taste with an exquisite flavorprofile.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/beet-special-720px.webp?alt=media&token=c7e4b946-645b-4f2e-9b18-f4d6d06dd728",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/beet-special-720px.webp?alt=media&token=c7e4b946-645b-4f2e-9b18-f4d6d06dd728"
+        },
+        "ingredients": {
+            "second": {
+                "title": "vanilla syrup",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"skyr 0.2%",
+                "amount":"5 cl"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fifth": {
+                "title":"bellflowers",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "beet juice",
+                "amount": "5 cl"
+            },
+            "liqour": {
+                "title": "chili snaps",
+                "slug": "chilisnaps",
+                "link": "https://bornholmspirits.com/products/1-chili-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "spiced-tonic",
+        "teaser": "A spicy tonic. A delicious cocktail.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "Christmas"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Spiced Tonic",
+        "type": "recipe",
+        "liqour": {
+            "slug": "figensnaps",
+            "link": "https://bornholmspirits.com/products/3-figen-snaps",
+            "type": "snaps",
+            "title": "fig snaps",
+            "id": "12"
+        },
+        "slug": "spiced-tonic",
+        "recipe": {
+            "recipe1": "Fill a glass with ice.",
+            "recipe2": "Pour the snaps over the ice.",
+            "recipe3": "Top with spicy tonic water",
+            "recipe4": "Squeeze a grapefruit wheel over the cocktail and enjoy."
+
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Snaps and spicy tonic. This cocktail should be on everyone's bucket list. The perfect combination of bitterness and spiciness.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "stærk",
+            "id": "5",
+            "title": "strong"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/spiced-tonic-720px.webp?alt=media&token=1b1dde5d-54e7-4dca-9935-6309f66dfd9d",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/spiced-tonic-720px.webp?alt=media&token=1b1dde5d-54e7-4dca-9935-6309f66dfd9d"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ice",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"grapefruit",
+                "amount":"1"
+            },
+            "first": {
+                "title": "spicy tonic water",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "fig snaps",
+                "slug": "figensnaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "stgermain-foam",
+        "teaser": "Fresh cocktail, with silky soft foam. Whats not to like.",
+        "ocassion": {
+            "id": "6",
+            "slug": "påske",
+            "title": "easter"
+        },
+        "time": "8",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "St. Germain Foam",
+        "type": "recipe",
+        "liqour": {
+            "slug": "havtorndildogagurksnaps",
+            "link": "https://bornholmspirits.com/products/2-havtorn-dild-agurk-snaps",
+            "type": "snaps",
+            "title": "sea ​​buckthorn dill and cucumber snaps",
+            "id": "6"
+        },
+        "slug": "stgermain-foam",
+        "recipe": {
+            "recipe1": "Pour all the ingrediens into a shake",
+            "recipe2": "Shake thoroughly for minimum 10 sec.",
+            "recipe3": "Fill a glass with ice and strain the cocktail over the ice.",
+            "recipe4": "Garnish with a feather of dill and enjoy."
+
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "A creamy, full-bodied drink. A natural choice for Easter, where dill and sea buckthorn are a good match for the fish table. The cucumber provides freshness and the result is a refreshing, creamy cocktail.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/st-germain-foam.webp?alt=media&token=93a38d27-d9cf-4031-8f76-58f851656eeb",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/st-germain-foam.webp?alt=media&token=93a38d27-d9cf-4031-8f76-58f851656eeb"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime juice",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"sugar syrup",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"eggwhites",
+                "amount":"1"
+            },
+            "fifth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "sixth": {
+                "title":"dill",
+                "amount":"1 feather"
+            },
+            "first": {
+                "title": "st. germain elderflower liqueur",
+                "amount": "2.5 cl"
+            },
+            "liqour": {
+                "title": "Sea Buckthorn, dill and cucumber snaps",
+                "slug": "havtorndildogagurksnaps",
+                "link": "https://bornholmspirits.com/products/2-havtorn-dild-agurk-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "sweet-child",
+        "teaser": "It is sweet, both to look at and in taste. ",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Sweet Child",
+        "type": "recipe",
+        "liqour": {
+            "slug": "hindbæringefærgranatæblesnaps",
+            "link": "https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps",
+            "type": "snaps",
+            "title": "rasberry, ginger and pomegranate snaps",
+            "id": "6"
+        },
+        "slug": "sweet-child",
+        "recipe": {
+            "recipe1": "Fill a glass with ice.",
+            "recipe2": "Pour all the ingredients over the ice",
+            "recipe3": "Garnish with pomegranate seeds and enjoy"
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "The sweetest cocktail in the class. Raspberries and pomegranate are perfectly complimented by the ginger and, together with the red soda, create a beautiful drink.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/sweet-child.webp?alt=media&token=699433c0-6b9d-4e97-98ed-276b749dce13",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/sweet-child.webp?alt=media&token=699433c0-6b9d-4e97-98ed-276b749dce13"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ice",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"pomegranate",
+                "amount":"1"
+            },
+            "first": {
+                "title": "red soda",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "rasberry, ginger and pomegranate snaps",
+                "slug": "hindbæringefærgranatæblesnaps",
+                "link": "https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "blooming-fig",
+        "teaser": "Sweet and salty and everything nice from this world.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Blooming Fig",
+        "type": "recipe",
+        "liqour": {
+            "slug": "figensnaps",
+            "link": "https://bornholmspirits.com/products/3-figen-snaps",
+            "type": "snaps",
+            "title": "fig snaps",
+            "id": "12"
+        },
+        "slug": "blooming-fig",
+        "recipe": {
+            "recipe1": "Fill a glass with ice.",
+            "recipe2": "Pour all the ingredients over the ice.",
+            "recipe3": "Stir well so that the cream and caramel are mixed with the other ingredients.",
+            "recipe4": "Garnish with a mint broom and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "A dream in a glass. Salted caramel and fig is a combination you should not deprive yourself of. The cream provides the creaminess and makes this cocktail perfect to enjoy in the dark winter months.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/blooming-fig-720px.webp?alt=media&token=9b40ea3a-a335-4dc1-b0c9-48a98b1ca74a",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/blooming-fig-720px.webp?alt=media&token=9b40ea3a-a335-4dc1-b0c9-48a98b1ca74a"
+        },
+        "ingredients": {
+            "second": {
+                "title": "tia maria",
+                "amount": "1 cl"
+            },
+
+            "third": {
+                "title":"salty caramel",
+                "amount":"1 cl"
+            },
+            "fourth": {
+                "title":"cream",
+                "amount":"4 cl"
+            },
+            "fifth": {
+                "title":"fernet branca",
+                "amount":"0.5 cl"
+            },
+            "sixth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "seventh": {
+                "title":"Mint leaves",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "white mozart liquor",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "fig snaps",
+                "slug": "figensnaps",
+                "link": "https://bornholmspirits.com/products/3-figen-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "hot-summer",
+        "teaser": "As the name suggests, should be enjoyed on a hot summer day.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Hot Summer",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vaniljesnaps",
+            "link": "https://bornholmspirits.com/products/5-vanilje-snaps",
+            "type": "snaps",
+            "title": "vanilla snaps",
+            "id": "16"
+        },
+        "slug": "hot-summer",
+        "recipe": {
+            "recipe1": "Fill a glass with ice.",
+            "recipe2": "Pour the snaps and soda over the ice.",
+            "recipe3": "Garnish with dehydrated blood orange and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Cool down on a hot day or start the party by serving this refreshing, captivating cocktail. It tastes as good as it looks. And it looks pretty fucking good.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/hot-summer-720px.webp?alt=media&token=045d09c9-f72e-41ae-94f6-9687d72f9a84",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/hot-summer-720px.webp?alt=media&token=045d09c9-f72e-41ae-94f6-9687d72f9a84"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ice",
+                "amount": "plenty"
+            },
+
+            "third": {
+                "title":"dehydrated blood orange",
+                "amount":"1 cl"
+            },
+            "first": {
+                "title": "blood orange soda",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "vanilla snaps",
+                "slug": "vaniljesnaps",
+                "link": "https://bornholmspirits.com/products/5-vanilje-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "diamond-snaps",
+        "teaser": "And elegant and at least just as tastefull cocktail.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "wedding"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Diamond Snaps",
+        "type": "recipe",
+        "liqour": {
+            "slug": "hindbæringefærgranatæblesnaps",
+            "link": "https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps",
+            "type": "snaps",
+            "title": "rasberry, ginger and pomegranate snaps",
+            "id": "15"
+        },
+        "slug": "diamond-snaps",
+        "recipe": {
+            "recipe1": "Pour the snaps and one sugarcube in a tall champagne glass.",
+            "recipe2": "Muddle the sugarcube and make sure it is dissolved in the snaps.",
+            "recipe3": "Top with Brut Champagne.",
+            "recipe4": "Sprinkle four drops of Angustora over the cocktail and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Captivate your guests with this beautiful and flavorful champagne cocktail. Perfect for when you want to be a little more fancy and it tastes heavenly. You can be sure that your guests will leave the party satisfied after tasting Diamond Snaps.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/diamond-snaps-720px.webp?alt=media&token=a4aa65df-2237-4b89-a57d-30eee23e70d6",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/diamond-snaps-720px.webp?alt=media&token=a4aa65df-2237-4b89-a57d-30eee23e70d6"
+        },
+        "ingredients": {
+            "second": {
+                "title": "drops of angustora",
+                "amount": "4"
+            },
+
+            "third": {
+                "title":"sugarcube",
+                "amount":"1"
+            },
+            "first": {
+                "title": "brut champagne",
+                "amount": "120 cl"
+            },
+            "liqour": {
+                "title": "rasberry, ginger and pomegranate snaps",
+                "slug": "hindbæringefærgranatæblesnaps",
+                "link": "https://bornholmspirits.com/products/4-hindbaer-ingefaer-granataeble-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "vanilla-love",
+        "teaser": "Sweet and creamy. Just like we like it.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Vanilla Love",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vaniljesnaps",
+            "link": "https://bornholmspirits.com/products/5-vanilje-snaps",
+            "type": "snaps",
+            "title": "vanilla snaps",
+            "id": "16"
+        },
+        "slug": "vanilla-love",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add all the ingredients to the shaker.",
+            "recipe3": "Shake thoroughly",
+            "recipe4": "Strain over a cooled coupe glass and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Go back to your ancient roots and toast with your ancestors in the Viking's preferred drink - mjød. This creamy delight is perfect after a busy work week. Put your feet up and enjoy a Vanilla Love.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vanilla-love-720px.webp?alt=media&token=0fc65dc0-14d8-4b62-92b7-9957ab9399e2",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vanilla-love-720px.webp?alt=media&token=0fc65dc0-14d8-4b62-92b7-9957ab9399e2"
+        },
+        "ingredients": {
+            "second": {
+                "title": "rhubarb syrup",
+                "amount": "3 cl"
+            },
+
+            "third": {
+                "title":"bergamot puree",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "first": {
+                "title": "mead",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "vanilla snaps",
+                "slug": "vaniljesnaps",
+                "link": "https://bornholmspirits.com/products/5-vanilje-snaps",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "licorice-fire",
+        "teaser": "Licoricedrink on fire.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Licorice Fire",
+        "type": "recipe",
+        "liqour": {
+            "slug": "lakridssnaps",
+            "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+            "type": "snaps",
+            "title": "Licorice snaps",
+            "id": "16"
+        },
+        "slug": "licorice-fire",
+        "recipe": {
+            "recipe1": "Fill a tall glass with ice. ",
+            "recipe2": "Add all the ingrdients.",
+            "recipe3": "Garnish with licorice root and enjoy"
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Who doesn't love licorice? Maybe Americans, but that's okay. This cocktail is all you need when you want to have a cozy evening. Whether it's with your better half, your mother-in-law, or a few of your friends, this cocktail is a sure winner.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/licorice-fire-720px.webp?alt=media&token=cc997d3b-598d-4fff-ac6a-75341c9e5671",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/licorice-fire-720px.webp?alt=media&token=cc997d3b-598d-4fff-ac6a-75341c9e5671"
+        },
+        "ingredients": {
+            "second": {
+                "title": "ginger beer",
+                "amount": "10 cl"
+            },
+
+            "third": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fourth": {
+                "title":"licorice root",
+                "amount":"1"
+            },
+            "first": {
+                "title": "cherry heering liquor",
+                "amount": "1.5 cl"
+            },
+            "liqour": {
+                "title": "Licorice snaps",
+                "slug": "lakridssnaps",
+                "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "red-copenhagen",
+        "teaser": "Copenhagen, I've never seen you look this bright.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Red Copenhagen",
+        "type": "recipe",
+        "liqour": {
+            "slug": "blåbærcitronsnaps",
+            "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+            "type": "snaps",
+            "title": "blueberry lemon snaps",
+            "id": "14"
+        },
+        "slug": "red-copenhagen",
+        "recipe": {
+            "recipe1": "Fill a lowball glass with ice. ",
+            "recipe2": "Add snaps and Vermouth.",
+            "recipe3": "Sprinkle two drops of Angustora Bitters over the cocktail.",
+            "recipe4": "Garnish with lemon zest and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Celebrate our amazing capital with this amazing drink. You can listen to København by Ulige Numre while you're drinking it to really turn up the atmosphere.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "krydret",
+            "id": "8",
+            "title": "spicy"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/red-copenhagen-720px.webp?alt=media&token=41b98b01-fd45-4a48-87b3-3223551b9a10",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/red-copenhagen-720px.webp?alt=media&token=41b98b01-fd45-4a48-87b3-3223551b9a10"
+        },
+        "ingredients": {
+            "second": {
+                "title": "drops of angustora bitter",
+                "amount": "2 "
+            },
+
+            "third": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fourth": {
+                "title":"lemon",
+                "amount":"1"
+            },
+            "first": {
+                "title": "sweet vermouth",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "blueberry lemon snaps",
+                "slug": "blåbærcitronsnaps",
+                "link": "https://bornholmspirits.com/products/6-blabaer-citron-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "summer-in-the-sun",
+        "teaser": "Summer in a glass.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Summer In The Sun",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilihonningsnaps",
+            "link": "https://bornholmspirits.com/products/8-chili-honning-snaps",
+            "type": "snaps",
+            "title": "chili and honey snaps",
+            "id": "17"
+        },
+        "slug": "summer-in-the-sun",
+        "recipe": {
+            "recipe1": "Fill a lowball glass with ice. ",
+            "recipe2": "Add all the ingrdients.",
+            "recipe3": "Garnish with a dehydrated lime."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Chili + honey = good taste. This cocktail combines strong chili with sweet honey and the result is this beautiful, tasty drink. You can never go wrong with it.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "stærk",
+            "id": "5",
+            "title": "strong"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/summer-in-the-sun-720px.webp?alt=media&token=255ee7a5-4aba-43bd-ab3d-45b7f5d0daa9",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/summer-in-the-sun-720px.webp?alt=media&token=255ee7a5-4aba-43bd-ab3d-45b7f5d0daa9"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime cordial",
+                "amount": "1 cl"
+            },
+
+            "third": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fourth": {
+                "title":"dehydrated lime",
+                "amount":"1"
+            },
+            "first": {
+                "title": "apricot soda",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "chili and honey snaps",
+                "slug": "chilihonningsnaps",
+                "link": "https://bornholmspirits.com/products/8-chili-honning-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "golden-licorice",
+        "teaser": "Like a sunset on a sunny island.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Golden Licorice",
+        "type": "recipe",
+        "liqour": {
+            "slug": "lakridssnaps",
+            "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+            "type": "snaps",
+            "title": "Licorice snaps",
+            "id": "7"
+        },
+        "slug": "golden-licorice",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add all the ingrdients.",
+            "recipe3": "Shake thoroughly and strain over a glass.",
+            "recipe4": "Garnish with licorice root and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Imagine you're sitting on a beach on a hot day. You're watching the sunset and talking about good memories with the person you love most. That's how we think our Golden Licorice tastes. And yes, we know it's a bit pretentious, but it's the truth.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/golden-licorice-720px.webp?alt=media&token=4923013e-a6c5-4952-8353-6d6375289b56",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/golden-licorice-720px.webp?alt=media&token=4923013e-a6c5-4952-8353-6d6375289b56"
+        },
+        "ingredients": {
+            "second": {
+                "title": "carrot juice",
+                "amount": "4 cl"
+            },
+            "third": {
+                "title":"drops of carrot oil",
+                "amount":"7"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+
+            "first": {
+                "title": "salty caramel",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "Licorice snaps",
+                "slug": "lakridssnaps",
+                "link": "https://bornholmspirits.com/products/7-lakrids-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "red-pearl",
+        "teaser": "The chameleon of drinks. Goes with everything.",
+        "ocassion": {
+            "id": "7",
+            "slug": "jul",
+            "title": "Christmas"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Red Pearl",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilisnaps",
+            "link": "https://bornholmspirits.com/products/1-chili-snaps",
+            "type": "snaps",
+            "title": "chili snaps",
+            "id": "13"
+        },
+        "slug": "red-pearl",
+        "recipe": {
+            "recipe1": "Fill a glass with ice.",
+            "recipe2": "Add all the ingrdients.",
+            "recipe3": "Decorate with a bunch of currants and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Chili, kombucha, and lime, now that's a star combination. There simply isn't a moment when this cocktail doesn't fit in. Whether you're cozying up on the couch, having a high school reunion, or attending a grand gala, this cocktail is your friend.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/red-pearl.webp?alt=media&token=d84038a7-3fdc-4308-80be-dbfbcdab29b9",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/red-pearl.webp?alt=media&token=d84038a7-3fdc-4308-80be-dbfbcdab29b9"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime juice",
+                "amount": "1.5 cl"
+            },
+
+            "third": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fourth": {
+                "title":"bunch of currants",
+                "amount":"1"
+            },
+
+            "first": {
+                "title": "kombucha with no taste",
+                "amount": "12 cl"
+            },
+            "liqour": {
+                "title": "chili snaps",
+                "slug": "chilisnaps",
+                "link": "https://bornholmspirits.com/products/1-chili-snaps",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "the-golden-age",
+        "teaser": "Refreshing and straightforward. Everyone can enjoy this one.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weeknd"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "The Golden Age",
+        "type": "recipe",
+        "liqour": {
+            "slug": "chilihonningsnaps",
+            "link": "https://bornholmspirits.com/products/8-chili-honning-snaps",
+            "type": "snaps",
+            "title": "chili and honey snaps",
+            "id": "17"
+        },
+        "slug": "the-golden-age",
+        "recipe": {
+            "recipe1": "Fill a glass with ice.",
+            "recipe2": "Add lime juice and honey syrup.",
+            "recipe3": "Clap the mint between your hands and add it to the cocktail.",
+            "recipe4": "Garnish with orange zest and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "A refreshing all-year-round cocktail. The refreshing lime, the strong chili, and the sweet honey make this cocktail suitable for everything. Whether it's summer, winter, spring, or fall, this cocktail is the right choice.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/golden-licorice-720px.webp?alt=media&token=4923013e-a6c5-4952-8353-6d6375289b56",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/golden-licorice-720px.webp?alt=media&token=4923013e-a6c5-4952-8353-6d6375289b56"
+        },
+        "ingredients": {
+            "second": {
+                "title": "honey syrup",
+                "amount": "3 cl"
+            },
+
+            "third": {
+                "title":"Mint leaves",
+                "amount":"plenty"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fifth": {
+                "title":"orange",
+                "amount":"1"
+            },
+
+            "first": {
+                "title": "lime juice",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "chili honey snaps",
+                "slug": "chilihonningsnaps",
+                "link": "https://bornholmspirits.com/products/8-chili-honning-snaps",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "the-ukrainian-dane",
+        "teaser": "A creamy cocktail. A delicious cocktail.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weeknd"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "The Ukrainian Dane",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "the-ukrainian-dane",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add all the ingredients to the shaker.",
+            "recipe3": "Shake thoroughly for minimum 10 sec.",
+            "recipe4": "Strain over a martini glass.",
+            "recipe5": "Garnish with coffee chocolates and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Swap your evening coffee for this delicious, creamy coffee cocktail. We guarantee it will keep you just as warm. Enjoy it in good company or when you want to treat yourself a little extra.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/therussiandane.webp?alt=media&token=81be4997-ec7b-498a-ac39-5009820fe827",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/therussiandane.webp?alt=media&token=81be4997-ec7b-498a-ac39-5009820fe827"
+        },
+        "ingredients": {
+            "second": {
+                "title": "drambuie liquor",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"cream",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fifth": {
+                "title":"coffee chocolate",
+                "amount":"1"
+            },
+
+            "first": {
+                "title": "coffee syrup",
+                "amount": "1.5 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "vodka-spritz",
+        "teaser": "A refreshing spritz with an extra kick in it.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weeknd"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Vodka Spritz",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "vodka-spritz",
+        "recipe": {
+            "recipe1": "Fill a glass with ice. ",
+            "recipe2": "Add Vodka, Aperol and lime juice.",
+            "recipe3": "Top with Ginger Beer.",
+            "recipe4": "Garnish with dehydrated orange and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "You can always be sure to start the party when you serve this cocktail. Vodka, Aperol, and ginger beer together make a phenomenal combination where neither the sweetness nor the strong ginger is allowed to take over, but instead play together in a beautiful symphony.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vodkaspritz.webp?alt=media&token=26dbe8fe-3f5f-436b-89b2-724dcfb244aa",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vodkaspritz.webp?alt=media&token=26dbe8fe-3f5f-436b-89b2-724dcfb244aa"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime juice",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"ginger beer",
+                "amount":"10 cl"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fifth": {
+                "title":"orange",
+                "amount":"1"
+            },
+
+            "first": {
+                "title": "aperol",
+                "amount": "5 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "monte-carlo",
+        "teaser": "A bubbly, light cocktail.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "wedding"
+        },
+        "time": "7",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Monte Carlo",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "monte-carlo",
+        "recipe": {
+            "recipe1": "Fill a glass with ice. ",
+            "recipe2": "Add Vodka, agave, limejuice, eggwhites and bitter.",
+            "recipe3": "Shake thoroughly for minimum 10 sec.",
+            "recipe4": "Strain over a coupe glas.",
+            "recipe5": "Top with champagne.",
+            "recipe6": "Garnish with a thyme sprig and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "This elegant, flavorful champagne cocktail is just as beautiful as it is tasty. The cocktail is perfect to serve at a party as well as for relaxation. The shaken egg whites give the cocktail a creamy consistency and soft foam.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/montecarlo.webp?alt=media&token=4b154f97-1a9e-4a75-a95b-e7b7582634f5",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/montecarlo.webp?alt=media&token=4b154f97-1a9e-4a75-a95b-e7b7582634f5"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime juice",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"eggwhites",
+                "amount":"1"
+            },
+            "fourth": {
+                "title":"drops of bitter",
+                "amount":"2"
+            },
+            "fifth": {
+                "title":"brut champagne",
+                "amount":"7 cl"
+            },
+            "sixth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "seventh": {
+                "title":"thyme sprig",
+                "amount":"1"
+            },
+            "first": {
+                "title": "agave",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "born-rebel",
+        "teaser": "Frugtig, frisk og sød, det er essensen af denne velsmagende cocktail.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "5",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Born Rebel",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "born-rebel",
+        "recipe": {
+            "recipe1": "Fill a glass with ice. ",
+            "recipe2": "Add vodka, snaps and apple juice to the glass.",
+            "recipe3": "Press the kiwi og add the liquid.",
+            "recipe4": "Garnish with walnuts and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Fresh and fruity. This cocktail, if we may say so ourselves, contains a pretty amazing combination. The sweetness from the apple, the acidity from the kiwi, and the slightly bitter taste of the walnut = perfection.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bornrebel.webp?alt=media&token=6e5736a4-4ac6-4c61-a63b-6bb42d48cdf1",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bornrebel.webp?alt=media&token=6e5736a4-4ac6-4c61-a63b-6bb42d48cdf1"
+        },
+        "ingredients": {
+            "second": {
+                "title": "apple juice",
+                "amount": "7 cl"
+            },
+
+            "third": {
+                "title":"kiwi",
+                "amount":"1/2"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fifth": {
+                "title":"walnuts",
+                "amount":"4"
+            },
+            "first": {
+                "title": "snaps bornholm walnut",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "danish-wall",
+        "teaser": "If freshness were a cocktail, it would be this tasty Danish Wall.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "3",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Danish Wall",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "danish-wall",
+        "recipe": {
+            "recipe1": "Fill a glass with ice. ",
+            "recipe2": "Add vodka and snaps.",
+            "recipe3": "Top with freshly pressed orange juice.",
+            "recipe4": "Garnish with an orange wheel and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "The drink that makes your mouth water at first sight. A culmination of freshness and sweetness comes from freshly squeezed oranges and our legendary Vanillasnaps. A summer drink out of the ordinary and a must-try for all cocktail lovers..",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/danishwall.webp?alt=media&token=83a59a3b-db02-42fc-8880-62af35c9fbfc",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/danishwall.webp?alt=media&token=83a59a3b-db02-42fc-8880-62af35c9fbfc"
+        },
+        "ingredients": {
+            "second": {
+                "title": "freshly pressed orange juice",
+                "amount": "12 cl"
+            },
+
+            "third": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fourth": {
+                "title":"orange",
+                "amount":"1"
+            },
+            "first": {
+                "title": "snaps bornholm vanilla",
+                "amount": "5 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "green-vodka",
+        "teaser": "It is sweet and it is delicious.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "10",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Green Vodka",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "green-vodka",
+        "recipe": {
+            "recipe1": "Fill a glass with ice. ",
+            "recipe2": "Add vodka, cane sugar syrup and lime.",
+            "recipe3": "Grind a little pepper over the cocktail.",
+            "recipe4": "Garnish with basil leaves and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Our green beauty. Enjoy this cocktail on warm summer days, at good parties, or in the company of family. We suggest you stock up, as our experience tells us that everyone will want more than one.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/greenvodka.webp?alt=media&token=42700879-2dbb-4647-b49a-48a2a7503e80",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/greenvodka.webp?alt=media&token=42700879-2dbb-4647-b49a-48a2a7503e80"
+        },
+        "ingredients": {
+            "second": {
+                "title": "lime juice",
+                "amount": "2 cl"
+            },
+
+            "third": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fourth": {
+                "title":"basil leaves",
+                "amount":"10"
+            },
+            "fifth": {
+                "title":"black pepper",
+                "amount":"nok"
+            },
+            "first": {
+                "title": "cane sugar syrup",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "orientail-v",
+        "teaser": "Sweet and delicious. The cocktail on top of all cocktails.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "10",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Orientail V",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "orientail-v",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add vodka, chili snaps, mango puree, sugar syrup, lime and salt.",
+            "recipe3": "Shake thoroughly for minimum 10 sec.",
+            "recipe4": "Strain over a glass with ice.",
+            "recipe5": "Top with Ginger beer.",
+            "recipe6": "Garnish with cilantro and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Creamy? Check. Strong? Check. Delicious? Check. This cocktail is a hit with most people. The sweetness from the mango and the strength from our fantastic chili schnapps make a pretty tasty cocktail. Enjoy it at a party, at dinner, or for a cozy time.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "stærk",
+            "id": "5",
+            "title": "strong"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/orientailv.webp?alt=media&token=747423ca-80b3-4b77-920b-22a7202ca522",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/orientailv.webp?alt=media&token=747423ca-80b3-4b77-920b-22a7202ca522"
+        },
+        "ingredients": {
+            "second": {
+                "title": "mango puree",
+                "amount": "4.5 cl"
+            },
+            "third": {
+                "title":"ginger beer",
+                "amount":"5 cl"
+            },
+            "fourth": {
+                "title":"sugar syrup",
+                "amount":"2 cl"
+            },
+            "fifth": {
+                "title":"lime juice",
+                "amount":"3 cl"
+            },
+            "sixth": {
+                "title":"cilantro leaves",
+                "amount":"plenty"
+            },
+            "seventh": {
+                "title":" dash of salt",
+                "amount":"1"
+            },
+            "first": {
+                "title": "snaps bornholm chili",
+                "amount": "1 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "5 cl"
+            }
+        }
+    },
+    {
+        "itemID": "flower-power",
+        "teaser": "Elegant, beautiful and tasty.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "wedding"
+        },
+        "time": "10",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Flower Power",
+        "type": "recipe",
+        "liqour": {
+            "slug": "vodkabornholm",
+            "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+            "type": "vodka",
+            "title": "Vodka Bornholm",
+            "id": "1"
+        },
+        "slug": "flower-power",
+        "recipe": {
+            "recipe1": "Cool down a tall champagne glass. ",
+            "recipe2": "Add vodka, St. Germain and cucumber & lime tonic water.",
+            "recipe3": "Garnish with elderberries and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "Beautiful and elegant. Just as tasty. This cocktail is simple, but no less delicious. The advantage is that you don't have to stand at the bar all evening and you have even more time to mingle with your guests.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "bitter",
+            "id": "6",
+            "title": "bitter"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/flowerpower.webp?alt=media&token=9e0de955-4e1d-444e-8c0f-29f3503f23ce",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/flowerpower.webp?alt=media&token=9e0de955-4e1d-444e-8c0f-29f3503f23ce"
+        },
+        "ingredients": {
+            "second": {
+                "title": "cucumber & lime tonic water",
+                "amount": "10 cl"
+            },
+            "third": {
+                "title":"elderberries",
+                "amount":"5"
+            },
+            "first": {
+                "title": "st. germain",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "vodka bornholm",
+                "slug": "vodkabornholm",
+                "link": "https://bornholmspirits.com/products/vodka-bornholm-70-cl",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "gin-hass",
+        "teaser": "A classic. A sweet mango cocktail is never a bad idea.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "4",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Gin Hass",
+        "type": "recipe",
+        "liqour": {
+            "slug": "caskgin",
+            "link": "https://bornholmspirits.com/products/cask-gin",
+            "type": "gin",
+            "title": "cask gin",
+            "id": "9"
+        },
+        "slug": "gin-hass",
+        "recipe": {
+            "recipe1": "Fill a lowball glass with ice. ",
+            "recipe2": "Add Gin, lemon soda and lime juice.",
+            "recipe3": "Top with mango syrup.",
+            "recipe4": "Garnish with mint leaves and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "The cocktail that has taken Denmark by storm. The cocktail was invented by the brilliant bartender Kim Hass and can liven up any party. It's easy to make and just as tasty. ",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sød"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ginhass.webp?alt=media&token=8b55e10c-a74b-4c1a-971d-8cb38aa6a290",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ginhass.webp?alt=media&token=8b55e10c-a74b-4c1a-971d-8cb38aa6a290"
+        },
+        "ingredients": {
+            "second": {
+                "title": "mango syrup",
+                "amount": "2 cl"
+            },
+            "third": {
+                "title":"fresh lime juice",
+                "amount":"1 cl"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fifth": {
+                "title":"Mint leaves",
+                "amount":"3"
+            },
+            "first": {
+                "title": "lemon soda",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "cask gin",
+                "slug": "caskgin",
+                "link": "https://bornholmspirits.com/products/cask-gin",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "bramble",
+        "teaser": "Blackberry, gin, and lemon. Delight in a cocktail glass.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Bramble",
+        "type": "recipe",
+        "liqour": {
+            "slug": "caskgin",
+            "link": "https://bornholmspirits.com/products/cask-gin",
+            "type": "gin",
+            "title": "cask gin",
+            "id": "9"
+        },
+        "slug": "bramble",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add gin, sugar syrup and lemon juice.",
+            "recipe3": "Shake thoroughly for minimum 10 sec.",
+            "recipe4": "Strain over a glass med ice.",
+            "recipe5": "Pour Crème de mûre over the back a spoon so it settles as a layer in the cocktail.",
+            "recipe6": "Garnish with blackberry and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "The perfect balance between the sour and the sweet. The cocktail is the ultimate summer drink and should be enjoyed in good company.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bramble.webp?alt=media&token=881ea813-8e18-4841-a791-fb2b790cc188",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bramble.webp?alt=media&token=881ea813-8e18-4841-a791-fb2b790cc188"
+        },
+        "ingredients": {
+            "second": {
+                "title": "fresh lemon juice",
+                "amount": "3 cl"
+            },
+            "third": {
+                "title":"crème de mûre",
+                "amount":"1 cl"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"nok"
+            },
+            "fifth": {
+                "title":"blackberry",
+                "amount":"3"
+            },
+            "first": {
+                "title": "sugar syrup",
+                "amount": "1 cl"
+            },
+            "liqour": {
+                "title": "cask gin",
+                "slug": "caskgin",
+                "link": "https://bornholmspirits.com/products/cask-gin",
+                "amount": "4 cl"
+            }
+        }
+    },
+    {
+        "itemID": "clover-club",
+        "teaser": "The pink beauty always brings a good atmosphere.",
+        "ocassion": {
+            "id": "1",
+            "slug": "sommer",
+            "title": "summer"
+        },
+        "time": "7",
+        "theme": {
+            "slug": "fest",
+            "title": "party",
+            "id": "1"
+        },
+        "title": "Clover Club",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "clover-club",
+        "recipe": {
+            "recipe1": "Pour Cointreau, Gin, syrup, lemon juice, eggwhites og 5 rasberries in a shaker with no ice.",
+            "recipe2": "Shake thoroughly for minimum 10 sec.",
+            "recipe3": "Add ice and shake again for 10 sec.",
+            "recipe4": "Strain over a cooled glass.",
+            "recipe5": "Garnish carefully with rasberries on top of the foam and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "The beautiful cocktail with its beautiful color will surely be well received by most people. Not only is it a delight to look at, it tastes even better.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "sød",
+            "id": "2",
+            "title": "sweet"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/cloverclub.webp?alt=media&token=2c6fecab-e0cc-45e0-8a8f-03fda1309771",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/cloverclub.webp?alt=media&token=2c6fecab-e0cc-45e0-8a8f-03fda1309771"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sugar syrup",
+                "amount": "1.5 cl"
+            },
+            "third": {
+                "title":"fresh lemon juice",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"eggwhites",
+                "amount":"1 cl"
+            },
+            "fifth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "sixth": {
+                "title":"rasberries",
+                "amount":"8"
+            },
+            "first": {
+                "title": "cointreau triple sec liquor",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "french-75",
+        "teaser": "Elegant and bubbly delicious.",
+        "ocassion": {
+            "id": "2",
+            "slug": "bryllup",
+            "title": "wedding"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "velkomst",
+            "title": "Apeterif",
+            "id": "5"
+        },
+        "title": "French 75",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "french-75",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add gin, sugar syrup and lemon juice.",
+            "recipe3": "Shake thoroughly for minimum 10 sec.",
+            "recipe4": "Strain over a tall champagne glass.",
+            "recipe5": "Top with BRUT Champagne",
+            "recipe6": "Garnish with a lemon wheel and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "An elegant classic. Bubbles, hints of lemon and well-being. This cocktail belongs at all occasions and you can be sure that your guests will enjoy the experience.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/french75.webp?alt=media&token=5e295863-c0ab-49ab-9838-ed809ef681a4",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/french75.webp?alt=media&token=5e295863-c0ab-49ab-9838-ed809ef681a4"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sugar syrup",
+                "amount": "0.5 cl"
+            },
+            "third": {
+                "title":"fresh lemon juice",
+                "amount":"1.5 cl"
+            },
+            "fourth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "fifth": {
+                "title":"citron",
+                "amount":"1"
+            },
+            "first": {
+                "title": "brut champagne",
+                "amount": "10 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "gin-fizz",
+        "teaser": "Sweet, sour and a delicious citrus flavor.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "6",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "Gin Fizz",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "gin-fizz",
+        "recipe": {
+            "recipe1": "Fill a shaker with ice.",
+            "recipe2": "Add gin, syrup, lemon juice and eggwhites.",
+            "recipe3": "Shake thoroughly for minimum 10 sec.",
+            "recipe4": "Strain over a glass.",
+            "recipe5": "Top with sparkling water",
+            "recipe6": "Garnish with a lemon wheel and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "A cocktail that can be enjoyed all year round and at any time of the day. It is sweet and it is sour and is a favorite among many. Treat yourself and your loved ones with a refreshing Gin Fizz.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ginfizz.webp?alt=media&token=51370bfe-f662-4051-872b-e2f83ffc0722",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/ginfizz.webp?alt=media&token=51370bfe-f662-4051-872b-e2f83ffc0722"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sugar syrup",
+                "amount": "1.5 cl"
+            },
+            "third": {
+                "title":"Sparkling water",
+                "amount":"4 cl"
+            },
+            "fourth": {
+                "title":"eggwhites",
+                "amount":"1"
+            },
+            "fifth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "sixth": {
+                "title":"lemon",
+                "amount":"1"
+            },
+            "first": {
+                "title": "fresh lemon juice",
+                "amount": "3 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "3 cl"
+            }
+        }
+    },
+    {
+        "itemID": "white-lady",
+        "teaser": "En silkeblød cocktail med alle de dejlige noter af citrus.",
+        "ocassion": {
+            "id": "9",
+            "slug": "weekend",
+            "title": "weekend"
+        },
+        "time": "7",
+        "theme": {
+            "slug": "hygge",
+            "title": "hygge",
+            "id": "2"
+        },
+        "title": "White Lady",
+        "type": "recipe",
+        "liqour": {
+            "slug": "bornholmgin",
+            "link": "https://bornholmspirits.com/products/bornholm-gin",
+            "type": "gin",
+            "title": "bornholm gin",
+            "id": "8"
+        },
+        "slug": "white-lady",
+        "recipe": {
+            "recipe1": "Add Cointreau, Gin, syrup, lemon juice and eggwhite to a shaker with no ice.",
+            "recipe2": "Shake thoroughly for minimum 10 sec.",
+            "recipe3": "Add ice and shake again for 10 sec.",
+            "recipe4": "Strain over a coupe glass.",
+            "recipe5": "Garnish with lemon zest and enjoy."
+        },
+        "relatedProducts": {
+            "first": "screw-driver",
+            "second": "frost-akva-sour",
+            "third": "champagne-fizz",
+            "fourth": "danish-wall",
+            "fifth": "clover-club"
+        },
+        "featured": true,
+        "body": "It is not only good, it is also amazing to look at. It is sophisticated but not pretentious. It is everything you could want in a cocktail glass.",
+        "relatedArticles": {
+            "1": "test"
+        },
+        "taste": {
+            "slug": "frisk",
+            "id": "4",
+            "title": "fresh"
+        },
+        "image": {
+            "alt": "test",
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/whitelady.webp?alt=media&token=be980c54-ded5-4ced-ac6b-f6baa45276ec",
+            "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/whitelady.webp?alt=media&token=be980c54-ded5-4ced-ac6b-f6baa45276ec"
+        },
+        "ingredients": {
+            "second": {
+                "title": "sugar syrup",
+                "amount": "1 cl"
+            },
+            "third": {
+                "title":"fresh lemon juice",
+                "amount":"2 cl"
+            },
+            "fourth": {
+                "title":"eggwhites",
+                "amount":"1"
+            },
+            "fifth": {
+                "title":"ice",
+                "amount":"plenty"
+            },
+            "sixth": {
+                "title":"lemon",
+                "amount":"1"
+            },
+            "first": {
+                "title": "cointreau triple sec liquor",
+                "amount": "2 cl"
+            },
+            "liqour": {
+                "title": "bornholm gin",
+                "slug": "bornholmgin",
+                "link": "https://bornholmspirits.com/products/bornholm-gin",
+                "amount": "4 cl"
+            }
+        }
     }
+
 ]

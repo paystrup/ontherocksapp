@@ -8,6 +8,7 @@ import { db } from "../firebaseConfig";
 import { useTranslation } from 'react-i18next'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Mousewheel, Pagination } from "swiper";
+import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { useNavigate } from "react-router-dom";
 import CompetitionCarousel from '../components/CompetitionCarousel';
 
@@ -41,7 +42,7 @@ export default function ArticlesPage() {
 
 
   return (
-    <section className='my-14 px-5 mt-16 mb-32'>
+    <section className='my-14 mt-16 mb-32'>
         <div 
           className='h-96 rounded-b-[30px] flex items-end'
           style={{
@@ -50,10 +51,18 @@ export default function ArticlesPage() {
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat"
               }}>
+        
         </div>
+        <div className="px-5">
+        <div className='flex justify-between'>
+              <p className='font-thin uppercase text-primaryYellow'>{compitition?.subcategorytitle}</p>
+              <div className='border-[1px] rounded-full p-1'>
+                <PaperAirplaneIcon className='h-6 w-6 -rotate-45'/>
+            </div>
+          </div>
 
-        <div className='mt-14'>
-          <div className='mt-4'>
+        <div>
+          <div className='mt-7'>
             <h2 className='text-3xl font-displayBook'>{compitition?.section1?.title}</h2>
             <p className='text-md mt-4 font-thin text-primaryGray-500'>{compitition?.section1?.body}</p>
           </div>
@@ -69,16 +78,31 @@ export default function ArticlesPage() {
           <p className='text-md mt-4 font-thin text-primaryGray-500'>{compitition?.section2?.body}</p>
         </div>
 
-        <div>
-          <h2 className='text-xl font-medium mb-7 pt-20'>{compitition?.section3?.title}</h2>
-          <img className='w-full rounded-3xl h-56 flex flex-col justify-end ' src={compitition?.section3?.image?.src} alt={compitition?.section2?.image?.alt} onClick={() => navigate("/")}/>
-        </div>
+        <div className="w-full flex flex-col gap-4 mb-4" key={id}>
+                    <h2 className='text-xl font-medium pt-20'>{compitition?.section3?.title}</h2>
+
+                    <div
+                        className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5"
+                        
+                        style={{
+                            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${compitition?.section3?.image?.src})`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat"
+                        }}
+                        onClick={() => navigate("/" + id)}
+                    >
+                        <div>
+                            <h2 className="text-base">{compitition?.section3?.subtitle}</h2>
+                        </div>
+                    </div>
+                </div>
 
         <div>
-          <h2 className='text-xl font-medium mb-7 pt-14'>{compitition?.section4?.title}</h2>
+          <h2 className='text-xl font-medium pt-14'>{compitition?.section4?.title}</h2>
           <CompetitionCarousel/>
         </div>
-          
+        </div>
       </section>
 
 

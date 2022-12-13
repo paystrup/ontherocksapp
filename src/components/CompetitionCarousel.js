@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 // firebase imports for fetching
-import { collection, onSnapshot, where, query } from "firebase/firestore"
+import { doc, collection, onSnapshot, where, query } from "firebase/firestore"
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../firebaseConfig";
 
@@ -16,70 +16,49 @@ import Spinanimation from "./Spinanimation";
 // i18n language support
 import { useTranslation } from 'react-i18next'
 
-export default function FeaturedCarousel() {
-    // authentication auth and db are found in the firestore config, ref to our projekt in firebase
-    const { t, i18n } = useTranslation();
-
-    // Define state for the loading indicator
-    const [isLoading, setIsLoading] = useState(true);
-
+export default function CompetitionCarousel() {
     const navigate = useNavigate();
-    // state for setting our fetched articles/books 
-    const [competition, setCompetition] = useState([]);
-
-    // get current language selected for fetching the right collection in firestore
+    const { t, i18n } = useTranslation();
+    // fetch depending on i18n language chosen
     const fetchLng = i18n.language;
     
-    
-    // fetch starts here
+    const [compitition, setCompition] = useState([]);
+    const params = useParams();
+    console.log(params); //Returns the slug-name of the url you're navigated to
+    const id = params.id; // and the ID
+
+    // Fetch book data based on the id from the slug
+    // This way we don't have to loop through the array
+    // We can fetch directly from the ID in fireStore with queries
+    // Dependency array listens for a new ID and rerenders
+
+    // articles = our fireStore collection, id = the query
     useEffect(() => {
-        // collection from firebase
-        // db is our database, articles is the name of the collection
-        const articleRef = collection(db, "competitions", "featured", fetchLng)
-
-        // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
-        // filtering for featured cocktails
-        const q = query(articleRef, where("slug", "==", "competition"));
-
-        // get the data, on snapshot
-        onSnapshot(q, (snapshot) => {
-            const data = snapshot.docs.map((doc) => ({
-            id: doc.id,
-            ...doc.data(),
-            }));
-
-            // store data (setState) change state to contain cocktail dataset
-            setCompetition(data);
-            console.log(data);
-            // Set isLoading to false -> hide loader anim
-            setIsLoading(false);
-        });
+        const docRef = doc(db, "competitions", "featured", fetchLng, id);
         
-  
-    }, [fetchLng, t]);
+        onSnapshot(docRef, (snapshot) => {
+            setCompition({ ...snapshot.data(), id: snapshot.id });
+        });
+    }, [id, fetchLng, t]);
+
 
     // Show loading indicator while data is being fetched
 
   return (
-    <section className='my-14'>
-        
-        {isLoading && (
-            <Spinanimation/>
-        )}
-
+    <section className='my-14'>    
         <div className='flex'>
             <Swiper       
                 spaceBetween={20}
                 // centeredSlides={true}
                 grabCursor={true}
-                slidesOffsetBefore={20}
-                slidesOffsetAfter={20}
+                slidesOffsetBefore={0}
+                slidesOffsetAfter={0}
                 onSlideChange={() => console.log("slide change")}
                 keyboard={{
                     enabled: true,
                 }}
                 modules={[Keyboard, Mousewheel]}
-                className="mySwiper smallCards w-full"
+                className="smallCards w-full"
                 breakpoints={{
                 // when window width is >= 1px
                 1: {
@@ -87,30 +66,82 @@ export default function FeaturedCarousel() {
                     initialSlide: 0,
                 }
             }}>
-                {competition.map(({id, title, sliderImages, headerImages, section4}) => (
-                    <SwiperSlide
-                        key={id}
-                        className="bigCard w-8/12 rounded-[30px] bg-primaryBlack"
-                    >
-
-                    <div className='flex w-full justify-end flex-col h-full rounded-[30px] px-3 pb-5'
-                            style={{
-                                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,1) 100%), url(${section4?.sliderImages.src})`,
-                                backgroundPosition: "top",
-                                backgroundSize: "cover",
-                                backgroundRepeat: "no-repeat"
-                            }}
-                            onClick={() => navigate("/" )}
-                        >
-
-                            <div className='px-1'>
-                                <div className='flex gap-2 mb-3 text-xs font-regular'>
-                                    <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{section4?.title}</p>
-                                </div>
+                
+            <SwiperSlide
+                className="w-2/3 rounded-[24px]" 
+                style={{
+                    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 100%), url(${compitition?.section4?.sliderImages?.src})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat"
+                }}
+                >
+                    <div className='pb-2 pt-2 flex w-full justify-between flex-col h-full'>
+                        <div></div>
+                        <div>
+                            <div className='flex flex-col gap-1'>
+                                <p className='text-base'>Skal der titel på?</p>
+                            </div>
                         </div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide
+                className="w-2/3 rounded-[24px]" 
+                style={{
+                    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 100%), url(${compitition?.section4?.sliderImages?.src1})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat"
+                }}
+                >
+                    <div className='pb-2 pt-2 flex w-full justify-between flex-col h-full'>
+                        <div></div>
+                        <div>
+                            <div className='flex flex-col gap-1'>
+                                <p className='text-base'>Skal der titel på?</p>
+                            </div>
                         </div>
-                    </SwiperSlide>
-                ))}
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide
+                className="w-2/3 rounded-[24px]" 
+                style={{
+                    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 100%), url(${compitition?.section4?.sliderImages?.src2})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat"
+                }}
+                >
+                    <div className='pb-2 pt-2 flex w-full justify-between flex-col h-full'>
+                        <div></div>
+                        <div>
+                            <div className='flex flex-col gap-1'>
+                                <p className='text-base'>Skal der titel på?</p>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide
+                className="w-2/3 rounded-[24px]" 
+                style={{
+                    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 100%), url(${compitition?.section4?.sliderImages?.src3})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat"
+                }}
+                >
+                    <div className='pb-2 pt-2 flex w-full justify-between flex-col h-full'>
+                        <div></div>
+                        <div>
+                            <div className='flex flex-col gap-1'>
+                                <p className='text-base'>Skal der en titel på?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
             </Swiper>
         </div>
 

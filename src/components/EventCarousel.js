@@ -46,7 +46,7 @@ export default function EventCarousel() {
     }, [fetchLng, t]);
 
   return (
-    <section className='my-14'>
+    <section className='my-14 lg:my-28'>
         <EventCarouselHeader />
         <div className='flex gap-3'>
             <Swiper       
@@ -69,7 +69,14 @@ export default function EventCarousel() {
                 1: {
                     slidesPerView: "auto",
                     initialSlide: 0,
-                }
+                },
+                1500: {
+                    slidesPerView: 4,
+                    initialSlide: 0,
+                    slidesOffsetBefore: "56",
+                    spaceBetween: 25,
+                },
+
             }}>
                 {events.map(({id, title, time, taste, body, headerImage, slug, liqour}) => (
                     <SwiperSlide

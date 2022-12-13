@@ -1,15 +1,15 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import SeeMoreBtn from './SeeMoreBtn';
+import { Link} from "react-router-dom";
 
-export default function FeaturedCarouselHeader() {
-    // import translations from i18n
-    const { t } = useTranslation();
+export default function FeaturedCarouselHeader({link, title, btnText}) {
 
     return (
-        <div className='flex justify-between items-center mb-6 px-5'>
-            <h3 className='text-xl font-medium'>{t("homepage.featuredCarousel.title")}</h3>
-            <SeeMoreBtn text={t("homepage.featuredCarousel.btnText")} />
+        <div className='mt-14 flex justify-between items-center mb-6 px-5 lg:px-14'>
+            <h3 className='text-xl font-medium lg:text-2xl'>{title}</h3>
+            <Link to={link}>
+                <SeeMoreBtn text={btnText} />
+            </Link>
         </div>
     )
 }

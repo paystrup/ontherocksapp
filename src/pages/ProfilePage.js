@@ -22,7 +22,7 @@ export default function ProfilePage() {
 
   const handleSignOut = (event) => {
     auth.signOut();
-    toast(t("signin.logoutToastMsg"), { backgroundColor: "#FFE598", toastId: "succesToast", });
+    toast(t("signin.logoutToastMsg"), { toastId: "logoutToast", });
   }
 
   // If there's no user logged in -> show onboarding

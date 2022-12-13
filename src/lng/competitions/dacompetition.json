@@ -8,6 +8,7 @@
         },
         "slug": "competition",
         "category": "competitions",
+        "subcategorytitle": "Konkurrencer",
         "title": "Vind et kit der gør din næste fest til et hit!",
         "subtitle": "Julens cocktail er landet. Lav din egen cocktail og konkurrér om fede præmier.",
         "button": "Deltag nu",
@@ -32,7 +33,7 @@
                 "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vinder.webp?alt=media&token=c58b7954-6bb2-4850-9da9-e23346310195"
             },
             "category": "opskrift",
-            "subtitle": "Find opskriften på denne sæsons vinder-cocktail"
+            "subtitle": "Rosemary Jungle"
         },
         "section4": {
             "title": "Sæsonens bedste bud",
@@ -44,4 +45,5 @@
             }
         }
     }
+
 ]

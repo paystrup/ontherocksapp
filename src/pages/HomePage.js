@@ -9,6 +9,8 @@ import CompetitionFeatured from '../components/CompetitionFeatured';
 import MainButton from '../components/MainButton';
 import AboutArticlesFeatured from '../components/AboutArticlesFeatured'
 import Spinanimation from "../components/Spinanimation";
+import video from "../assets/video/video1.webm"
+import FeaturedCarouselHeader from '../components/FeaturedCarouselHeader';
 
 export default function HomePage() {
   // import copy translations from i18n
@@ -30,7 +32,6 @@ export default function HomePage() {
       {isConfirmed && (
           <section className='fixed h-full w-full top-0 left-0 bg-primaryGray-700 z-[9999]'>
               <h2 className='font-displayBook text-7xl text-center'>Er du over 18 år?</h2>
-              <MainButton />
 
               <div className='flex gap-5'>
                   <button 
@@ -52,22 +53,54 @@ export default function HomePage() {
           </section>
       )}
       
-      <div className='px-5'>
-        {/* <h1 className='text-xl'>{t("homepage.hello")}</h1> */}
-        <h1 className='text-[3.2rem] font-displayBook leading-tight'>
-          {t("homepage.title")}
-        </h1>
-      </div>
-      <FeaturedCarousel />
+      <section className='px-5 lg:px-14'>
+        {/* <div className="videoHomepage  bg-primaryBlack">  
+            <video 
+                src={video} 
+                autoPlay 
+                loop 
+                muted
+                playsinline 
+                type="video/mp4"
+                className='videovideoHomepage'
+            >
+            </video>
+        </div> */}
+        <h1 className='text-5xl font-displayBook leading-tight lg:text-[5rem]'>
+            {t("homepage.title")}
+       </h1>
+      </section>
+      {/* MOST POPULAR */}
+      <FeaturedCarouselHeader link={"/search"} btnText={t("homepage.featuredCarousel.btnText")} title={t("homepage.featuredCarousel.title")}/>
+      <FeaturedCarousel category={"featured"} parameter={"=="} value={true}/>
       <EventCarousel />
-      <div className='px-5'>
-        <TypeWriterEffect words={['din kæreste', 'din hund', 'din håndværker', 'dit postbud', 'din ven', 'din morfar','din kollega']} />
-      </div>
-      <ArticlesFeatured slug="sobczyk"/>    
-      <CompetitionFeatured/>  
-      <AboutArticlesFeatured/>
+
+      {/* CHRISTMAS - SEASONAL FEATURE */}
+      <FeaturedCarouselHeader link={"/search"} btnText={t("homepage.featuredCarousel.btnText")} title={t("homepage.christmasCarousel.title")}/>
+      <FeaturedCarousel category={"ocassion.slug"} parameter={"=="} value={"jul"}/>          
       
-  
+      <section className='px-5'>
+        <TypeWriterEffect words={[t("typewriter.girlfriend"), t("typewriter.dog"), t("typewriter.carpenter"), t("typewriter.postman"), t("typewriter.friend"), t("typewriter.grandpa"), t("typewriter.college")]} />
+      </section>
+
+      {/* FEATURED ARTICLES - UPDATED WITH NEW PRODUCT ROLLOUTS */}
+      <ArticlesFeatured slug="sobczyk"/>
+
+      {/* NEW YEARS - SEASONAL FEATURE */}
+      <FeaturedCarouselHeader link={"/search"} btnText={t("homepage.featuredCarousel.btnText")} title={t("homepage.newyearsCarousel.title")}/>
+      <FeaturedCarousel category={"ocassion.slug"} parameter={"=="} value={"nytår"}/>
+
+      <CompetitionFeatured/>
+
+      {/* PARTY - THEME FEATURE */}
+      <FeaturedCarouselHeader link={"/search"} btnText={t("homepage.featuredCarousel.btnText")} title={t("homepage.partyCarousel.title")}/>
+      <FeaturedCarousel category={"theme.slug"} parameter={"=="} value={"fest"}/>   
+
+      {/* ABOUT THE COMPANY -> Adds value */}
+      <AboutArticlesFeatured/>
+
+        
+      
     </section>
   )
 }
