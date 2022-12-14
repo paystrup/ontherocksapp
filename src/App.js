@@ -16,8 +16,10 @@ import ArticlesPage from "./pages/ArticlesPage";
 import CompetitionPage from "./pages/CompetitionPage";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import { useState } from "react";
 
 function App() {
+
   return (
     <div className="App">
       <ToastContainer theme="dark" autoClose={3000} />

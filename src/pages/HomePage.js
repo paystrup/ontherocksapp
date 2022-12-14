@@ -6,49 +6,20 @@ import TypeWriterEffect from "../components/TypeWriterEffect";
 import ArticlesFeatured from "../components/ArticlesFeatured";
 import { useState } from "react";
 import CompetitionFeatured from "../components/CompetitionFeatured";
-import MainButton from "../components/MainButton";
 import AboutArticlesFeatured from "../components/AboutArticlesFeatured";
-import Spinanimation from "../components/Spinanimation";
-import video from "../assets/video/video1.webm";
 import FeaturedCarouselHeader from "../components/FeaturedCarouselHeader";
+
+// video source: https://www.pexels.com/@cottonbro/ + edited in Adobe AE
+import video from "../assets/video/ontherocksvid.webm";
 
 export default function HomePage() {
   // import copy translations from i18n
   const { t } = useTranslation();
-  const [isConfirmed, setIsConfirmed] = useState(false);
-
-  const handleAgeConfirmed = (event) => {
-    setIsConfirmed(true);
-    console.log(isConfirmed);
-  };
-
-  const handleAgeConfirmedDelete = (event) => {
-    setIsConfirmed(false);
-    console.log(isConfirmed);
-  };
 
   return (
     <section className="mt-20 font-medium mb-32">
-      {isConfirmed && (
-        <section className="fixed h-full w-full top-0 left-0 bg-primaryGray-700 z-[9999]">
-          <h2 className="font-displayBook text-7xl text-center">
-            Er du over 18 år?
-          </h2>
-
-          <div className="flex gap-5">
-            <button onClick={handleAgeConfirmed()} className="border-2">
-              Klik her for at confirme
-            </button>
-
-            <button onClick={handleAgeConfirmedDelete()} className="border-2">
-              Klik her for at slette
-            </button>
-          </div>
-        </section>
-      )}
-
-      <section className="px-5 lg:px-14">
-        {/* <div className="videoHomepage  bg-primaryBlack">  
+      <section className="hidden h-[80vh] w-full overflow-hidden mb-32 lg:flex">
+        <div className=" bg-primaryBlack">  
             <video 
                 src={video} 
                 autoPlay 
@@ -56,10 +27,12 @@ export default function HomePage() {
                 muted
                 playsinline 
                 type="video/mp4"
-                className='videovideoHomepage'
             >
             </video>
-        </div> */}
+        </div>
+
+      </section>
+      <section className="px-5 lg:hidden">
         <h1 className="text-5xl font-displayBook leading-tight lg:text-[5rem]">
           {t("homepage.title")}
         </h1>

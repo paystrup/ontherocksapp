@@ -226,7 +226,7 @@ export default function CocktailPage() {
                 {article?.body}
               </p>
               <p
-                className={readMore ? "mt-3 text-primaryGray-700" : "mt-3"}
+                className={readMore ? "mt-3 text-primaryGray-700 xl:hidden" : "mt-3 xl:hidden"}
                 onClick={handleReadMoreClick}
               >
                 {readMore ? "Se mindre" : "... Læs mere"}

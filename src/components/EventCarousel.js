@@ -46,7 +46,7 @@ export default function EventCarousel() {
     }, [fetchLng, t]);
 
   return (
-    <section className='my-14 lg:my-28'>
+    <section className='my-14'>
         <EventCarouselHeader />
         <div className='flex gap-3'>
             <Swiper       
@@ -63,7 +63,7 @@ export default function EventCarousel() {
                     clickable: true,
                 }}
                 modules={[Keyboard, Mousewheel, Pagination]}
-                className="mySwiper smallCards w-full"
+                className="mySwiper smallCards w-full lg:h-80"
                 breakpoints={{
                 // when window width is >= 1px
                 1: {

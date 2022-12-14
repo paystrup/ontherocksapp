@@ -10,14 +10,31 @@ import Login from '../components/Login';
 import Spinanimation from "../components/Spinanimation";
 import ProfilePageFavourites from '../components/ProfilePageFavourites.js';
 import { toast } from "react-toastify";
+import moment from "moment"
+import 'moment/locale/da'
+import ProfileChart from '../components/ProfileChart';
 
 export default function ProfilePage() {
   // import copy translations from i18n
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  // auth
   const [user, loading] = useAuthState(auth);
   const navigate = useNavigate();
 
-  const userDate = user?.metadata?.creationTime;
+  // user signupDate in firebase auth
+  // user?.metadata?.creationTime;
+
+  // source: https://momentjs.com/docs/#/i18n/loading-into-nodejs/
+  // moment for redefining creation date to local lng an
+  // fetch depending on i18n language chosen
+  const fetchLng = i18n.language;
+
+  // get signup date and convert with moment
+  const userSignUpDate = moment(user?.metadata?.creationTime).locale(fetchLng).startOf('day').fromNow();
+  // get first character of the string (amount of days since sign)
+  const userSignUpDateMin = Array.from(userSignUpDate)[0];
+  
   if (loading) return <Spinanimation/>;
 
   const handleSignOut = (event) => {
@@ -57,7 +74,7 @@ export default function ProfilePage() {
   // If user is authenticated -> show profilepage
   if (user)
   return (
-    <section className='mt-20 px-6 mb-32'>
+    <section className='mt-20 px-6 mb-32 lg:px-[25vw] md:px:32'>
       <div className='flex flex-col items-center justify-center mb-7 gap-2'>
         <img
             className="grayscale imageProfile rounded-full"
@@ -74,48 +91,60 @@ export default function ProfilePage() {
       </div>
 
       <div className='flex justify-between text-sm uppercase'>
-        <div className='flex flex-col justify-center items-center gap-2'>
-          <p className='font-medium text-primaryGray-500'>{t("profilepage.saved")}</p>
-
-          <div className='text-center'>
+        <div className='flex flex-col justify-center items-start gap-2 w-1/3 '>
+          <div className='w-fit text-center flex flex-col gap-2'>
+            <p className='font-medium text-primaryGray-500'>{t("profilepage.saved")}</p>
+            <div>
             <p className='text-4xl'>0</p>
             <p className='text-[10px] text-primaryGray-700'>{t("profilepage.savedBottom")}</p>
-          </div>
-        </div>
-
-        <div className='flex flex-col justify-center items-center gap-2'>
-          <p className='font-medium text-primaryGray-500'>{t("profilepage.tasteprofile")}</p>
-
-          <div className='text-center'>
-            <p className='text-4xl'>0</p>
-            <p className='text-[10px] text-primaryGray-700'>{t("profilepage.tasteprofileBottom")}</p>
+            </div>
           </div>
         </div>
 
         <div className='flex flex-col justify-center items-center gap-2 w-1/3'>
-          <p className='font-medium text-xs text-primaryGray-500'>{t("profilepage.createdAt")}</p>
+            <div className='w-fit text-center flex flex-col justify-between gap-2'> 
+                <p className='font-medium text-primaryGray-500'>{t("profilepage.tasteprofile")}</p>
+                <div>                
+                  <p className='text-4xl'>0</p>
+                  <p className='text-[10px] text-primaryGray-700'>{t("profilepage.tasteprofileBottom")}</p>
+                </div>
+            </div>
+        </div>
 
-          <div className='text-center'>
-            <p className='text-sm line-clamp-2'>{user?.metadata?.creationTime}</p>
+        <div className='flex flex-col items-end justify-center gap-2 w-1/3'>
+          <div className='w-fit text-center flex flex-col justify-between gap-2'> 
+            <p className='font-medium text-primaryGray-500'>{t("profilepage.createdAt")}</p>
+            <div>
+            <p className='text-4xl'>{userSignUpDateMin}</p>
             <p className='text-[10px] text-primaryGray-700'>{t("profilepage.createdAtBottom")}</p>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className='h-44 bg-primaryYellow mt-7 rounded-xl px-6 py-4 flex justify-between'>
+      <div className='h-44 bg-primaryGray-200 mt-7 rounded-xl px-6 py-4 flex justify-between'>
             <div>
-              <p>Data her</p>
+              <ProfileChart/>
             </div>
-            <div>
-              <h4 className='font-medium text-base'>
+            <div className='flex flex-col justify-between text-primaryGray-700'>
+              <div className='flex gap-2 items-center'>
+              <h4 className='font-regular text-base'>
                 {t("profilepage.tasteProfileTitle")}
               </h4>
+                <div className='border-solid border-[1px] rounded-full w-[14px] h-[14px] flex justify-center align-center'>
+                  <p className='text-[9px] self-center'>?</p>
+                </div>
+              </div>
 
-              <div className='flex gap-1 flex-wrap font-regular'>
-                <p className='bg-primaryGray-700 px-3 rounded-md'>TAG</p>
-                <p className='bg-primaryGray-700 px-3 rounded-md'>TAGTAG</p>
-                <p className='bg-primaryGray-700 px-3 rounded-md'>TAG</p>
-                <p className='bg-primaryGray-700 px-3 rounded-md'>TAG</p>
+              <div className='flex flex-col gap-2 flex-wrap font-regular text-primaryBlack'>
+                <div className='flex gap-2'>
+                  <p className='bg-secondaryPeach px-3 rounded-md'>Tropisk</p>
+                  <p className='bg-secondaryYellow px-3 rounded-md'>Sød</p>
+                </div>
+                <div className='flex gap-2'>
+                  <p className='bg-secondaryRed px-3 rounded-md'>Frisk</p>
+                  <p className='bg-secondaryOrange px-3 rounded-md'>Bitter</p>
+                </div>
               </div>
 
             </div>
@@ -127,7 +156,6 @@ export default function ProfilePage() {
         <h3 className='font-medium text-xl'>{t("profilepage.latestAdded")}</h3>
         <SeeMoreBtn text={t("profilepage.latestAddedBtn")}/>
       </div>
-
 
       <div className='mt-14 flex justify-between'>
         <h3 className='font-medium text-xl'>{t("profilepage.yourCollections")}</h3>

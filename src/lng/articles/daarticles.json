@@ -60,7 +60,10 @@
             "body": "Når gæsterne kommer er det som regel på tom mave. Hvis du gerne vil have at gæsterne skal holde sig vågne til kl 12.00 er det en god ide ikke at servere alt for tunge og alkoholfyldte drinks. Jeg har udvalgt 2 cocktails, jeg selv synes er geniale som velkomstdrink/dronningens nytårstale-drink.",
             "data": {
                 "slug1": "french-75",
-                "slug2": "gin-fizz"
+                "slug2": "gin-fizz",
+                "slug3": "nordic-pamola",
+                "slug4": "gin-mojito",
+                "slug5": "nordic-mojito"
             }
         },
         "section3": {
@@ -69,7 +72,9 @@
             "data": {
                 "slug1": "diamond-snaps",
                 "slug2": "red-copenhagen",
-                "slug3": "no3-tonic"
+                "slug3": "no3-tonic",
+                "slug4": "red-pearl",
+                "slug5": "flower-power"
             }
         },
         "section4": {
@@ -78,7 +83,9 @@
             "data": {
                 "slug1": "champagne-fizz",
                 "slug2": "monte-carlo",
-                "slug3": "flower-power"
+                "slug3": "flower-power",
+                "slug4": "vodka-spritz",
+                "slug5": "havtorn-gogt"
             }
         },
         "section5": {
@@ -86,7 +93,10 @@
             "body": "Nu er det tid til at give den gas! Line ingredienserne op, print et drinkkort og lad dine gæster være deres egne bartendere! Her er mine bud på de mest festlige cocktail, der næsten er musthaves til nytår.",
             "data": {
                 "slug1": "screw-driver",
-                "slug2": "kiev-mule"
+                "slug2": "kiev-mule",
+                "slug3": "golden-licorice",
+                "slug4": "flyver-sjus",
+                "slug5": "gin-hass"
             }
         }
     }

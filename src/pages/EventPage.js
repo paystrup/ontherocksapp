@@ -10,6 +10,7 @@ import EventPageCard from "../components/EventPageCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Mousewheel, Pagination } from "swiper";
 import { useNavigate } from "react-router-dom";
+import ArticlesFeatured from "../components/AboutArticlesFeatured"
 // Import Swiper styles + modules
 import "swiper/css";
 
@@ -39,8 +40,9 @@ export default function EventPage() {
 
   return (
     <div className="text-primaryWhite mt-16 mb-32">
+      <div className="lg:flex lg:flex-row lg:px-14 lg:mt-32 lg:gap-[4rem] lg:relative">
       <div
-        className="h-96 rounded-b-[30px] flex items-end"
+        className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:rounded-t-[30px] lg:sticky lg:top-20"
         style={{
           backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.headerImage})`,
           backgroundPosition: "top",
@@ -48,7 +50,7 @@ export default function EventPage() {
           backgroundRepeat: "no-repeat",
         }}
       ></div>
-      <div className="mt-14 px-5">
+      <div className="mt-14 px-5 lg:w-[50vw] lg:mt-0">
         <div className="flex justify-between">
           <div className="font-thin uppercase text-primaryYellow">
             <p>{article?.subcategoryTitle}</p>
@@ -61,7 +63,7 @@ export default function EventPage() {
           </div>
         </div>
 
-        <div className="mt-4">
+        <div className="mt-4 lg:w-[45vw]">
           <h2 className="text-5xl font-displayBook">{article?.title}</h2>
           <p className="text-base text-primaryGray-500 font-thin leading-relaxed mt-4">
             {article?.body}
@@ -127,6 +129,10 @@ export default function EventPage() {
             </div>
           </div>
         </div>
+      </div>
+      </div>
+      <div>
+      <ArticlesFeatured />
       </div>
     </div>
   );

@@ -16,8 +16,14 @@ module.exports = {
         900: '#343434',
         700: '#707070',
         500: '#CACACA',
+        200: '#151515',
       },
-      'lightBlack': '#1F1E1E',      
+      'lightBlack': '#1F1E1E', 
+      'secondaryPeach': '#FFAA5C', 
+      'secondaryYellow': '#FFE598', 
+      'secondaryRed': '#DB5937', 
+      'secondaryOrange': '#FDA110', 
+
     },
     extend: {
       fontFamily: {

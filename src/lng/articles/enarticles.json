@@ -59,7 +59,10 @@
             "body": "When guests arrive, it is usually on an empty stomach. If you want your guests to stay awake until midnight, it is a good idea not to serve overly heavy and alcohol-heavy drinks. I have selected 2 cocktails that I think are brilliant as a welcome drink/Queen's New Year's Eve speech drink.",
             "data": {
                 "slug1": "french-75",
-                "slug2": "gin-fizz"
+                "slug2": "gin-fizz",
+                "slug3": "nordic-pamola",
+                "slug4": "gin-mojito",
+                "slug5": "nordic-mojito"
             }
         },
         "section3": {
@@ -68,7 +71,9 @@
             "data": {
                 "slug1": "diamond-snaps",
                 "slug2": "red-copenhagen",
-                "slug3": "no3-tonic"
+                "slug3": "no3-tonic",
+                "slug4": "red-pearl",
+                "slug5": "flower-power"
             }
         },
         "section4": {
@@ -77,7 +82,9 @@
             "data": {
                 "slug1": "champagne-fizz",
                 "slug2": "monte-carlo",
-                "slug3": "flower-power"
+                "slug3": "flower-power",
+                "slug4": "vodka-spritz",
+                "slug5": "havtorn-gogt"
             }
         },
         "section5": {
@@ -85,7 +92,10 @@
             "body": "Now is the time to let go! Line up the ingredients, print a drink menu, and let your guests be their own bartenders! Here are my suggestions for the most festive cocktails that are almost must-haves for New Year's.",
             "data": {
                 "slug1": "screw-driver",
-                "slug2": "kiev-mule"
+                "slug2": "kiev-mule",
+                "slug3": "golden-licorice",
+                "slug4": "flyver-sjus",
+                "slug5": "gin-hass"
             }
         }
     }
