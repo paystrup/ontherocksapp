@@ -4,34 +4,18 @@ import EventCarousel from "../components/EventCarousel";
 import FeaturedCarousel from "../components/FeaturedCarousel";
 import TypeWriterEffect from "../components/TypeWriterEffect";
 import ArticlesFeatured from "../components/ArticlesFeatured";
-import { useState } from "react";
 import CompetitionFeatured from "../components/CompetitionFeatured";
 import AboutArticlesFeatured from "../components/AboutArticlesFeatured";
 import FeaturedCarouselHeader from "../components/FeaturedCarouselHeader";
-
-// video source: https://www.pexels.com/@cottonbro/ + edited in Adobe AE
-import video from "../assets/video/ontherocksvid.webm";
+import HeroSection from "../components/HeroSection";
 
 export default function HomePage() {
   // import copy translations from i18n
   const { t } = useTranslation();
 
   return (
-    <section className="mt-20 font-medium mb-32">
-      <section className="hidden h-[80vh] w-full overflow-hidden mb-32 lg:flex">
-        <div className=" bg-primaryBlack">  
-            <video 
-                src={video} 
-                autoPlay 
-                loop 
-                muted
-                playsinline 
-                type="video/mp4"
-            >
-            </video>
-        </div>
-
-      </section>
+    <section className="mt-20 font-medium mb-32 xl:mt-0">
+      <HeroSection />
       <section className="px-5 lg:hidden">
         <h1 className="text-5xl font-displayBook leading-tight lg:text-[5rem]">
           {t("homepage.title")}

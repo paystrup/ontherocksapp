@@ -13,6 +13,7 @@ import { toast } from "react-toastify";
 import moment from "moment"
 import 'moment/locale/da'
 import ProfileChart from '../components/ProfileChart';
+import { Tooltip as ReactTooltip } from "react-tooltip";
 
 export default function ProfilePage() {
   // import copy translations from i18n
@@ -74,7 +75,7 @@ export default function ProfilePage() {
   // If user is authenticated -> show profilepage
   if (user)
   return (
-    <section className='mt-20 px-6 mb-32 lg:px-[25vw] md:px:32'>
+    <section className='mt-20 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw]'>
       <div className='flex flex-col items-center justify-center mb-7 gap-2'>
         <img
             className="grayscale imageProfile rounded-full"
@@ -127,23 +128,28 @@ export default function ProfilePage() {
               <ProfileChart/>
             </div>
             <div className='flex flex-col justify-between text-primaryGray-700'>
+              <ReactTooltip
+                anchorId="readMore"
+                place="top"
+                content={t("profilepage.readMoreBtn")}
+              />
               <div className='flex gap-2 items-center'>
               <h4 className='font-regular text-base'>
                 {t("profilepage.tasteProfileTitle")}
               </h4>
-                <div className='border-solid border-[1px] rounded-full w-[14px] h-[14px] flex justify-center align-center'>
+                <div id='readMore' className='border-solid border-[1px] rounded-full w-[14px] h-[14px] flex justify-center align-center'>
                   <p className='text-[9px] self-center'>?</p>
                 </div>
               </div>
 
               <div className='flex flex-col gap-2 flex-wrap font-regular text-primaryBlack'>
                 <div className='flex gap-2'>
-                  <p className='bg-secondaryPeach px-3 rounded-md'>Tropisk</p>
-                  <p className='bg-secondaryYellow px-3 rounded-md'>Sød</p>
+                  <p className='bg-secondaryPeach px-3 rounded-md'>{t("profilepage.tags.taste1")}</p>
+                  <p className='bg-secondaryYellow px-3 rounded-md'>{t("profilepage.tags.taste2")}</p>
                 </div>
                 <div className='flex gap-2'>
-                  <p className='bg-secondaryRed px-3 rounded-md'>Frisk</p>
-                  <p className='bg-secondaryOrange px-3 rounded-md'>Bitter</p>
+                  <p className='bg-secondaryRed px-3 rounded-md'>{t("profilepage.tags.taste3")}</p>
+                  <p className='bg-secondaryOrange px-3 rounded-md'>{t("profilepage.tags.taste4")}</p>
                 </div>
               </div>
 

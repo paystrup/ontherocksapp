@@ -49,6 +49,15 @@
         },
         "partyCarousel": {
             "title": "Når festen kører"
+        },
+        "hero": {
+            "titleBefore": "Find den",
+            "titleUnderline": "perfekte",
+            "titleEnd": "cocktail til det perfekte tidspunkt.",
+            "descriptionStart": "Bliv din egen bartender.",
+            "descriptionEnd": "Vi har samlet de bedste opskrifter med kvalitetsspiritus. Økologisk, nemt og super lækkert.",
+            "btnMain": "Find opskrifter",
+            "btnSecondary": "Udforsk siden" 
         }
     },
     "searchpage": {
@@ -93,6 +102,13 @@
         "yourCollections": "Sidst gemte",
         "yourCollectionsBtn": "Se alle",
         "signOutBtn": "Log ud",
+        "readMoreBtn": "Vi har lavet en smagsprofil ud fra de cocktails du har tilføjet.",
+        "tags": {
+            "taste1": "Tropisk",
+            "taste2": "Sød",
+            "taste3": "Frisk",
+            "taste4": "Bitter"
+        },
         "login": {
             "title": "Lås op for flere <span>gratis</span> fordele ved appen",
             "body": "Opret en bruger for at få en profil. Det er gratis og tager 1 minut. Opret smagsprofil, få ekslusive tilbud, gem cocktails og meget mere.",

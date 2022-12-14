@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import TopNavigation from "./components/TopNavigation";
 import BottomNavigation from "./components/BottomNavigation";
-import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LikesPage from "./pages/LikesPage";
 import ProfilePage from "./pages/ProfilePage";
@@ -16,7 +16,7 @@ import ArticlesPage from "./pages/ArticlesPage";
 import CompetitionPage from "./pages/CompetitionPage";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-import { useState } from "react";
+import ScrollToTopBtn from "./components/ScrollToTopBtn";
 
 function App() {
 
@@ -24,6 +24,7 @@ function App() {
     <div className="App">
       <ToastContainer theme="dark" autoClose={3000} />
       <TopNavigation />
+      <ScrollToTopBtn />
       <Routes>
         <Route path="/" element={<HomePage />}/>
         <Route path="/search" element={<SearchPage />} />

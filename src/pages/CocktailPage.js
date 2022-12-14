@@ -90,9 +90,6 @@ export default function CocktailPage() {
     });
   }, [id, fetchLng, t]);
 
-  const productRef = article?.relatedProducts?.first;
-  console.log(article?.relatedProducts?.first);
-
   return (
     <div className="text-primaryWhite mt-16 mb-32">
       {/* SHARE MODAL STARTS HERE - IF CLICKED -> STATE TRUE -> SHOW MODAL */}

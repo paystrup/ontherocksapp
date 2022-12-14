@@ -1,17 +1,28 @@
+//Inspiration from https://www.youtube.com/watch?v=bL3P9CqQkKw&t=57s&ab_channel=LeighHalliday
+// Library from AirBnb https://airbnb.io/visx/docs
 import { useState } from "react";
 import { Pie } from "@visx/shape";
 import { Group } from "@visx/group";
 import { Text } from "@visx/text";
+import { useTranslation } from 'react-i18next';
 
-const coins = [
-  { symbol: "ADA", amount: 200, color: "#0033ad", inUSD: 1.48 },
-  { symbol: "SOL", amount: 5, color: "#00ffbd", inUSD: 37.6 },
-  { symbol: "BTC", amount: 0.005, color: "#F7931A", inUSD: 37363 },
-];
+
 
 export default function ProfileChart() {
+
+  // import copy translations from i18n
+  const { t, i18n } = useTranslation();
+  
+
+  //Defining the tags in ammount and words
+  const tastetags = [
+  { symbol: t("profilepage.tags.taste1"), color: "#FFAA5C", tasteAmmount: 40 },
+  { symbol: t("profilepage.tags.taste2"), color: "#FFE598", tasteAmmount: 20 },
+  { symbol: t("profilepage.tags.taste3"), color: "#DB5937", tasteAmmount: 20 },
+  { symbol: t("profilepage.tags.taste4"), color: "#FDA110", tasteAmmount: 20 },
+];
   const [active, setActive] = useState(null);
-  const width = 400;
+  const width = 150;
   const half = width / 2;
 
   return (
@@ -19,11 +30,12 @@ export default function ProfileChart() {
       <svg width={width} height={width}>
         <Group top={half} left={half}>
           <Pie
-            data={coins}
-            pieValue={(data) => data.amount * data.inUSD}
+            data={tastetags}
+            pieValue={(data) => data.tasteAmmount}
             outerRadius={half}
             innerRadius={({ data }) => {
-              const size = active && active.symbol == data.symbol ? 12 : 8;
+              //Border size is shown here in active
+              const size = active && active.symbol === data.symbol ? 25 : 23;
               return half - size;
             }}
             padAngle={0.01}
@@ -42,33 +54,20 @@ export default function ProfileChart() {
               });
             }}
           </Pie>
-
-          {active ? (
+                    {active ? (
             <>
-              <Text textAnchor="middle" fill="#fff" fontSize={40} dy={-20}>
-                {`$${Math.floor(active.amount * active.inUSD)}`}
-              </Text>
-
               <Text
                 textAnchor="middle"
                 fill={active.color}
                 fontSize={20}
                 dy={20}
               >
-                {`${active.amount} ${active.symbol}`}
+                {`${active.symbol}`}
               </Text>
             </>
           ) : (
             <>
-              <Text textAnchor="middle" fill="#fff" fontSize={40} dy={-20}>
-                {`$${Math.floor(
-                  coins.reduce((acc, coin) => acc + coin.amount * coin.inUSD, 0)
-                )}`}
-              </Text>
 
-              <Text textAnchor="middle" fill="#aaa" fontSize={20} dy={20}>
-                {`${coins.length} Assets`}
-              </Text>
             </>
           )}
         </Group>

@@ -245,8 +245,8 @@ export default function CategoryCarousel() {
         )}
 
         {/* FILTER MODAL BTN AND CHANGE LAYOUT BTN */}
-        <div className="px-6 mb-4">
-          <div className="flex justify-between items-center mt-14">
+        <div className="px-5 mb-4 lg:px-14">
+          <div className="flex justify-between items-center mt-14 lg:mt-32">
             <button className="text-primaryYellow uppercase border-[1.2px] rounded-xl px-5 py-[0.2rem]">
               <div
                 className="flex gap-1 text-sm justify-center items-center"
@@ -304,6 +304,19 @@ export default function CategoryCarousel() {
             1: {
               slidesPerView: "auto",
               initialSlide: 0,
+              slideToClickedSlide: true,
+              
+            },
+            1200: {
+              slidesPerView: 6,
+              initialSlide: 0,
+              slidesOffsetBefore: "56",
+              spaceBetween: 25,
+              slideToClickedSlide: false,
+              pagination: false,
+              keyboard: false,
+              grabCursor: false,
+              enabled: false
             },
           }}
         >
@@ -355,7 +368,7 @@ export default function CategoryCarousel() {
 
       {/* IF RESULTS ARE SHOW, SHOW LENGTH + TITLE FOR FETCHED QUERY + LNG SUPPORT */}
       {events.length > 0 && (
-        <div className="fadeInAnimation px-5 mt-7 font-thin text-primaryGray-500">
+        <div className="fadeInAnimation px-5 mt-7 font-thin text-primaryGray-500 lg:px-14">
           <h2 className="text-xl">
             {events.length} {t("searchpage.resultsText")} "{t(searchDisplay)}"
           </h2>
@@ -364,9 +377,9 @@ export default function CategoryCarousel() {
 
       {/* IF LAYOUT IS CHANGED OR LIST CHOSEN / LAYOUT TRUE = LIST  */}
       {changeLayout && (
-        <div className="px-5 mt-7">
+        <div className="px-5 mt-7 lg:px-14">
           {events.map(({ title, id, likes, image, body, taste, liqour }) => (
-            <div className="fadeInAnimation h-44 w-full mb-4 relative" key={id}>
+            <div className="fadeInAnimation h-60 w-full mb-4 lg:h-[60vh] relative" key={id}>
               <div className="flex justify-between font-thin absolute items-start w-full px-5 py-4">
                 <div className="flex gap-2 text-xs font-regular">
                   <p className="bg-primaryBlack bg-opacity-50 px-4 py-1 rounded-xl uppercase">
@@ -393,7 +406,7 @@ export default function CategoryCarousel() {
               </div>
 
               <div
-                className="flex w-full justify-end flex-col h-full rounded-2xl px-3 pb-5"
+                className="flex w-full justify-end flex-col h-full rounded-2xl px-3 pb-5 lg:w-[30vw]"
                 style={{
                   backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
                   backgroundPosition: "center",
@@ -404,8 +417,8 @@ export default function CategoryCarousel() {
               >
                 <div className="px-2">
                   <div className="flex flex-col gap-1">
-                    <h3 className="text-xl font-medium">{title}</h3>
-                    <p className="line-clamp-1 text-sm font-regular text-primaryGray-500">
+                    <h3 className="text-xl font-medium lg:text-4xl">{title}</h3>
+                    <p className="line-clamp-1 text-sm font-regular text-primaryGray-500 lg:line-clamp-3 lg:text-l">
                       {body}
                     </p>
                   </div>
@@ -418,9 +431,9 @@ export default function CategoryCarousel() {
 
       {/* IF LAYOUT IS CHANGED OR DEFAULT - LAYOUT = FALSE  = GRID  */}
       {!changeLayout && (
-        <div className="px-5 mt-7 flex flex-wrap gap-4 justify-between">
+        <div className="px-5 mt-7 flex flex-wrap gap-4 justify-between lg:px-14 lg:grid-cols-3 lg:gap-y-12 lg:gap-[4%] lg:justify-start">
           {events.map(({ title, id, likes, image, body, time, taste }) => (
-            <div className="fadeInAnimation h-60 max-w-[46%] relative" key={id}>
+            <div className="fadeInAnimation h-60 max-w-[46%] md:h-96 lg:max-w-[30%] xl:max-w-[22%] lg:min-h-[500px]  relative" key={id}>
               <div className="flex justify-between font-thin absolute items-start w-full px-3 py-3">
                 <div className="flex items-center gap-1">
                   <ClockIcon className="h-3" />

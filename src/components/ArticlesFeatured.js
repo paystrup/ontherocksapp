@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { LinkIcon } from "@heroicons/react/24/outline";
 
@@ -43,7 +43,7 @@ export default function ArticlesFeatured(slug) {
   }, [fetchLng, t]);
 
   return (
-    <section className="my-14 px-5 lg:px-16">
+    <section className="my-14 px-5 lg:px-16 lg:mb-32">
       <div>
         {article.map(({ headerImage, title, subcategoryTitle, id, relatedProducts, first, link }) => (
           <div className="w-full flex flex-col gap-4 mb-4 lg:flex-row lg:h-[40rem]" key={id}>

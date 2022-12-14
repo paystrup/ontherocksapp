@@ -47,6 +47,15 @@
         },
         "partyCarousel": {
             "title": "Start the party"
+        },
+        "hero": {
+            "titleBefore": "Find the",
+            "titleUnderline": "perfect",
+            "titleEnd": "cocktail for the perfect moment.",
+            "descriptionStart": "Be your own bartender.",
+            "descriptionEnd": "We have collected the best recipes with quality liqour. Organic, easy and delicious.",
+            "btnMain": "Find recipes",
+            "btnSecondary": "Get inspired" 
         }
     },
     "searchpage": {
@@ -90,6 +99,13 @@
         "yourCollections": "Recently saved",
         "yourCollectionsBtn": "See all",
         "signOutBtn": "Sign out",
+        "readMoreBtn": "We have created a flavor profile based on the cocktails you have added.",
+        "tags": {
+            "taste1": "Tropical",
+            "taste2": "Sweet",
+            "taste3": "Fresh",
+            "taste4": "Bitter"
+        },
         "login": {
             "title": "Unlock for more <span>free</span> benefits of the app",
             "body": "Create a user to get a profile. It is free and takes 1 minute. Create a taste profile, get exclusive offers, save cocktails and much more.",

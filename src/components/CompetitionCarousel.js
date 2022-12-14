@@ -58,7 +58,7 @@ export default function CompetitionCarousel() {
                     enabled: true,
                 }}
                 modules={[Keyboard, Mousewheel]}
-                className="smallCards w-full lg:h-80 "
+                className="smallCards w-full lg:h-80"
                 breakpoints={{
                 // when window width is >= 1px
                 1: {

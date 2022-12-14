@@ -67,7 +67,7 @@ export default function FeaturedCarousel({ category, parameter, value }) {
     // Show loading indicator while data is being fetched
 
   return (
-    <section className='mb-14'>
+    <section className='mb-14 lg:mb-32'>
         {isLoading && (
             <Spinanimation/>
         )}

@@ -3,6 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -333,8 +344,37 @@ code {
   }
 }
 
+/* LOGOUT TOAST - REACT TOASTIFY STYLING - TO OUR VISUAL IDENTITY */
 #logoutToast .Toastify__progress-bar-theme--dark {
   background-color: #ffe598 !important;
+}
+
+/* SCROLL TO TOP BTN */
+.scrollToTop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease-in;
+}
+
+.scrollToTop button{
+  display: none;
+}
+
+.scrollToTop svg{
+  height: 30px;
+}
+
+.scrollToTop button:hover{
+  background-color: white;
+  opacity: 0.8;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.gsapAnim{
+  opacity: 0;
+  transform: translateY(100px);
 }
 
 /* SEARCH INPUT FOR SEARCHPAGE ICON */
@@ -347,6 +387,7 @@ code {
   .videovideoHomepage {
     display: none;
   }
+
 }
 
 /* 'md': '768px', */
@@ -383,8 +424,8 @@ code {
   .categorySlider .swiper-slide {
     /* Center slide text vertically */
     display: flex;
-    max-width: 30%;
-    min-width: 20%;
+    max-width: 9%;
+    min-width: 2%;
     background-color: none !important;
   }
 
@@ -413,6 +454,7 @@ code {
     color: white;
     background-color: white !important;
   }
+
   .videoHomepage {
     display: block;
     position: relative;
@@ -430,10 +472,33 @@ code {
     object-fit: cover;
     border-radius: 0px 0px 40px 40px;
   }
+
+  .scrollToTop button{
+    bottom: 0;
+    right: 0;
+    z-index: 999999999999;
+    position: fixed;
+    cursor: pointer;
+    margin: 2.5rem;
+    background-color: #1F1E1E;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    color: #FFE598;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 1;
+    transition: 1s ease;
+  }
+  
 }
 
 /* 'xl': '1280px', */
 @media (min-width: 1280px) {
+
 }
 
 /* '2xl': '1536px', */
