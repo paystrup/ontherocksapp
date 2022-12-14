@@ -17,6 +17,7 @@ import CompetitionPage from "./pages/CompetitionPage";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
       </Routes>
       <ScrollToTop />
       <BottomNavigation />
+      <Footer/>
     </div>
   );
 }

@@ -12,6 +12,21 @@
         "likesNavTitle": "Saved Recipes",
         "profileNavTitle": "Profile"
     },
+    "footer": {
+        "selectlng": "Vælg dit sprog",
+        "contact": {
+            "title": "Contact"
+        },
+        "sitemap": {
+            "title": "Sitemap",
+            "searchTitle": "Search",
+            "profileTitle": "Profile",
+            "homeTitle": "Home",
+            "likesNavTitle": "Saved Recipes"
+        }
+
+        
+    },
     "typewriter":{
         "girlfriend": "your girlfriend",
         "dog": "your dog",
@@ -140,7 +155,8 @@
         "party": "Party",
         "romance": "Romance",
         "relaxing": "Relaxing",
-        "all": "All"
+        "all": "All",
+        "newyears": "New Year's"
     },
     "filters": {
         "titles": {

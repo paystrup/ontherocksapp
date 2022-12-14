@@ -105,6 +105,10 @@ export default function CategoryCarousel() {
 
   // Values for the category slider, querydata for fetching from firebase on click
   // Dynamic translations with title -> refers to i18n json data
+  // title from i18n lng -> results shown and titles changes with language change in i18n
+  // query is for firebase q
+  // category is the value in firebase
+  // example .where(query, "==", category)
   const featuredCategories = [
     {
       id: "1",
@@ -148,6 +152,12 @@ export default function CategoryCarousel() {
       category: "afslapning",
       query: "theme.slug",
     },
+    {
+      id: "8",
+      title: "categories.newyears",
+      category: "nytår",
+      query: "ocassion.slug",
+    }
   ];
 
   const [changeLayout, setChangeLayout] = useState(false);
@@ -165,7 +175,7 @@ export default function CategoryCarousel() {
   };
 
   return (
-    <section className="my-6">
+    <section className="my-6 fadeInAnimation">
       <div>
         {/* RUN LOADING ANIM WHILE FETCHING */}
         {isLoading && <Spinanimation />}
@@ -366,10 +376,10 @@ export default function CategoryCarousel() {
         </div>
       )}
 
-      {/* IF RESULTS ARE SHOW, SHOW LENGTH + TITLE FOR FETCHED QUERY + LNG SUPPORT */}
+      {/* IF RESULTS ARE SHOWN, SHOW LENGTH + TITLE FOR FETCHED QUERY + LNG SUPPORT */}
       {events.length > 0 && (
-        <div className="fadeInAnimation px-5 mt-7 font-thin text-primaryGray-500 lg:px-14">
-          <h2 className="text-xl">
+        <div className="fadeInAnimation px-5 mt-7 font-thin text-primaryGray-500 lg:px-14 lg:mt-10">
+          <h2 className="text-xl lg:text-2xl">
             {events.length} {t("searchpage.resultsText")} "{t(searchDisplay)}"
           </h2>
         </div>
@@ -379,7 +389,9 @@ export default function CategoryCarousel() {
       {changeLayout && (
         <div className="px-5 mt-7 lg:px-14">
           {events.map(({ title, id, likes, image, body, taste, liqour }) => (
-            <div className="fadeInAnimation h-60 w-full mb-4 lg:h-[60vh] relative" key={id}>
+          <div className="lg:flex lg:flex-row-reverse lg:bg-primaryGray-200 lg:gap-32 lg:my-12 lg:rounded-2xl">
+            
+            <div className="fadeInAnimation h-60 w-full mb-4 lg:h-[30vh] relative" key={id}>
               <div className="flex justify-between font-thin absolute items-start w-full px-5 py-4">
                 <div className="flex gap-2 text-xs font-regular">
                   <p className="bg-primaryBlack bg-opacity-50 px-4 py-1 rounded-xl uppercase">
@@ -404,9 +416,8 @@ export default function CategoryCarousel() {
                   </div>
                 )}
               </div>
-
               <div
-                className="flex w-full justify-end flex-col h-full rounded-2xl px-3 pb-5 lg:w-[30vw]"
+                className="flex w-full justify-end flex-col h-full rounded-2xl lg:w-[40vw] lg:h-[32vh]"
                 style={{
                   backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
                   backgroundPosition: "center",
@@ -414,8 +425,8 @@ export default function CategoryCarousel() {
                   backgroundRepeat: "no-repeat",
                 }}
                 onClick={() => navigate("/recipe/" + id)}
-              >
-                <div className="px-2">
+                >
+                <div className="px-2 lg:hidden">
                   <div className="flex flex-col gap-1">
                     <h3 className="text-xl font-medium lg:text-4xl">{title}</h3>
                     <p className="line-clamp-1 text-sm font-regular text-primaryGray-500 lg:line-clamp-3 lg:text-l">
@@ -425,6 +436,16 @@ export default function CategoryCarousel() {
                 </div>
               </div>
             </div>
+            <div className="px-2 hidden lg:block">
+                  <div className="flex flex-col gap-1">
+                    <h3 className="text-xl font-medium lg:text-4xl lg:px-6 lg:pt-6">{title}</h3>
+                    <p className="line-clamp-1 text-sm font-regular text-primaryGray-500 lg:line-clamp-3 lg:text-l lg:px-6">
+                      {body}
+                    </p>
+              </div>
+            </div>
+            
+          </div>
           ))}
         </div>
       )}
@@ -433,11 +454,11 @@ export default function CategoryCarousel() {
       {!changeLayout && (
         <div className="px-5 mt-7 flex flex-wrap gap-4 justify-between lg:px-14 lg:grid-cols-3 lg:gap-y-12 lg:gap-[4%] lg:justify-start">
           {events.map(({ title, id, likes, image, body, time, taste }) => (
-            <div className="fadeInAnimation h-60 max-w-[46%] md:h-96 lg:max-w-[30%] xl:max-w-[22%] lg:min-h-[500px]  relative" key={id}>
-              <div className="flex justify-between font-thin absolute items-start w-full px-3 py-3">
+            <div className="fadeInAnimation h-60 max-w-[46%] md:h-96 lg:max-w-[30%] xl:max-w-[22%] lg:min-h-[500px] relative" key={id}>
+              <div className="flex justify-between font-thin absolute items-start w-full px-3 py-3 lg:px-5 lg:py-5">
                 <div className="flex items-center gap-1">
-                  <ClockIcon className="h-3" />
-                  <p className="text-xs shadow-primaryBlack">{time} min</p>
+                  <ClockIcon className="h-3 lg:h-5" />
+                  <p className="text-xs shadow-primaryBlack lg:text-base">{time} min</p>
                 </div>
                 {user && <LikeCocktail id={id} likes={likes} />}
 
@@ -456,7 +477,7 @@ export default function CategoryCarousel() {
               </div>
 
               <div
-                className="flex w-full justify-end flex-col h-full rounded-2xl px-3 pb-5"
+                className="flex w-full justify-end flex-col h-full rounded-2xl lg:px-6 lg:py-6"
                 style={{
                   backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${image?.srcMin})`,
                   backgroundPosition: "center",
@@ -467,14 +488,14 @@ export default function CategoryCarousel() {
               >
                 <div>
                   <div className="flex flex-col gap-1">
-                    <div className="flex gap-2 text-xs font-regular">
+                    <div className="flex gap-2 text-xs font-regular lg:text-sm">
                       <p className="border-[1px] px-4 py-1 rounded-xl uppercase">
                         {taste?.title}
                       </p>
                     </div>
 
-                    <h3 className="text-base font-medium">{title}</h3>
-                    <p className="line-clamp-1 text-xs font-regular text-primaryGray-500">
+                    <h3 className="text-base font-medium lg:text-2xl lg:mt-3">{title}</h3>
+                    <p className="line-clamp-1 text-xs font-regular text-primaryGray-500 lg:line-clamp-2 lg:leading-normal lg:text-base">
                       {body}
                     </p>
                   </div>

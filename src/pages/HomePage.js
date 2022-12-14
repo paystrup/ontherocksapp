@@ -77,6 +77,7 @@ export default function HomePage() {
 
       {/* ABOUT THE COMPANY -> Adds value */}
       <AboutArticlesFeatured />
+
     </section>
   );
 }

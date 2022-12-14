@@ -14,6 +14,21 @@
         "populære": "Mest populære"
         
     },
+    "footer": {
+        "selectlng": "Vælg dit sprog",
+        "contact": {
+            "title": "Kontakt"
+        },
+        "sitemap": {
+            "title": "Sitemap",
+            "searchTitle": "Søg",
+            "profileTitle": "Profil",
+            "homeTitle": "Hjem",
+            "likesNavTitle": "Gemte opskrifter"
+        }
+
+        
+    },
     "typewriter":{
         "girlfriend": "din kæreste",
         "dog": "din hund",
@@ -143,7 +158,8 @@
         "party": "Til festen",
         "romance": "Romantik",
         "relaxing": "Afslapning",
-        "all": "Alle"
+        "all": "Alle",
+        "newyears": "Nytårsaften"
     },
     "filters": {
         "titles": {

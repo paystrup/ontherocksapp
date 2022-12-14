@@ -41,7 +41,7 @@ export default function SearchPage() {
   
   
   return (
-    <section className="mt-20 mb-32 lg:mt-36">
+    <section className="mt-20 mb-32 lg:mt-36 fadeInAnimation">
       <div className="px-5 w-full lg:px-14 flex flex-col lg:flex-col-reverse lg:gap-12">
         <div className="relative flex">
           <div className="flex items-center">
