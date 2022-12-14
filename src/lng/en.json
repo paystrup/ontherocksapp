@@ -156,7 +156,8 @@
         "romance": "Romance",
         "relaxing": "Relaxing",
         "all": "All",
-        "newyears": "New Year's"
+        "newyears": "New Year's",
+        "christmas": "Christmas"
     },
     "filters": {
         "titles": {

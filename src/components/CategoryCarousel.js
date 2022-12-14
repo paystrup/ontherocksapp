@@ -117,6 +117,18 @@ export default function CategoryCarousel() {
       query: "featured",
     },
     {
+      id: "100",
+      title: "categories.christmas",
+      category: "jul",
+      query: "ocassion.slug",
+    },
+    {
+      id: "99",
+      title: "categories.newyears",
+      category: "nytår",
+      query: "ocassion.slug",
+    },
+    {
       id: "2",
       title: "categories.welcome",
       category: "velkomst",
@@ -151,12 +163,6 @@ export default function CategoryCarousel() {
       title: "categories.relaxing",
       category: "afslapning",
       query: "theme.slug",
-    },
-    {
-      id: "8",
-      title: "categories.newyears",
-      category: "nytår",
-      query: "ocassion.slug",
     }
   ];
 
@@ -317,7 +323,7 @@ export default function CategoryCarousel() {
               slideToClickedSlide: true,
               
             },
-            1200: {
+            1500: {
               slidesPerView: 6,
               initialSlide: 0,
               slidesOffsetBefore: "56",

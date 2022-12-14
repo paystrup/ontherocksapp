@@ -159,7 +159,8 @@
         "romance": "Romantik",
         "relaxing": "Afslapning",
         "all": "Alle",
-        "newyears": "Nytårsaften"
+        "newyears": "Nytårsaften",
+        "christmas": "Juleaften"
     },
     "filters": {
         "titles": {
