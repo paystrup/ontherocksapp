@@ -2,24 +2,13 @@ import { collection, onSnapshot, query } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { db } from "../firebaseConfig";
 import { auth } from "../firebaseConfig.js";
-import { useTranslation } from "react-i18next";
 import Spinanimation from "./Spinanimation";
-import ProfilePageFavoritesMap from "./ProfilePageFavouritesMap";
 
-export default function ProfilePageFavourites() {
+export default function LikeCounter() {
   // import copy translations from i18n
-  const { t } = useTranslation();
 
   // Define state for the loading indicator
   const [isLoading, setIsLoading] = useState(true);
-
-  // show 4 articles on fetch
-  const [visible, setVisible] = useState(4);
-
-  // show more btn adds 4 more likes by adding 4 to prev value
-  const showMoreLikes = () => {
-    setVisible((prevValue) => prevValue + 4);
-  };
 
   // State for saving our data in an empty array
   const [articles, setArticles] = useState([]);
@@ -79,31 +68,9 @@ export default function ProfilePageFavourites() {
       {/* IF DATA IS RETURNED STATE IS TRUE = SHOW DATA */}
       {isFound && (
         <div>
-          <div className="grid-cols-2 lg:grid-cols-3 gap-[5vw] lg:gap-[2vw] grid mb-14 justify-between">
-            <ProfilePageFavoritesMap
-              articles={articles}
-              sliceAmount={visible}
-            />
-            <div className="w-full flex justify-end items-end lg:col-span-3 col-end-auto col-span-2">
-              <button
-                className="px-5 mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack "
-                onClick={showMoreLikes}
-              >
-                Vis flere
-              </button>
-            </div>
-          </div>
+          <p className="text-4xl">{likesCounter}</p>
         </div>
       )}
-
-      {/* EMPTY STATE IF USER HAS NO FAVOURITES and loading is done*/}
-      {!isFound & !isLoading ? (
-        <div className="px-10 mb-14">
-          <h3 className="leading-relaxed text-center text-primaryGray-700 text-lg py-7">
-            {t("profilepage.likesEmptyState")}
-          </h3>
-        </div>
-      ) : null}
     </section>
   );
 }
