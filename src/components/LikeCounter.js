@@ -71,6 +71,13 @@ export default function LikeCounter() {
           <p className="text-4xl">{likesCounter}</p>
         </div>
       )}
+
+      {/* IF DATA IS RETURNED STATE IS FALSE - SHOW EMPTY STATE 0 */}
+      {!isFound && (
+        <div>
+          <p className="text-4xl">0</p>
+        </div>
+      )}
     </section>
   );
 }
