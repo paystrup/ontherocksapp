@@ -1,8 +1,8 @@
-import {React, useState} from "react";
+import { React, useState } from "react";
 import { useTranslation } from "react-i18next";
 import CategoryCarousel from "../components/CategoryCarousel";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { collection, onSnapshot, where, query } from "firebase/firestore"
+import { collection, onSnapshot, where, query } from "firebase/firestore";
 import { auth, db } from "../firebaseConfig";
 import { useEffect } from "react";
 
@@ -18,28 +18,29 @@ export default function SearchPage() {
   useEffect(() => {
     // collection from firebase
     // db is our database, articles is the name of the collection
-    const articleRef = collection(db, fetchLng)
+    const articleRef = collection(db, fetchLng);
 
     // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
     // filtering for featured cocktails
-    const q = query(articleRef, where("taste.slug", "==", "syrlig"), where("taste.slug", "==", "frisk"));
+    const q = query(
+      articleRef,
+      where("taste.slug", "==", "syrlig"),
+      where("taste.slug", "==", "frisk")
+    );
 
     // get the data, on snapshot
     onSnapshot(q, (snapshot) => {
-        const data = snapshot.docs.map((doc) => ({
+      const data = snapshot.docs.map((doc) => ({
         id: doc.id,
         ...doc.data(),
-        }));
+      }));
 
-        // store data (setState) change state to contain cocktail dataset
-        setArticle(data);
-        console.log(data);
+      // store data (setState) change state to contain cocktail dataset
+      setArticle(data);
+      console.log(data);
     });
-      
-
   }, [fetchLng, t]);
-  
-  
+
   return (
     <section className="mt-20 mb-32 lg:mt-36 fadeInAnimation">
       <div className="px-5 w-full lg:px-14 flex flex-col lg:flex-col-reverse lg:gap-12">
@@ -57,7 +58,9 @@ export default function SearchPage() {
         </div>
 
         <div className="mt-5 lg:mt-0 lg:flex lg:flex-col lg:gap-5">
-          <h3 className="text-xl font-medium lg:font-displayBook lg:text-6xl">{t("searchpage.title")}</h3>
+          <h3 className="text-xl font-medium lg:font-displayBook lg:text-6xl">
+            {t("searchpage.title")}
+          </h3>
 
           <p className="text-base text-primaryGray-500 font-thin leading-relaxed mt-2 lg:mt-0 lg:text-xl">
             {t("searchpage.body")}

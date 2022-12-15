@@ -97,8 +97,8 @@ export default function ProfilePage() {
 
         <div className="flex justify-between text-sm uppercase ">
           <div className="flex flex-col justify-center items-start gap-2 w-1/3 ">
-            <div className="w-full text-center flex flex-col gap-2">
-              <p className="font-medium text-primaryGray-500">
+            <div className="w-fit text-center flex flex-col gap-2">
+              <p className="font-medium text-primaryGray-500 text-xs">
                 {t("profilepage.saved")}
               </p>
               <LikeCounter />
@@ -111,8 +111,8 @@ export default function ProfilePage() {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-2 w-1/3">
-            <div className="w-full text-center flex flex-col justify-between gap-2">
-              <p className="font-medium text-primaryGray-500">
+            <div className="w-fit text-center flex flex-col justify-between gap-2">
+              <p className="font-medium text-primaryGray-500 text-xs">
                 {t("profilepage.tasteprofile")}
               </p>
               <p className="text-4xl">0</p>
@@ -125,8 +125,8 @@ export default function ProfilePage() {
           </div>
 
           <div className="flex flex-col items-end justify-center gap-2 w-1/3">
-            <div className="w-full text-center flex flex-col justify-between gap-2">
-              <p className="font-medium text-primaryGray-500">
+            <div className="w-fit text-center flex flex-col justify-between gap-2">
+              <p className="font-medium text-primaryGray-500 text-xs">
                 {t("profilepage.createdAt")}
               </p>
               <p className="text-4xl">{userSignUpDateMin}</p>
