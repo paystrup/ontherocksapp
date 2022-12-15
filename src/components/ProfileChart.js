@@ -4,25 +4,37 @@ import { useState } from "react";
 import { Pie } from "@visx/shape";
 import { Group } from "@visx/group";
 import { Text } from "@visx/text";
-import { useTranslation } from 'react-i18next';
-
-
+import { useTranslation } from "react-i18next";
 
 export default function ProfileChart() {
-
   // import copy translations from i18n
   const { t, i18n } = useTranslation();
-  
 
   //Defining the tags in ammount and words
   const tastetags = [
-  { symbol: t("profilepage.tags.taste1"), color: "#FFAA5C", tasteAmmount: 40 },
-  { symbol: t("profilepage.tags.taste2"), color: "#FFE598", tasteAmmount: 20 },
-  { symbol: t("profilepage.tags.taste3"), color: "#DB5937", tasteAmmount: 20 },
-  { symbol: t("profilepage.tags.taste4"), color: "#FDA110", tasteAmmount: 20 },
-];
+    {
+      symbol: t("profilepage.tags.taste1"),
+      color: "#FFAA5C",
+      tasteAmmount: 40,
+    },
+    {
+      symbol: t("profilepage.tags.taste2"),
+      color: "#FFE598",
+      tasteAmmount: 20,
+    },
+    {
+      symbol: t("profilepage.tags.taste3"),
+      color: "#DB5937",
+      tasteAmmount: 20,
+    },
+    {
+      symbol: t("profilepage.tags.taste4"),
+      color: "#FDA110",
+      tasteAmmount: 20,
+    },
+  ];
   const [active, setActive] = useState(null);
-  const width = 150;
+  const width = 120;
   const half = width / 2;
 
   return (
@@ -35,7 +47,7 @@ export default function ProfileChart() {
             outerRadius={half}
             innerRadius={({ data }) => {
               //Border size is shown here in active
-              const size = active && active.symbol === data.symbol ? 25 : 23;
+              const size = active && active.symbol === data.symbol ? 23 : 20;
               return half - size;
             }}
             padAngle={0.01}
@@ -54,21 +66,19 @@ export default function ProfileChart() {
               });
             }}
           </Pie>
-                    {active ? (
+          {active ? (
             <>
               <Text
                 textAnchor="middle"
                 fill={active.color}
-                fontSize={20}
+                fontSize={15}
                 dy={20}
               >
                 {`${active.symbol}`}
               </Text>
             </>
           ) : (
-            <>
-
-            </>
+            <></>
           )}
         </Group>
       </svg>

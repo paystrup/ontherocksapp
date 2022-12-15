@@ -14,7 +14,7 @@ export default function ProfilePageFavourites() {
   const [isLoading, setIsLoading] = useState(true);
 
   // show 4 articles on fetch
-  const [visible, setVisible] = useState(4);
+  const [visible, setVisible] = useState(6);
 
   // show more btn adds 4 more likes by adding 4 to prev value
   const showMoreLikes = () => {

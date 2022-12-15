@@ -101,8 +101,8 @@ export default function ProfilePage() {
               <p className="font-medium text-primaryGray-500">
                 {t("profilepage.saved")}
               </p>
+              <LikeCounter />
               <div>
-                <LikeCounter />
                 <p className="text-[10px] text-primaryGray-700">
                   {t("profilepage.savedBottom")}
                 </p>
@@ -129,8 +129,8 @@ export default function ProfilePage() {
               <p className="font-medium text-primaryGray-500">
                 {t("profilepage.createdAt")}
               </p>
+              <p className="text-4xl">{userSignUpDateMin}</p>
               <div>
-                <p className="text-4xl">{userSignUpDateMin}</p>
                 <p className="text-[10px] text-primaryGray-700">
                   {t("profilepage.createdAtBottom")}
                 </p>
@@ -139,8 +139,8 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="h-44 bg-primaryGray-200 mt-7 rounded-xl px-6 py-4 flex justify-between">
-          <div>
+        <div className="h-44 bg-primaryGray-200 mt-7 rounded-xl px-2 lg:px-6 py-4 flex justify-between">
+          <div className="flex items-center justify-center">
             <ProfileChart />
           </div>
           <div className="flex flex-col justify-between text-primaryGray-700">
