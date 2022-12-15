@@ -81,7 +81,7 @@ export default function ProfilePageFavourites() {
       */}
       {isFound && (
         <div className="mb-28 w-full">
-          <div className={likesCounter <= 1 ? "" : "grid-cols-2 lg:grid-cols-3 gap-[5vw] lg:gap-[2vw] grid justify-between"}>
+          <div className={likesCounter <= 1 ? "" : "grid-cols-2 lg:grid-cols-2 gap-[5vw] lg:gap-[2vw] grid justify-between"}>
             <ProfilePageFavoritesMap
               articles={articles}
               sliceAmount={visible}
