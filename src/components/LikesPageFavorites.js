@@ -45,7 +45,7 @@ export default function LikesPageFavorites() {
       console.log(articles[0].image?.srcMin);
       setIsLoading(false);
     });
-  }, []); // dependency array => empty => fetch on rerender
+  }, [fetchLng]); // dependency array => empty => fetch on rerender
 
   // flatmap removes arrays inside arrays so we can map and use ternary for username and filter
   const displayLikes = articles?.flatMap((article) => article?.likes);

@@ -72,8 +72,8 @@ export default function LikeCounter() {
 
       {/* IF DATA IS RETURNED STATE IS TRUE = SHOW DATA */}
       {isFound && (
-        <div>
-          <p className="text-4xl">{likesCounter}</p>
+        <div className="fadeInAnimation">
+          <p className="text-4xl fadeInAnimation">{likesCounter}</p>
         </div>
       )}
 

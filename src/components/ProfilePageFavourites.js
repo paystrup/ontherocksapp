@@ -16,14 +16,16 @@ export default function ProfilePageFavourites() {
 
   // show 4 articles on fetch
   const [visible, setVisible] = useState(4);
+  console.log(visible);
 
   // show more btn adds 4 more likes by adding 4 to prev value
+  // updated: fixed amount -> simpler UI
   const showMoreLikes = () => {
-    setVisible((prevValue) => prevValue + 4);
+    setVisible(8);
   };
 
   const showLessLikes = () => {
-    setVisible((prevValue) => prevValue - 4);
+      setVisible(4);
   };
 
   // State for saving our data in an empty array
@@ -94,7 +96,7 @@ export default function ProfilePageFavourites() {
           </div>
 
           {/* SLICED AT 4 ITEMS -> if visible is bigger or equal to likescounter, hide btn -> nothing more to show -> better UX */}
-          <div className={visible >= likesCounter ? "hidden" : "w-full justify-center"}>
+          <div className={visible < 5 & likesCounter > 4 ? "w-full justify-center" : "hidden"}>
               <button
                 className="px-5 w-full mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack"
                 onClick={showMoreLikes}
@@ -107,7 +109,7 @@ export default function ProfilePageFavourites() {
           </div>
 
           {/* SAME -> BUT SHOW LESS -> SUBTRACTS 4 from VISIBLE */}
-          <div className={visible <= likesCounter ? "hidden" : "w-full justify-center"}>
+          <div className={visible > 5 ? "w-full justify-center" : "hidden"}>
               <button
                 className="px-5 w-full mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack"
                 onClick={showLessLikes}
@@ -128,7 +130,9 @@ export default function ProfilePageFavourites() {
             {t("profilepage.likesEmptyState")}
           </h3>
         </div>
-      ) : null}
+      ) : null} 
+      
+      {/* ELSE DO NOTHING -> must return null - && returns error */}
     </section>
   );
 }
