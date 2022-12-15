@@ -76,7 +76,7 @@ export default function LikesPageFavorites() {
 
                     {/* CATEGORIES OF LIKES - FUNCTION TO BE IMPLEMENTED -> make user send tag with likes in firebase ex. likes.category && 'all' etc.*/}
                     <section className="mb-7">
-                        <div className="flex flex-wrap gap-4">
+                        <div className="flex flex-wrap gap-4 ml-4">
                             <div className="flex flex-col items-center justify-center gap-2">
                                 <div 
                                     style={{

@@ -16,11 +16,11 @@ export default function LikesPageFavoritesMap({ articles }) {
   // display users favourites
   return (
     <>
-      <div>
+      <div className="md:grid-cols-3 grid-cols-2 lg:grid-cols-4 gap-[5vw] lg:gap-[2vw] grid mb-14 justify-between">
         {articles.map(
           ({ id, image, title, time, liqour, taste, teaser, likes }) =>
             likes?.includes(auth.currentUser.uid) && (
-              <div className="h-44 w-full mb-4 relative" key={id}>
+              <div className="md:h-96 h-52 w-full mb-4 relative" key={id}>
                   <div className='flex justify-end font-thin absolute items-start w-full px-5 py-4'>
                       {user && <LikeCocktail id={id} likes={likes} />}
                   </div>
@@ -37,7 +37,7 @@ export default function LikesPageFavoritesMap({ articles }) {
 
                       <div className='px-2'>
                           <div className='flex flex-col gap-2'>
-                              <h3 className='text-2xl font-medium'>{title}</h3>
+                              <h3 className='text-xl md:text-2xl font-medium'>{title}</h3>
                           </div>
                       </div>
                           </div>

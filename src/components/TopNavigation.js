@@ -184,8 +184,6 @@ export default function TopNavigation() {
           </ul>
         )}
 
-  
-
         {/* FOR THE ARTICLE PAGE - LEFT ARROW  */}
         {location.pathname.includes("/articles") && (
           <ul className="list-none text-lg lg:hidden">

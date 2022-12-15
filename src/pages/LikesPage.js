@@ -43,7 +43,7 @@ export default function LikesPage() {
     );
   if (user)
     return (
-      <section className="mt-20 mb-32 px-6">
+      <section className="mt-20 mb-32 px-6 lg:px-14">
         <LikesPageFavorites />
       </section>
     );

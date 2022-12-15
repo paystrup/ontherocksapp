@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_2" data-name="Lag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216.82 207.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+    </style>
+  </defs>
+  <g id="Lag_1-2" data-name="Lag 1-2">
+    <g>
+      <path class="cls-1" d="M110.82,142.92l71.2-74.06h-46.2l-27.41-23.59-27.41,23.59H34.46l71.2,74.07v59.72h-24.9v5.16h54.96v-5.16h-24.9v-59.73Zm-2.41-90.83l19.48,16.77h-38.96l19.48-16.77Zm-25.49,21.94h50.98l7.79,6.71-33.28,33.28-33.28-33.28,7.79-6.71Zm-36.34,0h28.42l-7.46,6.42,40.87,40.87,40.87-40.87-7.46-6.42h28.08l-61.66,64.13L46.58,74.03Z"/>
+      <g>
+        <rect class="cls-1" x="105.79" width="5.23" height="8.02"/>
+        <rect class="cls-1" x="105.79" y="13.24" width="5.23" height="24.16"/>
+      </g>
+      <rect class="cls-1" x="72.68" y="6.87" width="5.23" height="41.11" transform="translate(-2.32 47.36) rotate(-34.42)"/>
+      <rect class="cls-1" x="121.12" y="23.81" width="39.63" height="5.23" transform="translate(40.48 128.76) rotate(-56.15)"/>
+      <g>
+        <polygon class="cls-1" points="168.37 42.43 171 46.96 142.09 61.19 139.79 56.5 168.37 42.43"/>
+        <polygon class="cls-1" points="185.66 39.74 175.7 44.65 173.07 40.12 183.35 35.06 185.66 39.74"/>
+      </g>
+      <g>
+        <polygon class="cls-1" points="33.48 35.06 43.67 40.15 41.04 44.68 31.15 39.74 33.48 35.06"/>
+        <polygon class="cls-1" points="76.46 56.51 74.13 61.19 45.73 47.01 48.36 42.49 76.46 56.51"/>
+      </g>
+      <g>
+        <rect class="cls-1" y="68.55" width="30.35" height="5.23"/>
+        <rect class="cls-1" x="186.61" y="68.55" width="30.21" height="5.23"/>
+      </g>
+    </g>
+  </g>
+</svg>

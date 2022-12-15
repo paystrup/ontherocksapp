@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 // firebase imports for fetching
 import { collection, onSnapshot, where, query } from "firebase/firestore"
@@ -38,7 +37,7 @@ export default function AboutPageCard({ slug }) {
         setCardData(data);
         console.log(data);
     });
-    }, []);
+    }, [t, fetchLng]);
     
   return (
     <>

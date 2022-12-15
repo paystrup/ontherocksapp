@@ -5,7 +5,7 @@ import "react-tooltip/dist/react-tooltip.css";
 import footerLogo from "../assets/svg/logo-big3.svg"
 
 export default function Footer() {
- const { t, i18n } = useTranslation();
+ const { t } = useTranslation();
 
   return (
    <footer className="hidden lg:block lg:px-12 xl:px-28 mt-56 mb-8">
@@ -17,18 +17,18 @@ export default function Footer() {
       content={"Bornholm! Bornholm! Bornholm! Du, min dejlige ferieø!"}
     />
 
-    <div className="flex flex-col gap-24 w-full">
+    <div className="flex flex-col gap-36 w-full">
       <div className="flex justify-between">
         <div>
           <img src={footerLogo} alt="OnTheRocks Logo" className="h-60 invert" />
         </div>
 
-        <div className="flex gap-28">
+        <div className="flex gap-28 mt-4">
           <div className="flex flex-col gap-4">
             <h4 className="uppercase underline underline-offset-8">{t("footer.contact.title")}</h4>
             <ul className="flex flex-col gap-2 text-primaryGray-500">
               <li>
-                <a href="tel:4522561256" className="underline hover:opacity-50">+ 45 2256 1256</a>
+                <a href="tel:4522561256" className="underline hover:opacity-50">+ 45 22 56 12 56</a>
               </li>
               
               <li>

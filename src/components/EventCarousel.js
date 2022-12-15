@@ -70,8 +70,14 @@ export default function EventCarousel() {
                     slidesPerView: "auto",
                     initialSlide: 0,
                 },
+                1280: {
+                    slidesPerView: 3,
+                    initialSlide: 0,
+                    slidesOffsetBefore: "56",
+                    spaceBetween: 25,
+                },
                 1500: {
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                     initialSlide: 0,
                     slidesOffsetBefore: "56",
                     spaceBetween: 25,

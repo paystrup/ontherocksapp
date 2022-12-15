@@ -14,7 +14,7 @@ export default function ProfilePageFavourites() {
     const [isLoading, setIsLoading] = useState(true);
 
     // show 4 articles on fetch
-    const [visible, setVisible] = useState(2);
+    const [visible, setVisible] = useState(4);
 
     // show more btn adds 4 more likes by adding 4 to prev value
     const showMoreLikes = () => {
@@ -74,16 +74,17 @@ export default function ProfilePageFavourites() {
             
             {/* IF DATA IS RETURNED STATE IS TRUE = SHOW DATA */}
             {isFound && (
-                <div className="flex flex-col items-center justify-center mb-14">
+            <div>
+                <div className="grid-cols-2 lg:grid-cols-3 gap-[5vw] lg:gap-[2vw] grid mb-14 justify-between">
                     <ProfilePageFavoritesMap articles={articles} sliceAmount={visible}/>
-                    <button 
+                    <div className="w-full flex justify-end items-end lg:col-span-3 col-end-auto col-span-2">
+                        <button 
                         className="px-5 mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack "
                         onClick={showMoreLikes}
-                    >
-                        Vis flere
-                    </button>
+                        >Vis flere</button>
+                    </div>
                 </div>
-
+            </div>
             )}
    
             {/* EMPTY STATE IF USER HAS NO FAVOURITES and loading is done*/}

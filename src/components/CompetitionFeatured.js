@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 // firebase imports for fetching
 import { collection, onSnapshot, where, query } from "firebase/firestore";
 import { db } from "../firebaseConfig";
-
 // i18n language support
 import { useTranslation } from "react-i18next";
 
 export default function ArticlesFeatured(slug) {
+  // Import lang support from i18n
   const { t, i18n } = useTranslation();
+  // import navigation
   const navigate = useNavigate();
 
-  // state for setting our fetched articles/books
+  // state for setting our fetched cocktail data
+  // emtpy state with array so we can append the data and map later
   const [article, setArticle] = useState([]);
 
   // get current language selected for fetching the right collection in firestore
@@ -21,11 +22,13 @@ export default function ArticlesFeatured(slug) {
   // fetch starts here
   useEffect(() => {
     // collection from firebase
-    // db is our database, articles is the name of the collection
+    // db is our database
+    // collection = competitions, documents = "featured", subcollection = "fetchLng" / da or en to fetch the selected lng by the user
     const articleRef = collection(db, "competitions", "featured", fetchLng);
 
     // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
     // filtering for slug
+    // fetch all competitions directly -> saves space -> better performance -> we dont have to loop through everything
     const q = query(articleRef, where("slug", "==", "competition"));
 
     // get the data, on snapshot
@@ -35,11 +38,11 @@ export default function ArticlesFeatured(slug) {
         ...doc.data(),
       }));
 
-      // store data (setState) change state -> importing the array of books from the db
+      // store data (setState) change state -> importing the array of competitions from the db
       setArticle(data);
-      console.log(data);
+      console.log(data); // checking if it works 
     });
-  }, [fetchLng, t]);
+  }, [fetchLng, t]); // dependency array listens for language change and rerenders when new language is chosen
 
   return (
     <section className="my-14">

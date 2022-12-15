@@ -13,7 +13,6 @@ import "swiper/css";
 import { Keyboard, Mousewheel } from "swiper";
 
 // Import components
-import FeaturedCarouselHeader from './FeaturedCarouselHeader';
 import LikeCocktail from "./LikeCocktail";
 import Spinanimation from "./Spinanimation";
 
@@ -23,10 +22,12 @@ import { useTranslation } from 'react-i18next'
 export default function FeaturedCarousel({ category, parameter, value }) {
     // authentication auth and db are found in the firestore config, ref to our projekt in firebase
     const [user] = useAuthState(auth);
+
+    // import translations
     const { t, i18n } = useTranslation();
 
     // Define state for the loading indicator
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(true); 
 
     // Navigation
     const navigate = useNavigate();
@@ -59,19 +60,20 @@ export default function FeaturedCarousel({ category, parameter, value }) {
             console.log(data);
             // Set isLoading to false -> hide loader anim
             setIsLoading(false);
-        });
-        
-  
-    }, [fetchLng, t]);
+        });  
+    }, [fetchLng, t, category, parameter, value]); // dependency array -> listen for new pops, language change -> rerender
 
-    // Show loading indicator while data is being fetched
+        // Show loading indicator while data is being fetched
 
   return (
     <section className='mb-14 lg:mb-32'>
+
+        {/* IF LOADING IS TRUE -> render loading anim */}
         {isLoading && (
             <Spinanimation/>
         )}
-
+        
+        {/* SWIPER-JS */}
         <div className='flex'>
             <Swiper       
                 spaceBetween={20}
@@ -86,12 +88,18 @@ export default function FeaturedCarousel({ category, parameter, value }) {
                 modules={[Keyboard, Mousewheel]}
                 className="mySwiper featuredCards w-full"
                 breakpoints={{
-                // when window width is >= 1px
+                // conditions for breakpoints
                 1: {
                     slidesPerView: "auto",
                     initialSlide: 0,
                 },
-                1500: {
+                1280: {
+                    slidesPerView: 4,
+                    initialSlide: 0,
+                    slidesOffsetBefore: "56",
+                    spaceBetween: 25,
+                },
+                1700: {
                     slidesPerView: 5,
                     initialSlide: 0,
                     slidesOffsetBefore: "56",
@@ -99,6 +107,7 @@ export default function FeaturedCarousel({ category, parameter, value }) {
                 },
 
             }}>
+                {/* MAP THROUGH FEATURED DATA / COCKTAILS AND CREATE SLIDE -> destructured */}
                 {cocktails.map(({id, title, time, taste, teaser, image, slug, liqour, likes}) => (
                     <SwiperSlide
                         key={id}
@@ -111,7 +120,9 @@ export default function FeaturedCarousel({ category, parameter, value }) {
                                     {time} min
                                 </p>
                             </div>
+                            {/* IF USER IS AUTHENTICATED / LOGGED IN -> SHOW FUNCTIONAL LIKE BTN */}
                             {user && <LikeCocktail id={id} likes={likes} />}
+                            {/* IF NO USER -> SHOW MOCK LIKE BTN -> REDIRECT TO LIKES ONBOARDING -> CONVERT USERS TO COSTUMERS */}
                             {!user && (
                                 <div className="bookmarkIcon bg-primaryBlack bg-opacity-60 rounded-full px-2 py-2 shadow-primaryBlack shadow-2xl">
                                     <BookmarkIcon
@@ -130,8 +141,6 @@ export default function FeaturedCarousel({ category, parameter, value }) {
                             }}
                             onClick={() => navigate("/recipe/" + id)}
                         >
-                
-        
                             <div className='px-1'>
                                 <div className='flex gap-2 mb-3 text-xs font-regular'>
                                     <p className='border-[2px] px-4 py-1 rounded-full uppercase'>{taste?.title}</p>
@@ -149,7 +158,6 @@ export default function FeaturedCarousel({ category, parameter, value }) {
                 ))}
             </Swiper>
         </div>
-
     </section>
   )
 }

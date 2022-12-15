@@ -10,8 +10,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;  
 }
 
 body {
@@ -498,6 +497,14 @@ code {
 
 /* 'xl': '1280px', */
 @media (min-width: 1280px) {
+  .featuredCards .swiper-slide {
+    /* Center slide text vertically */
+    display: flex;
+    min-height: 500px;
+    max-width: 30%;
+    color: white;
+    background-color: none !important;
+  }
 
 }
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-// firebase imports for fetching
+// firebase imports for fetching and query
 import { collection, onSnapshot, where, query } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 
@@ -9,23 +9,24 @@ import { db } from "../firebaseConfig";
 import { useTranslation } from "react-i18next";
 
 export default function AboutArticlesFeatured(slug) {
+  // import translations from i18n
   const { t, i18n } = useTranslation();
+  // import navigation from react router
   const navigate = useNavigate();
-
-  // state for setting our fetched articles/books
+  // State for setting our fetched articles/cocktails in an empty array so we can map later
   const [article, setArticle] = useState([]);
 
-  // get current language selected for fetching the right collection in firestore
+  // Get current language selected for fetching the right collection in firestore
   const fetchLng = i18n.language;
 
-  // fetch starts here
+  // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
   useEffect(() => {
     // collection from firebase
-    // db is our database, articles is the name of the collection
+    // db is our database, go to "articles" collection, document "featured", "fetchLng" = da/en collection depending on chosen language
     const articleRef = collection(db, "articles", "featured", fetchLng);
 
     // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
-    // filtering for slug
+    // filtering for slug, fetches for our slug
     const q = query(articleRef, where("slug", "==", "om-bornholm-spirits"));
 
     // get the data, on snapshot
@@ -35,9 +36,9 @@ export default function AboutArticlesFeatured(slug) {
         ...doc.data(),
       }));
 
-      // store data (setState) change state -> importing the array of books from the db
+      // store data (setState) change state -> importing the array of cocktails from the db
       setArticle(data);
-      console.log(data);
+      console.log(data); // check if data is fetched
     });
   }, [fetchLng, t]);
 
