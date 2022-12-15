@@ -41,7 +41,7 @@ function App() {
       </Routes>
       <ScrollToTop />
       <BottomNavigation />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

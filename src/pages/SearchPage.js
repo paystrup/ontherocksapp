@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import CategoryCarousel from "../components/CategoryCarousel";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { collection, onSnapshot, where, query } from "firebase/firestore";
-import { auth, db } from "../firebaseConfig";
+import { db } from "../firebaseConfig";
 import { useEffect } from "react";
 
 export default function SearchPage() {
@@ -39,7 +39,7 @@ export default function SearchPage() {
       setArticle(data);
       console.log(data);
     });
-  }, [fetchLng, t]);
+  }, [fetchLng, t, article]);
 
   return (
     <section className="mt-20 mb-32 lg:mt-36 fadeInAnimation">
