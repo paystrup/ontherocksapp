@@ -14,7 +14,7 @@ export default function ProfilePageFavourites() {
   const [isLoading, setIsLoading] = useState(true);
 
   // show 4 articles on fetch
-  const [visible, setVisible] = useState(6);
+  const [visible, setVisible] = useState(4);
 
   // show more btn adds 4 more likes by adding 4 to prev value
   const showMoreLikes = () => {
@@ -76,22 +76,26 @@ export default function ProfilePageFavourites() {
       {/* LOADING ANIM IF LOADING STATE = TRUE */}
       {isLoading && <Spinanimation />}
 
-      {/* IF DATA IS RETURNED STATE IS TRUE = SHOW DATA */}
+      {/* IF DATA IS RETURNED STATE IS TRUE = SHOW DATA 
+          -> Dynamic styling if length 1 <= show full width, else grid
+      */}
       {isFound && (
-        <div>
-          <div className="grid-cols-2 lg:grid-cols-3 gap-[5vw] lg:gap-[2vw] grid mb-14 justify-between">
+        <div className="mb-28 w-full">
+          <div className={likesCounter <= 1 ? "" : "grid-cols-2 lg:grid-cols-3 gap-[5vw] lg:gap-[2vw] grid justify-between"}>
             <ProfilePageFavoritesMap
               articles={articles}
               sliceAmount={visible}
             />
-            <div className="w-full flex justify-end items-end lg:col-span-3 col-end-auto col-span-2">
+          </div>
+
+          {/* SLICED AT 4 ITEMS -> if visible is bigger or equal to likescounter, hide btn -> nothing more to show -> better UX */}
+          <div className={visible >= likesCounter ? "hidden" : "w-full justify-center"}>
               <button
-                className="px-5 mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack "
+                className="px-5 w-full mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack"
                 onClick={showMoreLikes}
               >
                 Vis flere
               </button>
-            </div>
           </div>
         </div>
       )}

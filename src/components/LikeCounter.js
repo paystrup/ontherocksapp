@@ -3,9 +3,14 @@ import React, { useEffect, useState } from "react";
 import { db } from "../firebaseConfig";
 import { auth } from "../firebaseConfig.js";
 import Spinanimation from "./Spinanimation";
+import { useTranslation } from "react-i18next";
 
 export default function LikeCounter() {
   // import copy translations from i18n
+  const { t, i18n } = useTranslation();
+
+  // get current language selected for fetching the right collection in firestore
+  const fetchLng = i18n.language;
 
   // Define state for the loading indicator
   const [isLoading, setIsLoading] = useState(true);
@@ -18,7 +23,7 @@ export default function LikeCounter() {
     // collection from firebase
     // db is our database, "fetchlng" is our collection
     // 🚨🚨🚨🚨🚨🚨 TO-DO ADD LNG WHEN ENG IS DONE 🚨🚨🚨🚨🚨🚨🚨
-    const articleRef = collection(db, "da");
+    const articleRef = collection(db, fetchLng);
 
     // sort by createdAt, our timestamp added to every article, date
     const q = query(articleRef);
@@ -35,7 +40,7 @@ export default function LikeCounter() {
       console.log(articles);
       setIsLoading(false);
     });
-  }, []); // dependency array => empty => fetch on rerender
+  }, [t, fetchLng]); // dependency array => empty => fetch on rerender
 
   // flatmap removes arrays inside arrays so we can map and use ternary for username and filter
   const displayLikes = articles?.flatMap((article) => article?.likes);

@@ -27,7 +27,7 @@ export default function FeaturedProductsCarousel({
   parameter,
   value,
 }) {
-  // authentication auth and db are found in the firestore config, ref to our projekt in firebase
+  // authentication auth and db are found in the firestore config, ref to our project in firebase
   const [user] = useAuthState(auth);
   const { t, i18n } = useTranslation();
 
@@ -66,75 +66,86 @@ export default function FeaturedProductsCarousel({
       // Set isLoading to false -> hide loader anim
       setIsLoading(false);
     });
-  }, [fetchLng, t]);
+  }, [fetchLng, t, category, parameter, value]);
 
   // Show loading indicator while data is being fetched
 
   return (
     <section className="mt-7">
-      <Swiper
-        spaceBetween={20}
-        // centeredSlides={true}
-        slidesOffsetBefore={20}
-        slidesOffsetAfter={20}
-        grabCursor={true}
-        onSlideChange={() => console.log("slide change")}
-        keyboard={{
-          enabled: true,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Keyboard, Mousewheel]}
-        className="mySwiper featuredProducts w-full"
-        breakpoints={{
-          // when window width is >= 1px
-          1: {
-            slidesPerView: "auto",
-            initialSlide: 0,
-          },
-          1500: {
-            slidesPerView: 5,
-            initialSlide: 0,
-            slidesOffsetBefore: "56",
-            spaceBetween: 25,
-          },
-        }}
-      >
-        {cocktails.map(({ id, title, taste, image, slug }) => (
-          <>
-            {(slug === product) |
-            (slug === product2) |
-            (slug === product3) |
-            (slug === product4) |
-            (slug === product5) ? (
-              <SwiperSlide
-                key={id}
-                className="w-2/3 rounded-[24px] relative"
-                style={{
-                  backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 100%), url(${image.src})`,
-                  backgroundPosition: "top",
-                  backgroundSize: "cover",
-                  backgroundRepeat: "no-repeat",
-                }}
-                onClick={() => navigate("/recipe/" + id)}
-              >
-                <div className="px-4 py-4 flex w-full justify-between flex-col h-full absolute bottom-0">
-                  <div></div>
-                  <div>
-                    <div className="flex flex-col gap-1">
-                      <p className="uppercase text-xs font-thin text-primaryGray-500 line-clamp-2">
-                        {taste.title}
-                      </p>
-                      <h3 className="text-xl font-regular">{title}</h3>
+      
+      {isLoading && <Spinanimation />}
+
+      {!isLoading && (
+        <Swiper
+          spaceBetween={20}
+          // centeredSlides={true}
+          slidesOffsetBefore={20}
+          slidesOffsetAfter={20}
+          grabCursor={true}
+          onSlideChange={() => console.log("slide change")}
+          keyboard={{
+            enabled: true,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Keyboard, Mousewheel]}
+          className="mySwiper featuredProducts w-full"
+          breakpoints={{
+            // when window width is >= 1px
+            1: {
+              slidesPerView: "auto",
+              initialSlide: 0,
+            },
+            1000: {
+              slidesPerView: 4,
+              initialSlide: 0,
+              slidesOffsetBefore: "56",
+              spaceBetween: 25,
+            },
+            1500: {
+              slidesPerView: 4,
+              initialSlide: 0,
+              slidesOffsetBefore: "56",
+              spaceBetween: 25,
+            },
+          }}
+        >
+          {cocktails.map(({ id, title, taste, image, slug }) => (
+            <>
+              {(slug === product) |
+              (slug === product2) |
+              (slug === product3) |
+              (slug === product4) |
+              (slug === product5) ? (
+                <SwiperSlide
+                  key={id}
+                  className="w-2/3 rounded-[24px] relative"
+                  style={{
+                    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 100%), url(${image.src})`,
+                    backgroundPosition: "top",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                  onClick={() => navigate("/recipe/" + id)}
+                >
+                  <div className="px-4 py-4 flex w-full justify-between flex-col h-full absolute bottom-0">
+                    <div></div>
+                    <div>
+                      <div className="flex flex-col gap-1">
+                        <p className="uppercase text-xs font-thin text-primaryGray-500 line-clamp-2">
+                          {taste.title}
+                        </p>
+                        <h3 className="text-xl font-regular">{title}</h3>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </SwiperSlide>
-            ) : null}
-          </>
-        ))}
-      </Swiper>
+                </SwiperSlide>
+              ) : null}
+            </>
+          ))}
+        </Swiper>
+      )}
     </section>
   );
 }

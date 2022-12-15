@@ -8,6 +8,7 @@ import Spinanimation from "./Spinanimation";
 import { PlusIcon } from "@heroicons/react/24/outline";
 import LikesPageGeneratePDF from "./LikesPageGeneratePDF";
 
+
 export default function LikesPageFavorites() {
   // import copy translations from i18n
   const { t, i18n } = useTranslation();

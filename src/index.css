@@ -160,7 +160,7 @@ code {
 .smallCards .swiper-slide {
   /* Center slide text vertically */
   display: flex;
-  min-height: 225px;
+  min-height: 250px;
   max-width: 70%;
   color: white;
   padding-left: 1.2rem;
@@ -173,7 +173,7 @@ code {
 .featuredProducts .swiper-slide {
   /* Center slide text vertically */
   display: flex;
-  min-height: 171px;
+  min-height: 250px;
   max-width: 70%;
   color: white;
   background-color: none !important;
@@ -387,6 +387,16 @@ code {
     display: none;
   }
 
+  /* COCKTAILPAGE */
+  .featuredProducts .swiper-slide {
+    /* Center slide text vertically */
+    display: flex;
+    min-height: 180px;
+    max-width: 70%;
+    color: white;
+    background-color: none !important;
+  }
+
 }
 
 /* 'md': '768px', */
@@ -435,7 +445,7 @@ code {
   .smallCards .swiper-slide {
     /* Center slide text vertically */
     display: flex;
-    min-height: 180px;
+    min-height: 250px;
     max-width: 25%;
     color: white;
     padding-left: 1.2rem;
