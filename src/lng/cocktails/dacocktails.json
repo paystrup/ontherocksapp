@@ -1579,11 +1579,11 @@
       "recipe5": "Pynt med stjerneanis og nyd."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
+      "first": "red-copenhagen",
+      "second": "red-pearl",
+      "third": "sweet-child",
       "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "fifth": "dannebrog"
     },
     "featured": true,
     "body": "Måske denne cocktail skulle være Danmarks nationaldrink. Den røde farve fra snapsen, kombineret med det hvide skum er jo lige til at få tårer i øjnene af og det samme er smagen. Sødmen fra rabarberen og lakridsnoterne fra stjerneanis er en stjernekombination hvis vi selv skal sige det.",
@@ -1666,11 +1666,11 @@
       "recipe5": "Pynt med passionsfrugt og nyd."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "nordic-mojito",
+      "second": "nordic-pamola",
+      "third": "havtorn-gogt",
+      "fourth": "flyver-sjus",
+      "fifth": "fruity-gogt"
     },
     "featured": true,
     "body": "Smager of sommer, bør nydes om sommeren. Denne cocktail blander sødmen fra figen med den syrlige passionsfrugt og resultatet er fantastisk.",
@@ -1752,11 +1752,11 @@
       "recipe4": "Pynt med dehydreret lime og nyd."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "nordic-mojito",
+      "second": "gin-mojito",
+      "third": "fruity-gogt",
+      "fourth": "frozen-havtorn-gogt",
+      "fifth": "spiced-tonic"
     },
     "featured": true,
     "body": "Endnu en klassiker. Den er bitter og den er god. Vi har tilføjet svage noter af figen for at komplimentere den bitre tonic og vi synes selv det er lidt af et hit. Bedøm for dig selv.",
@@ -2980,7 +2980,7 @@
     "ocassion": {
       "id": "9",
       "slug": "weekend",
-      "title": "weeknd"
+      "title": "weekend"
     },
     "time": "6",
     "theme": {
@@ -3147,7 +3147,7 @@
     "ocassion": {
       "id": "9",
       "slug": "weekend",
-      "title": "weeknd"
+      "title": "weekend"
     },
     "time": "4",
     "theme": {
@@ -4173,11 +4173,11 @@
       "recipe5": "Pynt med citronskræl og nyd"
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "stormy-bornholmer",
+      "second": "white-lady",
+      "third": "red-copenhagen",
+      "fourth": "spice-magarita",
+      "fifth": "nordic-mojito"
     },
     "featured": true,
     "body": "Den er ikke alene god, den er også fantastisk at se på. Den er sofistekeret men ikke prætentiøs. Den er alt hvad man kan tænke sig i et cocktailglas. ",

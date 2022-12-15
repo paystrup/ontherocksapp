@@ -1500,11 +1500,11 @@
       "recipe5": "Garnish with coffee beans and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "gin-mojito",
+      "second": "espresso-martini",
+      "third": "gin-fizz",
+      "fourth": "hot-summer",
+      "fifth": "lakrids-espresso-martini"
     },
     "featured": true,
     "body": "A creamy affair with notes of licorice. This cocktail is perfect for a cool winter day or as an after-dinner cocktail on Christmas Eve.",
@@ -1579,11 +1579,11 @@
       "recipe5": "Garnish with star anise and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
+      "first": "red-copenhagen",
+      "second": "red-pearl",
+      "third": "sweet-child",
       "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "fifth": "dannebrog"
     },
     "featured": true,
     "body": "Perhaps this cocktail should be Denmark's national drink. The red color from the snaps, combined with the white foam, is enough to bring tears to your eyes, and the taste is just as good. The sweetness of the rhubarb and the licorice notes of the star anise are a star combination.",
@@ -1666,11 +1666,11 @@
       "recipe5": "Garnish with passion fruit and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "nordic-mojito",
+      "second": "nordic-pamola",
+      "third": "havtorn-gogt",
+      "fourth": "flyver-sjus",
+      "fifth": "fruity-gogt"
     },
     "featured": true,
     "body": "This cocktail tastes like summer and should be enjoyed in the summer. It blends the sweetness of figs with the tartness of passion fruit, resulting in a fantastic flavor.",
@@ -1752,11 +1752,11 @@
       "recipe4": "Garnish with dehydrated lime and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "nordic-mojito",
+      "second": "gin-mojito",
+      "third": "fruity-gogt",
+      "fourth": "frozen-havtorn-gogt",
+      "fifth": "spiced-tonic"
     },
     "featured": true,
     "body": "This is another classic cocktail. It is bitter and it is good. We have added faint notes of figs to compliment the bitter tonic and we think it's a bit of a hit. Judge for yourself.",
@@ -1826,11 +1826,11 @@
       "recipe4": "Garnish with a lime wheel and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "spiced-tonic",
+      "second": "the-golden-age",
+      "third": "beet-special",
+      "fourth": "licorice-fire",
+      "fifth": "orientail-v"
     },
     "featured": true,
     "body": "For all the chili lovers out there, now there is a cocktail. Here you go. The Spicy Margarita is made with our fantastic chili snaps and is a hit at any party. Surprise and indulge your guests with this delicious cocktail. ",
@@ -1912,11 +1912,11 @@
       "recipe4": "Garnish with a lemon wheel and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "stormy-bornholmer",
+      "second": "weekend-negroni",
+      "third": "red-copenhagen",
+      "fourth": "kongen-af-danmark",
+      "fifth": "danish-wall"
     },
     "featured": true,
     "body": "There is a lovely country. And a lovely cocktail. The best cocktail when you want to celebrate Denmark, whether it's for Christmas, New Year's Eve, or when the national team is playing. You can never go wrong with this cocktail.",
@@ -1987,11 +1987,11 @@
       "recipe5": "Garnish with bellflowers and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "orientail-v",
+      "second": "spicy-magarita",
+      "third": "spiced-tonic",
+      "fourth": "stormy-bornholmer",
+      "fifth": "flower-power"
     },
     "featured": true,
     "body": "A beet delight. A creamy and powerful drink where the sweetness of the beets is matched by our exquisite chili snaps. It sounds crazy, but it tastes great and it has a well-rounded taste with an exquisite flavorprofile.",
@@ -2069,11 +2069,11 @@
       "recipe4": "Squeeze a grapefruit wheel over the cocktail and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "spicy-magarita",
+      "second": "stormy-bornholmer",
+      "third": "weekend-negroni",
+      "fourth": "hot-summer",
+      "fifth": "flower-power"
     },
     "featured": true,
     "body": "Snaps and spicy tonic. This cocktail should be on everyone's bucket list. The perfect combination of bitterness and spiciness.",
@@ -2143,11 +2143,11 @@
       "recipe4": "Garnish with a feather of dill and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
+      "first": "akva-sour",
       "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "third": "french-75",
+      "fourth": "monte-carlo",
+      "fifth": "white-lady"
     },
     "featured": true,
     "body": "A creamy, full-bodied drink. A natural choice for Easter, where dill and sea buckthorn are a good match for the fish table. The cucumber provides freshness and the result is a refreshing, creamy cocktail.",
@@ -2228,11 +2228,11 @@
       "recipe3": "Garnish with pomegranate seeds and enjoy"
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "bramble",
+      "second": "nordic-passion",
+      "third": "red-pearl",
+      "fourth": "fruity-gogt",
+      "fifth": "nordic-passion"
     },
     "featured": true,
     "body": "The sweetest cocktail in the class. Raspberries and pomegranate are perfectly complimented by the ginger and, together with the red soda, create a beautiful drink.",
@@ -2302,11 +2302,11 @@
       "recipe4": "Garnish with a mint broom and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "vanilla-love",
+      "second": "the-ukrainian-dane",
+      "third": "stormy-bornholmer",
+      "fourth": "akva-sour",
+      "fifth": "golden-licorice"
     },
     "featured": true,
     "body": "A dream in a glass. Salted caramel and fig is a combination you should not deprive yourself of. The cream provides the creaminess and makes this cocktail perfect to enjoy in the dark winter months.",
@@ -2392,10 +2392,10 @@
     },
     "relatedProducts": {
       "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "second": "gin-hass",
+      "third": "fruity-gogt",
+      "fourth": "summer-in-the-sun",
+      "fifth": "frozen-havtorn-gogt"
     },
     "featured": true,
     "body": "Cool down on a hot day or start the party by serving this refreshing, captivating cocktail. It tastes as good as it looks. And it looks pretty fucking good.",
@@ -2465,11 +2465,11 @@
       "recipe4": "Sprinkle four drops of Angustora over the cocktail and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
+      "first": "gin-fizz",
+      "second": "nordic-negroni",
       "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "fourth": "vodka-spritz",
+      "fifth": "summer-in-the-sun"
     },
     "featured": true,
     "body": "Captivate your guests with this beautiful and flavorful champagne cocktail. Perfect for when you want to be a little more fancy and it tastes heavenly. You can be sure that your guests will leave the party satisfied after tasting Diamond Snaps.",
@@ -2539,10 +2539,10 @@
       "recipe4": "Strain over a cooled coupe glass and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
+      "first": "white-russian",
+      "second": "white-lady",
+      "third": "akva-sour",
+      "fourth": "yellow-heaven",
       "fifth": "clover-club"
     },
     "featured": true,
@@ -2616,11 +2616,11 @@
       "recipe3": "Garnish with licorice root and enjoy"
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "lakrids-espresso-martini",
+      "second": "golden-licorice",
+      "third": "kongen-af-danmark",
+      "fourth": "monte-carlo",
+      "fifth": "kiev-mule"
     },
     "featured": true,
     "body": "Who doesn't love licorice? Maybe Americans, but that's okay. This cocktail is all you need when you want to have a cozy evening. Whether it's with your better half, your mother-in-law, or a few of your friends, this cocktail is a sure winner.",
@@ -2694,11 +2694,11 @@
       "recipe4": "Garnish with lemon zest and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "nordic-negroni",
+      "second": "orientail-v",
+      "third": "sweet-child",
+      "fourth": "weekend-negroni",
+      "fifth": "spiced-tonic"
     },
     "featured": true,
     "body": "Celebrate our amazing capital with this amazing drink. You can listen to København by Ulige Numre while you're drinking it to really turn up the atmosphere.",
@@ -2771,11 +2771,11 @@
       "recipe3": "Garnish with a dehydrated lime."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "no3-tonic",
+      "second": "nordic-mojito",
+      "third": "fruity-gogt",
+      "fourth": "weekend-negroni",
+      "fifth": "frozen-havtorn-gogt"
     },
     "featured": true,
     "body": "Chili + honey = good taste. This cocktail combines strong chili with sweet honey and the result is this beautiful, tasty drink. You can never go wrong with it.",
@@ -2849,11 +2849,11 @@
       "recipe4": "Garnish with licorice root and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "beet-special",
+      "second": "lakrids-espresso-martini",
+      "third": "licorice-fire",
+      "fourth": "kongen-af-danmark",
+      "fifth": "hot-summer"
     },
     "featured": true,
     "body": "Imagine you're sitting on a beach on a hot day. You're watching the sunset and talking about good memories with the person you love most. That's how we think our Golden Licorice tastes. And yes, we know it's a bit pretentious, but it's the truth.",
@@ -2926,11 +2926,11 @@
       "recipe3": "Decorate with a bunch of currants and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "born-rebel",
+      "second": "spicy-magarita",
+      "third": "spiced-tonic",
+      "fourth": "sweet-child",
+      "fifth": "stormy-bornholmer"
     },
     "featured": true,
     "body": "Chili, kombucha, and lime, now that's a star combination. There simply isn't a moment when this cocktail doesn't fit in. Whether you're cozying up on the couch, having a high school reunion, or attending a grand gala, this cocktail is your friend.",
@@ -2980,7 +2980,7 @@
     "ocassion": {
       "id": "9",
       "slug": "weekend",
-      "title": "weeknd"
+      "title": "weekend"
     },
     "time": "6",
     "theme": {
@@ -3006,10 +3006,10 @@
     },
     "relatedProducts": {
       "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "second": "havtorn-gogt",
+      "third": "no3-tonic",
+      "fourth": "spicy-magarita",
+      "fifth": "fruity-gogt"
     },
     "featured": true,
     "body": "A refreshing all-year-round cocktail. The refreshing lime, the strong chili, and the sweet honey make this cocktail suitable for everything. Whether it's summer, winter, spring, or fall, this cocktail is the right choice.",
@@ -3063,7 +3063,7 @@
     "ocassion": {
       "id": "9",
       "slug": "weekend",
-      "title": "weeknd"
+      "title": "weekend"
     },
     "time": "6",
     "theme": {
@@ -3089,11 +3089,11 @@
       "recipe5": "Garnish with coffee chocolates and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "kongen-af-danmark",
+      "second": "red-copenhagen",
+      "third": "lakrids-espresso-martini",
+      "fourth": "espresso-martini",
+      "fifth": "white-russian"
     },
     "featured": true,
     "body": "Swap your evening coffee for this delicious, creamy coffee cocktail. We guarantee it will keep you just as warm. Enjoy it in good company or when you want to treat yourself a little extra.",
@@ -3147,7 +3147,7 @@
     "ocassion": {
       "id": "9",
       "slug": "weekend",
-      "title": "weeknd"
+      "title": "weekend"
     },
     "time": "4",
     "theme": {
@@ -3172,11 +3172,11 @@
       "recipe4": "Garnish with dehydrated orange and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "nordic-negroni",
+      "second": "weekend-negroni",
+      "third": "clover-club",
+      "fourth": "nordic-passion",
+      "fifth": "no3-tonic"
     },
     "featured": true,
     "body": "You can always be sure to start the party when you serve this cocktail. Vodka, Aperol, and ginger beer together make a phenomenal combination where neither the sweetness nor the strong ginger is allowed to take over, but instead play together in a beautiful symphony.",
@@ -3257,11 +3257,11 @@
       "recipe6": "Garnish with a thyme sprig and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "champagne-fizz",
+      "second": "diamond-snaps",
+      "third": "vodka-spritz",
+      "fourth": "french-75",
+      "fifth": "akva-sour"
     },
     "featured": true,
     "body": "This elegant, flavorful champagne cocktail is just as beautiful as it is tasty. The cocktail is perfect to serve at a party as well as for relaxation. The shaken egg whites give the cocktail a creamy consistency and soft foam.",
@@ -3347,10 +3347,10 @@
       "recipe4": "Garnish with walnuts and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
+      "first": "nordic-mojito",
+      "second": "green-vodka",
+      "third": "frozen-havtorn-gogt",
+      "fourth": "bramble",
       "fifth": "clover-club"
     },
     "featured": true,
@@ -3429,11 +3429,11 @@
       "recipe4": "Garnish with an orange wheel and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "red-copenhagen",
+      "second": "kongen-af-danmark",
+      "third": "dannebrog",
+      "fourth": "the-ukrainian-dane",
+      "fifth": "the-golden-age"
     },
     "featured": true,
     "body": "The drink that makes your mouth water at first sight. A culmination of freshness and sweetness comes from freshly squeezed oranges and our legendary Vanillasnaps. A summer drink out of the ordinary and a must-try for all cocktail lovers..",
@@ -3507,11 +3507,11 @@
       "recipe4": "Garnish with basil leaves and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "vodka-spritz",
+      "second": "white-russian",
+      "third": "nordic-mojito",
+      "fourth": "vanilla-love",
+      "fifth": "vodka-martini"
     },
     "featured": true,
     "body": "Our green beauty. Enjoy this cocktail on warm summer days, at good parties, or in the company of family. We suggest you stock up, as our experience tells us that everyone will want more than one.",
@@ -3591,11 +3591,11 @@
       "recipe6": "Garnish with cilantro and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "stormy-bornholmer",
+      "second": "blooming-fig",
+      "third": "spiced-tonic",
+      "fourth": "flower-power",
+      "fifth": "the-golden-age"
     },
     "featured": true,
     "body": "Creamy? Check. Strong? Check. Delicious? Check. This cocktail is a hit with most people. The sweetness from the mango and the strength from our fantastic chili schnapps make a pretty tasty cocktail. Enjoy it at a party, at dinner, or for a cozy time.",
@@ -3679,11 +3679,11 @@
       "recipe3": "Garnish with elderberries and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "blooming-fig",
+      "second": "kongen-af-danmark",
+      "third": "monte-carlo",
+      "fourth": "stormy-bornholmer",
+      "fifth": "kiev-mule"
     },
     "featured": true,
     "body": "Beautiful and elegant. Just as tasty. This cocktail is simple, but no less delicious. The advantage is that you don't have to stand at the bar all evening and you have even more time to mingle with your guests.",
@@ -3753,10 +3753,10 @@
     },
     "relatedProducts": {
       "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
+      "second": "bramble",
+      "third": "fruity-gogt",
       "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "fifth": "flyver-sjus"
     },
     "featured": true,
     "body": "The cocktail that has taken Denmark by storm. The cocktail was invented by the brilliant bartender Kim Hass and can liven up any party. It's easy to make and just as tasty. ",
@@ -3835,10 +3835,10 @@
       "recipe6": "Garnish with blackberry and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
+      "first": "nordic-pamola",
+      "second": "hot-summer",
+      "third": "havtorn-gogt",
+      "fourth": "nordic-passion",
       "fifth": "clover-club"
     },
     "featured": true,
@@ -3917,11 +3917,11 @@
       "recipe5": "Garnish carefully with rasberries on top of the foam and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "bramble",
+      "second": "beet-special",
+      "third": "fruity-gogt",
+      "fourth": "green-vodka",
+      "fifth": "monte-carlo"
     },
     "featured": true,
     "body": "The beautiful cocktail with its beautiful color will surely be well received by most people. Not only is it a delight to look at, it tastes even better.",
@@ -4004,11 +4004,11 @@
       "recipe6": "Garnish with a lemon wheel and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
+      "first": "no3-tonic",
+      "second": "hot-summer",
+      "third": "flower-power",
       "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "fifth": "born-rebel"
     },
     "featured": true,
     "body": "An elegant classic. Bubbles, hints of lemon and well-being. This cocktail belongs at all occasions and you can be sure that your guests will enjoy the experience.",
@@ -4087,11 +4087,11 @@
       "recipe6": "Garnish with a lemon wheel and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
+      "first": "yellow-heaven",
+      "second": "weekend-negroni",
       "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "fourth": "vodka-spritz",
+      "fifth": "nordic-passion"
     },
     "featured": true,
     "body": "A cocktail that can be enjoyed all year round and at any time of the day. It is sweet and it is sour and is a favorite among many. Treat yourself and your loved ones with a refreshing Gin Fizz.",
@@ -4173,11 +4173,11 @@
       "recipe5": "Garnish with lemon zest and enjoy."
     },
     "relatedProducts": {
-      "first": "screw-driver",
-      "second": "frost-akva-sour",
-      "third": "champagne-fizz",
-      "fourth": "danish-wall",
-      "fifth": "clover-club"
+      "first": "stormy-bornholmer",
+      "second": "white-lady",
+      "third": "red-copenhagen",
+      "fourth": "spice-magarita",
+      "fifth": "nordic-mojito"
     },
     "featured": true,
     "body": "It is not only good, it is also amazing to look at. It is sophisticated but not pretentious. It is everything you could want in a cocktail glass.",
