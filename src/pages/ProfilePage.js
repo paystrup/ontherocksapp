@@ -81,7 +81,7 @@ export default function ProfilePage() {
   // If user is authenticated -> show profilepage
   if (user)
     return (
-      <section className="mt-20 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw]">
+      <section className="mt-20 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw] w-full">
         <div className="flex flex-col items-center justify-center mb-7 gap-2">
           <img
             className="grayscale imageProfile rounded-full"
@@ -95,9 +95,9 @@ export default function ProfilePage() {
           <h3 className="font-medium text-base">{user.displayName}</h3>
         </div>
 
-        <div className="flex justify-between text-sm uppercase">
+        <div className="flex justify-between text-sm uppercase ">
           <div className="flex flex-col justify-center items-start gap-2 w-1/3 ">
-            <div className="w-fit text-center flex flex-col gap-2">
+            <div className="w-full text-center flex flex-col gap-2">
               <p className="font-medium text-primaryGray-500">
                 {t("profilepage.saved")}
               </p>
@@ -111,7 +111,7 @@ export default function ProfilePage() {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-2 w-1/3">
-            <div className="w-fit text-center flex flex-col justify-between gap-2">
+            <div className="w-full text-center flex flex-col justify-between gap-2">
               <p className="font-medium text-primaryGray-500">
                 {t("profilepage.tasteprofile")}
               </p>
@@ -125,7 +125,7 @@ export default function ProfilePage() {
           </div>
 
           <div className="flex flex-col items-end justify-center gap-2 w-1/3">
-            <div className="w-fit text-center flex flex-col justify-between gap-2">
+            <div className="w-full text-center flex flex-col justify-between gap-2">
               <p className="font-medium text-primaryGray-500">
                 {t("profilepage.createdAt")}
               </p>
@@ -139,14 +139,16 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="h-44 bg-primaryGray-200 mt-7 rounded-xl px-2 lg:px-6 py-4 flex justify-between">
+        <div className="h-44 bg-primaryGray-200 mt-7 rounded-xl px-2 lg:px-6 py-4 flex justify-between w-full">
           <div className="flex items-center justify-center">
             <ProfileChart />
           </div>
           <div className="flex flex-col justify-between text-primaryGray-700">
             <ReactTooltip
+              className="h-fit max-w-[70vw]"
               anchorId="readMore"
-              place="top"
+              place="left"
+              effect="solid"
               content={t("profilepage.readMoreBtn")}
             />
             <div className="flex gap-2 items-center">
