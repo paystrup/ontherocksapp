@@ -127,7 +127,9 @@
       "body": "Opret en bruger for at få en profil. Det er gratis og tager 1 minut. Opret smagsprofil, få ekslusive tilbud, gem cocktails og meget mere.",
       "mainbtn": "Log ind"
     },
-    "likesEmptyState": "Du har ingen gemte cocktails endnu 😥"
+    "likesEmptyState": "Du har ingen gemte cocktails endnu 😥",
+    "showMoreBtn": "Vis flere",
+    "showLessBtn": "Vis mindre"
   },
   "signin": {
     "signInButtonGoogle": "Log ind",

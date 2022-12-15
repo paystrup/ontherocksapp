@@ -5,6 +5,7 @@ import { auth } from "../firebaseConfig.js";
 import { useTranslation } from "react-i18next";
 import Spinanimation from "./Spinanimation";
 import ProfilePageFavoritesMap from "./ProfilePageFavouritesMap";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
 
 export default function ProfilePageFavourites() {
   // import copy translations from i18n
@@ -19,6 +20,10 @@ export default function ProfilePageFavourites() {
   // show more btn adds 4 more likes by adding 4 to prev value
   const showMoreLikes = () => {
     setVisible((prevValue) => prevValue + 4);
+  };
+
+  const showLessLikes = () => {
+    setVisible((prevValue) => prevValue - 4);
   };
 
   // State for saving our data in an empty array
@@ -94,7 +99,23 @@ export default function ProfilePageFavourites() {
                 className="px-5 w-full mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack"
                 onClick={showMoreLikes}
               >
-                Vis flere
+                <div className="flex gap-2 items-center justify-center">
+                  <ChevronDownIcon className="h-5 w-5"/>
+                  {t("profilepage.showMoreBtn")}
+                </div>
+              </button>
+          </div>
+
+          {/* SAME -> BUT SHOW LESS -> SUBTRACTS 4 from VISIBLE */}
+          <div className={visible <= likesCounter ? "hidden" : "w-full justify-center"}>
+              <button
+                className="px-5 w-full mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack"
+                onClick={showLessLikes}
+              >
+                <div className="flex gap-2 items-center justify-center">
+                  <ChevronUpIcon className="h-5 w-5"/>
+                  {t("profilepage.showLessBtn")}
+                </div>
               </button>
           </div>
         </div>

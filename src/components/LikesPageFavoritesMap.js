@@ -2,9 +2,6 @@ import { useNavigate } from "react-router-dom";
 import { auth } from "../firebaseConfig.js";
 import { useAuthState } from "react-firebase-hooks/auth";
 import LikeCocktail from "./LikeCocktail.js";
-import { useTranslation } from 'react-i18next'
-import html2canvas from 'html2canvas';
-import { jsPDF } from "jspdf";
 
 export default function LikesPageFavoritesMap({ articles }) {
   // props imported from FavouritePost.js
@@ -33,14 +30,14 @@ export default function LikesPageFavoritesMap({ articles }) {
                       }}
                       onClick={() => navigate("/recipe/" + id)}
                   >
-          
-
                       <div className='px-2'>
                           <div className='flex flex-col gap-2'>
-                              <h3 className='text-xl md:text-2xl font-medium'>{title}</h3>
+                              <h3 className='text-xl md:text-2xl font-medium'>
+                                {title}
+                              </h3>
                           </div>
                       </div>
-                          </div>
+                  </div>
               </div>
             )
         )}

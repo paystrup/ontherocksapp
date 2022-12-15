@@ -126,7 +126,9 @@
       "body": "Create a user to get a profile. It is free and takes 1 minute. Create a taste profile, get exclusive offers, save cocktails and much more.",
       "mainbtn": "Login"
     },
-    "likesEmptyState": "You have no saved cocktails yet 😥"
+    "likesEmptyState": "You have no saved cocktails yet 😥",
+    "showMoreBtn": "Show more",
+    "showLessBtn": "Show less"
   },
   "signin": {
     "signInButtonGoogle": "Login",
