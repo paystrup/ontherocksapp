@@ -217,5 +217,11 @@
     "pdfName": "OnTheRocks-CocktailKort.pdf",
     "title": "On The Rocks Cocktails",
     "subtitle": "Af Bornholm Spirits"
+  },
+  "tasteProfile": {
+    "title": "Tilføj til din smagsprofil",
+    "subTitle": "Føj cocktailen til din smagsprofil og dan dig et overblik over dine yndlingssmage. Tilføj eller fjern smagene nedenfor.",
+    "bottomText": "Vurder smagsbalancen og hjælp os med at forbedre vores opskrifter.",
+    "submitBtn": "Føj til smagsprofil"
   }
 }

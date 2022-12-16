@@ -1,5 +1,5 @@
 // Inspiration from https://youtu.be/_7gdsAfFV9o 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   doc,
   updateDoc,
@@ -24,8 +24,13 @@ export default function AddToTasteProfile({ id, cocktail }) {
     // State for logging the chosen taste
     // by default the cocktails set taste is set to state
     // -> user can change if it they feel it tastes differently
-    const [comment, setComment] = useState(cocktail?.taste?.slug);
-
+    const [tasteTag, setTasteTag] = useState(cocktail?.taste?.slug);
+    
+    // must use useEffect to update the state on every page change, listens for ID and cocktail
+    useEffect(() => {
+      setTasteTag(cocktail?.taste?.slug);
+    }, [id, cocktail])
+    
     // verify user is logged in -> makes us able to send user data via. the comment
     const [user] = useAuthState(auth);
 
@@ -35,24 +40,22 @@ export default function AddToTasteProfile({ id, cocktail }) {
     // ideal to update this to store more than 1 taste in an array
     // todo
     const handleTasteChange = (taste) => {
-        setComment(taste);
-        console.log(comment);
+        setTasteTag(taste);
+        console.log(tasteTag);
     }
 
     const handleSubmitTasteProfile = (event) => {
         updateDoc(commentRef, {
             // updateDoc and arrayUnion to update array with new values (no overrides)
             // send the values we need
-            comments: arrayUnion({
-                sentBy: auth.currentUser.uid,
-                sentByName: user.displayName,
-                sentByImageUrl: auth.currentUser.photoURL,
-                comment: comment,
+            addedToTasteProfile: arrayUnion({
+                cocktailSlug: cocktail.slug,
+                cocktailImage: cocktail.image.src,
+                cocktailId: cocktail.id,
                 createdAt: new Date(),
-                commentId: uuidv4(),
-                cocktailTitle: cocktail.title,
-                cocktailImage: cocktail.imageUrl,
-                cocktailId: cocktail.id
+                tasteCommentId: uuidv4(),
+                userTaste: tasteTag,
+                cocktailTaste: cocktail.taste.slug
             }),
         }).then(() => {
             // UX for message sent
@@ -61,13 +64,17 @@ export default function AddToTasteProfile({ id, cocktail }) {
         });
     }
 
-
+    // 🚨🚨🚨🚨 TODO ADD VALIDATION -> IF USER HAS ALREADY SUBMITTED DON'T RENDER COMPONENT 🚨🚨🚨🚨
     return (
-        <div className="px-5 lg:px-14 mt-14">
+        <div className="px-5 lg:px-14 mt-14 fixed bottom-0 left-0 z-50 bg-lightBlack pb-20 pt-14 rounded-t-3xl">
+            <div className="mb-14">
+                <h3 className="text-2xl mb-3 font-medium">{t("tasteProfile.title")}</h3>
+                <p className="text-primaryGray-500 font-thin">{t("tasteProfile.subTitle")}</p>
+            </div>
             <div className="flex flex-wrap gap-2 mb-4">
                 {filters.map(({ id, title, category}) =>
                     <button 
-                        className="px-2 bg-primaryYellow text-primaryBlack py-1 rounded-xl"
+                        className={tasteTag === category ? "px-3 bg-primaryYellow text-primaryBlack py-1 rounded-xl" : "border-[1px] py-1 rounded-xl px-3"}
                         key={id}
                         onClick={() => handleTasteChange(category)}
                     >
@@ -75,11 +82,12 @@ export default function AddToTasteProfile({ id, cocktail }) {
                     </button>
                 )}
             </div>
+            <p className="text-primaryGray-500 font-thin my-7">{t("tasteProfile.bottomText")}</p>
             <button 
-                className="bg-primaryYellow w-full"
+                className="bg-primaryYellow w-full py-3 rounded-xl text-primaryBlack"
                 onClick={handleSubmitTasteProfile}
             >
-                Føj til smagsprofil
+                {t("tasteProfile.submitBtn")}
             </button>
         </div>
     )
