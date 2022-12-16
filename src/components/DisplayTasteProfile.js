@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { collection, onSnapshot, orderBy, where, query } from "firebase/firestore";
+import { collection, onSnapshot, orderBy, query } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebaseConfig.js";
 
 export default function DisplayTasteProfile() {
+    const navigate = useNavigate();
+
     // state to store snapshot from FireStore
     const [tasteProfile, setTasteProfile] = useState([]);
 
@@ -51,10 +53,12 @@ export default function DisplayTasteProfile() {
   return (
     <div>
         <div className="flex flex-col gap-4">
-            {displayComments.map(({ cocktailTitle, userTaste, addedBy, tasteCommentId, cocktailImage }) => 
+            {displayComments.map(({ cocktailTitle, slug, userTaste, addedBy, tasteCommentId, cocktailImage }) => 
                 addedBy === auth.currentUser.uid &&
-                    <div key={tasteCommentId}
-                        className="h-32 px-4 py-4 rounded-2xl"
+                    <div 
+                        onClick={() => navigate("/recipe/" + slug)}
+                        key={tasteCommentId}
+                        className="h-32 px-4 py-4 rounded-2xl cursor-pointer"
                         style={{
                             backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${cocktailImage})`,
                             backgroundPosition: "center",
