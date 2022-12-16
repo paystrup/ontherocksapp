@@ -8,7 +8,7 @@ import DeleteTasteProfile from "./DeleteTasteProfile";
 
 export default function DisplayTasteProfile() {
   // import copy translations from i18n
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const navigate = useNavigate();
 

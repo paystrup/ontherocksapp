@@ -7,7 +7,7 @@ import { db } from "../firebaseConfig";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles + modules
 import "swiper/css";
-import { Keyboard, Mousewheel, Pagination } from "swiper";
+import { Keyboard, Mousewheel } from "swiper";
 // Import components
 import EventCarouselHeader from './EventCarouselHeader';
 import { useTranslation } from 'react-i18next'
@@ -59,10 +59,7 @@ export default function EventCarousel() {
                 keyboard={{
                     enabled: true,
                 }}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Keyboard, Mousewheel, Pagination]}
+                modules={[Keyboard, Mousewheel]}
                 className="mySwiper smallCards w-full lg:h-96"
                 breakpoints={{
                 // when window width is >= 1px
