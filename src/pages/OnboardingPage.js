@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { Navigate } from "react-router";
 import MainButton from "../components/MainButton";
 
 export default function OnboardingPage() {

@@ -17,14 +17,12 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
 import Footer from "./components/Footer";
-import { Onboarding } from "./components/Onboarding";
 import AgeConfirmed from "./components/AgeConfirmed";
 
 function App() {
   return (
     <div className="App">
       <AgeConfirmed />
-      <Onboarding />
       <ToastContainer theme="dark" autoClose={3000} />
       <TopNavigation />
       <ScrollToTopBtn />
