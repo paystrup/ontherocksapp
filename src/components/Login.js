@@ -16,7 +16,7 @@ export default function Login() {
     const { t } = useTranslation();
 
     // get user states from authentication
-    const [user, loading] = useAuthState(auth);
+    const [user] = useAuthState(auth);
     
     // Sign in and auth with Google
     const googleProvider = new GoogleAuthProvider();

@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "title": "filters.taste.fruity",
+        "category": "frugtig",
+        "query": "taste.slug"
+    },
+    {
+        "id": "2",
+        "title": "filters.taste.sweet",
+        "category": "sød",
+        "query": "taste.slug"
+    },
+    {
+        "id": "3",
+        "title": "filters.taste.sour",
+        "category": "syrlig",
+        "query": "taste.slug"
+    },
+    {
+        "id": "4",
+        "title": "filters.taste.fresh",
+        "category": "frisk",
+        "query": "taste.slug"
+    },
+    {
+        "id": "5",
+        "title": "filters.taste.strong",
+        "category": "stærk",
+        "query": "taste.slug"
+    },
+    {
+        "id": "6",
+        "title": "filters.taste.bitter",
+        "category": "bitter",
+        "query": "taste.slug"
+    },
+    {
+        "id": "7",
+        "title": "filters.taste.tropic",
+        "category": "tropisk",
+        "query": "taste.slug"
+    },
+    {
+        "id": "8",
+        "title": "filters.taste.spicy",
+        "category": "krydret",
+        "query": "taste.slug"
+    },
+    {
+        "id": "9",
+        "title": "filters.taste.salty",
+        "category": "salt",
+        "query": "taste.slug"
+    },
+    {
+        "id": "10",
+        "title": "filters.taste.dry",
+        "category": "tør",
+        "query": "taste.slug"
+    }
+]

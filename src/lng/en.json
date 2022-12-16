@@ -144,7 +144,9 @@
     "copyBtnToolTip": "Click here to copy link to your clipboard 🍸",
     "copyBtnText": "Copy link",
     "copyModalTitle": "Share recipe with friends and family",
-    "alert": "Link is now copied ✨"
+    "alert": "Link is now copied ✨",
+    "bookmarkToast": "You have saved this cocktail 🍹",
+    "saveBtnWide": "Save cocktail"
   },
   "spinAnimation": {
     "title": "Loading"

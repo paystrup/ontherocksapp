@@ -95,7 +95,7 @@ export default function ProfilePageFavourites() {
             />
           </div>
 
-          {/* SLICED AT 4 ITEMS -> if visible is bigger or equal to likescounter, hide btn -> nothing more to show -> better UX */}
+          {/* SLICED AT 4 ITEMS -> if visible is smaller than 5 and likescounter bigger than 4, show more btn -> better UX -> btn works */}
           <div className={visible < 5 & likesCounter > 4 ? "w-full justify-center" : "hidden"}>
               <button
                 className="px-5 w-full mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack"

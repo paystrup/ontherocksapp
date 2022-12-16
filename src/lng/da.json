@@ -145,7 +145,9 @@
     "copyBtnToolTip": "Tryk her for at kopiere linket til din udklipsholder 🍸",
     "copyBtnText": "Kopier link",
     "copyModalTitle": "Del opskrift med dine nærmeste",
-    "alert": "Linket er nu kopieret! ✨"
+    "alert": "Linket er nu kopieret! ✨",
+    "bookmarkToast": "Du har nu gemt denne cocktail 🍹",
+    "saveBtnWide": "Gem cocktail"
   },
   "spinAnimation": {
     "title": "Indlæser"

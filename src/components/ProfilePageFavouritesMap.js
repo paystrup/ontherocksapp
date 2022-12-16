@@ -15,7 +15,7 @@ export default function ProfilePageFavoritesMap({ articles, sliceAmount }) {
       {articles.slice(0, sliceAmount).map(
         ({ id, image, title, likes }) =>
           likes?.includes(auth.currentUser.uid) && (
-            <div className="h-52 max-w-[100%] relative" key={id}>
+            <div className="h-52 max-w-[100%] relative cursor-pointer" key={id}>
               <div className="flex justify-end font-thin absolute items-start w-full px-5 py-4">
                 {user && <LikeCocktail id={id} likes={likes} />}
               </div>

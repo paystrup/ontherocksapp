@@ -190,7 +190,7 @@ export default function CategoryCarousel() {
         {openFilter && (
           <div
             id="filterModal"
-            className="fixed z-[9999] overflow-y-scroll overflow-x-hidden top-0 left-0 h-full w-full bg-primaryBlack px-6 pb-32"
+            className="fixed z-[9999] overflow-y-scroll overflow-x-hidden top-0 left-0 h-full w-full bg-primaryBlack px-6 pb-32 lg:px-14"
           >
             <div className="flex items-center justify-center mt-4">
               <XMarkIcon
@@ -200,11 +200,11 @@ export default function CategoryCarousel() {
             </div>
 
             {/* FILTERS FOR MODAL STARTS HERE -> imported from /lng/filters.json - HIGHLIGTING FOR THE CLICKED + FETCHED CATEGORY BY CHECKING IF THE SET STATE MATCHES THE CATEGORY*/}
-            <div className="flex flex-col mt-14">
+            <div className="flex flex-col gap-6 lg:gap-12 mt-14 lg:mt-28">
               {filters.map(({ title, id, data }) => (
                 <div key={id}>
-                  <h3 className="text-xl font-medium mb-4">{t(title)}</h3>
-                  <div className="flex flex-wrap mb-7">
+                  <h3 className="text-xl font-medium mb-4 lg:text-2xl">{t(title)}</h3>
+                  <div className="flex flex-wrap">
                     {data.map(({ id, title, category, query }) => (
                       <div
                         className="py-1 px-1 cursor-pointer"
@@ -229,8 +229,6 @@ export default function CategoryCarousel() {
                   </div>
                 </div>
               ))}
-
-              <h3 className="text-xl font-medium">Tid</h3>
 
               <div
                 className="px-6 pt-4 fixed bottom-0 left-0 w-full"

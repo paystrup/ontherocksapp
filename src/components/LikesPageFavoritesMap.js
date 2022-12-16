@@ -17,7 +17,7 @@ export default function LikesPageFavoritesMap({ articles }) {
         {articles.map(
           ({ id, image, title, time, liqour, taste, teaser, likes }) =>
             likes?.includes(auth.currentUser.uid) && (
-              <div className="md:h-96 h-52 w-full mb-4 relative" key={id}>
+              <div className="md:h-96 h-52 w-full mb-4 relative cursor-pointer" key={id}>
                   <div className='flex justify-end font-thin absolute items-start w-full px-5 py-4'>
                       {user && <LikeCocktail id={id} likes={likes} />}
                   </div>

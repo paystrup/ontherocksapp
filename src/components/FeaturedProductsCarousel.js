@@ -3,8 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 // firebase imports for fetching
 import { collection, onSnapshot, where, query } from "firebase/firestore";
-import { useAuthState } from "react-firebase-hooks/auth";
-import { auth, db } from "../firebaseConfig";
+import { db } from "../firebaseConfig";
 
 // Import Swiper React components + styles
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,18 +16,8 @@ import Spinanimation from "./Spinanimation";
 // i18n language support
 import { useTranslation } from "react-i18next";
 
-export default function FeaturedProductsCarousel({
-  product,
-  product2,
-  product3,
-  product4,
-  product5,
-  category,
-  parameter,
-  value,
-}) {
-  // authentication auth and db are found in the firestore config, ref to our project in firebase
-  const [user] = useAuthState(auth);
+
+export default function FeaturedProductsCarousel({ product, product2, product3, product4, product5, category, parameter, value }) {
   const { t, i18n } = useTranslation();
 
   // Define state for the loading indicator
@@ -97,13 +86,23 @@ export default function FeaturedProductsCarousel({
               slidesPerView: "auto",
               initialSlide: 0,
             },
-            1000: {
-              slidesPerView: 4,
+            600: {
+              slidesPerView: 2,
+              initialSlide: 0,
+              spaceBetween: 25,
+            },
+            768: {
+              slidesPerView: 3,
+              initialSlide: 0,
+              spaceBetween: 25,
+            },
+            1024: {
+              slidesPerView: 3,
               initialSlide: 0,
               slidesOffsetBefore: "56",
               spaceBetween: 25,
             },
-            1500: {
+            1280: {
               slidesPerView: 4,
               initialSlide: 0,
               slidesOffsetBefore: "56",

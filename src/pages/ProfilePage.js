@@ -40,14 +40,12 @@ export default function ProfilePage() {
   // get first character of the string (amount of days since sign)
   const userSignUpDateMin = Array.from(userSignUpDate)[0];
 
-  
-
   const handleSignOut = (event) => {
     auth.signOut();
     toast(t("signin.logoutToastMsg"), { toastId: "logoutToast" });
   };
 
-  
+
   if (loading) return <Spinanimation />;
 
   // If there's no user logged in -> show onboarding

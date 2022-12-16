@@ -34,6 +34,8 @@ import {
 } from "react-share";
 import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
 import FeaturedCarousel from "../components/FeaturedCarousel";
+import LikeCocktailFullWidthBtn from "../components/LikeCocktailFullWidthBtn";
+import AddToTasteProfile from "../components/AddToTasteProfile";
 
 export default function CocktailPage() {
   // authentication auth and db are found in the firestore config, ref to our projekt in firebase
@@ -45,7 +47,9 @@ export default function CocktailPage() {
     navigator.clipboard.writeText(shareURL);
     alert(t("cocktailPage.alert"));
   };
+
   const [showShareModal, setShowShareModal] = useState(false);
+  
   const handleShareModal = (event) => {
     setShowShareModal(!showShareModal);
     console.log(showShareModal);
@@ -95,7 +99,7 @@ export default function CocktailPage() {
       {/* SHARE MODAL STARTS HERE - IF CLICKED -> STATE TRUE -> SHOW MODAL */}
       {showShareModal && (
         // "flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-2"
-        <div className="flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-2">
+        <dialog className="flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-2">
           <div className="bg-lightBlack border-2 border-primaryGray-900 py-8 px-5 w-full rounded-2xl flex justify-center items-center flex-col gap-8">
             <XMarkIcon
               className="h-10 w-10 cursor-pointer hover:opacity-50"
@@ -155,22 +159,24 @@ export default function CocktailPage() {
               </button>
             </div>
           </div>
-        </div>
+        </dialog>
       )}
 
       {/* RECIPE STARTS HERE */}
       {/* WRAPPER */}
-      <div className="mt-14">
+      <section className="mt-14">
         <div className="flex flex-col lg:flex-row lg:px-14 lg:mt-32 lg:gap-[4rem] lg:relative">
+          {/* COCKTAIL IMG */}
           <div
             className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:rounded-t-[30px] lg:sticky lg:top-20"
             style={{
-              backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.image?.srcMin})`,
+              backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.image?.src})`,
               backgroundPosition: "top",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
           >
+            {/* TAGS ON IMG */}
             <div className="flex gap-2 font-regular px-5 py-8">
               <p className="uppercase text-sm border-[1.2px] rounded-xl py-1 px-5">
                 {article?.taste?.title}
@@ -180,9 +186,10 @@ export default function CocktailPage() {
               </p>
             </div>
           </div>
-
+          
+          {/* 🍹 COCKTAIL INFO BEGINS HERE 🍹 */}
           <div className="lg:w-[50vw]">
-            <section className="flex justify-between items-center px-5">
+            <section className="flex justify-between items-center px-5 mt-10 lg:mt-0">
               <div className="flex gap-1 items-center font-thin text-primaryYellow">
                 <ClockIcon className="h-5 w-5" />
                 <p>{article?.time} min</p>
@@ -372,6 +379,8 @@ export default function CocktailPage() {
                 {t("cocktailPage.addflavorBtn")}
               </button>
             </div>
+
+            <AddToTasteProfile cocktail={article} id={id}/>
           </div>
         </div>
         <section className="mt-10 lg:mt-32">
@@ -400,10 +409,12 @@ export default function CocktailPage() {
             value={article?.liqour?.type ? article?.liqour?.type : "akvavit"}
           />
         </section>
+      </section>
 
-        <section className="mt-14 px-5 lg:px-14"></section>
-      </div>
       <ArticlesFeatured />
+      
+      <LikeCocktailFullWidthBtn id={id} cocktail={article}/>
+      
     </div>
   );
 }
