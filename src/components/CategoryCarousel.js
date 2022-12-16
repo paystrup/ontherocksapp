@@ -218,8 +218,8 @@ export default function CategoryCarousel() {
                         <button
                           className={
                             fetchCategory === category
-                              ? "bg-primaryYellow px-3 py-1 rounded-lg text-primaryBlack"
-                              : "border-[1px] px-3 py-1 rounded-lg"
+                              ? "bg-primaryYellow px-3 py-1 rounded-lg text-primaryBlack uppercase font-thin"
+                              : "border-[1px] px-3 py-1 rounded-lg uppercase font-thin"
                           }
                         >
                           <h3 className="text-base font-regular">{t(title)}</h3>

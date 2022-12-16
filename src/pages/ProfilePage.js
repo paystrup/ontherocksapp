@@ -15,6 +15,7 @@ import "moment/locale/da";
 import ProfileChart from "../components/ProfileChart";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import LikeCounter from "../components/LikeCounter.js";
+import DisplayTasteProfile from "../components/DisplayTasteProfile.js";
 
 export default function ProfilePage() {
   // import copy translations from i18n
@@ -203,6 +204,8 @@ export default function ProfilePage() {
         <div className="mt-7">
           <ProfilePageFavourites />
         </div>
+
+        <DisplayTasteProfile />
 
         <div className="signOut mt-8">
           <button

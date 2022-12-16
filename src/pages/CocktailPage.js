@@ -48,6 +48,7 @@ export default function CocktailPage() {
     alert(t("cocktailPage.alert"));
   };
 
+  // states for opening and closing modals
   const [showShareModal, setShowShareModal] = useState(false);
   
   const handleShareModal = (event) => {
@@ -373,14 +374,10 @@ export default function CocktailPage() {
               </div>
             </div>
 
-            {/* ADD TO TASTE PROFILE */}
-            <div className="mt-10 px-5">
-              <button className="text-primaryYellow border-[1px] w-full py-3 rounded-xl">
-                {t("cocktailPage.addflavorBtn")}
-              </button>
+            {/* ADD TO TASTE PROFILE */}            
+            <div>
+              <AddToTasteProfile cocktail={article} id={id} />
             </div>
-
-            <AddToTasteProfile cocktail={article} id={id}/>
           </div>
         </div>
         <section className="mt-10 lg:mt-32">
