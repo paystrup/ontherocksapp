@@ -221,6 +221,18 @@
     "title": "Add to your taste profile",
     "subTitle": "Add the cocktail to your taste profile and get an instant overview over your favorite cocktails and tastes. Add og delete the tastes below.",
     "bottomText": "Help us evaluate the tastebalance and help us improve our recipes.",
-    "submitBtn": "Add to tasteprofile"
+    "submitBtn": "Add to tasteprofile",
+    "translations": {
+      "frugtig": "fruity",
+      "sød": "Sweet",
+      "syrlig": "Sour",
+      "frisk": "Fresh",
+      "stærk": "Strong",
+      "bitter": "Bitter",
+      "tropisk": "Tropic",
+      "krydret": "Spicy",
+      "salt": "Salty",
+      "tør": "Dry"
+    }
   }
 }

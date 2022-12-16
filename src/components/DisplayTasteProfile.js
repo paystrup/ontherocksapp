@@ -50,16 +50,25 @@ export default function DisplayTasteProfile() {
   console.log(isFound);
   return (
     <div>
-        <h3>TEST</h3>
-        {displayComments.map(({ cocktailSlug, addedBy, tasteCommentId }) => 
-            addedBy === auth.currentUser.uid &&
-                <div key={tasteCommentId}>
-                    <div>
-                        <h3>{cocktailSlug}</h3>
-                        {addedBy}
+        <div className="flex flex-col gap-4">
+            {displayComments.map(({ cocktailTitle, userTaste, addedBy, tasteCommentId, cocktailImage }) => 
+                addedBy === auth.currentUser.uid &&
+                    <div key={tasteCommentId}
+                        className="h-32 px-4 py-4 rounded-2xl"
+                        style={{
+                            backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${cocktailImage})`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat",
+                        }}
+                    >
+                        <div>
+                            <h3 className="text-xl font-medium">{cocktailTitle}</h3>
+                            <p>{userTaste}</p>                       
+                        </div>
                     </div>
-                </div>
-        )}
+            )}
+        </div>
     </div>
   )
 }

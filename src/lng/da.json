@@ -222,6 +222,18 @@
     "title": "Tilføj til din smagsprofil",
     "subTitle": "Føj cocktailen til din smagsprofil og dan dig et overblik over dine yndlingssmage. Tilføj eller fjern smagene nedenfor.",
     "bottomText": "Vurder smagsbalancen og hjælp os med at forbedre vores opskrifter.",
-    "submitBtn": "Føj til smagsprofil"
+    "submitBtn": "Føj til smagsprofil",
+    "translations": {
+      "frugtig": "Frugtig",
+      "sød": "Sød",
+      "syrlig": "Syrlig",
+      "frisk": "Frisk",
+      "stærk": "Stærk",
+      "bitter": "Bitter",
+      "tropisk": "Tropisk",
+      "krydret": "Krydret",
+      "salt": "Salt",
+      "tør": "Tør"
+    }
   }
 }
