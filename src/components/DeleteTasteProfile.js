@@ -8,31 +8,31 @@ export default function DeleteTasteProfile({ id }) {
   // authentication auth and db are found in the firestore config, ref to our projekt in firebase
   const [user] = useAuthState(auth);
 
-  // reference to our FireStore db, collection = da, sort by ID of cocktails
-  const likesRefDa = doc(db, "da", id);
+  // // reference to our FireStore db, collection = da, sort by ID of cocktails
+  // const likesRefDa = doc(db, "da", id);
 
-  // for the onclick on delete
-  const handleDeleteTasteProfileItem = () => {
-      if (id === true) {
-        updateDoc(likesRefDa, {
-          addedToTasteProfile: arrayRemove(user.uid),
-        })
-        .then(() => {
-          console.log("Deleted from tasteprofile");
-        })
-        .catch((e) => {
-          console.log(e);
-        });
-      }
-      else {
-        console("no id")
-      };
-  }
+  // // for the onclick on delete
+  // const handleDeleteTasteProfileItem = () => {
+  //     if (id === true) {
+  //       updateDoc(likesRefDa, {
+  //         addedToTasteProfile: arrayRemove(user.uid),
+  //       })
+  //       .then(() => {
+  //         console.log("Deleted from tasteprofile");
+  //       })
+  //       .catch((e) => {
+  //         console.log(e);
+  //       });
+  //     }
+  //     else {
+  //       console("no id")
+  //     };
+  // }
 
   return (
 
-      <div onClick={handleDeleteTasteProfileItem}>
-        <TrashIcon className="h-7 w-7"/>
+      <div className="bg-primaryBlack bg-opacity-70 text-primaryWhite text- rounded-full px-2 py-2">
+        <TrashIcon className="h-6 w-6"/>
       </div>
   );
 }

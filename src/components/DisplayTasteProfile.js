@@ -68,25 +68,34 @@ export default function DisplayTasteProfile() {
             addedBy,
             tasteCommentId,
             cocktailImage,
+            cocktailId,
+            cocktailTaste
           }) =>
             addedBy === auth.currentUser.uid && (
               <div
-                onClick={() => navigate("/recipe/" + slug)}
+                onClick={() => navigate("/recipe/" + cocktailId)}
                 key={tasteCommentId}
-                className="h-32 px-4 py-4 rounded-2xl cursor-pointer"
+                className="h-32 px-4 py-4 rounded-2xl cursor-pointer flex flex-col justify-between"
                 style={{
-                  backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${cocktailImage})`,
+                  backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.9) 5.34%, rgba(0, 0, 0, 0) 103.44%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${cocktailImage})`,
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                 }}
               >
-                <div>
-                  <h3 className="text-xl font-medium">{cocktailTitle}</h3>
-                  <p>{t("tasteProfile.translations." + userTaste)}</p>
+                <div className="flex flex-row justify-between w-full items-center">
+                  <h3 className="text-lg font-medium">{cocktailTitle}</h3>
+                  <div>
+                    <DeleteTasteProfile id={slug} />
+                  </div>
                 </div>
-                <div>
-                  {/* <DeleteTasteProfile id={slug} /> */}
+                <div className="flex gap-2">
+                  <div className="flex justify-center items-center px-4 py-1 rounded-full uppercase w-fit text-xs bg-primaryBlack bg-opacity-80">
+                    <p className="">{t("tasteProfile.translations." + cocktailTaste)}</p>
+                  </div>
+                  <div className="flex justify-center items-center border-[2px] px-4 py-1 rounded-full uppercase w-fit text-xs">
+                    <p>{t("tasteProfile.translations." + userTaste)}</p>
+                  </div>
                 </div>
               </div>
             )

@@ -16,6 +16,7 @@ import ProfileChart from "../components/ProfileChart";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import LikeCounter from "../components/LikeCounter.js";
 import DisplayTasteProfile from "../components/DisplayTasteProfile.js";
+import TasteProfileCounter from "../components/TasteProfileCounter.js";
 
 export default function ProfilePage() {
   // import copy translations from i18n
@@ -116,7 +117,7 @@ export default function ProfilePage() {
               <p className="font-medium text-primaryGray-500 text-xs">
                 {t("profilepage.tasteprofile")}
               </p>
-              <p className="text-4xl">0</p>
+              <p className="text-4xl"><TasteProfileCounter /></p>
               <div>
                 <p className="text-[10px] text-primaryGray-700">
                   {t("profilepage.tasteprofileBottom")}
@@ -186,9 +187,24 @@ export default function ProfilePage() {
         </div>
 
         <div className="mt-14 flex justify-between mb-7">
-          <h3 className="font-medium text-xl">
-            {t("profilepage.latestAdded")}
-          </h3>
+          <ReactTooltip
+            className="h-fit max-w-[70vw]"
+            anchorId="infoTaste"
+            place="top"
+            effect="solid"
+            content={t("profilepage.readMoreBtn")}
+          />
+          <div id="infoTaste" className="flex gap-2 items-center">
+            <h3 className="font-medium text-xl">
+              {t("profilepage.latestAdded")}
+            </h3>
+            <div
+                id="infoTaste"
+                className="border-solid border-[1px] rounded-full w-[14px] h-[14px] flex justify-center align-center"
+              >
+                <p className="text-[9px] self-center">?</p>
+              </div>
+          </div>
           <SeeMoreBtn text={t("profilepage.latestAddedBtn")} />
         </div>
         <DisplayTasteProfile />
