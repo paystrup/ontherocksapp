@@ -86,14 +86,7 @@ export default function DisplayTasteProfile() {
                   <p>{t("tasteProfile.translations." + userTaste)}</p>
                 </div>
                 <div>
-                  {/* {tasteProfile.map(({ addedToTasteProfile }) => (
-                    <div>
-                      <DeleteTasteProfile
-                        id={slug}
-                        tasteProfile={displayComments}
-                      />
-                    </div>
-                  ))} */}
+                  {/* <DeleteTasteProfile id={slug} /> */}
                 </div>
               </div>
             )

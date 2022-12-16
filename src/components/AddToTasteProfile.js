@@ -61,16 +61,18 @@ export default function AddToTasteProfile({ id, cocktail }) {
             // updateDoc and arrayUnion to update array with new values (no overrides)
             // send the values we need
             addedToTasteProfile: arrayUnion({
-                cocktailSlug: cocktail.slug,
-                cocktailTitle: cocktail.title,
-                cocktailImage: cocktail.image.src,
-                cocktailId: cocktail.id,
-                createdAt: new Date(),
-                tasteCommentId: uuidv4(),
-                userTaste: tasteTag,
-                cocktailTaste: cocktail.taste.slug,
-                addedBy: auth.currentUser.uid,
-                addedByName: user.displayName
+                    [user.uid]: {
+                    cocktailSlug: cocktail.slug,
+                    cocktailTitle: cocktail.title,
+                    cocktailImage: cocktail.image.src,
+                    cocktailId: cocktail.id,
+                    createdAt: new Date(),
+                    tasteCommentId: uuidv4(),
+                    userTaste: tasteTag,
+                    cocktailTaste: cocktail.taste.slug,
+                    addedBy: auth.currentUser.uid,
+                    addedByName: user.displayName
+                }
             }),
         }).then(() => {
             // UX for message sent

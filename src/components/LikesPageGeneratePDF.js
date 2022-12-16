@@ -7,7 +7,7 @@ import { auth } from "../firebaseConfig.js";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import LikesPageFavoritesMap from "./LikesPageFavoritesMap.js";
+import { renderToString } from "react-dom/server";
 
 export default function LikesPageGeneratePDF(articles) {
   // authentication
@@ -35,6 +35,7 @@ export default function LikesPageGeneratePDF(articles) {
 
     doc.save(t("drinkCard.pdfName"));
   };
+
 
   return (
     <div
