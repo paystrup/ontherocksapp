@@ -46,7 +46,6 @@ export default function ProfilePage() {
     toast(t("signin.logoutToastMsg"), { toastId: "logoutToast" });
   };
 
-
   if (loading) return <Spinanimation />;
 
   // If there's no user logged in -> show onboarding
@@ -186,14 +185,15 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="mt-14 flex justify-between">
+        <div className="mt-14 flex justify-between mb-7">
           <h3 className="font-medium text-xl">
             {t("profilepage.latestAdded")}
           </h3>
           <SeeMoreBtn text={t("profilepage.latestAddedBtn")} />
         </div>
+        <DisplayTasteProfile />
 
-        <div className="mt-14 flex justify-between">
+        <div className="mt-16 flex justify-between">
           <h3 className="font-medium text-xl">
             {t("profilepage.yourCollections")}
           </h3>
@@ -204,8 +204,6 @@ export default function ProfilePage() {
         <div className="mt-7">
           <ProfilePageFavourites />
         </div>
-
-        <DisplayTasteProfile />
 
         <div className="signOut mt-8">
           <button

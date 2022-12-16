@@ -15,7 +15,7 @@ export default function ProfileChart() {
     {
       symbol: t("profilepage.tags.taste1"),
       color: "#FFAA5C",
-      tasteAmmount: 40,
+      tasteAmmount: 50,
     },
     {
       symbol: t("profilepage.tags.taste2"),

@@ -213,7 +213,7 @@
     }
   },
   "drinkCard": {
-    "btnText": "Gem cocktailkort",
+    "btnText": "Lav cocktailkort",
     "pdfName": "OnTheRocks-CocktailKort.pdf",
     "title": "On The Rocks Cocktails",
     "subtitle": "Af Bornholm Spirits"

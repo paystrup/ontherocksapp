@@ -13,7 +13,7 @@ export default function LikeCounter() {
   const fetchLng = i18n.language;
 
   // Define state for the loading indicator
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   // State for saving our data in an empty array
   const [articles, setArticles] = useState([]);

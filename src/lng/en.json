@@ -212,7 +212,7 @@
     }
   },
   "drinkCard": {
-    "btnText": "Save cocktailcard",
+    "btnText": "Make cocktailcard",
     "pdfName": "OnTheRocks-CocktailCard.pdf",
     "title": "On The Rocks Cocktails",
     "subtitle": "By Bornholm Spirits"
