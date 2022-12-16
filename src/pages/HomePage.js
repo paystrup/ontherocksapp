@@ -61,7 +61,7 @@ export default function HomePage() {
         value={"nytår"}
       />
 
-      <CompetitionFeatured />
+      {/* <CompetitionFeatured /> */}
 
       {/* PARTY - THEME FEATURE */}
       <FeaturedCarouselHeader

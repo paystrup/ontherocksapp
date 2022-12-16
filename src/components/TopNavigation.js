@@ -35,7 +35,7 @@ export default function TopNavigation() {
   };
 
   return (
-    <nav className="h-16 flex items-center justify-between px-6 py-8 bg-primaryBlack w-full fixed top-0 left-0 z-50 text-primaryWhite lg:h-20">
+    <nav className="h-16 flex items-center justify-between px-6 py-8 bg-primaryBlack w-full fixed top-0 left-0 z-50 text-primaryWhite lg:py-11">
       {/* CHANGE LANGUAGE MODAL - IF CLICKED and openLngSelect is true, show */}
       {openLngSelect && (
         <div className="languageSelector fixed top-0 left-0 bg-primaryBlack z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16">
@@ -252,17 +252,17 @@ export default function TopNavigation() {
       </div>
 
     {/* NAVIGATION BAR FOR DESKTOP  */}
-     <div id="desktopTopNav" className="hidden lg:flex justify-between items-center  w-full lg:px-14">
+     <div id="desktopTopNav" className="hidden lg:flex justify-between items-center w-full lg:px-14">
 
-        <Link to="/">
-          <img
-            src={logo}
-            className="w-20"
-            alt="On The Rocks Logo Small"
-        />
-        </Link>
+      <Link to="/">
+        <img
+          src={logo}
+          className="w-20"
+          alt="On The Rocks Logo Small"
+      />
+      </Link>
       
-      <ul className="gap-10 hidden lg:flex">
+      <ul className="gap-10 hidden lg:flex lg:justify-center lg:items-center">
         <li>
           <NavLink to="/">{t("topnav.homeTitle")}</NavLink>
         </li>

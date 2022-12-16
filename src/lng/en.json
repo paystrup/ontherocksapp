@@ -42,6 +42,10 @@
     "favourites": "Saved",
     "profile": "Profile"
   },
+    "ageModal": {
+    "confirm": "Confirm",
+    "dontConfirm": "Leave"
+  },
   "homepage": {
     "hello": "The language is set to English",
     "title": "Be your own bartender",

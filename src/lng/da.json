@@ -43,6 +43,10 @@
     "favourites": "Gemt",
     "profile": "Profil"
   },
+  "ageModal": {
+    "confirm": "Bekræft",
+    "dontConfirm": "Forlad"
+  },
   "homepage": {
     "hello": "Sproget er nu sat til dansk",
     "title": "Vær din egen bartender",
