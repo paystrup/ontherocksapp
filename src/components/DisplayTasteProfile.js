@@ -69,6 +69,13 @@ export default function DisplayTasteProfile() {
                     </div>
             )}
         </div>
+
+        {/* EMPTY STATE IF USER HAS NO COCKTAILS IN TASTEPROFILE - ISFOUND FALSE */}
+        {!isFound && 
+          <div className="chat-error-message">
+            <p>Udforsk vores cocktails og tilføj dine favoritter til din smagsprofil.</p>
+          </div>
+        }
     </div>
   )
 }
