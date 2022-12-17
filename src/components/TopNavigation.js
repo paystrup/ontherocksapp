@@ -39,10 +39,7 @@ export default function TopNavigation() {
       {/* CHANGE LANGUAGE MODAL - IF CLICKED and openLngSelect is true, show */}
       {openLngSelect && (
         <div className="languageSelector fixed top-0 left-0 bg-primaryBlack z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16">
-          <XMarkIcon
-            className="h-10 w-10 mb-36 cursor-pointer"
-            onClick={handleLngSelect}
-          />
+          <XMarkIcon className="h-10 w-10 mb-36 cursor-pointer" onClick={handleLngSelect}/>
           <div className="flex gap-10 flex-col">
             <h3>{t("topnav.selectlng")}</h3>
             <div className="flex gap-10 items-center justify-center">
