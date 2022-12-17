@@ -4,3 +4,4 @@
 #### 🍸 Cocktail Recipe React SPA PWA 🍸
 ##### Firebase / Firestore / Storage - CRUD -  Tailwind - i18n multilanguage support - Framer Motion
 
+![onTheRocksCover]("https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/twittercard.png?alt=media&token=b12cbb89-cb5c-461b-b4eb-ebf8978d9237")
