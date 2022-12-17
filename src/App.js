@@ -13,8 +13,6 @@ import EventPage from "./pages/EventPage";
 import LoginPage from "./pages/LoginPage";
 import ArticlesPage from "./pages/ArticlesPage";
 import CompetitionPage from "./pages/CompetitionPage";
-import "react-toastify/dist/ReactToastify.css";
-import { ToastContainer } from "react-toastify";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
 import Footer from "./components/Footer";
 import AgeConfirmed from "./components/AgeConfirmed";
@@ -23,7 +21,6 @@ function App() {
   return (
     <div className="App">
       <AgeConfirmed />
-      <ToastContainer theme="dark" autoClose={3000} />
       <TopNavigation />
       <ScrollToTopBtn />
       <Routes>

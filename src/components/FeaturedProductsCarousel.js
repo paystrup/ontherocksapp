@@ -99,13 +99,15 @@ export default function FeaturedProductsCarousel({ product, product2, product3, 
             1024: {
               slidesPerView: 3,
               initialSlide: 0,
-              slidesOffsetBefore: "56",
+              slidesOffsetBefore: "20",
+              slidesOffsetAfter: 56,
               spaceBetween: 25,
             },
             1280: {
               slidesPerView: 4,
               initialSlide: 0,
-              slidesOffsetBefore: "56",
+              slidesOffsetBefore: "20",
+              slidesOffsetAfter: 56,
               spaceBetween: 25,
             },
           }}

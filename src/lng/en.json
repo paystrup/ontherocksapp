@@ -238,5 +238,9 @@
       "salt": "Salty",
       "tør": "Dry"
     }
+  },
+  "articleCard": {
+    "title": "Explore our cocktails",
+    "teaser": "Make a cocktail card with your favorites and get ready for New Year's and Christmas!"
   }
 }

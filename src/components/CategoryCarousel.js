@@ -308,10 +308,7 @@ export default function CategoryCarousel() {
           keyboard={{
             enabled: true,
           }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Keyboard, Mousewheel, Pagination]}
+          modules={[Keyboard, Mousewheel]}
           className="categorySlider mySwiper w-full"
           breakpoints={{
             // when window width is >= 1px
@@ -321,11 +318,17 @@ export default function CategoryCarousel() {
               slideToClickedSlide: true,
               
             },
+            1024: {
+              slidesPerView: 6,
+              slidesOffsetBefore: "56",
+              spaceBetween: 25
+            },
             1500: {
               slidesPerView: 6,
               initialSlide: 0,
               slidesOffsetBefore: "56",
-              spaceBetween: 25,
+              slidesOffsetAfter: "56",
+              spaceBetween: 0,
               slideToClickedSlide: false,
               pagination: false,
               keyboard: false,

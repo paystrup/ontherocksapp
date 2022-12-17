@@ -36,6 +36,7 @@ import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
 import FeaturedCarousel from "../components/FeaturedCarousel";
 import LikeCocktailFullWidthBtn from "../components/LikeCocktailFullWidthBtn";
 import AddToTasteProfile from "../components/AddToTasteProfile";
+import GoBackDesktop from "../components/GoBackDesktop";
 
 export default function CocktailPage() {
   // authentication auth and db are found in the firestore config, ref to our projekt in firebase
@@ -97,6 +98,7 @@ export default function CocktailPage() {
 
   return (
     <div className="text-primaryWhite mt-16 mb-32">
+      
       {/* SHARE MODAL STARTS HERE - IF CLICKED -> STATE TRUE -> SHOW MODAL */}
       {showShareModal && (
         // "flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-2"
@@ -166,7 +168,8 @@ export default function CocktailPage() {
       {/* RECIPE STARTS HERE */}
       {/* WRAPPER */}
       <section className="mt-14">
-        <div className="flex flex-col lg:flex-row lg:px-14 lg:mt-32 lg:gap-[4rem] lg:relative">
+        <GoBackDesktop />
+        <div className="flex flex-col lg:flex-row lg:px-14 lg:mt-8 lg:gap-[4rem] lg:relative">
           {/* COCKTAIL IMG */}
           <div
             className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:rounded-t-[30px] lg:sticky lg:top-20"
