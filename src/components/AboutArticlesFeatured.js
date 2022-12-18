@@ -43,25 +43,33 @@ export default function AboutArticlesFeatured(slug) {
   }, [fetchLng, t]);
 
   return (
-    <section className="my-14 px-5 lg:px-14">
+    <section className="my-14 px-5 lg:px-14 ">
+
       <div>
         {article.map(({ headerImage, title, subcategoryTitle, id }) => (
-          <div className="w-full flex flex-col gap-4 mb-4" key={id}>
-            <div
-              className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5 lg:h-[40rem]"
-              style={{
-                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${headerImage})`,
-                backgroundPosition: "top",
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-              }}
-              onClick={() => navigate("/articles/" + id)}
-            >
-              <div className="flex flex-col gap-1">
-                <h3 className="uppercase text-xs font-light text-primaryGray-500 lg:text-xl">
-                  {subcategoryTitle}
-                </h3>
-                <h2 className="text-base lg:text-3xl">{title}</h2>
+          <div className="lg:flex xl:gap-40 lg:gap-10">
+            <div className="mb-7">
+              <h4 className="uppercase text-xs mb-3 text-primaryGray-700 lg:text-lg lg:leading-normal">{t("aboutArticle.tag")}</h4>
+              <h3 className="text-3xl font-displayBook lg:text-6xl lg:leading-normal">Bornholm, Bornholm, Bornholm. Du, min <span className="text-primaryYellow underline">dejlige</span> ferieø.</h3>
+              <button className="hidden lg:flex mt-14 px-14 text-primaryYellow border-[1px] rounded-xl py-2 hover:opacity-50" onClick={() => navigate("/articles/" + id)}>{t("readMoreBtn.title")}</button>
+            </div>
+            <div className="w-full flex flex-col gap-4 mb-4 cursor-pointer hover:opacity-70 transition-all" key={id}>
+              <div
+                className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5 lg:px-8 lg:py-8 lg:h-[40rem]"
+                style={{
+                  backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%), url(${headerImage})`,
+                  backgroundPosition: "top",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                }}
+                onClick={() => navigate("/articles/" + id)}
+              >
+                <div className="flex flex-col gap-1">
+                  <h3 className="uppercase text-xs font-light text-primaryGray-500 lg:text-xl">
+                    {subcategoryTitle}
+                  </h3>
+                  <h2 className="text-base lg:text-3xl">{title}</h2>
+                </div>
               </div>
             </div>
           </div>

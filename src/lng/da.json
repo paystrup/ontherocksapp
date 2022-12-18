@@ -243,5 +243,11 @@
   "articleCard": {
     "title": "Udforsk vores cocktails",
     "teaser": "Lav et cocktailkort med dine favoritter, og bliv klar til julen og nytår."
+  },
+  "readMoreBtn": {
+    "title": "Læs mere"
+  },
+  "aboutArticle": {
+    "tag": "Hvem er vi?"
   }
 }

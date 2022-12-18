@@ -112,7 +112,7 @@
     "tasteprofileBottom": "Cocktails",
     "createdAt": "Created",
     "createdAtBottom": "Days ago",
-    "tasteProfileTitle": "Your tasteprofile",
+    "tasteProfileTitle": "Your taste profile",
     "latestAdded": "Taste profile",
     "latestAddedBtn": "See all",
     "yourCollections": "Recently saved",
@@ -242,5 +242,11 @@
   "articleCard": {
     "title": "Explore our cocktails",
     "teaser": "Make a cocktail card with your favorites and get ready for New Year's and Christmas!"
+  },
+  "readMoreBtn": {
+    "title": "Read more"
+  },
+  "aboutArticle": {
+    "tag": "Who are we?"
   }
 }

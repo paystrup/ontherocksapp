@@ -74,8 +74,7 @@ export default function HomePage() {
         parameter={"=="}
         value={"fest"}
       />
-      <h4 className="uppercase text-xs px-5 mb-3 text-primaryGray-700 lg:px-16 lg:text-xl lg:leading-normal">Hvem er vi?</h4>
-      <h3 className="px-5 text-3xl font-displayBook lg:px-16 lg:text-6xl lg:leading-normal">Bornholm, Bornholm, Bornholm. Du, min <span className="text-primaryYellow underline">dejlige</span> ferieø.</h3>
+      
       {/* ABOUT THE COMPANY -> Adds value */}
       <AboutArticlesFeatured />
 

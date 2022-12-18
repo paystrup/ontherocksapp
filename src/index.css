@@ -28,6 +28,14 @@ code {
     monospace;
 }
 
+::selection {
+  background: #494949; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #494949; /* WebKit/Blink Browsers */
+}
+
 /* ------------ FONT IMPORTS FOR TAILWIND - ADDED IN TAILWIND.CONFIG.JS */
 @import url("https://use.typekit.net/qas8tlj.css");
 
@@ -374,6 +382,10 @@ code {
 .gsapAnim{
   opacity: 0;
   transform: translateY(100px);
+}
+
+.gsapAnimFade{
+  opacity: 0;
 }
 
 /* SEARCH INPUT FOR SEARCHPAGE ICON */

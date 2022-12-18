@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
+import { ReactComponent as Logo } from "../assets/logo-kit/white-OTR-Logo-emblem.svg"
 
 // video source: https://www.pexels.com/@cottonbro/ + edited in Adobe AE
 import video from "../assets/video/ontherocksvid.webm";
@@ -13,6 +14,7 @@ export default function HeroSection() {
     const q = gsap.utils.selector(el);
     const tl = useRef();
 
+    // GSAP animation
     useEffect(() => {            
         tl.current = gsap.timeline(({defaults: {duration: 0.5}}))
         
@@ -34,9 +36,9 @@ export default function HeroSection() {
     // import copy translations from i18n
     const { t } = useTranslation();
 
-
     // import navigation
     const navigate = useNavigate();
+
     return (
         <section className="hidden h-[100vh] w-full overflow-hidden mb-32 xl:flex">
             <div dangerouslySetInnerHTML={{ __html: `  
@@ -76,9 +78,9 @@ export default function HeroSection() {
                         </button>                
                     </div>
                 </div>
-                <div className="flex gap-3 w-[30%]">
+                <div className="flex gap-3 w-[30%] items-center justify-center">
                     {/* FOR THE LOGO   */}
-                    <div></div>
+                    <Logo fill='#FFE598' className='fadeInAnimation hidden 2xl:flex xl:w-1/2'/>
                 </div>
                
             </div>

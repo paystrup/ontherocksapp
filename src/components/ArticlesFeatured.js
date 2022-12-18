@@ -48,7 +48,7 @@ export default function ArticlesFeatured(slug) {
         {article.map(({ headerImage, title, subcategoryTitle, id, relatedProducts, first, link }) => (
           <div className="w-full flex flex-col gap-4 mb-4 lg:flex-row lg:h-[40rem]" key={id}>
             <div
-              className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5 lg:h-[40rem] bg-top lg:bg-left-bottom lg:px-8 lg:py-8"
+              className="w-full rounded-3xl h-56 flex flex-col justify-end px-5 py-5 lg:h-[40rem] bg-top lg:bg-left-bottom lg:px-8 lg:py-8 hover:opacity-70 cursor-pointer"
               style={{
                 backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 10%, rgba(0,0,0,1) 100%), url(${headerImage})`,
                 backgroundSize: "cover",
@@ -66,7 +66,7 @@ export default function ArticlesFeatured(slug) {
             </div>
               
             <div className="flex w-full sm:justify-center gap-4 sm:w-full lg:flex-col lg:w-[40%] lg:h-[40rem] lg:justify-between">
-              <a className="w-1/2 h-24 lg:w-full lg:h-1/2 lg:flex lg:justify-center " href={relatedProducts?.first?.link} target="_blank" rel="noreferrer">
+              <a className="w-1/2 h-24 lg:w-full lg:h-1/2 lg:flex lg:justify-center hover:opacity-70 transition-all" href={relatedProducts?.first?.link} target="_blank" rel="noreferrer">
                 <div 
                   className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5 lg:w-[100%] "
                   style={{
@@ -80,8 +80,8 @@ export default function ArticlesFeatured(slug) {
                 </div>
               </a>
 
-              <a className="w-1/2 h-24 lg:w-full lg:h-1/2 lg:flex lg:justify-center" href={relatedProducts?.second?.link} target="_blank" rel="noreferrer">
-                <div className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5 lg:w-[100%] "
+              <a className="w-1/2 h-24 lg:w-full lg:h-1/2 lg:flex lg:justify-center hover:opacity-70 transition-all" href={relatedProducts?.second?.link} target="_blank" rel="noreferrer">
+                <div className="flex flex-col w-full h-full rounded-xl pb-5 items-end py-3 px-5 lg:w-[100%]"
                   style={{
                     backgroundImage:`linear-gradient(180deg, rgba(12,12,12,0.4) 0%, rgba(0,0,0,0) 60%), url(${relatedProducts?.second?.image})`,
                     backgroundPosition: "center",

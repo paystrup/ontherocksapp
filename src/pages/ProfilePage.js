@@ -83,8 +83,8 @@ export default function ProfilePage() {
   // If user is authenticated -> show profilepage
   if (user)
     return (
-      <section className="mt-20 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw] w-full">
-        <div className="flex flex-col items-center justify-center mb-7 gap-2">
+      <section className="mt-20 lg:mt-32 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw] w-full">
+        <div className="flex flex-col items-center justify-center mb-7 gap-2 lg:mb-12">
           <img
             className="grayscale imageProfile rounded-full"
             src={auth.currentUser.photoURL}
@@ -94,7 +94,7 @@ export default function ProfilePage() {
               e.target.src = { ppFallback };
             }}
           />
-          <h3 className="font-medium text-base">{user.displayName}</h3>
+          <h3 className="font-medium text-base lg:text-xl">{user.displayName}</h3>
         </div>
 
         <div className="flex justify-between text-sm uppercase ">
@@ -131,7 +131,7 @@ export default function ProfilePage() {
               <p className="font-medium text-primaryGray-500 text-xs">
                 {t("profilepage.createdAt")}
               </p>
-              <p className="text-4xl">{userSignUpDateMin}</p>
+              <p className="text-4xl fadeInAnimation">{userSignUpDateMin}</p>
               <div>
                 <p className="text-[10px] text-primaryGray-700">
                   {t("profilepage.createdAtBottom")}
