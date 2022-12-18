@@ -62,9 +62,9 @@ export default function EventPage() {
               </div>
             </div>
 
-            <div className="mt-4">
-              <h2 className="text-5xl font-displayBook lg:mr-14 lg:px-5">{article?.title}</h2>
-              <p className="text-base text-primaryGray-500 font-thin lg:text-2xl leading-relaxed mt-4 lg:mr-14 lg:px-5">
+            <div className="mt-4 leading-relaxed">
+              <h2 className="text-5xl font-displayBook lg:mr-14 lg:px-5 lg:text-6xl">{article?.title}</h2>
+              <p className="text-xl text-primaryGray-500 font-thin lg:text-2xl leading-relaxed mt-4 lg:mr-14 lg:px-5">
                 {article?.body}
               </p>
               <div className="mt-7 font-thin text-md flex flex-col gap-2">

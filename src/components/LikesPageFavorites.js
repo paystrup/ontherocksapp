@@ -7,11 +7,15 @@ import { useTranslation } from "react-i18next";
 import Spinanimation from "./Spinanimation";
 import { PlusIcon } from "@heroicons/react/24/outline";
 import LikesPageGeneratePDF from "./LikesPageGeneratePDF";
+import { useNavigate } from "react-router-dom";
 
 
 export default function LikesPageFavorites() {
   // import copy translations from i18n
   const { t, i18n } = useTranslation();
+
+  // Navigation
+  const navigate = useNavigate();
 
   // get current language selected for fetching the right collection in firestore
   const fetchLng = i18n.language;
@@ -26,7 +30,6 @@ export default function LikesPageFavorites() {
   useEffect(() => {
     // collection from firebase
     // db is our database, "fetchlng" is our collection
-    // 🚨🚨🚨🚨🚨🚨 TO-DO ADD LNG WHEN ENG IS DONE 🚨🚨🚨🚨🚨🚨🚨
     const articleRef = collection(db, fetchLng);
 
     // add queries here, sorting etc.
@@ -108,13 +111,21 @@ export default function LikesPageFavorites() {
 
       {/* EMPTY STATE IF USER HAS NO FAVOURITES and loading is done*/}
       {!isFound & !isLoading ? (
-        <div className="pt-44">
+        <div className="pt-44 lg:pt-14 lg:pb-14 flex flex-col">
           <h3 className="font-medium leading-relaxed text-2xl mt-7 mb-4 text-center">
             {t("likespage.emptyStateTxt")}
           </h3>
           <p className="text-center font-thin text-lg text-primaryGray-500">
             {t("likespage.emptyStateTxtBottom")}
           </p>
+          <div className="flex justify-center">
+            <button
+              onClick={() => navigate("/search")}
+              className="mt-14 border-[1px] px-5 text-primaryYellow rounded-xl py-2 hover:opacity-50"
+            >
+              Find cocktails
+            </button>
+          </div>
         </div>
       ) : null}
     </section>
