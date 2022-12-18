@@ -15,7 +15,8 @@ export default function DisplayTasteProfile() {
 
   // get userID from auth
   const userID = auth.currentUser.uid;
-
+  
+   // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
   useEffect(() => {
     // collection from firebase
     // db is our database, go to "articles" collection, document "featured", "fetchLng" = da/en collection depending on chosen language

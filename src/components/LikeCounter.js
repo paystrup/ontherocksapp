@@ -1,3 +1,5 @@
+// Count and display the likes in ProfilePage
+
 import { collection, onSnapshot, query } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { db } from "../firebaseConfig";
@@ -6,23 +8,15 @@ import Spinanimation from "./Spinanimation";
 import { useTranslation } from "react-i18next";
 
 export default function LikeCounter() {
-  // import copy translations from i18n
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation(); // import copy translations from i18n
+  const fetchLng = i18n.language; // get current language selected for fetching the right collection in firestore
+  const [isLoading, setIsLoading] = useState(false); // Define state for the loading indicator
+  const [articles, setArticles] = useState([]); // State for saving our data in an empty array, so we can map later and display
 
-  // get current language selected for fetching the right collection in firestore
-  const fetchLng = i18n.language;
-
-  // Define state for the loading indicator
-  const [isLoading, setIsLoading] = useState(false);
-
-  // State for saving our data in an empty array
-  const [articles, setArticles] = useState([]);
-
-  // fetch data from FireStore on snapshot
+   // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
   useEffect(() => {
     // collection from firebase
     // db is our database, "fetchlng" is our collection
-    // 🚨🚨🚨🚨🚨🚨 TO-DO ADD LNG WHEN ENG IS DONE 🚨🚨🚨🚨🚨🚨🚨
     const articleRef = collection(db, fetchLng);
 
     // sort by createdAt, our timestamp added to every article, date
@@ -40,7 +34,7 @@ export default function LikeCounter() {
       console.log(articles);
       setIsLoading(false);
     });
-  }, [t, fetchLng]); // dependency array => empty => fetch on rerender
+  }, [t, fetchLng]);
 
   // flatmap removes arrays inside arrays so we can map and use ternary for username and filter
   const displayLikes = articles?.flatMap((article) => article?.likes);

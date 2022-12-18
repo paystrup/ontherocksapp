@@ -24,7 +24,8 @@
       "profileTitle": "Profil",
       "homeTitle": "Hjem",
       "likesNavTitle": "Gemte opskrifter"
-    }
+    },
+    "bottomTitle": "Lavet med kærlighed fra"
   },
   "typewriter": {
     "girlfriend": "din kæreste",
@@ -255,5 +256,6 @@
   },
   "tasteProfileDisplay": {
     "emptyStateTxt": "Udforsk vores cocktails og tilføj dine favoritter til din smagsprofil 🍹"
-  }
+  },
+  "goBackBtn": "Gå tilbage"
 }

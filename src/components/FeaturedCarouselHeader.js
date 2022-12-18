@@ -1,3 +1,6 @@
+// header for carousels homepage
+// props imported for text- btntext and link
+
 import React from 'react';
 import SeeMoreBtn from './SeeMoreBtn';
 import { Link} from "react-router-dom";

@@ -1,30 +1,31 @@
 // inspiration from https://github.com/voranzovv/my-article/tree/main/src/components
-import React from "react";
+// like function implemented on cocktail cards
+
+import React, { useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../firebaseConfig";
 import { arrayRemove, arrayUnion, doc, updateDoc } from "firebase/firestore";
 import { BookmarkIcon } from "@heroicons/react/24/outline";
+
+// lottie animation that plays onclick
 import Lottie from "lottie-react";
 import animation from "../assets/97064-bookmark-icon.json";
-import { useState } from "react";
 
 export default function LikeCocktail({ id, likes }) {
-  // authentication auth and db are found in the firestore config, ref to our projekt in firebase
-  const [user] = useAuthState(auth);
+  const [user] = useAuthState(auth); // authentication auth and db are found in the firestore config, ref to our project in firebase
 
-  // reference to our FireStore db, collection = articles, sort by ID of posts / books
-  const likesRefDa = doc(db, "da", id);
-  const likesRefEn = doc(db, "en", id);
-
+  // reference to our FireStore db, both languages to support language change shows same likes
   // best solution would be to create a new collection in Firebase
   // containing all likes + data from the cocktail liked to fetch later
   // to-do 😎
+  const likesRefDa = doc(db, "da", id);
+  const likesRefEn = doc(db, "en", id);
 
   // for the onclick on like
   const handleLike = () => {
-    // if user already has liked the book, remove the uid from the likes array
+    // if user already has liked the cocktail, remove the uid from the likes array
     // with updateDoc so we don't override other data
-    setShowAnimation(true);
+    setShowAnimation(true); // run animation
 
     if (likes?.includes(user.uid)) {
       updateDoc(likesRefDa, {
@@ -68,13 +69,12 @@ export default function LikeCocktail({ id, likes }) {
   };
 
   // For lottie animations
-  const [showAnimation, setShowAnimation] = useState(false);
-
+  const [showAnimation, setShowAnimation] = useState(false); // hide by default
   const handleAnimationComplete = () => {
-    setShowAnimation(false);
+    setShowAnimation(false); // when anim is done, set state to false -> no loop
   };
 
-  // if likes includes id = true, turn the heart/like button to green, if not keep original styling
+  // if likes includes id, ux styling -> fill the bookmark
   // onclick uses the function above
   return (
     <div className="relative">
@@ -88,6 +88,7 @@ export default function LikeCocktail({ id, likes }) {
           onClick={handleLike}
         />
       </div>
+    
       {likes?.includes(user.uid) & showAnimation ? (
         <div className="absolute top-0">
           <Lottie

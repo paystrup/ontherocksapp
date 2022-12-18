@@ -1,4 +1,6 @@
 // inspiration https://chat.openai.com/chat
+// prompt used: make a typewriter function in React, that has an array of text it changes between
+// 🚨 todo debug and fix word undefined being sometimes on rerender
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -6,9 +8,9 @@ export default function TypeWriterEffect() {
   const [currentWord, setCurrentWord] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
 
-  // import copy translations from i18n
-  const { t } = useTranslation();
+  const { t } = useTranslation(); // import copy translations from i18n
 
+  // works with lng support
   const words = [
     t("typewriter.girlfriend"),
     t("typewriter.dog"),
@@ -29,17 +31,17 @@ export default function TypeWriterEffect() {
         );
       }, 100);
     } else {
-      // move on to the next word after a brief pause
+      // move on to the next word after a brief pause 100ms
       setTimeout(() => {
         setWordIndex((prevIndex) => (prevIndex + 1) % filteredWords.length);
         setCurrentWord("");
       }, 1000); // pause for 1 second before moving to the next word
     }
-  }, [currentWord, wordIndex, filteredWords]);
+  }, [currentWord, wordIndex, filteredWords]); // listen for new word and rerender
 
   return (
     <div>
-      <h4 className="text-2xl font-light lg:px-16 lg:text-6xl lg:leading-normal">
+      <h4 className="text-2xl font-regular lg:px-16 lg:text-6xl lg:leading-normal">
         {t("typewriter.impress")}{" "}
         <span className="text-primaryYellow underline">
           {currentWord} {currentWord.length === filteredWords[wordIndex].length}

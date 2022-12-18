@@ -1,3 +1,5 @@
+// for logging in and authenticating user
+
 import {
   signInWithPopup,
   GoogleAuthProvider
@@ -10,16 +12,10 @@ import { toast } from "react-toastify";
 import { useTranslation } from 'react-i18next';
 
 export default function Login() {
-    const navigate = useNavigate();
-
-    // import copy translations from i18n
-    const { t } = useTranslation();
-
-    // get user states from authentication
-    const [user] = useAuthState(auth);
-    
-    // Sign in and auth with Google
-    const googleProvider = new GoogleAuthProvider();
+    const navigate = useNavigate(); // navigation
+    const { t } = useTranslation(); // import copy translations from i18n
+    const [user] = useAuthState(auth); // get user states from authentication
+    const googleProvider = new GoogleAuthProvider();  // Sign in and auth with Google -> setup in Firebase
   
     // sign in with popup from the firebase authenticator api
     // then navigate user to login
@@ -33,7 +29,7 @@ export default function Login() {
       }
     };
 
-    // check if user is signed in, if user signs in navigate to our homepage path /
+    // check if user is signed in, if user signs in navigate to our profile path
     // dependency array listens for user and rerenders when a new user is logged in
     useEffect(() => {
       if (user) {
@@ -42,7 +38,7 @@ export default function Login() {
       } else {
         console.log("login");
       }
-    }, [user, navigate, t]);
+    }, [user, navigate, t]); // rerender with a new user, navigation and language change
 
     return (
         <div>

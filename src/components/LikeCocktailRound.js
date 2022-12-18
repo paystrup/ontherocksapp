@@ -1,4 +1,8 @@
 // inspiration from https://github.com/voranzovv/my-article/tree/main/src/components
+// round cocktail btn
+// styling could have been implemented by sending props and adding to a state
+// if (roundBtn === true) return etc. etc.
+
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../firebaseConfig";
@@ -6,20 +10,18 @@ import { arrayRemove, arrayUnion, doc, updateDoc } from "firebase/firestore";
 import { BookmarkIcon } from "@heroicons/react/24/outline";
 
 export default function LikeCocktailRound({ id, likes }) {
-  // authentication auth and db are found in the firestore config, ref to our projekt in firebase
-  const [user] = useAuthState(auth);
+  const [user] = useAuthState(auth); // authentication auth and db are found in the firestore config, ref to our project in firebase
 
-  // reference to our FireStore db, collection = articles, sort by ID of posts / books
-  const likesRefDa = doc(db, "da", id);
-  const likesRefEn = doc(db, "en", id);
-
+  // reference to our FireStore db, both languages to support language change shows same likes
   // best solution would be to create a new collection in Firebase
   // containing all likes + data from the cocktail liked to fetch later
   // to-do 😎
+  const likesRefDa = doc(db, "da", id);
+  const likesRefEn = doc(db, "en", id);
 
   // for the onclick on like
   const handleLike = () => {
-    // if user already has liked the book, remove the uid from the likes array
+    // if user already has liked the cocktail, remove the uid from the likes array
     // with updateDoc so we don't override other data
     if (likes?.includes(user.uid)) {
       updateDoc(likesRefDa, {
@@ -62,7 +64,7 @@ export default function LikeCocktailRound({ id, likes }) {
     }
   };
 
-  // if likes includes id = true, turn the heart/like button to green, if not keep original styling
+  // if likes includes id, ux styling -> fill the bookmark
   // onclick uses the function above
   return (
     <div className="bookmarkIcon border-[1px] border-primaryYellow rounded-full p-1 h-9 w-9 flex items-center justify-center">

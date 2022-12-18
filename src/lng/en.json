@@ -23,12 +23,13 @@
       "profileTitle": "Profile",
       "homeTitle": "Home",
       "likesNavTitle": "Saved Recipes"
-    }
+    },
+    "bottomTitle": "Made with love from"
   },
   "typewriter": {
     "girlfriend": "your girlfriend",
     "dog": "your dog",
-    "carpenter": "you carpenter",
+    "carpenter": "your carpenter",
     "postman": "the mailman",
     "friend": "your friend",
     "grandpa": "your grandpa",
@@ -254,5 +255,6 @@
   },
   "tasteProfileDisplay": {
     "emptyStateTxt": "Explore our cocktails and add your favorites to your taste profile 🍹"
-  }
+  },
+  "goBackBtn": "Go back"
 }

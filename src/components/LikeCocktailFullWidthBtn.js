@@ -1,4 +1,5 @@
 // inspiration from https://github.com/voranzovv/my-article/tree/main/src/components
+// fixed like btn for, that appears after scroll -> better UX and conversions
 import React, { useEffect, useState} from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../firebaseConfig";
@@ -7,19 +8,15 @@ import { toast } from "react-toastify";
 import { useTranslation } from 'react-i18next';
 
 export default function LikeCocktailFullWidthBtn({ id, likes }) {
-    // import copy translations from i18n
-    const { t } = useTranslation();
+    const { t } = useTranslation(); // import copy translations from i18n
+    const [user] = useAuthState(auth); // authentication auth and db are found in the firestore config, ref to our project in firebase
 
-    // authentication auth and db are found in the firestore config, ref to our projekt in firebase
-    const [user] = useAuthState(auth);
-
-    // reference to our FireStore db, collection = articles, sort by ID of posts / books
-    const likesRefDa = doc(db, "da", id);
-    const likesRefEn = doc(db, "en", id);
-
+    // reference to our FireStore db, both languages to support language change shows same likes
     // best solution would be to create a new collection in Firebase
     // containing all likes + data from the cocktail liked to fetch later
     // to-do 😎
+    const likesRefDa = doc(db, "da", id);
+    const likesRefEn = doc(db, "en", id);
 
     // State for showing / hiding button -> button is only showed for better conversion after the top bookmark btn is scrolled past
     // easier navigation for the user

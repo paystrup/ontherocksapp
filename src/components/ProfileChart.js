@@ -1,5 +1,7 @@
+// 🍹 PIE CHART display on ProfilePage.js with userdata for taste profile 🍹
 //Inspiration from https://www.youtube.com/watch?v=bL3P9CqQkKw&t=57s&ab_channel=LeighHalliday
 // Library from AirBnb https://airbnb.io/visx/docs
+// TODO: implement user data -> already sent to the db, just has to be added ✅
 import { useState } from "react";
 import { Pie } from "@visx/shape";
 import { Group } from "@visx/group";
@@ -8,9 +10,9 @@ import { useTranslation } from "react-i18next";
 
 export default function ProfileChart() {
   // import copy translations from i18n
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
-  //Defining the tags in ammount and words
+  // Defining the tags in ammount and words
   const tastetags = [
     {
       symbol: t("profilepage.tags.taste1"),

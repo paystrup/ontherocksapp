@@ -8,11 +8,8 @@ import ProfilePageFavoritesMap from "./ProfilePageFavouritesMap";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
 
 export default function ProfilePageFavourites() {
-  // import copy translations from i18n
-  const { t } = useTranslation();
-
-  // Define state for the loading indicator
-  const [isLoading, setIsLoading] = useState(true);
+  const { t } = useTranslation(); // import copy translations from i18n
+  const [isLoading, setIsLoading] = useState(true); // Define state for the loading indicator
 
   // show 4 articles on fetch
   const [visible, setVisible] = useState(4);
@@ -34,8 +31,6 @@ export default function ProfilePageFavourites() {
   // fetch data from FireStore on snapshot
   useEffect(() => {
     // collection from firebase
-    // db is our database, "fetchlng" is our collection
-    // 🚨🚨🚨🚨🚨🚨 TO-DO ADD LNG WHEN ENG IS DONE 🚨🚨🚨🚨🚨🚨🚨
     const articleRef = collection(db, "da");
 
     // sort by createdAt, our timestamp added to every article, date

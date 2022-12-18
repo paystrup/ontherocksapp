@@ -1,3 +1,4 @@
+// hero section -> 🚨 only shown on large devices
 import React from 'react'
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -5,16 +6,19 @@ import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
 import { ReactComponent as Logo } from "../assets/logo-kit/white-OTR-Logo-emblem.svg"
 
-// video source: https://www.pexels.com/@cottonbro/ + edited in Adobe AE
+// video source: https://www.pexels.com/@cottonbro/ + edited in Adobe AE by Nikolaj
+// minified and compressed to improve performance ✅
 import video from "../assets/video/ontherocksvid.webm";
 
-export default function HeroSection() {
+export default function HeroSection() {  
+    const { t } = useTranslation(); // import copy translations from i18n
+    const navigate = useNavigate(); // import navigation
 
+    // GSAP animations
     const el = useRef();
     const q = gsap.utils.selector(el);
     const tl = useRef();
 
-    // GSAP animation
     useEffect(() => {            
         tl.current = gsap.timeline(({defaults: {duration: 0.5}}))
         
@@ -31,13 +35,7 @@ export default function HeroSection() {
             y: 0,
             opacity: 1
         });
-    }, [q]);
-
-    // import copy translations from i18n
-    const { t } = useTranslation();
-
-    // import navigation
-    const navigate = useNavigate();
+    }, [q]); // listen for elements rendered and rerender
 
     return (
         <section className="hidden h-[100vh] w-full overflow-hidden mb-32 xl:flex">
@@ -82,10 +80,7 @@ export default function HeroSection() {
                     {/* FOR THE LOGO   */}
                     <Logo fill='#FFE598' className='fadeInAnimation hidden 2xl:flex xl:w-1/2'/>
                 </div>
-               
-            </div>
-    
-            
+            </div> 
         </section>
     )
 }

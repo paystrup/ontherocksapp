@@ -1,3 +1,6 @@
+// TOP NAVBAR
+// BOTH MOBILE AND DESKTOP COMBINED
+// TODO -> add data for dynamic top navbar to an array and loop -> save code lines
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
@@ -13,21 +16,21 @@ import {
 } from "@heroicons/react/24/outline";
 
 export default function TopNavigation() {
-  // import translations from i18n
-  const { t, i18n } = useTranslation();
-  const navigate = useNavigate();
-  const location = useLocation();
+  const { t, i18n } = useTranslation(); // import translations from i18n
+  const navigate = useNavigate(); // navigation
+  const location = useLocation(); // get the current location (/url)
   console.log(location);
-  console.log(location.pathname);
+  console.log(location.pathname); // check if it logs
 
+  // state for closing and opening the language selection
   const [openLngSelect, setOpenLngSelect] = useState(false);
 
-  // handle openlngselector
+  // onclick handle openlngselector -> set to the opposite -> if closed -> open -> close
   const handleLngSelect = () => {
     setOpenLngSelect(!openLngSelect);
   };
 
-  // forn handling lng change + store in localstorage cache, so we can use it later, and it works on page reload
+  // for handling lng change + store in localstorage cache, so we can use it later, and it works on page reload
   const handleChangeLng = (lng) => {
     i18n.changeLanguage(lng);
     localStorage.setItem("lng", lng);

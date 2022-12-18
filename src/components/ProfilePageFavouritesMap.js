@@ -4,12 +4,12 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import LikeCocktail from "./LikeCocktail.js";
 
 export default function ProfilePageFavoritesMap({ articles, sliceAmount }) {
-  // props imported from FavouritePost.js
-  const navigate = useNavigate();
+  // props imported from FavouritePost.js -> to show and hide amount of cocktails shown
+  const navigate = useNavigate(); // navigation
+  const [user] = useAuthState(auth); // authentication
 
-  // authentication
-  const [user] = useAuthState(auth);
   // display users favourites
+  // map through data and slice
   return (
     <>
       {articles.slice(0, sliceAmount).map(

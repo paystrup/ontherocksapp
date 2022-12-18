@@ -1,3 +1,6 @@
+// FOOTER - ONLY SHOWN ON LG and above
+// hidden on mobile
+
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Tooltip as ReactTooltip } from "react-tooltip";
@@ -5,8 +8,9 @@ import "react-tooltip/dist/react-tooltip.css";
 import footerLogo from "../assets/svg/logo-big3.svg"
 
 export default function Footer() {
- const { t } = useTranslation();
-  // 56
+ const { t } = useTranslation(); // import translations from i18n
+
+ 
   return (
    <footer className="hidden lg:block lg:px-12 xl:px-28 pt-32 pb-8 bg-primaryGray-200">
 
@@ -83,7 +87,7 @@ export default function Footer() {
       <div>
         <ul className="flex justify-between text-xs uppercase">
             <li>BY BORNHOLM SPIRITS © 2022</li>
-            <li>MADE WITH LOVE FROM <span className="text-primaryYellow" id="solskinsøen">SOLSKINSØEN</span></li>
+            <li>{t("footer.bottomTitle")} <span className="text-primaryYellow" id="solskinsøen">SOLSKINSØEN</span></li>
             <li>
              <a href="https://bornholmspirits.com/pages/handelsbetingelser" target="_blank" rel="noreferrer">Terms & rights</a>
             </li>

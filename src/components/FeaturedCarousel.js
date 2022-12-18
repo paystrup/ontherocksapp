@@ -1,3 +1,6 @@
+// most popular cocktails slider on the homepage
+// rn set to all cocktails as we don't have more
+
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ClockIcon, BookmarkIcon } from "@heroicons/react/24/outline";
@@ -20,32 +23,30 @@ import Spinanimation from "./Spinanimation";
 import { useTranslation } from 'react-i18next'
 
 export default function FeaturedCarousel({ category, parameter, value }) {
+    // props imported for dynamic fetching
+    
     // authentication auth and db are found in the firestore config, ref to our projekt in firebase
     const [user] = useAuthState(auth);
-
-    // import translations
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation(); // import translations
+    const navigate = useNavigate(); // Navigation
 
     // Define state for the loading indicator
     const [isLoading, setIsLoading] = useState(true); 
 
-    // Navigation
-    const navigate = useNavigate();
-
-    // state for setting our fetched articles/books 
+    // State for setting our fetched articles/cocktails in an empty array so we can map through the data later
     const [cocktails, setCocktails] = useState([]);
 
     // get current language selected for fetching the right collection in firestore
     const fetchLng = i18n.language;
     
-    // fetch starts here
+    // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
     useEffect(() => {
         // collection from firebase
         // db is our database, articles is the name of the collection
         const articleRef = collection(db, fetchLng)
 
         // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
-        // filtering for featured cocktails
+        // filtering with imported props
         const q = query(articleRef, where(category, parameter, value));
 
         // get the data, on snapshot
@@ -61,7 +62,7 @@ export default function FeaturedCarousel({ category, parameter, value }) {
             // Set isLoading to false -> hide loader anim
             setIsLoading(false);
         });  
-    }, [fetchLng, t, category, parameter, value]); // dependency array -> listen for new pops, language change -> rerender
+    }, [fetchLng, t, category, parameter, value]); // dependency array -> listen for new props, language change -> rerender
 
         // Show loading indicator while data is being fetched
 

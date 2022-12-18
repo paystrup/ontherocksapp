@@ -1,3 +1,5 @@
+// for displaying users liked cocktails
+
 import { collection, onSnapshot, query } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { db } from "../firebaseConfig";
@@ -9,24 +11,14 @@ import { PlusIcon } from "@heroicons/react/24/outline";
 import LikesPageGeneratePDF from "./LikesPageGeneratePDF";
 import { useNavigate } from "react-router-dom";
 
-
 export default function LikesPageFavorites() {
-  // import copy translations from i18n
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation(); // import copy translations from i18n
+  const navigate = useNavigate(); // Navigation
+  const fetchLng = i18n.language; // get current language selected for fetching the right collection in firestore
+  const [isLoading, setIsLoading] = useState(true);  // Define state for the loading indicator
+  const [articles, setArticles] = useState([]); // State for saving our data in an empty array
 
-  // Navigation
-  const navigate = useNavigate();
-
-  // get current language selected for fetching the right collection in firestore
-  const fetchLng = i18n.language;
-
-  // Define state for the loading indicator
-  const [isLoading, setIsLoading] = useState(true);
-
-  // State for saving our data in an empty array
-  const [articles, setArticles] = useState([]);
-
-  // fetch data from FireStore on snapshot
+  // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
   useEffect(() => {
     // collection from firebase
     // db is our database, "fetchlng" is our collection
@@ -48,7 +40,7 @@ export default function LikesPageFavorites() {
       console.log(articles[0].image?.srcMin);
       setIsLoading(false);
     });
-  }, [fetchLng]); // dependency array => empty => fetch on rerender
+  }, [fetchLng]); // dependency array listens for language change and rerenders data on changes
 
   // flatmap removes arrays inside arrays so we can map and use ternary for username and filter
   const displayLikes = articles?.flatMap((article) => article?.likes);
@@ -77,7 +69,7 @@ export default function LikesPageFavorites() {
         <div>
           {/* CATEGORIES OF LIKES - FUNCTION TO BE IMPLEMENTED -> make user send tag with likes in firebase ex. likes.category && 'all' etc.*/}
           <section className="mb-7">
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 lg:mb-14">
               <div className="flex flex-col items-center justify-center gap-2">
                 <div
                   style={{

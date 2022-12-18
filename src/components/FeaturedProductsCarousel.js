@@ -16,30 +16,25 @@ import Spinanimation from "./Spinanimation";
 // i18n language support
 import { useTranslation } from "react-i18next";
 
-
+// props imported -> product slugs from articles, events, competition
 export default function FeaturedProductsCarousel({ product, product2, product3, product4, product5, category, parameter, value }) {
-  const { t, i18n } = useTranslation();
-
-  // Define state for the loading indicator
-  const [isLoading, setIsLoading] = useState(true);
-
-  // Navigation
-  const navigate = useNavigate();
-
-  // state for setting our fetched articles/books
-  const [cocktails, setCocktails] = useState([]);
+  const { t, i18n } = useTranslation(); // import translations from i18n
+  const navigate = useNavigate(); // Navigation
+  const [isLoading, setIsLoading] = useState(true); // Define state for the loading indicator
+  const [cocktails, setCocktails] = useState([]);  // State for setting our fetched articles/cocktails in an empty array so we can map through the data later
 
   // get current language selected for fetching the right collection in firestore
   const fetchLng = i18n.language;
 
-  // fetch starts here
+  // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
   useEffect(() => {
     // collection from firebase
-    // db is our database, articles is the name of the collection
+    // db is our database, go to "articles" collection, document "featured", "fetchLng" = da/en collection depending on chosen language
     const articleRef = collection(db, fetchLng);
 
     // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
     // filtering for featured cocktails
+    // fetch query dynamic with props
     const q = query(articleRef, where(category, parameter, value));
 
     // get the data, on snapshot
@@ -58,7 +53,6 @@ export default function FeaturedProductsCarousel({ product, product2, product3, 
   }, [fetchLng, t, category, parameter, value]);
 
   // Show loading indicator while data is being fetched
-
   return (
     <section className="mt-7">
       

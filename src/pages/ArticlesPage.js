@@ -1,6 +1,5 @@
 // Inspiration from https://youtu.be/_7gdsAfFV9o
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebaseConfig";
@@ -11,10 +10,9 @@ import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
 import GoBackDesktop from "../components/GoBackDesktop";
 
 export default function ArticlesPage() {
-  const navigate = useNavigate();
-  const { t, i18n } = useTranslation();
-  // fetch depending on i18n language chosen
-  const fetchLng = i18n.language;
+  const navigate = useNavigate(); // import navigation from react router
+  const { t, i18n } = useTranslation(); // import translations from i18n 
+  const fetchLng = i18n.language; // fetch depending on i18n language chosen
 
   const [article, setArticle] = useState([]);
   const params = useParams();

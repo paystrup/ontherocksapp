@@ -1,4 +1,8 @@
 // source https://github.com/parallax/jsPDF
+// not done -> render through articles and display inside the doc.text and doc.img
+// todo -> last on our priority list -> but the concept is implemented right now 😎
+// 🌐 also works with lng change 🌐
+
 import { jsPDF } from "jspdf";
 import React from "react";
 
@@ -16,7 +20,7 @@ export default function LikesPageGeneratePDF(articles) {
   console.log(articlesTest);
 
   // import copy translations from i18n
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const generatePDF = (event) => {
     if (Array.isArray(articlesTest)) {
