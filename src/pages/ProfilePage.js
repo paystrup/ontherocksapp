@@ -51,8 +51,8 @@ export default function ProfilePage() {
   // If there's no user logged in -> show onboarding
   if (!user)
     return (
-      <section>
-        <div className="video bg-primaryBlack">
+      <section className="fadeInAnimation">
+        <div className="video bg-primaryBlack z-[1000] lg:z-[1]">
           <video
             src={video}
             autoPlay
@@ -63,7 +63,7 @@ export default function ProfilePage() {
             className="videovideo"
           ></video>
         </div>
-        <div className="mt-10 mb-32 px-6 relative">
+        <div className="mt-16 mb-32 relative px-6 lg:px-56 xl:px-[45rem] lg:mt-32 sm:px-20 sm:mt-24">
           <h1 className="text-3xl font-displayBook leading-tight text-center">
             <div
               className="textspan"

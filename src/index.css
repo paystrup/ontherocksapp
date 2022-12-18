@@ -300,11 +300,9 @@ code {
   position: relative;
   min-height: 40vh;
   border-radius: 15px 50px 30px 5px;
-  z-index: 1000;
 }
 
 .videovideo {
-  position: fixed;
   top: 0px;
   left: 0;
   width: 100%;

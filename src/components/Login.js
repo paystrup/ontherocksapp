@@ -42,7 +42,7 @@ export default function Login() {
 
     return (
         <div>
-            <button className="bg-primaryYellow text-primaryBlack font-medium w-full py-3 rounded-2xl"
+            <button className="bg-primaryYellow text-primaryBlack font-medium w-full py-3 rounded-2xl hover:bg-primaryBlack hover:border-[1px]  hover:text-primaryYellow transition-all"
                 onClick={GoogleLogin}
             >
                 {t("signin.signInButtonGoogle")}

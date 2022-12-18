@@ -2,17 +2,17 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { doc, onSnapshot, query } from "firebase/firestore";
+import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Mousewheel, Pagination } from "swiper";
-import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { useNavigate } from "react-router-dom";
 import CompetitionCarousel from "../components/CompetitionCarousel";
 
 // Import Swiper styles + modules
 import "swiper/css";
+import ShareSocialModal from "../components/ShareSocialModal";
 
 export default function ArticlesPage() {
   const navigate = useNavigate();
@@ -56,9 +56,7 @@ export default function ArticlesPage() {
             <p className="font-thin uppercase text-primaryYellow">
               {compitition?.subcategorytitle}
             </p>
-            <div className="border-[1px] rounded-full p-1">
-              <PaperAirplaneIcon className="h-6 w-6 -rotate-45" />
-            </div>
+            <ShareSocialModal article={compitition}/>
           </div>
 
           <div className=" lg:w-[45vw]">

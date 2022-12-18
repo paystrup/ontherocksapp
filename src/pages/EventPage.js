@@ -6,7 +6,6 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebaseConfig";
-import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
 import ArticlesFeatured from "../components/AboutArticlesFeatured"
 // Import Swiper styles + modules
