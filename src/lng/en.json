@@ -251,5 +251,8 @@
   },
   "addToTasteToast": {
     "title": "Cocktail has been added to your taste profile 🍹"
+  },
+  "tasteProfileDisplay": {
+    "emptyStateTxt": "Explore our cocktails and add your favorites to your taste profile 🍹"
   }
 }

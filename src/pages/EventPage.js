@@ -6,16 +6,13 @@ import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebaseConfig";
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
-import EventPageCard from "../components/EventPageCard";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Keyboard, Mousewheel, Pagination } from "swiper";
-import { useNavigate } from "react-router-dom";
 import ArticlesFeatured from "../components/AboutArticlesFeatured"
 // Import Swiper styles + modules
 import "swiper/css";
+import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
+import GoBackDesktop from "../components/GoBackDesktop";
 
 export default function EventPage() {
-  const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   // fetch depending on i18n language chosen
   const fetchLng = i18n.language;
@@ -39,100 +36,107 @@ export default function EventPage() {
   }, [id, fetchLng, t]);
 
   return (
-    <div className="text-primaryWhite mt-16 mb-32">
-      <div className="lg:flex lg:flex-row lg:px-14 lg:mt-32 lg:gap-[4rem] lg:relative">
-      <div
-        className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:rounded-t-[30px] lg:sticky lg:top-20"
-        style={{
-          backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.headerImage})`,
-          backgroundPosition: "top",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-      ></div>
-      <div className="mt-14 px-5 lg:w-[50vw] lg:mt-0">
-        <div className="flex justify-between">
-          <div className="font-thin uppercase text-primaryYellow">
-            <p>{article?.subcategoryTitle}</p>
-          </div>
+    <div>
+      <GoBackDesktop />
+      <div className="text-primaryWhite mt-16 mb-32 fadeInAnimation lg:mt-0">
+        <div className="lg:flex lg:flex-row lg:px-0 lg:mt-7 lg:gap-[4rem] lg:relative">
+          <div
+            className="lg:ml-14 h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:rounded-t-[30px] lg:sticky lg:top-20"
+            style={{
+              backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(${article?.headerImage})`,
+              backgroundPosition: "top",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+          <div className="mt-14 px-5 lg:px-0 lg:w-[50vw] lg:mt-0">
+            <div className="flex justify-between lg:mr-14 lg:px-5">
+              <div className="font-thin uppercase text-primaryYellow">
+                <p>{article?.subcategoryTitle}</p>
+              </div>
 
-          <div className="flex gap-3">
-            <div className="border-[1px] rounded-full p-1">
-              <PaperAirplaneIcon className="h-6 w-6 -rotate-45" />
+              <div className="flex gap-3">
+                <div className="border-[1px] rounded-full p-1">
+                  <PaperAirplaneIcon className="h-6 w-6 -rotate-45" />
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-4">
+              <h2 className="text-5xl font-displayBook lg:mr-14 lg:px-5">{article?.title}</h2>
+              <p className="text-base text-primaryGray-500 font-thin lg:text-2xl leading-relaxed mt-4 lg:mr-14 lg:px-5">
+                {article?.body}
+              </p>
+              <div className="mt-7 font-thin text-md flex flex-col gap-2">
+                <div className="my-7">
+                  <h3 className="mb-2 text-xl font-medium lg:mr-14 lg:px-5">
+                    {article?.slider1?.title}
+                  </h3>
+                  <p className="mb-7 text-md font-thin text-primaryGray-500 lg:mr-14 lg:px-5">
+                    {article?.slider1?.body}
+                  </p>
+
+                  <FeaturedProductsCarousel
+                    product={article?.slider1?.slidedata?.slug1}
+                    product2={article?.slider1?.slidedata?.slug2}
+                    product3={article?.slider1?.slidedata?.slug3}
+                    product4={article?.slider1?.slidedata?.slug4}
+                    product5={article?.slider1?.slidedata?.slug5}
+                    category={"featured"}
+                    parameter={"=="}
+                    value={true}
+                  />
+                </div>
+
+                <div className="slider2 my-7 lg:my-14">
+                  <h3 className="text-xl font-medium mb-2 lg:mr-14 lg:px-5">
+                    {article?.slider2?.title}
+                  </h3>
+                  <p className="text-md font-thin text-primaryGray-500 lg:mr-14 lg:px-5">
+                    {article?.slider2?.body}
+                  </p>
+                
+                  <FeaturedProductsCarousel
+                      product={article?.slider2?.slidedata?.slug1}
+                      product2={article?.slider2?.slidedata?.slug2}
+                      product3={article?.slider2?.slidedata?.slug3}
+                      product4={article?.slider2?.slidedata?.slug4}
+                      product5={article?.slider2?.slidedata?.slug5}
+                      category={"featured"}
+                      parameter={"=="}
+                      value={true}
+                  />
+                </div>
+
+                <div className="slider3 my-7 lg:my-14">
+                  <h3 className="text-xl font-medium mb-2 lg:mr-14 lg:px-5">
+                    {article?.slider3?.title}
+                  </h3>
+                  <p className="text-md font-thin text-primaryGray-500 lg:mr-14 lg:px-5">
+                    {article?.slider3?.body}
+                  </p>
+                
+                  <FeaturedProductsCarousel
+                      product={article?.slider3?.slidedata?.slug1}
+                      product2={article?.slider3?.slidedata?.slug2}
+                      product3={article?.slider3?.slidedata?.slug3}
+                      product4={article?.slider3?.slidedata?.slug4}
+                      product5={article?.slider3?.slidedata?.slug5}
+                      category={"featured"}
+                      parameter={"=="}
+                      value={true}
+                  />
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-4 lg:w-[45vw]">
-          <h2 className="text-5xl font-displayBook">{article?.title}</h2>
-          <p className="text-base text-primaryGray-500 font-thin leading-relaxed mt-4">
-            {article?.body}
-          </p>
-          <div className="mt-7 font-thin text-md flex flex-col gap-2">
-            <div className="my-7">
-              <h3 className="mb-2 text-xl font-medium">
-                {article?.slider1?.title}
-              </h3>
-              <p className="mb-7 text-md font-thin text-primaryGray-500">
-                {article?.slider1?.body}
-              </p>
-
-              <Swiper
-                spaceBetween={20}
-                // centeredSlides={true}
-                grabCursor={true}
-                onSlideChange={() => console.log("slide change")}
-                keyboard={{
-                  enabled: true,
-                }}
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[Keyboard, Mousewheel, Pagination]}
-                className="mySwiper eventCards w-full"
-                breakpoints={{
-                  // when window width is >= 1px
-                  1: {
-                    slidesPerView: "auto",
-                    initialSlide: 0,
-                  },
-                }}
-              >
-                <SwiperSlide>
-                  <EventPageCard slug={article?.slider1?.slidedata?.slug1} />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <EventPageCard slug={article?.slider1?.slidedata?.slug2} />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <EventPageCard slug={article?.slider1?.slidedata?.slug3} />
-                </SwiperSlide>
-              </Swiper>
-            </div>
-
-            <div className="slider2 my-7">
-              <h3 className="text-xl font-medium mb-2">
-                {article?.slider2?.title}
-              </h3>
-              <p className="text-md font-thin text-primaryGray-500">
-                {article?.slider2?.body}
-              </p>
-            </div>
-
-            <div className="slider3 my-7">
-              <h3 className="text-xl font-medium mb-2">
-                {article?.slider3?.title}
-              </h3>
-              <p className="text-md font-thin text-primaryGray-500">
-                {article?.slider3?.body}
-              </p>
-            </div>
-          </div>
+        {/* WHEN MORE ARTICLES ARE ADDED -> SEND ID AS PROP -> DYNAMIC -> ALREADY SETUP IN THE DB */}
+        <div className="lg:mt-32">
+          <ArticlesFeatured />
         </div>
-      </div>
-      </div>
-      <div>
-      <ArticlesFeatured />
       </div>
     </div>
   );

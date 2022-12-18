@@ -1,11 +1,14 @@
-import React from 'react'
-import { HomeIcon, BookmarkIcon, UserIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline"
+import React from 'react';
+// icons
+import { HomeIcon, BookmarkIcon, UserIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
-import { useTranslation } from 'react-i18next'
+// i18n language support
+import { useTranslation } from 'react-i18next';
 
 export default function BottomNavigation() {
-    // import copy translations from i18n
-    const { t } = useTranslation();
+    const { t } = useTranslation(); // import translations from i18n
+
+    // navlinks to use react router doms active class -> better UX -> active link is styled
     return (
         <section className='pt-4 pb-12 px-10 fixed bottom-0 left-0 z-10 bg-primaryBlack w-full lg:hidden shadow-[0px_-1px_15px_-5px_rgba(0,0,0,1)]'>
 

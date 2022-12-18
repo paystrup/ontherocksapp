@@ -47,6 +47,7 @@ export default function ArticlesFeatured(slug) {
   return (
     <section className="my-14">
       <div className="h-full">
+        {/* MAP THROUGH DATA AND DISPLAY THE ARTICLE -> destructured, to save space */}
         {article.map(({ headerImages, title, subtitle, id, button }) => (
           <div className="overflow-hidden relative h-80 flex items-center flex-col justify-center lg:h-[30vw]">
             <div className="text-center z-10 absolute px-6">

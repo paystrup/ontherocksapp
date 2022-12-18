@@ -7,10 +7,8 @@ import { useTranslation } from "react-i18next";
 import DeleteTasteProfile from "./DeleteTasteProfile";
 
 export default function DisplayTasteProfile() {
-  // import copy translations from i18n
-  const { t } = useTranslation();
-
-  const navigate = useNavigate();
+  const { t } = useTranslation(); // import translations from i18n
+  const navigate = useNavigate(); // import navigation from react router
 
   // state to store snapshot from FireStore
   const [tasteProfile, setTasteProfile] = useState([]);
@@ -20,9 +18,10 @@ export default function DisplayTasteProfile() {
 
   useEffect(() => {
     // collection from firebase
-    // db is our database, articles is the name of the collection
+    // db is our database, go to "articles" collection, document "featured", "fetchLng" = da/en collection depending on chosen language
+    // only implemented for DA 🌞 todo -> addToTasteProfile function adds to both en / da and we fetch here depending on lng chosen
+    // only names + taste is displayed -> no need to do this
     const articleRef = collection(db, "da");
-    // sort by createdAt, our timestamp added to every article, date
     const q = query(articleRef, orderBy("addedToTasteProfile", "desc"));
 
     // get the data, on snapshot
@@ -36,7 +35,7 @@ export default function DisplayTasteProfile() {
       setTasteProfile(articles);
       console.log(articles);
     });
-  }, [userID]);
+  }, [userID]); // listen for a new user
 
   // flatmap removes arrays inside arrays so we can map and use ternary for username and filter
   const displayComments = tasteProfile?.flatMap(
@@ -45,9 +44,9 @@ export default function DisplayTasteProfile() {
   console.log(displayComments);
 
   // the some() method to check if an object exists in an array
-  // if user is found in sentTo / has recieved a msg return true
   // if not return false
-  // we can use this for displaying empty states if user has no msg
+  // we can use this for displaying empty states if user has no added cocktails
+  // checks for currently authenticated user and returns true if it exists in the array
   const isFound = displayComments.some((element) => {
     if (element.addedBy === auth.currentUser.uid) {
       return true;
@@ -56,7 +55,8 @@ export default function DisplayTasteProfile() {
     return false;
   });
 
-  console.log(isFound);
+  console.log(isFound); // check in console
+
   return (
     <div>
       <div className="flex flex-col gap-4">
@@ -104,10 +104,9 @@ export default function DisplayTasteProfile() {
 
       {/* EMPTY STATE IF USER HAS NO COCKTAILS IN TASTEPROFILE - ISFOUND FALSE */}
       {!isFound && (
-        <div className="chat-error-message">
-          <p>
-            Udforsk vores cocktails og tilføj dine favoritter til din
-            smagsprofil.
+        <div className="py-7">
+          <p className="text-primaryGray-700 text-lg text-center">
+            {t("tasteProfileDisplay.emptyStateTxt")}
           </p>
         </div>
       )}

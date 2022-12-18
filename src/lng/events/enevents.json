@@ -14,7 +14,9 @@
             "slidedata": {
                 "slug1": "vodka-martini",
                 "slug2": "nordic-pamola",
-                "slug3": "no3-tonic"
+                "slug3": "no3-tonic",
+                "slug4": "gin-fizz",
+                "slug5": "weekend-negroni"
             }
         },
         "slider2": {
@@ -23,7 +25,9 @@
             "slidedata": {
                 "slug1": "spicy-magarita",
                 "slug2": "dannebrog",
-                "slug3": "no3-tonic"
+                "slug3": "no3-tonic",
+                "slug4": "gin-hass",
+                "slug5": "french-75"
             }
         },
         "slider3": {
@@ -32,7 +36,9 @@
             "slidedata": {
                 "slug1": "nordic-passion",
                 "slug2": "nordic-pamola",
-                "slug3": "no3-tonic"
+                "slug3": "bramble",
+                "slug4": "flyver-sjus",
+                "slug5": "screw-driver"
             }
         },
         "relatedEvents": {
@@ -55,7 +61,9 @@
             "slidedata": {
                 "slug1": "stormy-bornholmer",
                 "slug2": "kiev-mule",
-                "slug3": "havtorn-gogt"
+                "slug3": "havtorn-gogt",
+                "slug4": "gin-mojito",
+                "slug5": "golden-licorice"
             }
         },
         "slider2": {
@@ -64,7 +72,9 @@
             "slidedata": {
                 "slug1": "frost-akva-sour",
                 "slug2": "nordic-negroni",
-                "slug3": "dannebrog"
+                "slug3": "dannebrog",
+                "slug4": "red-copenhagen",
+                "slug5": "white-lady"
             }
         },
         "slider3": {
@@ -73,7 +83,9 @@
             "slidedata": {
                 "slug1": "blooming-fig",
                 "slug2": "white-russian",
-                "slug3": "kongen-af-danmark"
+                "slug3": "kongen-af-danmark",
+                "slug4": "frozen-havtorn-gogt",
+                "slug5": "red-pearl"
             }
         },
         "relatedEvents": {
@@ -96,7 +108,9 @@
             "slidedata": {
                 "slug1": "the-golden-age",
                 "slug2": "red-pearl",
-                "slug3": "st-germain-foam"
+                "slug3": "st-germain-foam",
+                "slug4": "orientail-v",
+                "slug5": "diamond-snaps"
             }
         },
         "slider2": {
@@ -105,7 +119,9 @@
             "slidedata": {
                 "slug1": "spicy-magarita",
                 "slug2": "kiev-mule",
-                "slug3": "no3-tonic"
+                "slug3": "no3-tonic",
+                "slug4": "champagne-fizz",
+                "slug5": "green-vodka"
             }
         },
         "slider3": {
@@ -114,7 +130,9 @@
             "slidedata": {
                 "slug1": "white-russian",
                 "slug2": "stormy-bornholmer",
-                "slug3": "espresso-martini"
+                "slug3": "espresso-martini",
+                "slug4": "flower-power",
+                "slug5": "havtorn-gogt"
             }
         },
         "relatedEvents": {
@@ -135,21 +153,33 @@
             "title": "When you wake up",
             "body": "Right when ypu wake up your body is propably screaming for fluids. Give it what it wants with a mouth-watering Screw Driver.",
             "slidedata": {
-                "slug": "screw-driver"
+                "slug1": "screw-driver",
+                "slug2": "red-pearl",
+                "slug3": "st-germain-foam",
+                "slug4": "orientail-v",
+                "slug5": "diamond-snaps"
             }
         },
         "slider2": {
             "title": "For the clean-up",
             "body": "Now the hard work begins and you will need all the energi you can get to be able to find the energy to vacuum all the confetti off of the floor (Because last night you thought it was a great idea to fire up three confetti-canons).",
             "slidedata": {
-                "slug": "espresso-martini"
+                "slug1": "espresso-martini",
+                "slug2": "stormy-bornholmer",
+                "slug3": "espresso-martini",
+                "slug4": "flower-power",
+                "slug5": "havtorn-gogt"
             }
         },
         "slider3": {
             "title": "For the Pizza",
             "body": "And then you can finally rest og with good conscience. Order the most greasy pizza you can find on wolt, unwind and enjoy a Stormy Bornholmer.",
             "slidedata": {
-                "slug": "stormy-bornholmer"
+                "slug1": "frost-akva-sour",
+                "slug2": "nordic-negroni",
+                "slug3": "dannebrog",
+                "slug4": "red-copenhagen",
+                "slug5": "white-lady"
             }
         },
         "relatedEvents": {

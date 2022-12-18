@@ -252,5 +252,8 @@
   },
   "addToTasteToast": {
     "title": "Cocktail er tilføjet til din smagsprofil 🍹"
+  },
+  "tasteProfileDisplay": {
+    "emptyStateTxt": "Udforsk vores cocktails og tilføj dine favoritter til din smagsprofil 🍹"
   }
 }

@@ -1,3 +1,6 @@
+// Events featured on the HomePage header
+// could have been a standard component with text as props
+
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 

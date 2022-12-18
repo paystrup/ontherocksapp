@@ -1,3 +1,8 @@
+// TODO -> fix this function -> currently not used
+// Same principals as the like function
+// Go to the array, delete the array with the user id authenticated
+
+
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, db } from "../firebaseConfig";

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 // firebase imports for fetching
-import { doc, collection, onSnapshot, where, query } from "firebase/firestore";
-import { useAuthState } from "react-firebase-hooks/auth";
-import { auth, db } from "../firebaseConfig";
+import { doc, onSnapshot } from "firebase/firestore";
+import { db } from "../firebaseConfig";
 
 // Import Swiper React components + styles
 import { Swiper, SwiperSlide } from "swiper/react";

@@ -4,7 +4,7 @@ import EventCarousel from "../components/EventCarousel";
 import FeaturedCarousel from "../components/FeaturedCarousel";
 import TypeWriterEffect from "../components/TypeWriterEffect";
 import ArticlesFeatured from "../components/ArticlesFeatured";
-import CompetitionFeatured from "../components/CompetitionFeatured";
+// import CompetitionFeatured from "../components/CompetitionFeatured";
 import AboutArticlesFeatured from "../components/AboutArticlesFeatured";
 import FeaturedCarouselHeader from "../components/FeaturedCarouselHeader";
 import HeroSection from "../components/HeroSection";

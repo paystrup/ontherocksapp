@@ -13,23 +13,21 @@ import EventCarouselHeader from './EventCarouselHeader';
 import { useTranslation } from 'react-i18next'
 
 export default function EventCarousel() {
-    const { t, i18n } = useTranslation();
-
-    const navigate = useNavigate();
-    // state for setting our fetched articles/books 
-    const [events, setEvents] = useState([]);
+    const { t, i18n } = useTranslation(); // import translations from i18n
+    const navigate = useNavigate(); // import navigation from react router
+    
+    const [events, setEvents] = useState([]); // state for setting our fetched events
 
     // fetch depending on i18n language chosen
     const fetchLng = i18n.language;
     
-    // fetch starts here
+     // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
     useEffect(() => {
     // collection from firebase
-    // db is our database, articles is the name of the collection
+    // db is our database, go to "articles" collection, document "featured", "fetchLng" = da/en collection depending on chosen language
     const articleRef = collection(db, "events", "featured", fetchLng)
 
     // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
-    // filtering for featured cocktails
     const q = query(articleRef);
 
     // get the data, on snapshot
@@ -39,7 +37,7 @@ export default function EventCarousel() {
         ...doc.data(),
         }));
 
-        // store data (setState) change state -> importing the array of books from the db
+        // store data (setState) change state -> importing the array of events from the db
         setEvents(data);
         console.log(data);
     });
@@ -48,6 +46,7 @@ export default function EventCarousel() {
   return (
     <section className='my-14 lg:my-32'>
         <EventCarouselHeader />
+         {/* MAP THROUGH DATA AND DISPLAY THE events as slides -> destructured, to save space */}
         <div className='flex gap-3'>
             <Swiper       
                 spaceBetween={20}
@@ -81,7 +80,8 @@ export default function EventCarousel() {
                 },
 
             }}>
-                {events.map(({id, title, time, taste, body, headerImage, slug, liqour}) => (
+                
+                {events.map(({id, title, body, headerImage}) => (
                     <SwiperSlide
                         key={id}
                         className="w-2/3 rounded-[24px]" 

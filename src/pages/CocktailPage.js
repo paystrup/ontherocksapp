@@ -97,7 +97,7 @@ export default function CocktailPage() {
   }, [id, fetchLng, t]);
 
   return (
-    <div className="text-primaryWhite mt-16 mb-32">
+    <div className="text-primaryWhite mt-16 mb-32 fadeInAnimation">
       
       {/* SHARE MODAL STARTS HERE - IF CLICKED -> STATE TRUE -> SHOW MODAL */}
       {showShareModal && (
@@ -223,7 +223,7 @@ export default function CocktailPage() {
 
             {/* TITLE + INGREDIENTS + HOW TO */}
             <div className="mt-7 px-5">
-              <h2 className="text-5xl font-displayBook">{article?.title}</h2>
+              <h2 className="text-5xl font-displayBook xl:text-6xl">{article?.title}</h2>
               <p
                 className={
                   readMore

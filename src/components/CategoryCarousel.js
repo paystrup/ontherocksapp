@@ -19,7 +19,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
-// Translations
+// i18n language support
 import { useTranslation } from "react-i18next";
 
 // Like function
@@ -31,41 +31,45 @@ import Spinanimation from "./Spinanimation";
 // Importing filters + titles + lng support for the filters
 import filters from "../lng/filters.json";
 
+
+
+// this could have been made into more components
+// TODO -> time has been prioritized differently -> as it works now 🌞
 export default function CategoryCarousel() {
-  // -> PROPS from layout selection imported, to show grid or list layout onclick
   const navigate = useNavigate();
 
-  // authentication
+  // Google Authentication + userdata
   const [user] = useAuthState(auth);
-  // Import translations
-  const { t, i18n } = useTranslation();
 
-  // Define state for the loading indicator
+  const { t, i18n } = useTranslation(); // import translations from i18n
+
+  // Define state for the loading indicator, by default set to true
   const [isLoading, setIsLoading] = useState(true);
 
   // For changing fetch queries in Firestore
   // Default -> loads featured (most popular) recipes
-  // ✨ TODO: add featured 1-10 scale and sort by asc ✨
+  // ✨ TODO: add featured 1-10 popularity scale and sort by asc ✨
   const [fetchCategory, setFetchCategory] = useState(true);
   const [fetchQuery, setFetchQuery] = useState("featured");
 
   // State for displaying search query
   // by default popular is fetched -> display dynamic with lng support
+  // this is only the display value -> doesn't fetch from this value -> as it's kept in danish to asure lng support
   const [searchDisplay, setsearchDisplay] = useState(t("categories.popular"));
 
-  // change category onclick
+  // Change category onclick a category
   const handleCategory = (category) => {
     setFetchCategory(category);
     console.log(fetchCategory);
   };
 
-  // change key onclick
+  // Change key onclick
   const handleQuery = (query) => {
     setFetchQuery(query);
     console.log(fetchQuery);
   };
 
-  // change display search
+  // Change display search
   const handleSearchDisplay = (searched) => {
     setsearchDisplay(searched);
     console.log(searchDisplay);
@@ -78,13 +82,15 @@ export default function CategoryCarousel() {
   const fetchLng = i18n.language;
 
   // -----------------------------> fetch starts here <---------------------------------
+  // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
+  // + new categories or queries so it fetches new data
   useEffect(() => {
     // collection from firebase
     // db is our database, articles is the name of the collection
     const articleRef = collection(db, fetchLng);
 
     // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
-    // filtering for featured cocktails
+    // db is our database, go to "articles" collection, document "featured", "fetchLng" = da/en collection depending on chosen language
     const q = query(articleRef, where(fetchQuery, "==", fetchCategory));
 
     // get the data, on snapshot
@@ -94,7 +100,7 @@ export default function CategoryCarousel() {
         ...doc.data(),
       }));
 
-      // store data (setState) change state -> importing the array of books from the db
+      // store data (setState) change state -> importing cocktails
       setEvents(data);
       console.log(data);
 
@@ -166,8 +172,10 @@ export default function CategoryCarousel() {
     }
   ];
 
+  // state for chaning layout between grid + list
   const [changeLayout, setChangeLayout] = useState(false);
 
+  // run when layout changes, set the state to the opposite of the current value
   const handleLayoutChange = (event) => {
     setChangeLayout(!changeLayout);
     console.log(changeLayout);
@@ -176,6 +184,7 @@ export default function CategoryCarousel() {
   // state for opening filter modal
   const [openFilter, setOpenFilter] = useState(false);
 
+  // onclick sets value to the opposite -> if open -> close -> open
   const handleFilterOpen = (event) => {
     setOpenFilter(!openFilter);
   };
@@ -297,7 +306,7 @@ export default function CategoryCarousel() {
           </div>
         </div>
 
-        {/* CATEGORY CAROUSEL FOR FILTERING  */}
+        {/* CATEGORY CAROUSEL FOR FILTERS  */}
         <Swiper
           spaceBetween={0}
           // centeredSlides={true}

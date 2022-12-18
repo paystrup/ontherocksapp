@@ -35,7 +35,7 @@ export default function ArticlesPage() {
   }, [id, fetchLng, t]);
 
   return (
-    <div>
+    <div className="fadeInAnimation">
       <GoBackDesktop />
       <div className="text-primaryWhite mt-16 mb-32 lg:flex lg:justify-between lg:mt-7">
         <div className="lg:w-[45vw] lg:relative lg:pl-14">

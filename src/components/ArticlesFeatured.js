@@ -10,19 +10,22 @@ import { db } from "../firebaseConfig";
 import { useTranslation } from "react-i18next";
 
 export default function ArticlesFeatured(slug) {
-  const { t, i18n } = useTranslation();
-  const navigate = useNavigate();
+  // the slug could be imported as props as shown above
+  // currently we only have one article, so slug is static below
 
-  // state for setting our fetched articles/books
+  const { t, i18n } = useTranslation(); // import translations from i18n
+  const navigate = useNavigate(); // import navigation from react router
+
+  // State for setting our fetched articles/cocktails in an empty array so we can map through the data later
   const [article, setArticle] = useState([]);
 
-  // get current language selected for fetching the right collection in firestore
+  // Get current language selected -> for fetching the right collection in Firestore
   const fetchLng = i18n.language;
 
-  // fetch starts here
+  // Fetch starts here -> useEffect so dependency array checks for changes and rerenders -> fx. for language change, updated content etc.
   useEffect(() => {
     // collection from firebase
-    // db is our database, articles is the name of the collection
+    // db is our database, go to "articles" collection, document "featured", "fetchLng" = da/en collection depending on chosen language
     const articleRef = collection(db, "articles", "featured", fetchLng);
 
     // https://firebase.google.com/docs/firestore/query-data/queries#web-version-9_3
@@ -36,15 +39,18 @@ export default function ArticlesFeatured(slug) {
         ...doc.data(),
       }));
 
-      // store data (setState) change state -> importing the array of books from the db
+      // store data (setState) change state -> importing the array of cocktails from the db
       setArticle(data);
-      console.log(data);
+      console.log(data); // check if data is fetched
     });
-  }, [fetchLng, t]);
+  }, [fetchLng, t]); // dependency array listens for language change and rerenders data on changes
 
   return (
     <section className="my-14 px-5 lg:px-16 lg:mb-32">
       <div>
+        {/* MAP THROUGH DATA AND DISPLAY THE ARTICLE -> destructured, to save space */}
+        {/* onclick navigates to article page and shows the current id / article clicked */}
+        {/* onclick featured products redirects to Bornholm Spirits product */}
         {article.map(({ headerImage, title, subcategoryTitle, id, relatedProducts, first, link }) => (
           <div className="w-full flex flex-col gap-4 mb-4 lg:flex-row lg:h-[40rem]" key={id}>
             <div
