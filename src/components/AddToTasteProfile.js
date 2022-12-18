@@ -74,7 +74,7 @@ export default function AddToTasteProfile({ id, cocktail }) {
             }),
         }).then(() => {
             // UX for message sent
-            toast("Du har nu tilføjet denne cocktail til din smagsprofil.", { type: "success" });
+            toast(t("addToTasteToast.title"), { type: "success" });
             console.log("Tilføjet til smagsprofil");
         });
     }

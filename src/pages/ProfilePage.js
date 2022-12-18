@@ -83,7 +83,7 @@ export default function ProfilePage() {
   // If user is authenticated -> show profilepage
   if (user)
     return (
-      <section className="mt-20 lg:mt-32 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw] w-full">
+      <section className="mt-20 lg:mt-32 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw] w-full fadeInAnimation">
         <div className="flex flex-col items-center justify-center mb-7 gap-2 lg:mb-12">
           <img
             className="grayscale imageProfile rounded-full"

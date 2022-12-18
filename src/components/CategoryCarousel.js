@@ -6,7 +6,7 @@ import { db } from "../firebaseConfig";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles + modules
 import "swiper/css";
-import { Keyboard, Mousewheel, Pagination } from "swiper";
+import { Keyboard, Mousewheel } from "swiper";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebaseConfig.js";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -473,7 +473,7 @@ export default function CategoryCarousel() {
 
       {/* IF LAYOUT IS CHANGED OR DEFAULT - LAYOUT = FALSE  = GRID  */}
       {!changeLayout && (
-        <div className="px-5 mt-7 flex flex-wrap gap-4 justify-between lg:px-14 lg:grid-cols-3 lg:gap-y-12 lg:gap-[4%] lg:justify-start">
+        <div className="px-5 mt-7 flex flex-wrap gap-4 justify-between lg:px-14 lg:grid-cols-3 lg:gap-y-12 lg:gap-[4%] lg:justify-start cursor-pointer">
           {events.map(({ title, id, likes, image, body, time, taste }) => (
             <div className="fadeInAnimation h-60 max-w-[46%] md:h-96 lg:max-w-[30%] xl:max-w-[22%] lg:min-h-[500px] relative" key={id}>
               <div className="flex justify-between font-thin absolute items-start w-full px-3 py-3 lg:px-5 lg:py-5">

@@ -43,8 +43,7 @@ export default function AboutArticlesFeatured(slug) {
   }, [fetchLng, t]);
 
   return (
-    <section className="my-14 px-5 lg:px-14 ">
-
+    <section className="my-14 px-5 lg:px-14">
       <div>
         {article.map(({ headerImage, title, subcategoryTitle, id }) => (
           <div className="lg:flex xl:gap-40 lg:gap-10">

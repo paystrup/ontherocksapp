@@ -63,7 +63,7 @@
       "title": "Christmas Wonders"
     },
     "partyCarousel": {
-      "title": "Start the party"
+      "title": "Get the party started"
     },
     "hero": {
       "titleBefore": "Find the",
@@ -248,5 +248,8 @@
   },
   "aboutArticle": {
     "tag": "Who are we?"
+  },
+  "addToTasteToast": {
+    "title": "Cocktail has been added to your taste profile 🍹"
   }
 }

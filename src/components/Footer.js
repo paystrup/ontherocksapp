@@ -6,9 +6,9 @@ import footerLogo from "../assets/svg/logo-big3.svg"
 
 export default function Footer() {
  const { t } = useTranslation();
-
+  // 56
   return (
-   <footer className="hidden lg:block lg:px-12 xl:px-28 mt-56 mb-8">
+   <footer className="hidden lg:block lg:px-12 xl:px-28 pt-32 pb-8 bg-primaryGray-200">
 
     {/* ☀☀☀☀☀ A LITTLE EASTEREGG ☀☀☀☀☀ */}
     <ReactTooltip

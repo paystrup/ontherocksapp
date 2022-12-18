@@ -249,5 +249,8 @@
   },
   "aboutArticle": {
     "tag": "Hvem er vi?"
+  },
+  "addToTasteToast": {
+    "title": "Cocktail er tilføjet til din smagsprofil 🍹"
   }
 }

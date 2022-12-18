@@ -43,7 +43,7 @@ export default function LikesPage() {
     );
   if (user)
     return (
-      <section className="mt-20 mb-32 px-6 lg:px-14">
+      <section className="mt-20 mb-32 px-6 lg:px-14 fadeInAnimation">
         <div className="lg:flex flex-col lg:flex-col-reverse lg:gap-12 mt-20 mb-32 lg:mt-36 hidden">
           <div className="mt-5 lg:mt-0 lg:flex lg:flex-col lg:gap-5">
             <h3 className="text-xl font-medium lg:font-displayBook lg:text-6xl">
