@@ -4,8 +4,7 @@ import CategoryCarousel from "../components/CategoryCarousel";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 
 export default function SearchPage() {
-  // import copy translations from i18n
-  const { t } = useTranslation();
+  const { t } = useTranslation(); // import copy translations from i18n
 
   return (
     <section className="mt-20 mb-32 lg:mt-36 fadeInAnimation">

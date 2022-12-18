@@ -1,4 +1,5 @@
 // Inspiration from https://youtu.be/_7gdsAfFV9o
+// Article page
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { doc, onSnapshot } from "firebase/firestore";
@@ -22,7 +23,7 @@ export default function ArticlesPage() {
   // Fetch book data based on the id from the slug
   // This way we don't have to loop through the array
   // We can fetch directly from the ID in fireStore with queries
-  // Dependency array listens for a new ID and rerenders
+  // Dependency array listens for a new ID, lng change and rerenders
 
   // articles = our fireStore collection, id = the query
   useEffect(() => {
@@ -32,6 +33,8 @@ export default function ArticlesPage() {
     });
   }, [id, fetchLng, t]);
 
+  // conditional rendering done if article data differs -> only renders if it exists
+  // could have been broken up into more components 😎
   return (
     <div className="fadeInAnimation">
       <GoBackDesktop />

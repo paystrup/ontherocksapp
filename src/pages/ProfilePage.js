@@ -19,12 +19,9 @@ import DisplayTasteProfile from "../components/DisplayTasteProfile.js";
 import TasteProfileCounter from "../components/TasteProfileCounter.js";
 
 export default function ProfilePage() {
-  // import copy translations from i18n
-  const { t, i18n } = useTranslation();
-
-  // auth
-  const [user, loading] = useAuthState(auth);
-  const navigate = useNavigate();
+  const { t, i18n } = useTranslation(); // import copy translations from i18n
+  const [user, loading] = useAuthState(auth); // auth
+  const navigate = useNavigate(); // navigation
 
   // user signupDate in firebase auth
   // user?.metadata?.creationTime;
@@ -42,11 +39,13 @@ export default function ProfilePage() {
   // get first character of the string (amount of days since sign)
   const userSignUpDateMin = Array.from(userSignUpDate)[0];
 
+  // signout onclick function -> signout from firebase + ux toast
   const handleSignOut = (event) => {
     auth.signOut();
     toast(t("signin.logoutToastMsg"), { toastId: "logoutToast" });
   };
 
+  // if userdata is loading show loader anim
   if (loading) return <Spinanimation />;
 
   // If there's no user logged in -> show onboarding

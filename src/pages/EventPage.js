@@ -1,4 +1,6 @@
+// 🌐 EVENTPAGE
 // Inspiration from https://youtu.be/_7gdsAfFV9o
+
 import React from "react";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
@@ -13,27 +15,26 @@ import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
 import GoBackDesktop from "../components/GoBackDesktop";
 
 export default function EventPage() {
-  const { t, i18n } = useTranslation();
-  // fetch depending on i18n language chosen
-  const fetchLng = i18n.language;
+  const { t, i18n } = useTranslation(); // import translations from i18n
+  const fetchLng = i18n.language; // fetch depending on i18n language chosen
 
-  const [article, setArticle] = useState([]);
+  const [article, setArticle] = useState([]); // empty array 
   const params = useParams();
   console.log(params); //Returns the slug-name of the url you're navigated to
   const id = params.id; // and the ID
 
-  // Fetch book data based on the id from the slug
+  // Fetch data based on the id from the slug
   // This way we don't have to loop through the array
   // We can fetch directly from the ID in fireStore with queries
   // Dependency array listens for a new ID and rerenders
 
-  // articles = our fireStore collection, id = the query
+  // articles = our fireStore collection, id = the cocktailid
   useEffect(() => {
     const docRef = doc(db, "events", "featured", fetchLng, id);
     onSnapshot(docRef, (snapshot) => {
       setArticle({ ...snapshot.data(), id: snapshot.id });
     });
-  }, [id, fetchLng, t]);
+  }, [id, fetchLng, t]); // listen for lng change and id -> rerender on change
 
   return (
     <div>

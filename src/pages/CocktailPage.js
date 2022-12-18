@@ -1,4 +1,8 @@
+// 🍹 COCKTAIL PAGE 🍹
+// 🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹🍹
 // Inspiration from https://youtu.be/_7gdsAfFV9o
+
+
 import React from "react";
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
@@ -39,8 +43,10 @@ import AddToTasteProfile from "../components/AddToTasteProfile";
 import GoBackDesktop from "../components/GoBackDesktop";
 
 export default function CocktailPage() {
-  // authentication auth and db are found in the firestore config, ref to our projekt in firebase
-  const [user] = useAuthState(auth);
+  const [user] = useAuthState(auth); // authentication auth and db are found in the firestore config, ref to our project in firebase
+  const { t, i18n } = useTranslation(); // import translations
+  const navigate = useNavigate(); // navigation
+  const fetchLng = i18n.language; // fetch depending on i18n language chosen
 
   // For the social media share btn -> get current URL to share -> dynamic
   const shareURL = window.location.href;
@@ -51,20 +57,10 @@ export default function CocktailPage() {
 
   // states for opening and closing modals
   const [showShareModal, setShowShareModal] = useState(false);
-  
   const handleShareModal = (event) => {
     setShowShareModal(!showShareModal);
     console.log(showShareModal);
   };
-
-  // import translations
-  const { t, i18n } = useTranslation();
-
-  // navigation
-  const navigate = useNavigate();
-
-  // fetch depending on i18n language chosen
-  const fetchLng = i18n.language;
 
   // Read more btn - onclick changes state to show more lines
   // If open -> change state back
@@ -76,7 +72,7 @@ export default function CocktailPage() {
     console.log(readMore);
   };
 
-  const [article, setArticle] = useState([]);
+  const [article, setArticle] = useState([]); // for setting our data, empty array so we can loop through it later
   const params = useParams();
   console.log(params); //Returns the slug-name of the url you're navigated to
   const id = params.id; // and the ID
@@ -101,7 +97,6 @@ export default function CocktailPage() {
       
       {/* SHARE MODAL STARTS HERE - IF CLICKED -> STATE TRUE -> SHOW MODAL */}
       {showShareModal && (
-        // "flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-2"
         <dialog className="flex items-center justify-center fixed w-full z-[99999] top-0 left-0 h-full bg-primaryBlack bg-opacity-80 px-2">
           <div className="bg-lightBlack border-2 border-primaryGray-900 py-8 px-5 w-full rounded-2xl flex justify-center items-center flex-col gap-8">
             <XMarkIcon
@@ -111,6 +106,8 @@ export default function CocktailPage() {
             <h3 className="font-displayBook text-2xl text-center">
               {t("cocktailPage.copyModalTitle")}
             </h3>
+
+            {/* SOCIAL ICONS + SHARE FUNCTION -> shares on selected social media via. popup -> dynamic with url and cocktail titles etc. */}
             <div className="flex gap-5">
               <FacebookShareButton url={shareURL} quote={article.title}>
                 <FacebookIcon size={32} round />

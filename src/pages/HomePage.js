@@ -1,3 +1,5 @@
+// 🏡🏡🏡🏡🏡🏡🏡🏡🏡🏡
+// HOMEPAGE "path - /" + catchall *
 import React from "react";
 import { useTranslation } from "react-i18next";
 import EventCarousel from "../components/EventCarousel";
@@ -10,8 +12,7 @@ import FeaturedCarouselHeader from "../components/FeaturedCarouselHeader";
 import HeroSection from "../components/HeroSection";
 
 export default function HomePage() {
-  // import copy translations from i18n
-  const { t } = useTranslation();
+  const { t } = useTranslation(); // import copy translations from i18n
 
   return (
     <section className="mt-20 font-medium mb-32 xl:mt-0">
@@ -21,6 +22,7 @@ export default function HomePage() {
           {t("homepage.title")}
         </h1>
       </section>
+
       {/* MOST POPULAR */}
       <FeaturedCarouselHeader
         link={"/search"}
@@ -28,6 +30,8 @@ export default function HomePage() {
         title={t("homepage.featuredCarousel.title")}
       />
       <FeaturedCarousel category={"featured"} parameter={"=="} value={true} />
+      
+      {/* NO SEE MORE BTN -> HEADER ADDED INSIDE HERE */}
       <EventCarousel />
 
       {/* CHRISTMAS - SEASONAL FEATURE */}
@@ -47,6 +51,7 @@ export default function HomePage() {
       </section>
 
       {/* FEATURED ARTICLES - UPDATED WITH NEW PRODUCT ROLLOUTS */}
+      {/* STATIC SLUG RN -> can be changed to dynamic after more articles are added */}
       <ArticlesFeatured slug="sobczyk" />
 
       {/* NEW YEARS - SEASONAL FEATURE */}
@@ -75,7 +80,7 @@ export default function HomePage() {
         value={"fest"}
       />
       
-      {/* ABOUT THE COMPANY -> Adds value */}
+      {/* ABOUT THE COMPANY -> Adds value and a more personal relation to the user */}
       <AboutArticlesFeatured />
 
     </section>

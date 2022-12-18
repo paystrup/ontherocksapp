@@ -1,3 +1,8 @@
+// ✨ SAVED COCKTAILS / LIKEPAGE
+// if we had more time for the project, implement a local db so no user login here is required
+// on user signup transfer local data
+// todo
+
 import React from "react";
 import LikesPageFavorites from "../components/LikesPageFavorites";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -8,10 +13,13 @@ import Spinanimation from "../components/Spinanimation";
 import Login from "../components/Login";
 
 export default function LikesPage() {
-  // import copy translations from i18n
-  const { t } = useTranslation();
-  const [user, loading] = useAuthState(auth);
+  const { t } = useTranslation(); // import copy translations from i18n
+  const [user, loading] = useAuthState(auth); // get auth userdata - auth found in firebase config
+  
+  // if user state is loading -> logging in, return loading anim
   if (loading) return <Spinanimation />;
+
+  // if no user show onboarding + login
   if (!user)
     return (
       <section>
@@ -41,6 +49,8 @@ export default function LikesPage() {
         </div>
       </section>
     );
+
+  // if user is logged in show page
   if (user)
     return (
       <section className="mt-20 mb-32 px-6 lg:px-14 fadeInAnimation">
