@@ -2,7 +2,7 @@
 ## Advanced Frontend Development Exam - 3rd Semester - Multimedia Design Business Academy Aarhus
 
 #### 🍸 Cocktail Recipe React SPA PWA 🍸
-##### Firebase / Firestore / Storage - CRUD -  Tailwind - i18n multilanguage support - Framer Motion
+##### Firebase / Firestore / Storage - CRUD -  Tailwind - i18n multilanguage support - Framer Motion - GSAP
 
 
 
