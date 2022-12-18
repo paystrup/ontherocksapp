@@ -43,6 +43,7 @@ export default function ProfilePage() {
   const handleSignOut = (event) => {
     auth.signOut();
     toast(t("signin.logoutToastMsg"), { toastId: "logoutToast" });
+    navigate("/profile");
   };
 
   // if userdata is loading show loader anim
