@@ -13,6 +13,7 @@ import ArticlesFeatured from "../components/AboutArticlesFeatured"
 import "swiper/css";
 import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
 import GoBackDesktop from "../components/GoBackDesktop";
+import ShareSocialModal from "../components/ShareSocialModal";
 
 export default function EventPage() {
   const { t, i18n } = useTranslation(); // import translations from i18n
@@ -57,9 +58,7 @@ export default function EventPage() {
               </div>
 
               <div className="flex gap-3">
-                <div className="border-[1px] rounded-full p-1">
-                  <PaperAirplaneIcon className="h-6 w-6 -rotate-45" />
-                </div>
+                <ShareSocialModal article={article}/>
               </div>
             </div>
 
