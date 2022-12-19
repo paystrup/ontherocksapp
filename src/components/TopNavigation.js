@@ -37,6 +37,8 @@ export default function TopNavigation() {
     setOpenLngSelect(!openLngSelect);
   };
 
+  
+
   return (
     <nav className="h-16 flex items-center justify-between px-6 py-8 bg-primaryBlack w-full fixed top-0 left-0 z-50 text-primaryWhite lg:py-11">
       {/* CHANGE LANGUAGE MODAL - IF CLICKED and openLngSelect is true, show */}
