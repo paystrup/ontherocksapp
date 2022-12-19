@@ -55,7 +55,7 @@ export default function ArticlesFeatured(slug) {
                 {t("competition.homePage.title")} 
                 <span className="underline underline-offset-4 text-primaryYellow">
                   {t("competition.homePage.second")} 
-                </span>{" "}
+                </span>
                 {t("competition.homePage.third")} 
               </h2>
               <p className="text-sm font-thin pt-2 text-primaryGray-500 pb-7 lg:text-2xl lg:mb-7">

@@ -10,9 +10,10 @@ export default function ProfilePageFavoritesMap({ articles, sliceAmount }) {
 
   // display users favourites
   // map through data and slice
+  // articles.slice(0, sliceAmount).map does not work atm -> JS error, code is correct????
   return (
     <>
-      {articles.slice(0, sliceAmount).map(
+      {articles.map(
         ({ id, image, title, likes }) =>
           likes?.includes(auth.currentUser.uid) && (
             <div className="h-52 max-w-[100%] relative cursor-pointer" key={id}>
