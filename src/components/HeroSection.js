@@ -37,6 +37,10 @@ export default function HeroSection() {
         });
     }, [q]); // listen for elements rendered and rerender
 
+    const handleScrollOnClick = () => {
+        window.scrollTo({ top: 800, behavior: 'smooth' });
+    };
+
     return (
         <section className="hidden h-[100vh] w-full overflow-hidden mb-32 xl:flex">
             <div dangerouslySetInnerHTML={{ __html: `  
@@ -71,6 +75,7 @@ export default function HeroSection() {
 
                         <button 
                             className="hover:bg-primaryYellow hover:text-primaryBlack transition-all px-5 py-2 rounded-xl border-[1px] text-primaryWhite border-primaryWhite cursor-pointer"
+                            onClick={handleScrollOnClick}
                         >
                         {t("homepage.hero.btnSecondary")}
                         </button>                
