@@ -51,7 +51,7 @@ export default function ProfilePage() {
 
   // This calls the removeNonNumericCharacters function and passes the input
   // string as an argument the modified string is then stored in the output variable
-  // we can then use this to display the days since a user signed up
+  // we can then use this to display the days since a user signed up with auth
   const output = removeNonNumericCharacters(input);
 
 
