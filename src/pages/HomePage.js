@@ -29,7 +29,7 @@ export default function HomePage() {
         btnText={t("homepage.featuredCarousel.btnText")}
         title={t("homepage.featuredCarousel.title")}
       />
-      <FeaturedCarousel category={"featured"} parameter={"=="} value={true} />
+      <FeaturedCarousel category={"frontPage"} parameter={"=="} value={true} />
       
       {/* NO SEE MORE BTN -> HEADER ADDED INSIDE HERE */}
       <EventCarousel />

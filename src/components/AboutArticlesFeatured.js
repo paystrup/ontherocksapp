@@ -37,7 +37,7 @@ export default function AboutArticlesFeatured(slug) {
 
       // store data (setState) change state -> importing the array of cocktails from the db
       setArticle(data);
-      console.log(data); // check if data is fetched
+      // console.log(data); // check if data is fetched
     });
   }, [fetchLng, t]); // dependency array listens for language change and rerenders data on changes
 
