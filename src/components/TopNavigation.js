@@ -1,7 +1,7 @@
 // TOP NAVBAR
 // BOTH MOBILE AND DESKTOP COMBINED
 // TODO -> add data for dynamic top navbar to an array and loop -> save code lines
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import logo from "../assets/svg/logo.svg";
@@ -37,10 +37,42 @@ export default function TopNavigation() {
     setOpenLngSelect(!openLngSelect);
   };
 
+
+  // NAVBAR SCROLL EFFECT
+  // Set up state variables to store the previous scroll position
+  // and the visibility state of the navbar
+  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    // This function is called whenever the scroll position changes
+    const handleScroll = () => {
+      // Get the current scroll position
+      const currentScrollPos = window.pageYOffset;
+  
+      // Set the navbar to be hidden if the current scroll position is
+      // greater than the previous scroll position
+      const visible = prevScrollPos > currentScrollPos;
+  
+      // Update the previous scroll position and the visibility state
+      setPrevScrollPos(currentScrollPos);
+      setVisible(visible);
+    };
+  
+    // Add an event listener to monitor scroll events
+    window.addEventListener('scroll', handleScroll);
+  
+    // Remove the event listener when the component is unmounted
+    return () => {
+      // important to prevent memory leaks and ensure that the event listener is removed when it is no longer needed.
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]); // Re-run the effect whenever prevScrollPos changes
   
 
+  // Render the navbar with the appropriate class based on the visibility state
   return (
-    <nav className="h-16 flex items-center justify-between px-6 py-8 bg-primaryBlack w-full fixed top-0 left-0 z-50 text-primaryWhite lg:py-11">
+    <nav className={visible ? "h-16 flex items-center justify-between px-6 py-8 bg-primaryBlack w-full fixed top-0 left-0 z-50 text-primaryWhite lg:py-11 transition-all ease-in-out" : "opacity-0"}>
       {/* CHANGE LANGUAGE MODAL - IF CLICKED and openLngSelect is true, show */}
       {openLngSelect && (
         <div className="languageSelector fixed top-0 left-0 bg-primaryBlack z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16">
