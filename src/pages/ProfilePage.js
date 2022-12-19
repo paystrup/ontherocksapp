@@ -30,13 +30,31 @@ export default function ProfilePage() {
   // fetch depending on i18n language chosen
   const fetchLng = i18n.language;
 
+  // This function takes in a string as an argument and returns the string
+  // with all non-numeric characters removed
+  function removeNonNumericCharacters(input) {
+      // The replace method is used to replace all occurrences of the pattern
+    // /\D/g with an empty string. The pattern matches any non-digit character,
+    // and the 'g' flag indicates that the search should be global (fx.., all
+    // of the pattern should be replaced).
+    return input.replace(/\D/g,'');
+  }
+
   // get signup date and convert with moment
   const userSignUpDate = moment(user?.metadata?.creationTime)
     .locale(fetchLng)
     .startOf("day")
     .fromNow();
-  // get first character of the string (amount of days since sign)
-  const userSignUpDateMin = Array.from(userSignUpDate)[0];
+
+  // this is the input string that will be passed to the function
+  const input = userSignUpDate;
+
+  // This calls the removeNonNumericCharacters function and passes the input
+  // string as an argument the modified string is then stored in the output variable
+  // we can then use this to display the days since a user signed up
+  const output = removeNonNumericCharacters(input);
+
+
 
   // signout onclick function -> signout from firebase + ux toast
   const handleSignOut = (event) => {
@@ -138,7 +156,7 @@ export default function ProfilePage() {
               <p className="font-medium text-primaryGray-500 text-xs">
                 {t("profilepage.createdAt")}
               </p>
-              <p className="text-4xl fadeInAnimation">{userSignUpDateMin}</p>
+              <p className="text-4xl fadeInAnimation">{output}</p>
               <div>
                 <p className="text-[10px] text-primaryGray-700">
                   {t("profilepage.createdAtBottom")}

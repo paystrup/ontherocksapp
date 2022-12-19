@@ -43,7 +43,7 @@ export default function LikesPageGeneratePDF(articles) {
 
   return (
     <div
-      className=" pt-4 sticky z-[9] mb-20 bottom-28 lg:bottom-5 left-0 w-full lg:mb-0"
+      className="px-5 pt-4 fixed lg:sticky z-[9] mb-20 bottom-0 lg:px-0 lg:bottom-5 left-0 w-full lg:mb-0"
       style={{
         backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,1) 84%)`,
       }}

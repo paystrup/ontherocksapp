@@ -22,7 +22,7 @@ export default function ProfilePageFavourites() {
   };
 
   const showLessLikes = () => {
-      setVisible(4);
+      setVisible(8);
   };
 
   // State for saving our data in an empty array
@@ -83,7 +83,7 @@ export default function ProfilePageFavourites() {
       */}
       {isFound && (
         <div className="mb-28 w-full">
-          <div className={likesCounter <= 1 ? null : "grid-cols-2 lg:grid-cols-2 gap-[5vw] lg:gap-[1vw] grid justify-between"}>
+          <div className={likesCounter <= 1 ? "" : "grid-cols-2 lg:grid-cols-2 gap-[5vw] lg:gap-[1vw] grid justify-between"}>
             <ProfilePageFavoritesMap
               articles={articles}
               sliceAmount={visible}

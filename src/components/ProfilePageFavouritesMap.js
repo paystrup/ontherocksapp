@@ -12,7 +12,7 @@ export default function ProfilePageFavoritesMap({ articles, sliceAmount }) {
   // map through data and slice
   return (
     <>
-      {articles.slice(0, sliceAmount).map(
+      {articles.map(
         ({ id, image, title, likes }) =>
           likes?.includes(auth.currentUser.uid) && (
             <div className="h-52 max-w-[100%] relative cursor-pointer" key={id}>

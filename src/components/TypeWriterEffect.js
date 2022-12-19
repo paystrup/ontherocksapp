@@ -1,6 +1,3 @@
-// inspiration https://chat.openai.com/chat
-// prompt used: make a typewriter function in React, that has an array of text it changes between
-// 🚨 todo debug and fix word undefined being sometimes on rerender
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
