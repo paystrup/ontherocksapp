@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
 import GoBackDesktop from "../components/GoBackDesktop";
 import ShareSocialModal from "../components/ShareSocialModal";
+import ScrollToTopBtn from "../components/ScrollToTopBtn";
 
 export default function ArticlesPage() {
   const navigate = useNavigate(); // import navigation from react router
@@ -37,6 +38,7 @@ export default function ArticlesPage() {
   // could have been broken up into more components 😎
   return (
     <div className="fadeInAnimation">
+      <ScrollToTopBtn />
       <GoBackDesktop />
       <div className="text-primaryWhite mt-16 mb-32 lg:flex lg:justify-between lg:mt-7">
         <div className="lg:w-[45vw] lg:relative lg:pl-14">

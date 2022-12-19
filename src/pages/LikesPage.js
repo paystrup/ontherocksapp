@@ -34,7 +34,7 @@ export default function LikesPage() {
             className="videovideo"
           ></video>
         </div>
-        <div className="mt-16 mb-32 relative px-6 lg:px-56 xl:px-[45rem] lg:mt-32 sm:px-20 sm:mt-24">
+        <div className="mt-16 mb-32 relative px-6 lg:px-56 xl:px-[35rem] lg:mt-32 sm:px-20 sm:mt-24">
           <h1 className="text-3xl font-displayBook leading-tight text-center">
             <div
               className="textspan"

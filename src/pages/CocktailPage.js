@@ -22,6 +22,7 @@ import LikeCocktailFullWidthBtn from "../components/LikeCocktailFullWidthBtn";
 import AddToTasteProfile from "../components/AddToTasteProfile";
 import GoBackDesktop from "../components/GoBackDesktop";
 import ShareSocialModal from "../components/ShareSocialModal";
+import ScrollToTopBtn from "../components/ScrollToTopBtn";
 
 export default function CocktailPage() {
   const [user] = useAuthState(auth); // authentication auth and db are found in the firestore config, ref to our project in firebase
@@ -61,6 +62,7 @@ export default function CocktailPage() {
 
   return (
     <div className="text-primaryWhite mt-16 mb-32 fadeInAnimation">
+      <ScrollToTopBtn />
       {/* RECIPE STARTS HERE */}
       {/* WRAPPER */}
       <section className="mt-14">

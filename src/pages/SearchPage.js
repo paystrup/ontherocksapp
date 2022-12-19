@@ -2,12 +2,14 @@ import { React } from "react";
 import { useTranslation } from "react-i18next";
 import CategoryCarousel from "../components/CategoryCarousel";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import ScrollToTopBtn from "../components/ScrollToTopBtn";
 
 export default function SearchPage() {
   const { t } = useTranslation(); // import copy translations from i18n
 
   return (
     <section className="mt-20 mb-32 lg:mt-36 fadeInAnimation">
+      <ScrollToTopBtn />
       <div className="px-5 w-full lg:px-14 flex flex-col lg:flex-col-reverse lg:gap-12">
         <div className="relative flex">
           <div className="flex items-center">

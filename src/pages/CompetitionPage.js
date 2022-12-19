@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Mousewheel, Pagination } from "swiper";
 import { useNavigate } from "react-router-dom";
 import CompetitionCarousel from "../components/CompetitionCarousel";
+import ScrollToTopBtn from "../components/ScrollToTopBtn";
 
 // Import Swiper styles + modules
 import "swiper/css";
@@ -41,6 +42,7 @@ export default function ArticlesPage() {
 
   return (
     <section className="my-14 mt-16 mb-32">
+      <ScrollToTopBtn />
       <div className="lg:flex lg:flex-row lg:px-14 lg:mt-32 lg:gap-[4rem] lg:relative">
         <div
           className="h-96 rounded-b-[30px] flex items-end lg:h-[80vh] lg:w-[50vw] lg:rounded-t-[30px] lg:sticky lg:top-20"

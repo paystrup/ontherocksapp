@@ -13,16 +13,15 @@ import EventPage from "./pages/EventPage";
 import LoginPage from "./pages/LoginPage";
 import ArticlesPage from "./pages/ArticlesPage";
 import CompetitionPage from "./pages/CompetitionPage";
-import ScrollToTopBtn from "./components/ScrollToTopBtn";
 import Footer from "./components/Footer";
 import AgeConfirmed from "./components/AgeConfirmed";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <AgeConfirmed />
       <TopNavigation />
-      <ScrollToTopBtn />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/search" element={<SearchPage />} />
@@ -39,7 +38,6 @@ function App() {
         />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      <ScrollToTop />
       <BottomNavigation />
       <Footer />
     </div>

@@ -13,6 +13,7 @@ import "swiper/css";
 import FeaturedProductsCarousel from "../components/FeaturedProductsCarousel";
 import GoBackDesktop from "../components/GoBackDesktop";
 import ShareSocialModal from "../components/ShareSocialModal";
+import ScrollToTopBtn from "../components/ScrollToTopBtn";
 
 export default function EventPage() {
   const { t, i18n } = useTranslation(); // import translations from i18n
@@ -38,6 +39,7 @@ export default function EventPage() {
 
   return (
     <div>
+      <ScrollToTopBtn />
       <GoBackDesktop />
       <div className="text-primaryWhite mt-16 mb-32 fadeInAnimation lg:mt-0">
         <div className="lg:flex lg:flex-row lg:px-0 lg:mt-7 lg:gap-[4rem] lg:relative">

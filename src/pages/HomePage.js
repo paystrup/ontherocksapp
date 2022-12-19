@@ -10,12 +10,14 @@ import ArticlesFeatured from "../components/ArticlesFeatured";
 import AboutArticlesFeatured from "../components/AboutArticlesFeatured";
 import FeaturedCarouselHeader from "../components/FeaturedCarouselHeader";
 import HeroSection from "../components/HeroSection";
+import ScrollToTopBtn from "../components/ScrollToTopBtn";
 
 export default function HomePage() {
   const { t } = useTranslation(); // import copy translations from i18n
 
   return (
     <section className="mt-20 font-medium mb-32 xl:mt-0">
+      <ScrollToTopBtn />
       <HeroSection />
       <section className="px-5 lg:hidden">
         <h1 className="text-5xl font-displayBook leading-tight lg:text-[5rem]">

@@ -1299,8 +1299,8 @@
     },
     "image": {
       "alt": "test",
-      "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FlyversjusAviator.jpeg?alt=media&token=13f09fd2-a1e5-430d-8b09-3f66938d7dda",
-      "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FlyversjusAviator.jpeg?alt=media&token=13f09fd2-a1e5-430d-8b09-3f66938d7dda"
+      "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FlyversjusAviator.webp?alt=media&token=52cbab2a-0562-46b9-aac0-76819095030d",
+      "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/FlyversjusAviator.webp?alt=media&token=52cbab2a-0562-46b9-aac0-76819095030d"
     },
     "ingredients": {
       "second": {
