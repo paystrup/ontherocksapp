@@ -71,7 +71,7 @@ export default function FeaturedCarousel({ category, parameter, value }) {
 
         {/* IF LOADING IS TRUE -> render loading anim */}
         {isLoading && (
-            <Spinanimation/>
+            <Spinanimation />
         )}
         
         {/* SWIPER-JS */}
