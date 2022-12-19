@@ -80,7 +80,7 @@ export default function ArticlesPage() {
               </p>
               {article?.section2?.image && (
                 <img
-                  className="mt-7"
+                  className="mt-7 lg:rounded-3xl lg:pr-14"
                   src={article?.section2?.image?.src}
                   alt={article?.section2?.image?.alt}
                 />
@@ -109,7 +109,7 @@ export default function ArticlesPage() {
               </div>
               {article?.section3?.image && (
                 <img
-                  className="mt-7"
+                  className="mt-7 lg:rounded-3xl lg:pr-14"
                   src={article?.section3?.image?.src}
                   alt={article?.section2?.image?.alt}
                 />
@@ -189,7 +189,7 @@ export default function ArticlesPage() {
                   href="https://bornholmspirits.com/pages/vores-historie"
                   target="_blank" rel="noreferrer"
                 >
-                  <button className="text-primaryYellow font-medium w-full py-3 rounded-2xl border-[1.2px] readMoreBtn">
+                  <button className="text-primaryYellow font-medium w-full py-3 rounded-2xl border-[1.2px] readMoreBtn mt-14">
                     {article?.section4?.button}
                   </button>
                 </a>
