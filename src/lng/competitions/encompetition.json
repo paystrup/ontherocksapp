@@ -2,9 +2,9 @@
     {
         "id": "competition",
         "headerImages": {
-            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konkurrence.webp?alt=media&token=812dd459-db1b-48a8-964b-0bda2fd21905",
-            "src1": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/vinder.webp?alt=media&token=c58b7954-6bb2-4850-9da9-e23346310195",
-            "src2": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konkurrence2.webp?alt=media&token=38d7647a-2e01-4374-9bc5-4e2260f1fd5a"
+            "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/compppp.webp?alt=media&token=151d5be9-2f4e-407e-a12b-99a01526ab93",
+            "src1": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/nyvinder.webp?alt=media&token=c658e91b-4ae2-4f85-9c49-ea2f50126ead",
+            "src2": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/pexels-roman-odintsov-4958892.webp?alt=media&token=f8e6d660-fe2c-4989-a39e-91d894bbfb32"
         },
         "slug": "competition",
         "category": "competitions",
@@ -38,10 +38,10 @@
         "section4": {
             "title": "The best participants of the season",
             "sliderImages": {
-                "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud.webp?alt=media&token=f15dea8e-8e65-4c14-8cef-ea809e5c8d24",
-                "src1": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud1.webp?alt=media&token=9ac5da2d-e234-4243-b0bd-aab9f0d7e9ef",
-                "src2": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud2.webp?alt=media&token=794a831f-fd00-428e-9a34-5db83ffb4143",
-                "src3": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/bud3.webp?alt=media&token=97c3e30e-6bbc-4142-8e8c-4b1a9b0e59f2"
+                "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konk4.webp?alt=media&token=39ab303c-a84d-4928-b0ef-35ba0777d01c",
+                "src1": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konk1.webp?alt=media&token=90267656-94d5-4bad-858e-a4dad75252a9",
+                "src2": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konk2.webp?alt=media&token=da1f81d4-1da6-4962-a35e-3f95f8ce5a86",
+                "src3": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/konk3.webp?alt=media&token=cef6145f-5577-4a4d-85a9-9ff0618fb2f3"
             }
         }
     }

@@ -45,20 +45,20 @@ export default function ArticlesFeatured(slug) {
   }, [fetchLng, t]); // dependency array listens for language change and rerenders when new language is chosen
 
   return (
-    <section className="my-14">
+    <section className="my-24 lg:my-0">
       <div className="h-full">
         {/* MAP THROUGH DATA AND DISPLAY THE ARTICLE -> destructured, to save space */}
         {article.map(({ headerImages, title, subtitle, id, button }) => (
-          <div className="overflow-hidden relative h-80 flex items-center flex-col justify-center lg:h-[30vw]">
-            <div className="text-center z-10 absolute px-6">
-              <h2 className="text-2xl lg:text-6xl">
-                Vind{" "}
+          <div className="overflow-hidden relative h-80 flex items-center flex-col justify-center lg:h-[40rem]">
+            <div className="text-center z-10 absolute px-6 lg:max-w-[80ch]">
+              <h2 className="text-2xl lg:text-6xl lg:mb-7">
+                {t("competition.homePage.title")} 
                 <span className="underline underline-offset-4 text-primaryYellow">
-                  kittet
+                  {t("competition.homePage.second")} 
                 </span>{" "}
-                der gør din næste fest til et hit!
+                {t("competition.homePage.third")} 
               </h2>
-              <p className="text-sm font-thin pt-2 text-primaryGray-500 pb-7">
+              <p className="text-sm font-thin pt-2 text-primaryGray-500 pb-7 lg:text-2xl lg:mb-7">
                 {subtitle}
               </p>
               <button
@@ -69,9 +69,9 @@ export default function ArticlesFeatured(slug) {
               </button>
             </div>
             <div className="absolute z-0">
-              <div className="flex justify-center items-center gap-6 h-full py-10 w-[120%] -translate-x-12 lg:gap-12 lg:w-[100%]">
+              <div className="flex justify-center items-center gap-6 h-full py-10 w-[120%] -translate-x-12 lg:-translate-x-0 lg:gap-12 lg:w-[100%]">
                 <div
-                  className="compAnim flex flex-col w-40 h-72 rounded-3xl blur-[2px] opacity-50 lg:w-[400px] lg:h-[800px] lg:rounded-[30px]"
+                  className="compAnim flex flex-col w-40 h-72 rounded-3xl blur-[2px] lg:w-[375px] lg:h-[600px] opacity-70 lg:rounded-[30px]"
                   style={{
                     backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 100%, rgba(0,0,0,0) 10%), url(${headerImages?.src})`,
                     backgroundPosition: "center",
@@ -81,7 +81,7 @@ export default function ArticlesFeatured(slug) {
                 ></div>
 
                 <div
-                  className="compAnim2 flex flex-col w-40 h-72 rounded-3xl pb-5 py-3 px-5 opacity-20 blur-[1px] lg:w-[400px] lg:h-[800px] lg:rounded-[30px]"
+                  className="compAnim2 flex flex-col w-40 h-72 rounded-3xl pb-5 py-3 px-5 opacity-[15%] blur-[1px] lg:w-[375px] lg:h-[600px] lg:rounded-[30px]"
                   style={{
                     backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 100%, rgba(0,0,0,0) 10%), url(${headerImages?.src2})`,
                     backgroundPosition: "center",
@@ -91,7 +91,7 @@ export default function ArticlesFeatured(slug) {
                 ></div>
 
                 <div
-                  className="compAnim3 flex flex-col w-40 h-72 rounded-xl pb-5 py-3 blur-[2px] opacity-70 lg:w-[400px] lg:h-[800px] lg:rounded-[30px]"
+                  className="compAnim3 flex flex-col w-40 h-72 rounded-xl pb-5 py-3 blur-[2px] opacity-70 lg:w-[375px] lg:h-[600px] lg:rounded-[30px]"
                   style={{
                     backgroundImage: `linear-gradient(180deg, rgba(12,12,12,0.4) 100%, rgba(0,0,0,0) 10%), url(${headerImages?.src1})`,
                     backgroundPosition: "center",

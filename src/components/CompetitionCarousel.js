@@ -43,7 +43,7 @@ export default function CompetitionCarousel() {
   // Show loading indicator while data is being fetched
 
   return (
-    <section className="my-14">
+    <section className="mt-6">
       <div className="flex">
         <Swiper
           spaceBetween={20}
@@ -86,11 +86,16 @@ export default function CompetitionCarousel() {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="pb-2 pt-2 flex w-full justify-between flex-col h-full">
+            <div className="flex w-full justify-end flex-col h-full rounded-[30px] px-6 pb-5">
               <div></div>
               <div>
+                <div className="flex gap-2 mb-3 text-xs font-regular">
+                  <p className="border-[2px] px-4 py-1 rounded-full uppercase">{t("competition.firstdrink.tagone")}</p>
+                  <p className="border-[2px] px-4 py-1 rounded-full uppercase">{t("competition.firstdrink.tagtwo")}</p>
+                </div>
                 <div className="flex flex-col gap-1">
-                  <p className="text-base">Pink Power</p>
+                  <p className="text-2xl font-medium">{t("competition.firstdrink.title")}</p>
+                  <p className="text-md font-thin text-primaryGray-500 line-clamp-2">{t("competition.firstdrink.body")}</p>
                 </div>
               </div>
             </div>
@@ -105,11 +110,16 @@ export default function CompetitionCarousel() {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="pb-2 pt-2 flex w-full justify-between flex-col h-full">
+            <div className="flex w-full justify-end flex-col h-full rounded-[30px] px-6 pb-5">
               <div></div>
               <div>
+                <div className="flex gap-2 mb-3 text-xs font-regular">
+                  <p className="border-[2px] px-4 py-1 rounded-full uppercase">{t("competition.seconddrink.tagone")}</p>
+                  <p className="border-[2px] px-4 py-1 rounded-full uppercase">{t("competition.seconddrink.tagtwo")}</p>
+                </div>
                 <div className="flex flex-col gap-1">
-                  <p className="text-base">Wiskey Twist</p>
+                  <p className="text-2xl font-medium">{t("competition.seconddrink.title")}</p>
+                  <p className="text-md font-thin text-primaryGray-500 line-clamp-2">{t("competition.seconddrink.body")}</p>
                 </div>
               </div>
             </div>
@@ -123,11 +133,16 @@ export default function CompetitionCarousel() {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="pb-2 pt-2 flex w-full justify-between flex-col h-full">
+            <div className="flex w-full justify-end flex-col h-full rounded-[30px] px-6 pb-5">
               <div></div>
               <div>
+                <div className="flex gap-2 mb-3 text-xs font-regular">
+                  <p className="border-[2px] px-4 py-1 rounded-full uppercase">{t("competition.thirddrink.tagone")}</p>
+                  <p className="border-[2px] px-4 py-1 rounded-full uppercase">{t("competition.thirddrink.tagtwo")}</p>
+                </div>
                 <div className="flex flex-col gap-1">
-                  <p className="text-base">Wine Mecha</p>
+                  <p className="text-2xl font-medium">{t("competition.thirddrink.title")}</p>
+                  <p className="text-md font-thin text-primaryGray-500 line-clamp-2">{t("competition.thirddrink.body")}</p>
                 </div>
               </div>
             </div>
@@ -141,11 +156,16 @@ export default function CompetitionCarousel() {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="pb-2 pt-2 flex w-full justify-between flex-col h-full">
+            <div className="flex w-full justify-end flex-col h-full rounded-[30px] px-6 pb-5">
               <div></div>
               <div>
+                <div className="flex gap-2 mb-3 text-xs font-regular">
+                  <p className="border-[2px] px-4 py-1 rounded-full uppercase">{t("competition.fourthdrink.tagone")}</p>
+                  <p className="border-[2px] px-4 py-1 rounded-full uppercase">{t("competition.fourthdrink.tagtwo")}</p>
+                </div>
                 <div className="flex flex-col gap-1">
-                  <p className="text-base">Lime Bomb</p>
+                  <p className="text-2xl font-medium">{t("competition.fourthdrink.title")}</p>
+                  <p className="text-md font-thin text-primaryGray-500 line-clamp-2">{t("competition.fourthdrink.body")}</p>
                 </div>
               </div>
             </div>

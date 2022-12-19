@@ -241,6 +241,44 @@
       "tør": "Tør"
     }
   },
+  "competition": {
+    "firstdrink": {
+      "title": "Sour Bomb",
+      "body":"Med denne drink er man sikker på at sine gæster vågner op",
+      "tagone":"Syrlig",
+      "tagtwo":"Sød"
+    },
+    "seconddrink": {
+      "title": "Jule Nisse",
+      "body":"Her får du folk i julehumør, med en frisk og sød drink",
+      "tagone":"Sød",
+      "tagtwo":"Frisk"
+    },
+    "thirddrink": {
+      "title": "Jule Maskinen",
+      "body":"Kom på et vildt eventyrligt juleeventyr",
+      "tagone":"Krydret",
+      "tagtwo":"Stærk"
+    },
+     "fourthdrink": {
+      "title": "Risalamande",
+      "body":"Så blev det endelig jul igen",
+      "tagone":"Sød",
+      "tagtwo":"Krydret"
+    },
+     "fifthdrink": {
+      "title": "Ananas mojito",
+      "body":"Nem og forfriskende ananas mojito, der passer perfekt til en varm sommerdag",
+      "tagone":"Sød",
+      "tagtwo":"Tropisk"
+    },
+    "homePage": {
+      "title": "Vind ",
+      "second": "kittet",
+      "third": "der gør din næste fest til et hit!",
+      "subTitle": "Julens cocktail er landet. Lav din egen cocktail og konkurrér om fede præmier."
+    }
+  },
   "articleCard": {
     "title": "Udforsk vores cocktails",
     "teaser": "Lav et cocktailkort med dine favoritter, og bliv klar til julen og nytår."

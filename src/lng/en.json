@@ -89,6 +89,44 @@
     "filterModalResetBtn": "Reset",
     "filterModalApplyBtn": "Apply"
   },
+    "competition":{
+    "firstdrink":{
+      "title": "Sour Bomb",
+      "body":"With this drink, you can be sure to wake up your guests",
+      "tagone":"Sour",
+      "tagtwo":"Sweet"
+    },
+    "seconddrink":{
+      "title": "Christmas Elf",
+      "body":"Get people in Christmas spirit with a fresh and sweet drink",
+      "tagone":"Sweet",
+      "tagtwo":"Fresh"
+    },
+    "thirddrink":{
+      "title": "Christmas Machine",
+      "body":"Go on a wild and adventurous Christmas adventure",
+      "tagone":"Spicy",
+      "tagtwo":"Strong"
+    },
+     "fourthdrink":{
+      "title": "Risalamande",
+      "body":"Finally, it's Christmas again",
+      "tagone":"Sweet",
+      "tagtwo":"Spicy"
+    },
+     "fifthdrink": {
+      "title": "Pineapple mojito",
+      "body":"Easy and refreshing pineapple mojito, perfect for a hot summer day",
+      "tagone":"Sweet",
+      "tagtwo":"Tropical"
+    },
+    "homePage": {
+      "title": "Win the ",
+      "second": "kit",
+      "third": "that makes your party a hit!",
+      "subTitle": "Julens cocktail er landet. Lav din egen cocktail og konkurrér om fede præmier."
+    }
+  },
   "likespage": {
     "title": "Your saved recipes",
     "subtitle": "Your saved cocktails",

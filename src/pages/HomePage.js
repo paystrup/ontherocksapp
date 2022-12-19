@@ -11,6 +11,7 @@ import AboutArticlesFeatured from "../components/AboutArticlesFeatured";
 import FeaturedCarouselHeader from "../components/FeaturedCarouselHeader";
 import HeroSection from "../components/HeroSection";
 import ScrollToTopBtn from "../components/ScrollToTopBtn";
+import CompetitionFeatured from "../components/CompetitionFeatured";
 
 export default function HomePage() {
   const { t } = useTranslation(); // import copy translations from i18n
@@ -20,7 +21,7 @@ export default function HomePage() {
       <ScrollToTopBtn />
       <HeroSection />
       <section className="px-5 lg:hidden">
-        <h1 className="text-5xl font-displayBook leading-tight lg:text-[5rem]">
+        <h1 className="text-5xl font-displayBook leading-tight">
           {t("homepage.title")}
         </h1>
       </section>
@@ -68,7 +69,7 @@ export default function HomePage() {
         value={"nytår"}
       />
 
-      {/* <CompetitionFeatured /> */}
+      <CompetitionFeatured />
 
       {/* PARTY - THEME FEATURE */}
       <FeaturedCarouselHeader
