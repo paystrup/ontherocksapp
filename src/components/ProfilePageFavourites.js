@@ -18,11 +18,11 @@ export default function ProfilePageFavourites() {
   // show more btn adds 4 more likes by adding 4 to prev value
   // updated: fixed amount -> simpler UI
   const showMoreLikes = () => {
-    setVisible(8);
+    setVisible(+8);
   };
 
   const showLessLikes = () => {
-      setVisible(8);
+      setVisible(+4);
   };
 
   // State for saving our data in an empty array
@@ -104,7 +104,7 @@ export default function ProfilePageFavourites() {
           </div>
 
           {/* SAME -> BUT SHOW LESS -> SUBTRACTS 4 from VISIBLE */}
-          <div className={visible > 5 ? "w-full justify-center" : "hidden"}>
+          <div className={visible > 4 ? "w-full justify-center" : "hidden"}>
               <button
                 className="px-5 w-full mt-4 text-primaryGray-700 rounded-xl py-1 bg-lightBlack"
                 onClick={showLessLikes}
