@@ -3,8 +3,6 @@
 
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Tooltip as ReactTooltip } from "react-tooltip";
-// import "react-tooltip/dist/react-tooltip.css";
 import footerLogo from "../assets/svg/logo-big3.svg"
 import { useState } from "react";
 
@@ -13,7 +11,7 @@ export default function Footer() {
  const [showEasterEgg, setShowEasterEgg] = useState(false);
  
   return (
-   <footer className="hidden lg:block lg:px-12 xl:px-28 pt-32 pb-8 bg-primaryGray-200">
+   <footer className="hidden lg:flex lg:px-12 xl:px-28 pt-32 pb-8 bg-primaryGray-200">
 
     {/* ☀☀☀☀☀ A LITTLE EASTEREGG ☀☀☀☀☀ */}
     {/* <ReactTooltip

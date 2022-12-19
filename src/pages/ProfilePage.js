@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebaseConfig.js";
@@ -13,7 +13,6 @@ import { toast } from "react-toastify";
 import moment from "moment";
 import "moment/locale/da";
 import ProfileChart from "../components/ProfileChart";
-import { Tooltip as ReactTooltip } from "react-tooltip";
 import LikeCounter from "../components/LikeCounter.js";
 import DisplayTasteProfile from "../components/DisplayTasteProfile.js";
 import TasteProfileCounter from "../components/TasteProfileCounter.js";
@@ -44,6 +43,14 @@ export default function ProfilePage() {
     auth.signOut();
     toast(t("signin.logoutToastMsg"), { toastId: "logoutToast" });
     navigate("/profile");
+  };
+  
+  // tooltips
+  const [showToolTipFirst, setshowToolTipFirst] = useState(false);
+  const [showToolTipClick, setshowToolTipClick] = useState(false);
+
+  const handleClickToolTip = () => {
+    setshowToolTipClick(!showToolTipClick);
   };
 
   // if userdata is loading show loader anim
@@ -141,24 +148,34 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="h-44 bg-primaryGray-200 mt-7 rounded-xl px-2 lg:px-6 py-4 flex justify-between w-full">
+        <div className="h-44 bg-primaryGray-200 mt-7 rounded-xl px-2 lg:px-6 py-4 flex justify-between w-full relative">
           <div className="flex items-center justify-center">
             <ProfileChart />
           </div>
           <div className="flex flex-col justify-between text-primaryGray-700">
-            <ReactTooltip
+            {/* <ReactTooltip
               className="h-fit max-w-[70vw]"
               anchorId="readMore"
               place="left"
               effect="solid"
               content={t("profilepage.readMoreBtn")}
-            />
-            <div className="flex gap-2 items-center">
+            /> */}
+            {showToolTipFirst && (
+              <div className="hidden lg:flex absolute right-[5%] max-w-xs mt-10 justify-center items-center bg-primaryGray-900 px-7 py-5 transition-all">
+                <p>{t("profilepage.readMoreBtn")}</p>
+              </div>
+            )}
+
+            {showToolTipClick && (
+              <div className="flex lg:hidden absolute right-[5%] max-w-xs mt-10 justify-center items-center bg-primaryGray-900 px-7 py-5 transition-all">
+                <p>{t("profilepage.readMoreBtn")}</p>
+              </div>
+            )}
+            <div onClick={handleClickToolTip} className="flex gap-2 items-center" onMouseEnter={() => setshowToolTipFirst(true)} onMouseLeave={() => setshowToolTipFirst(false)}>
               <h4 className="font-regular text-base">
                 {t("profilepage.tasteProfileTitle")}
               </h4>
               <div
-                id="readMore"
                 className="border-solid border-[1px] rounded-full w-[14px] h-[14px] flex justify-center align-center"
               >
                 <p className="text-[9px] self-center">?</p>
@@ -187,23 +204,10 @@ export default function ProfilePage() {
         </div>
 
         <div className="mt-14 flex justify-between mb-7">
-          <ReactTooltip
-            className="h-fit max-w-[70vw]"
-            anchorId="infoTaste"
-            place="top"
-            effect="solid"
-            content={t("profilepage.readMoreBtn")}
-          />
           <div id="infoTaste" className="flex gap-2 items-center">
             <h3 className="font-medium text-xl">
               {t("profilepage.latestAdded")}
             </h3>
-            <div
-                id="infoTaste"
-                className="border-solid border-[1px] rounded-full w-[14px] h-[14px] flex justify-center align-center"
-              >
-                <p className="text-[9px] self-center">?</p>
-              </div>
           </div>
           <SeeMoreBtn text={t("profilepage.latestAddedBtn")} />
         </div>
