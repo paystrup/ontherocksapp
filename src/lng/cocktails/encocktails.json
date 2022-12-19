@@ -38,6 +38,7 @@
       "fifth": "clover-club"
     },
     "featured": true,
+    "frontPage": true,
     "body": "A Screwdriver is the classic Vodka Juice that we all know and love. A Screwdriver is incredibly simple to make and can easily be enjoyed even if you are not too fond of vodka, as the juice goes away and hides the strong traces of alcohol in the drink. The drink has also been named by The International Bartenders Association as one of their official cocktails.",
     "relatedArticles": {
       "1": "test"
@@ -70,8 +71,7 @@
         "slug": "vodka-bornholm",
         "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -112,6 +112,7 @@
       "fifth": "gin-mojito"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Nordic Pamola is our take on the classic grape drink, but with our delicious FROST aquavit instead of tequila. The drink offers both sweet and bitter flavors, including from the pink grape soda. Enjoy this cocktail all year round.",
     "relatedArticles": {
       "1": "test"
@@ -144,8 +145,7 @@
         "slug": "frost-akvavit",
         "link": "https://bornholmspirits.com/products/frost-klar-akvavit?_pos=1&_psq=frost-a&_ss=e&_v=1.0",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -339,6 +339,7 @@
       "fifth": "frost-akva-sour"
     },
     "featured": true,
+    "frontPage": true,
     "body": "A well-known classic, but damn good nonetheless. A cocktail that suits most occasions and which, with its refreshing notes of lime, is perfect on a warm summer evening.",
     "relatedArticles": {
       "1": "test"
@@ -375,8 +376,7 @@
         "slug": "vodka-bornholm",
         "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -418,6 +418,7 @@
       "fifth": "blooming-fig"
     },
     "featured": true,
+    "frontPage": true,
     "body": "A creamy and rich drink. An obvious choice to serve in the winter months. This cocktail is the perfect combination of bitterness from the coffee and sweetness from the whole milk or cream, giving a round pleasant taste.",
     "relatedArticles": {
       "1": "test"
@@ -454,8 +455,7 @@
         "slug": "vodka-bornholm",
         "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
         "amount": "3 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -868,6 +868,7 @@
       "fifth": "clover-club"
     },
     "featured": true,
+    "frontPage": true,
     "body": "The best of both worlds. The fresh cocktail is a result of sour flavors from the sea buckthorn combined with the bitter tonic and is a real winner. The cocktail gets its beautiful color from the orange-yellow berries and decorates any table.",
     "relatedArticles": {
       "1": "test"
@@ -909,8 +910,7 @@
         "slug": "bornholmgin",
         "link": "https://bornholmspirits.com/products/bornholm-gin",
         "amount": "5 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1039,6 +1039,7 @@
       "fifth": "gin-hass"
     },
     "featured": true,
+    "frontPage": true,
     "body": "A classic in new clothes. A refreshing and (dangerously) mouthwatering cocktail that is always a hit. Replace the rum with our delicious gin with sweet notes and serve a sure winner for your guests.",
     "relatedArticles": {
       "1": "test"
@@ -1080,8 +1081,7 @@
         "slug": "caskgin",
         "link": "https://bornholmspirits.com/products/cask-gin",
         "amount": "5 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1205,6 +1205,7 @@
       "fifth": "kongen-af-danmark"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Hard work week? Enjoy the iconic Italian drink and relax, it's the weekend. The bitter notes from the Campari are combined with the sweetness of our fantastic gin. Try it!",
     "relatedArticles": {
       "1": "test"
@@ -1246,8 +1247,7 @@
         "slug": "slotslyngelgin",
         "link": "https://bornholmspirits.com/products/slotslyngel-gin",
         "amount": "3 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1287,6 +1287,7 @@
       "fifth": "spiced-tonic"
     },
     "featured": true,
+    "frontPage": true,
     "body": "When you need to fly high, this is your go-to cocktail. It's easy to make and just as easy to drink. Perfect for many guests, so you don't have to spend your entire evening in the kitchen.",
     "relatedArticles": {
       "1": "test"
@@ -1320,8 +1321,7 @@
         "slug": "bornholmerklarakvavit",
         "link": "https://bornholmspirits.com/products/bornholmer-akvavit-40",
         "amount": "5 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1362,6 +1362,7 @@
       "fifth": "the-ukrainian-dane"
     },
     "featured": true,
+    "frontPage": true,
     "body": "A fruity and refreshing cocktail. A twist on the classic G&T, where you end up with a result that is best enjoyed on a late summer day in good company.",
     "relatedArticles": {
       "1": "test"
@@ -1399,8 +1400,7 @@
         "slug": "bornholmgin",
         "link": "https://bornholmspirits.com/products/bornholm-gin",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1682,6 +1682,7 @@
       "fifth": "fruity-gogt"
     },
     "featured": true,
+    "frontPage": true,
     "body": "This cocktail tastes like summer and should be enjoyed in the summer. It blends the sweetness of figs with the tartness of passion fruit, resulting in a fantastic flavor.",
     "relatedArticles": {
       "1": "test"
@@ -1727,8 +1728,7 @@
         "slug": "figensnaps",
         "link": "https://bornholmspirits.com/products/3-figen-snaps",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1769,6 +1769,7 @@
       "fifth": "spiced-tonic"
     },
     "featured": true,
+    "frontPage": true,
     "body": "This is another classic cocktail. It is bitter and it is good. We have added faint notes of figs to compliment the bitter tonic and we think it's a bit of a hit. Judge for yourself.",
     "relatedArticles": {
       "1": "test"
@@ -1802,8 +1803,7 @@
         "slug": "figensnaps",
         "link": "https://bornholmspirits.com/products/3-figen-snaps",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -3770,6 +3770,7 @@
       "fifth": "flyver-sjus"
     },
     "featured": true,
+    "frontPage": true,
     "body": "The cocktail that has taken Denmark by storm. The cocktail was invented by the brilliant bartender Kim Hass and can liven up any party. It's easy to make and just as tasty. ",
     "relatedArticles": {
       "1": "test"
@@ -3810,8 +3811,7 @@
         "slug": "caskgin",
         "link": "https://bornholmspirits.com/products/cask-gin",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -3854,6 +3854,7 @@
       "fifth": "clover-club"
     },
     "featured": true,
+    "frontPage": true,
     "body": "The perfect balance between the sour and the sweet. The cocktail is the ultimate summer drink and should be enjoyed in good company.",
     "relatedArticles": {
       "1": "test"
@@ -3894,8 +3895,7 @@
         "slug": "caskgin",
         "link": "https://bornholmspirits.com/products/cask-gin",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -4024,6 +4024,7 @@
       "fifth": "born-rebel"
     },
     "featured": true,
+    "frontPage": true,
     "body": "An elegant classic. Bubbles, hints of lemon and well-being. This cocktail belongs at all occasions and you can be sure that your guests will enjoy the experience.",
     "relatedArticles": {
       "1": "test"
@@ -4064,8 +4065,7 @@
         "slug": "bornholmgin",
         "link": "https://bornholmspirits.com/products/bornholm-gin",
         "amount": "3 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {

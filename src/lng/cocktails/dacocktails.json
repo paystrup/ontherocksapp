@@ -38,6 +38,7 @@
       "fifth": "clover-club"
     },
     "featured": true,
+    "frontPage": true,
     "body": "En Screwdriver er den klassiske Vodka Juice som vi alle sammen kender og elsker. En Screwdriver er utrolig simpel at lave og kan sagtens nydes selvom man ikke er så meget for vodka, da juicen går hen og gemmer de stærke spor af alkohol i drinken. Drinken er også blevet udnævnt af The International Bartenders Association som en af deres officielle cocktails.",
     "relatedArticles": {
       "1": "test"
@@ -70,8 +71,7 @@
         "slug": "vodka-bornholm",
         "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -112,6 +112,7 @@
       "fifth": "gin-mojito"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Nordic Pamola er vores take på den klassiske grapedrink, nemlig med vores lækre FROST akvavit i stedet for tequila. Drinken byder både på søde og bitre smagsnoter blandt andet fra den pink grape sodavand. Nyd denne cocktail hele året rundt.",
     "relatedArticles": {
       "1": "test"
@@ -144,8 +145,7 @@
         "slug": "frost-akvavit",
         "link": "https://bornholmspirits.com/products/frost-klar-akvavit?_pos=1&_psq=frost-a&_ss=e&_v=1.0",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -339,6 +339,7 @@
       "fifth": "frost-akva-sour"
     },
     "featured": true,
+    "frontPage": true,
     "body": "En efterhånden velkendt klassiker, men ikke desto mindre skide god. En cocktail der passer til de fleste lejligheder og som med sine forfriskende noter af lime er perfekt på en varm sommeraften.",
     "relatedArticles": {
       "1": "test"
@@ -375,8 +376,7 @@
         "slug": "vodka-bornholm",
         "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -418,6 +418,7 @@
       "fifth": "blooming-fig"
     },
     "featured": true,
+    "frontPage": true,
     "body": "En cremet fyldig drink. Et oplagt valg at servere i vintermånederne. Denne cocktail er den perfekte kombination af bitterhed fra kaffen og sødmen fra sødmælken eller fløden, hvilket giver en rund behagelig smag.",
     "relatedArticles": {
       "1": "test"
@@ -454,8 +455,7 @@
         "slug": "vodka-bornholm",
         "link": "https://bornholmspirits.com/collections/vodka/products/vodka-bornholm-70-cl",
         "amount": "3 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -868,6 +868,7 @@
       "fifth": "nordic-passion"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Det bedste fra to verdener. Den friske cocktail er et resultat syrlige smag fra havtornen kombineret med den bitre tonic og er en sand vinder. Cocktailen får sin smukke farve fra de orangegule bær og pynter på ethvert bord.",
     "relatedArticles": {
       "1": "test"
@@ -909,8 +910,7 @@
         "slug": "bornholmgin",
         "link": "https://bornholmspirits.com/products/bornholm-gin",
         "amount": "5 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1039,6 +1039,7 @@
       "fifth": "gin-hass"
     },
     "featured": true,
+    "frontPage": true,
     "body": "En klassiker i nye klæder. En forfriskende og (farligt) læskende cocktail, der altid er et hit. Erstat rommen med vores lækre gin med søde noter og server en sikker vinder for dine gæster.",
     "relatedArticles": {
       "1": "test"
@@ -1080,8 +1081,7 @@
         "slug": "caskgin",
         "link": "https://bornholmspirits.com/products/cask-gin",
         "amount": "5 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1205,6 +1205,7 @@
       "fifth": "kongen-af-danmark"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Hård arbejdsuge? Nyd den ikoniske italienske drink og slap af, det er weekend. De bitre noter fra camparien er kombineret med sødmen fra vores fantastiske slotslyngel gin. Prøv den!",
     "relatedArticles": {
       "1": "test"
@@ -1246,8 +1247,7 @@
         "slug": "slotslyngelgin",
         "link": "https://bornholmspirits.com/products/slotslyngel-gin",
         "amount": "3 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1287,6 +1287,7 @@
       "fifth": "spiced-tonic"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Når du skal helt op og flyve, er det her din go-to cocktail. Den er nem at lave og mindst ligeså nem at drikke. Passer perfekt til mange gæster, så du ikke skal bruge hele din aften i køkkenet.",
     "relatedArticles": {
       "1": "test"
@@ -1320,8 +1321,7 @@
         "slug": "bornholmerklarakvavit",
         "link": "https://bornholmspirits.com/products/bornholmer-akvavit-40",
         "amount": "5 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1362,6 +1362,7 @@
       "fifth": "the-ukrainian-dane"
     },
     "featured": true,
+    "frontPage": true,
     "body": "En forfriskende cocktail. En tvist på den klassiske G&T, hvor du her ender med et resultat der er bedst at nyde på en sensommerdag i godt selskab.",
     "relatedArticles": {
       "1": "test"
@@ -1399,8 +1400,7 @@
         "slug": "bornholmgin",
         "link": "https://bornholmspirits.com/products/bornholm-gin",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1682,6 +1682,7 @@
       "fifth": "fruity-gogt"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Smager of sommer, bør nydes om sommeren. Denne cocktail blander sødmen fra figen med den syrlige passionsfrugt og resultatet er fantastisk.",
     "relatedArticles": {
       "1": "test"
@@ -1727,8 +1728,7 @@
         "slug": "figensnaps",
         "link": "https://bornholmspirits.com/products/3-figen-snaps",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -1769,6 +1769,7 @@
       "fifth": "spiced-tonic"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Endnu en klassiker. Den er bitter og den er god. Vi har tilføjet svage noter af figen for at komplimentere den bitre tonic og vi synes selv det er lidt af et hit. Bedøm for dig selv.",
     "relatedArticles": {
       "1": "test"
@@ -1802,8 +1803,7 @@
         "slug": "figensnaps",
         "link": "https://bornholmspirits.com/products/3-figen-snaps",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -3770,6 +3770,7 @@
       "fifth": "flyver-sjus"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Cocktailen der har taget hele Danmark med storm. Coctailen blev opfundet af den geniale bartender Kim Hass og kan pifte enhver fest op. Den er nem at lave og mindst lige så velsmagende. ",
     "relatedArticles": {
       "1": "test"
@@ -3810,8 +3811,7 @@
         "slug": "caskgin",
         "link": "https://bornholmspirits.com/products/cask-gin",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -3854,6 +3854,7 @@
       "fifth": "clover-club"
     },
     "featured": true,
+    "frontPage": true,
     "body": "Den perfekte balance mellem det sure og det søde. Cocktailen er den ultimative sommerdrink og bør nydes i godt selskab.  ",
     "relatedArticles": {
       "1": "test"
@@ -3894,8 +3895,7 @@
         "slug": "caskgin",
         "link": "https://bornholmspirits.com/products/cask-gin",
         "amount": "4 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
@@ -4038,6 +4038,7 @@
       "src": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/french75.webp?alt=media&token=5e295863-c0ab-49ab-9838-ed809ef681a4",
       "srcMin": "https://firebasestorage.googleapis.com/v0/b/on-the-rocks-app.appspot.com/o/french75.webp?alt=media&token=5e295863-c0ab-49ab-9838-ed809ef681a4"
     },
+    "frontPage": true,
     "ingredients": {
       "second": {
         "title": "sukkersirup",
@@ -4064,8 +4065,7 @@
         "slug": "bornholmgin",
         "link": "https://bornholmspirits.com/products/bornholm-gin",
         "amount": "3 cl"
-      },
-      "frontPage": true
+      }
     }
   },
   {
