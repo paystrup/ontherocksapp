@@ -405,9 +405,9 @@ export default function CategoryCarousel() {
       {changeLayout && (
         <div className="px-5 mt-7 lg:px-14">
             {events.map(({ title, id, likes, image, body, taste, liqour, first, second, third, ingredients }) => (
-              <div className="md:flex md:flex-row-reverse md:justify-between md:bg-primaryGray-200 md:gap-18 lg:gap-20 md:my-12 md:rounded-2xl cursor-pointer" onClick={() => navigate("/recipe/" + id)}> 
+              <div className="md:flex md:flex-row-reverse md:justify-between md:bg-primaryGray-200 md:gap-18 lg:gap-20 md:my-12 md:rounded-2xl cursor-pointer"> 
                 <div className="fadeInAnimation h-60 w-full mb-4 md:h-[32vh] md:w-[45vw] lg:h-[30vh] relative lg:w-[45vw]" key={id}>
-                  <div className="flex justify-between font-thin absolute items-start w-full px-5 py-4 lg:w-[40vw]">
+                  <div className="flex justify-between font-thin absolute items-start w-full px-5 py-4">
                     <div className="flex gap-2 text-xs font-regular">
                       <p className="bg-primaryBlack bg-opacity-50 px-4 py-1 rounded-xl uppercase">
                         {taste?.title}
@@ -451,27 +451,27 @@ export default function CategoryCarousel() {
                     </div>
                   </div>
                 </div>
-                <div className="px-2 hidden md:flex">
-                      <div className="flex flex-col gap-1">
-                        <h3 className="text-xl font-medium md:text-4xl md:px-6 md:pt-6">{title}</h3>
-                        <p className="line-clamp-1 text-sm font-regular md:pt-6 text-primaryGray-500 md:line-clamp-3 md:text-base md:px-6">
-                          {body}
-                        </p>
+                <div className="px-2 hidden md:flex" onClick={() => navigate("/recipe/" + id)}>
+                  <div className="flex flex-col gap-1">
+                      <h3 className="text-xl font-medium md:text-4xl md:px-6 md:pt-6">{title}</h3>
+                      <p className="line-clamp-1 text-sm font-thin md:pt-2 text-primaryGray-500 md:line-clamp-3 md:text-base md:px-6">
+                        {body}
+                      </p>
                       <div className=" flex-wrap gap-2 text-[12px] font-regular mt-[2vh] md:px-6 md:pt-6 hidden xl:flex">
-                      <a href={liqour?.link} target="_blank" rel="noreferrer">
-                      <p className="border-[1px] text-primaryWhite px-4 py-1 rounded-xl uppercase hidden md:block hover:bg-primaryYellow hover:text-primaryBlack transition-all">
-                        {ingredients?.liqour?.title}
-                      </p>
-                      </a>
-                      <p className="border-[1px] text-primaryWhite px-4 py-1 rounded-xl uppercase hidden md:block">
-                        {ingredients?.first?.title}
-                      </p>
-                      <p className="border-[1px] text-primaryWhite px-4 py-1 rounded-xl uppercase hidden md:block">
-                        {ingredients?.second?.title}
-                      </p>
-                      <p className="border-[1px] text-primaryWhite px-4 py-1 rounded-xl uppercase hidden md:block">
-                        {ingredients?.third?.title}
-                      </p>
+                        <a href={liqour?.link} target="_blank" rel="noreferrer">
+                        <p className="border-[1px] text-primaryYellow px-4 py-2 rounded-xl uppercase hidden md:flex hover:bg-primaryYellow hover:text-primaryBlack transition-all">
+                          {ingredients?.liqour?.title}
+                        </p>
+                        </a>
+                        <p className="border-[1px] text-primaryYellow px-4 py-2 rounded-xl uppercase hidden md:flex">
+                          {ingredients?.first?.title}
+                        </p>
+                        <p className="border-[1px] text-primaryYellow px-4 py-2 rounded-xl uppercase hidden md:flex">
+                          {ingredients?.second?.title}
+                        </p>
+                        <p className="border-[1px] text-primaryYellow px-4 py-2 rounded-xl uppercase hidden md:flex">
+                          {ingredients?.third?.title}
+                        </p>
                       </div>
                   </div>
                 </div>
