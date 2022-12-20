@@ -59,7 +59,7 @@ export default function AgeConfirmed() {
           <div className='px-10 flex flex-col lg:py-10 lg:justify-between sm:items-center h-full'>
             <form onSubmit={handleSubmit} className="flex flex-col justify-end lg:justify-between items-center h-full">
               <h2 className='text-6xl font-displayBook mb-56 lg:mb-0 lg:mt-28 text-center px-5'>Er du over 18 år?</h2>
-              <div className='flex gap-4 justify-end items-end mb-20 lg:mb-0 w-full'>  
+              <div className='flex gap-4 justify-end items-end mb-40 lg:mb-0 w-full'>  
                 <a href="https://youtu.be/6Ax8G6aIMyU?t=17" target="_blank" rel="noreferrer" className='px-5 py-2 border-[2px] rounded-xl text-primaryYellow border-primaryYellow w-[50%] text-center'>{t("ageModal.dontConfirm")}</a>
                 <button className='px-5 py-2 border-[2px] rounded-xl text-primaryBlack border-primaryYellow bg-primaryYellow w-[50%]' type="submit">{t("ageModal.confirm")}</button>
               </div>
