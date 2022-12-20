@@ -1,10 +1,11 @@
 // TOP NAVBAR
 // BOTH MOBILE AND DESKTOP COMBINED
 // TODO -> add data for dynamic top navbar to an array and loop -> save code lines
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import logo from "../assets/svg/logo.svg";
+import { gsap } from "gsap";
 
 // import flags for lng change
 import daFlag from "../assets/svg/flags/dk.svg";
@@ -36,6 +37,30 @@ export default function TopNavigation() {
     localStorage.setItem("lng", lng);
     setOpenLngSelect(!openLngSelect);
   };
+
+  // GSAP animations
+  const el = useRef();
+  const q = gsap.utils.selector(el);
+  const tl = useRef();
+  
+  useEffect(() => {            
+      tl.current = gsap.timeline(({defaults: {duration: 0.2}}))
+      
+      .to(q(".x"), {
+          y: 0,
+          opacity: 1
+      })
+      .to(q(".title"), {
+          y: 0,
+          opacity: 1,
+          duration: 0.4
+      })
+      .to(q(".flags"), {
+        y: 0,
+        opacity: 1,
+        duration: 0.5
+      });
+  }, [q]); // listen for elements rendered and rerender  
 
 
   // // NAVBAR SCROLL EFFECT
@@ -69,22 +94,21 @@ export default function TopNavigation() {
   //   };
   // }, [prevScrollPos]); // Re-run the effect whenever prevScrollPos changes
   
-
   // Render the navbar with the appropriate class based on the visibility state
   return (
     <nav className="h-16 flex items-center justify-between px-6 py-8 bg-primaryBlack w-full fixed top-0 left-0 z-50 text-primaryWhite lg:py-11 transition-all ease-in-out">
       {/* CHANGE LANGUAGE MODAL - IF CLICKED and openLngSelect is true, show */}
       {openLngSelect && (
-        <div className="languageSelector fixed top-0 left-0 bg-primaryBlack z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16">
-          <XMarkIcon className="h-10 w-10 mb-36 cursor-pointer" onClick={handleLngSelect}/>
-          <div className="flex gap-10 flex-col">
-            <h3>{t("topnav.selectlng")}</h3>
-            <div className="flex gap-10 items-center justify-center">
+        <div className="languageSelector fixed top-0 left-0 bg-primaryBlack z-50 w-full h-screen flex flex-col gap-14 text-3xl items-center pt-16" ref={el}>
+          <XMarkIcon className="x gsapAnim h-10 w-10 mb-36 cursor-pointer hover:opacity-50 transition-all" onClick={handleLngSelect}/>
+          <div className="flex gap-10 lg:gap-14 flex-col justify-center items-center">
+            <h3 className="title gsapAnim lg:text-4xl">{t("topnav.selectlng")}</h3>
+            <div className="flags gsapAnim flex gap-10 items-center justify-center">
               <button
                 className={
                   localStorage.getItem("lng") === "da"
-                    ? "w-16 h-16 rounded-full border-solid border-2 border-primaryWhite opacity-50"
-                    : "w-16 h-16 rounded-full border-solid border-2 border-primaryWhite"
+                    ? "w-16 h-16 lg:w-20 lg:h-20 rounded-full border-solid border-2 border-primaryWhite opacity-50 hover:opacity-20 transition-all"
+                    : "w-16 h-16 lg:w-20 lg:h-20 rounded-full border-solid border-2 border-primaryWhite hover:opacity-80 transition-all"
                 }
                 style={{
                   backgroundImage: `url(${enFlag})`,
@@ -98,8 +122,8 @@ export default function TopNavigation() {
               <button
                 className={
                   localStorage.getItem("lng") === "en"
-                    ? "w-16 h-16 rounded-full border-solid border-2 border-primaryWhite opacity-50"
-                    : "w-16 h-16 rounded-full border-solid border-2 border-primaryWhite"
+                    ? "w-16 h-16 rounded-full lg:w-20 lg:h-20 border-solid border-2 border-primaryWhite hover:opacity-20 transition-all"
+                    : "w-16 h-16 rounded-full lg:w-20 lg:h-20 border-solid border-2 border-primaryWhite hover:opacity-80 transition-all"
                 }
                 style={{
                   backgroundImage: `url(${daFlag})`,

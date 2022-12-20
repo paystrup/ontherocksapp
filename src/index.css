@@ -382,6 +382,11 @@ code {
   transform: translateY(100px);
 }
 
+.gsapAnimDownUp{
+  opacity: 0;
+  transform: translateY(100px);
+}
+
 .gsapAnimFade{
   opacity: 0;
 }

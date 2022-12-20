@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebaseConfig.js";
@@ -16,6 +16,7 @@ import ProfileChart from "../components/ProfileChart";
 import LikeCounter from "../components/LikeCounter.js";
 import DisplayTasteProfile from "../components/DisplayTasteProfile.js";
 import TasteProfileCounter from "../components/TasteProfileCounter.js";
+import { gsap } from "gsap";
 
 export default function ProfilePage() {
   const { t, i18n } = useTranslation(); // import copy translations from i18n
@@ -71,6 +72,31 @@ export default function ProfilePage() {
     setshowToolTipClick(!showToolTipClick);
   };
 
+  // GSAP animations
+  const el = useRef();
+  const q = gsap.utils.selector(el);
+  const tl = useRef();
+
+  useEffect(() => {            
+      tl.current = gsap.timeline(({defaults: {duration: 0.2}}))
+      
+      .to(q(".pp"), {
+          y: 0,
+          opacity: 1,
+          duration: 0.3
+      })
+      .to(q(".info"), {
+          y: 0,
+          opacity: 1,
+          duration: 0.5
+      })
+      .to(q(".bottom"), {
+        y: 0,
+        opacity: 1,
+        duration: 0.8
+      });
+  }, [q]); // listen for elements rendered and rerender  
+
   // if userdata is loading show loader anim
   if (loading) return <Spinanimation />;
 
@@ -108,8 +134,8 @@ export default function ProfilePage() {
   // If user is authenticated -> show profilepage
   if (user)
     return (
-      <section className="mt-20 lg:mt-32 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw] w-full fadeInAnimation">
-        <div className="flex flex-col items-center justify-center mb-7 gap-2 lg:mb-12">
+      <section className="mt-20 lg:mt-32 px-6 mb-32 lg:px-[25vw] md:px-[15vw] xl:px-[30vw] w-full fadeInAnimation" ref={el}>
+        <div className="pp gsapAnim flex flex-col items-center justify-center mb-7 gap-2 lg:mb-12">
           <img
             className="grayscale imageProfile rounded-full"
             src={auth.currentUser.photoURL}
@@ -122,7 +148,7 @@ export default function ProfilePage() {
           <h3 className="font-medium text-base lg:text-xl">{user.displayName}</h3>
         </div>
 
-        <div className="flex justify-between text-sm uppercase ">
+        <div className="info gsapAnim flex justify-between text-sm uppercase">
           <div className="flex flex-col justify-center items-start gap-2 w-1/3 ">
             <div className="w-fit text-center flex flex-col gap-2">
               <p className="font-medium text-primaryGray-500 text-xs">
@@ -165,91 +191,93 @@ export default function ProfilePage() {
             </div>
           </div>
         </div>
+        
+        <div className="bottom gsapAnim">
+          <div className="h-44 bg-primaryGray-200 mt-7 rounded-xl px-2 lg:px-6 py-4 flex justify-between w-full relative">
+            <div className="flex items-center justify-center">
+              <ProfileChart />
+            </div>
+            <div className="flex flex-col justify-between text-primaryGray-700">
+              {/* <ReactTooltip
+                className="h-fit max-w-[70vw]"
+                anchorId="readMore"
+                place="left"
+                effect="solid"
+                content={t("profilepage.readMoreBtn")}
+              /> */}
+              {showToolTipFirst && (
+                <div className="hidden lg:flex absolute right-[5%] max-w-xs mt-10 justify-center items-center bg-primaryGray-900 px-7 py-5 transition-all">
+                  <p>{t("profilepage.readMoreBtn")}</p>
+                </div>
+              )}
 
-        <div className="h-44 bg-primaryGray-200 mt-7 rounded-xl px-2 lg:px-6 py-4 flex justify-between w-full relative">
-          <div className="flex items-center justify-center">
-            <ProfileChart />
-          </div>
-          <div className="flex flex-col justify-between text-primaryGray-700">
-            {/* <ReactTooltip
-              className="h-fit max-w-[70vw]"
-              anchorId="readMore"
-              place="left"
-              effect="solid"
-              content={t("profilepage.readMoreBtn")}
-            /> */}
-            {showToolTipFirst && (
-              <div className="hidden lg:flex absolute right-[5%] max-w-xs mt-10 justify-center items-center bg-primaryGray-900 px-7 py-5 transition-all">
-                <p>{t("profilepage.readMoreBtn")}</p>
+              {showToolTipClick && (
+                <div className="flex lg:hidden absolute right-[5%] max-w-xs mt-10 justify-center items-center bg-primaryGray-900 px-7 py-5 transition-all">
+                  <p>{t("profilepage.readMoreBtn")}</p>
+                </div>
+              )}
+              <div onClick={handleClickToolTip} className="flex gap-2 items-center" onMouseEnter={() => setshowToolTipFirst(true)} onMouseLeave={() => setshowToolTipFirst(false)}>
+                <h4 className="font-regular text-base">
+                  {t("profilepage.tasteProfileTitle")}
+                </h4>
+                <div
+                  className="border-solid border-[1px] rounded-full w-[14px] h-[14px] flex justify-center align-center"
+                >
+                  <p className="text-[9px] self-center">?</p>
+                </div>
               </div>
-            )}
 
-            {showToolTipClick && (
-              <div className="flex lg:hidden absolute right-[5%] max-w-xs mt-10 justify-center items-center bg-primaryGray-900 px-7 py-5 transition-all">
-                <p>{t("profilepage.readMoreBtn")}</p>
-              </div>
-            )}
-            <div onClick={handleClickToolTip} className="flex gap-2 items-center" onMouseEnter={() => setshowToolTipFirst(true)} onMouseLeave={() => setshowToolTipFirst(false)}>
-              <h4 className="font-regular text-base">
-                {t("profilepage.tasteProfileTitle")}
-              </h4>
-              <div
-                className="border-solid border-[1px] rounded-full w-[14px] h-[14px] flex justify-center align-center"
-              >
-                <p className="text-[9px] self-center">?</p>
+              <div className="flex flex-col gap-2 flex-wrap font-regular text-primaryBlack">
+                <div className="flex gap-2">
+                  <p className="bg-secondaryPeach px-3 rounded-md">
+                    {t("profilepage.tags.taste1")}
+                  </p>
+                  <p className="bg-secondaryYellow px-3 rounded-md">
+                    {t("profilepage.tags.taste2")}
+                  </p>
+                </div>
+                <div className="flex gap-2">
+                  <p className="bg-secondaryRed px-3 rounded-md">
+                    {t("profilepage.tags.taste3")}
+                  </p>
+                  <p className="bg-secondaryOrange px-3 rounded-md">
+                    {t("profilepage.tags.taste4")}
+                  </p>
+                </div>
               </div>
             </div>
-
-            <div className="flex flex-col gap-2 flex-wrap font-regular text-primaryBlack">
-              <div className="flex gap-2">
-                <p className="bg-secondaryPeach px-3 rounded-md">
-                  {t("profilepage.tags.taste1")}
-                </p>
-                <p className="bg-secondaryYellow px-3 rounded-md">
-                  {t("profilepage.tags.taste2")}
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <p className="bg-secondaryRed px-3 rounded-md">
-                  {t("profilepage.tags.taste3")}
-                </p>
-                <p className="bg-secondaryOrange px-3 rounded-md">
-                  {t("profilepage.tags.taste4")}
-                </p>
-              </div>
-            </div>
           </div>
-        </div>
 
-        <div className="mt-14 flex justify-between mb-7">
-          <div id="infoTaste" className="flex gap-2 items-center">
+          <div className="mt-14 flex justify-between mb-7">
+            <div id="infoTaste" className="flex gap-2 items-center">
+              <h3 className="font-medium text-xl">
+                {t("profilepage.latestAdded")}
+              </h3>
+            </div>
+            <SeeMoreBtn text={t("profilepage.latestAddedBtn")} />
+          </div>
+          <DisplayTasteProfile />
+          
+          <div className="mt-16 flex justify-between">
             <h3 className="font-medium text-xl">
-              {t("profilepage.latestAdded")}
+              {t("profilepage.yourCollections")}
             </h3>
+            <div onClick={() => navigate("/likes")}>
+              <SeeMoreBtn text={t("profilepage.yourCollectionsBtn")} />
+            </div>
           </div>
-          <SeeMoreBtn text={t("profilepage.latestAddedBtn")} />
-        </div>
-        <DisplayTasteProfile />
-
-        <div className="mt-16 flex justify-between">
-          <h3 className="font-medium text-xl">
-            {t("profilepage.yourCollections")}
-          </h3>
-          <div onClick={() => navigate("/likes")}>
-            <SeeMoreBtn text={t("profilepage.yourCollectionsBtn")} />
+          <div className="mt-7">
+            <ProfilePageFavourites />
           </div>
-        </div>
-        <div className="mt-7">
-          <ProfilePageFavourites />
-        </div>
 
-        <div className="signOut mt-8">
-          <button
-            className="border-[1px] w-full py-2 rounded-xl"
-            onClick={handleSignOut}
-          >
-            {t("profilepage.signOutBtn")} {user.displayName}
-          </button>
+          <div className="signOut mt-8">
+            <button
+              className="border-[1px] w-full py-2 rounded-xl"
+              onClick={handleSignOut}
+            >
+              {t("profilepage.signOutBtn")} {user.displayName}
+            </button>
+          </div>
         </div>
       </section>
     );

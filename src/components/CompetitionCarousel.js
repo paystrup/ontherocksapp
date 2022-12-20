@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 // firebase imports for fetching
 import { doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebaseConfig";
@@ -16,7 +16,9 @@ import Spinanimation from "./Spinanimation";
 import { useTranslation } from "react-i18next";
 
 export default function CompetitionCarousel() {
-  const navigate = useNavigate();
+  // Define state for the loading indicator
+  const [isLoading, setIsLoading] = useState(true); 
+
   const { t, i18n } = useTranslation();
   // fetch depending on i18n language chosen
   const fetchLng = i18n.language;
@@ -38,12 +40,18 @@ export default function CompetitionCarousel() {
     onSnapshot(docRef, (snapshot) => {
       setCompition({ ...snapshot.data(), id: snapshot.id });
     });
+    // Set isLoading to false -> hide loader anim
+    setIsLoading(false);
   }, [id, fetchLng, t]);
 
   // Show loading indicator while data is being fetched
 
   return (
     <section className="mt-6">
+      {/* IF LOADING IS TRUE -> render loading anim */}
+      {isLoading && (
+          <Spinanimation />
+      )}
       <div className="flex">
         <Swiper
           spaceBetween={20}
